@@ -1,0 +1,706 @@
+{
+  "version": "0.1",
+  "note": "Initial candidates only; journal metrics, ISSNs, current letter policies require independent verification.",
+  "journals": [
+    {
+      "name": "Cancer Cell",
+      "tier": "core",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Cancer Discovery",
+      "tier": "core",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Nature Cancer",
+      "tier": "core",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "The Lancet Oncology",
+      "tier": "core",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "JAMA Oncology",
+      "tier": "core",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Journal of Clinical Oncology",
+      "tier": "core",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Annals of Oncology",
+      "tier": "core",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Nature Medicine",
+      "tier": "core",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Molecular Cancer",
+      "tier": "core",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Cancer Research",
+      "tier": "core",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Clinical Cancer Research",
+      "tier": "core",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Cancer Communications",
+      "tier": "core",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Journal of Hematology & Oncology",
+      "tier": "core",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Journal for ImmunoTherapy of Cancer",
+      "tier": "core",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Journal of Thoracic Oncology",
+      "tier": "core",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "JNCI: Journal of the National Cancer Institute",
+      "tier": "core",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "ESMO Open",
+      "tier": "core",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Journal of Experimental & Clinical Cancer Research",
+      "tier": "core",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Signal Transduction and Targeted Therapy",
+      "tier": "core",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Nature Reviews Clinical Oncology",
+      "tier": "core",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "European Journal of Cancer",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "British Journal of Cancer",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "International Journal of Cancer",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Molecular Oncology",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Cancer Letters",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Oncogene",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Cancer Immunology Research",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Cancer Epidemiology, Biomarkers & Prevention",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "npj Precision Oncology",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "JCO Precision Oncology",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "JNCI Cancer Spectrum",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Journal of the National Comprehensive Cancer Network",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Experimental Hematology & Oncology",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Biomarker Research",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Cancer Medicine",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Journal of Cancer Research and Clinical Oncology",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Cancer Immunology, Immunotherapy",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Cancers",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Translational Oncology",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Clinical and Translational Medicine",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "OncoImmunology",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Cancer Treatment Reviews",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Frontiers in Oncology",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Lung Cancer",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Breast Cancer Research",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Gynecologic Oncology",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Annals of Surgical Oncology",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Cancer Epidemiology",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Cancer Prevention Research",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Cancer Biology & Medicine",
+      "tier": "oncology",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Gastroenterology",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Gut",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Clinical Gastroenterology and Hepatology",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Journal of Hepatology",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Hepatology",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Liver Cancer",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "European Urology",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "European Urology Oncology",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Neuro-Oncology",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Blood",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Leukemia",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Blood Cancer Journal",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Radiotherapy and Oncology",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "International Journal of Radiation Oncology, Biology, Physics",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Breast Cancer Research and Treatment",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Hematological Oncology",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Journal of Neuro-Oncology",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Diseases of the Colon & Rectum",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "The Journal of Pathology",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Modern Pathology",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "International Journal of Gynecological Cancer",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Journal of Surgical Oncology",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "The Breast",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Clinical Lung Cancer",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Pancreatology",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Nature",
+      "tier": "cross",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Science",
+      "tier": "cross",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Cell",
+      "tier": "cross",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "The New England Journal of Medicine",
+      "tier": "cross",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "The Lancet",
+      "tier": "cross",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "JAMA",
+      "tier": "cross",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "The BMJ",
+      "tier": "cross",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Nature Communications",
+      "tier": "cross",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Science Advances",
+      "tier": "cross",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Science Translational Medicine",
+      "tier": "cross",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Cell Reports Medicine",
+      "tier": "cross",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Cell Research",
+      "tier": "cross",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Nature Genetics",
+      "tier": "cross",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Genome Biology",
+      "tier": "cross",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Genome Medicine",
+      "tier": "cross",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Cell Genomics",
+      "tier": "cross",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Immunity",
+      "tier": "cross",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Cell Metabolism",
+      "tier": "cross",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Nature Biotechnology",
+      "tier": "cross",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Nature Biomedical Engineering",
+      "tier": "cross",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Nature Immunology",
+      "tier": "cross",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Nature Methods",
+      "tier": "cross",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Cell Systems",
+      "tier": "cross",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "PNAS",
+      "tier": "cross",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "eBioMedicine",
+      "tier": "cross",
+      "enabled": true,
+      "issn": null,
+      "letter_policy": "unverified"
+    }
+  ]
+}

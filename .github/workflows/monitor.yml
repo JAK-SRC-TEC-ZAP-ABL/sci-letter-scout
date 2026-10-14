@@ -1,0 +1,39 @@
+name: SCI Letter Scout
+on:
+  schedule:
+    - cron: '2/5 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: sci-letter-scout-monitor
+  cancel-in-progress: false
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Scan papers, run optional free-tier AI, send optional WeChat
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
+          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
+          PUSHPLUS_TOPIC: ${{ secrets.PUSHPLUS_TOPIC }}
+          CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
+          AI_FREE_TIER_ACK: ${{ vars.AI_FREE_TIER_ACK }}
+        run: python scan.py
+      - name: Persist dedup history and public app feed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/state.json data/feed.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update monitored literature feed [skip ci]"
+            git push
+          fi

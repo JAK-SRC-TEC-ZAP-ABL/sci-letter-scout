@@ -1,0 +1,29 @@
+{
+  "subject": "oncology",
+  "monitoring": {
+    "pubmed_created_days": 3,
+    "crossref_indexed_hours": 72,
+    "crossref_journals_per_run": 12,
+    "max_new_per_run": 60,
+    "pubmed_batch_size": 12
+  },
+  "ai": {
+    "enabled": true,
+    "model": "gemini-3.1-flash-lite",
+    "max_calls_per_day": 25,
+    "max_calls_per_scan": 4
+  },
+  "notifications": {
+    "channel": "auto",
+    "enabled": true,
+    "score_threshold": 65,
+    "max_messages_per_scan": 2,
+    "daily_digest": false,
+    "serverchan_max_calls_per_day": 5
+  },
+  "onboarding_defaults": {
+    "specialty": "oncology",
+    "alert_mode": "high_priority",
+    "delivery": "wechat"
+  }
+}
