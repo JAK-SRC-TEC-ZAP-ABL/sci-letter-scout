@@ -1,6 +1,6 @@
 {
-  "version": "0.1",
-  "note": "Initial candidates only; journal metrics, ISSNs, current letter policies require independent verification.",
+  "version": "0.3",
+  "note": "100 original oncology/cross-discipline candidates plus 13 NLM-catalogued anesthesiology titles. Letter policies and journal metrics remain unverified.",
   "journals": [
     {
       "name": "Cancer Cell",
@@ -700,6 +700,130 @@
       "tier": "cross",
       "enabled": true,
       "issn": null,
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Anesthesiology",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": "0003-3022",
+      "nlm_id": "1300217",
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "British journal of anaesthesia",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": "0007-0912",
+      "nlm_id": "0372541",
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Anesthesia and analgesia",
+      "aliases": ["Anesthesia & Analgesia"],
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": "0003-2999",
+      "nlm_id": "1310650",
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Anaesthesia",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": "0003-2409",
+      "nlm_id": "0370524",
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "European journal of anaesthesiology",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": "0265-0215",
+      "nlm_id": "8411711",
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Journal of clinical anesthesia",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": "0952-8180",
+      "nlm_id": "8812166",
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Regional anesthesia and pain medicine",
+      "aliases": ["Regional anesthesia & pain medicine"],
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": "1098-7339",
+      "nlm_id": "9804508",
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Paediatric anaesthesia",
+      "aliases": ["Pediatric anesthesia"],
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": "1155-5645",
+      "nlm_id": "9206575",
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Journal of cardiothoracic and vascular anesthesia",
+      "aliases": ["Journal of Cardiothoracic & Vascular Anesthesia"],
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": "1053-0770",
+      "nlm_id": "9110208",
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Anaesthesia, critical care & pain medicine",
+      "aliases": ["Anaesthesia, critical care and pain medicine"],
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": "2352-5568",
+      "nlm_id": "101652401",
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Canadian journal of anesthesia",
+      "aliases": ["Canadian journal of anaesthesia", "Canadian journal of anaesthesia = Journal canadien d'anesthésie"],
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": "0832-610X",
+      "nlm_id": "8701709",
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "Journal of anesthesia",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": "0913-8668",
+      "nlm_id": "8905667",
+      "letter_policy": "unverified"
+    },
+    {
+      "name": "BJA open",
+      "aliases": ["BJA Open"],
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "enabled": true,
+      "issn": "2772-6096",
+      "nlm_id": "9918419157906676",
       "letter_policy": "unverified"
     }
   ]

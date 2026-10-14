@@ -59,8 +59,9 @@ def send_serverchan(papers):
     # The free service notification card contains primarily a title. Put the
     # most important details in the title, and the report in the body.
     first=papers[0]
-    journal=str(first.get('journal') or '肿瘤新论文')[:55]
-    title=f'SCI Letter Scout：{len(papers)}篇候选｜{journal}'[:100]
+    journal=str(first.get('journal') or '肿瘤新论文')[:30]
+    mixed=any(p.get('journal') != first.get('journal') for p in papers[1:])
+    title=f'SCI Letter Scout：{len(papers)}篇｜{journal}{"等" if mixed else ""}'[:100]
     lines=['## SCI Letter Scout 新论文候选', '', '以下是待核查的线索，不代表原论文存在错误。', '']
     for paper in papers:
         name=str(paper.get('title') or 'Untitled').replace('\n',' ').strip()
@@ -73,6 +74,8 @@ def send_serverchan(papers):
                   f'上线日期：{paper.get("online_date") or "待核对"}',
                   f'阅读优先级：{paper.get("priority_score") or 0}/100',
                   f'待核查切入点：{angle}']
+        if doi:
+            lines.append(f'DOI：{doi}')
         if url:
             lines.append(f'[阅读原文]({url})')
         lines.append('')

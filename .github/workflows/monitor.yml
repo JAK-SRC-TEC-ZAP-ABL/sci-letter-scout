@@ -19,14 +19,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Scan papers, run optional free-tier AI, send optional WeChat
+      - name: Scan public paper metadata
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
-          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
-          PUSHPLUS_TOPIC: ${{ secrets.PUSHPLUS_TOPIC }}
           CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
-          AI_FREE_TIER_ACK: ${{ vars.AI_FREE_TIER_ACK }}
         run: python scan.py
       - name: Persist dedup history and public app feed
         run: |

@@ -53,6 +53,34 @@ class MetadataTests(unittest.TestCase):
         self.assertEqual(len(out),1)
         self.assertEqual(out[0]['doi'],'10.1/yes')
 
+    def test_crossref_journal_alias_accepted(self):
+        journals=[{'name':'Anesthesia and analgesia','aliases':['Anesthesia & Analgesia'],'tier':'specialist'}]
+        response={'message':{'items':[{'DOI':'10.1/alias','title':['A paper'],'container-title':['Anesthesia & Analgesia']}]}}
+        with patch('src.engine.http_get_json',return_value=response),patch('src.engine.time.sleep'):
+            out=fetch_crossref(journals,now=dt.datetime(2026,10,14,tzinfo=dt.timezone.utc))
+        self.assertEqual(len(out),1)
+
+    def test_crossref_issn_filter_and_exact_validation(self):
+        journals=[{'name':'Paediatric anaesthesia','issn':'1155-5645','tier':'specialist'}]
+        response={'message':{'items':[
+            {'DOI':'10.1/yes','title':['A paper'],'container-title':['Pediatric Anesthesia'],'ISSN':['1155-5645']},
+            {'DOI':'10.1/no','title':['Wrong serial'],'container-title':['Other'],'ISSN':['9999-9999']}
+        ]}}
+        with patch('src.engine.http_get_json',return_value=response) as fetch,patch('src.engine.time.sleep'):
+            out=fetch_crossref(journals,now=dt.datetime(2026,10,14,tzinfo=dt.timezone.utc))
+        self.assertEqual([paper['doi'] for paper in out],['10.1/yes'])
+        self.assertIn('issn:1155-5645',fetch.call_args.args[1]['filter'])
+
+    def test_crossref_reindexed_old_paper_is_ignored(self):
+        journals=[{'name':'Anesthesiology','issn':'0003-3022','tier':'specialist'}]
+        response={'message':{'items':[
+            {'DOI':'10.1/new','title':['New'],'container-title':['Anesthesiology'],'ISSN':['0003-3022'],'published-online':{'date-parts':[[2026,10,13]]}},
+            {'DOI':'10.1/old','title':['Old reindexed'],'container-title':['Anesthesiology'],'ISSN':['0003-3022'],'published-online':{'date-parts':[[2020,1,1]]}}
+        ]}}
+        with patch('src.engine.http_get_json',return_value=response),patch('src.engine.time.sleep'):
+            out=fetch_crossref(journals,now=dt.datetime(2026,10,14,tzinfo=dt.timezone.utc),max_publication_age_days=45)
+        self.assertEqual([paper['doi'] for paper in out],['10.1/new'])
+
     def test_pubmed_title_with_xml_text_is_parsed(self):
         xml = b'''<PubmedArticleSet><PubmedArticle>
           <MedlineCitation><PMID>123</PMID><Article>
@@ -71,6 +99,17 @@ class MetadataTests(unittest.TestCase):
             out=fetch_pubmed(journals, days=3, batch_size=12)
         self.assertEqual(out[0]['title'], 'Title with markup')
         self.assertEqual(out[0]['doi'], '10.1/test')
+
+    def test_pubmed_nlm_id_handles_journal_title_variant(self):
+        xml=b'''<PubmedArticleSet><PubmedArticle><MedlineCitation><PMID>456</PMID>
+        <MedlineJournalInfo><NlmUniqueID>9206575</NlmUniqueID></MedlineJournalInfo>
+        <Article><Journal><Title>Pediatric Anesthesia</Title></Journal><ArticleTitle>Study</ArticleTitle></Article>
+        </MedlineCitation></PubmedArticle></PubmedArticleSet>'''
+        journals=[{'name':'Paediatric anaesthesia','issn':'1155-5645','nlm_id':'9206575','tier':'specialist'}]
+        with patch('src.engine.http_get_json',return_value={'esearchresult':{'idlist':['456']}}) as fetch,patch('src.engine._request',return_value=xml),patch('src.engine.time.sleep'):
+            out=fetch_pubmed(journals)
+        self.assertEqual(out[0]['journal'],'Paediatric anaesthesia')
+        self.assertIn('1155-5645',fetch.call_args.args[1]['term'])
 
     def test_html_escape_in_push(self):
         content=render_message([{'title':'<script>alert(1)</script>', 'journal':'Cancer Cell','doi':'10.1/test','priority_score':70,'ai':{'potential_letter_angle':'<b>method?</b>'}}])

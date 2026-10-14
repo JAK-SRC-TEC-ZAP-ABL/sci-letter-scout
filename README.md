@@ -1,20 +1,21 @@
-# SCI Letter Scout · 肿瘤高分 Letter 论文雷达 (developer preview 0.2)
+# SCI Letter Scout · 医学新论文 Letter 雷达 (developer preview 0.3)
 
-**Free-first, self-hosted scholarly metadata monitoring, optional Gemini abstract triage, and optional free ServerChan/WeChat alerts or PushPlus.** A prototype intended to be customized and tested on the owner's GitHub account. Does not assert that it has been deployed, connected to an AI account, or verified to deliver to a handset.
+**Free-first, self-hosted scholarly metadata monitoring for oncology and anesthesiology.** The current default performs public-metadata retrieval only: paid AI, WeChat delivery and automatic billing are disabled. A native HarmonyOS development client reads the public feed; Huawei Push Kit is not connected yet.
 
 ## What works in this prototype
 
-- 100 **candidate** high-impact oncology, organ-specific, and cross-disciplinary journals in `config/journals.json` (not a certified JCR ranking; titles/ISSN/policies still require verification).
+- 100 **candidate** oncology/cross-disciplinary journals plus 13 NLM-catalogued anesthesiology titles in `config/journals.json` (not a certified JCR ranking; Letter policies and journal metrics still require verification).
 - PubMed `crdt` polling of all enabled journal titles, where available; Crossref incremental checks of 12 rotating journal titles per run (the entire Crossref list is **not** scanned every 5 minutes).
-- Metadata normalization, DOI-based deduplication, first-detection time, 72-hour Crossref indexed-date lookback.
+- Metadata normalization, DOI-based deduplication, first-detection time, 72-hour Crossref indexed-date lookback, and a 45-day publication-age guard against old records that were merely reindexed.
 - Reading-priority heuristic; **not** a claim that papers are wrong or likely to be accepted as Letters.
-- Optional Gemini abstract-level JSON screening, opt-in limits and graceful failure.
-- Optional ServerChan Turbo 微信消息 (free tier currently 5/day) or PushPlus alerts (free sending requires account identity verification, which may incur a one-time charge). `data/feed.json` is a **public, read-only** JSON interface for a future HarmonyOS app.
+- Optional Gemini abstract-level JSON screening code remains available but is disabled in the default configuration because no usable zero-billing account has been verified for this deployment.
+- `data/feed.json` is the **public, read-only** interface consumed by the HarmonyOS development app. It includes specialty tags, source health, configured-journal counts and explicit AI/Push status.
+- A native ArkTS/ArkUI app compiles in DevEco Studio 26 and has run in the Huawei simulator. It supports specialty/journal onboarding, list/search/detail, local favorites and local settings.
 - `SKILL.md` for agent analysis and `.opencode/skills/...` for OpenCode loading.
 
 ## What is NOT built yet
 
-- A compiled HarmonyOS HAP, actual App UI, Huawei Push Kit integration, secure remote changes of subscriptions from the phone, independent user sign-in, formal JCR/ISSN journal validation, official journal-policy database, live publisher Online First scraping.
+- Huawei Push Kit integration, secure device registration, secure remote changes of subscriptions from the phone, independent user sign-in, formal release signing, formal JCR/ISSN validation of the full oncology list, official journal-policy database, and live publisher Online First retrieval.
 - Rigorous full-text/supplementary Letter review (needs a human and official journal policies).
 - Proven 5-minute detection latency. Publisher feeds and schedule execution may lag; PubMed creation is not online-publication time.
 
@@ -22,23 +23,20 @@
 
 1. Create an empty **public** GitHub repo named `sci-letter-scout` and upload the contents. You can copy this repo to your own account; no personal API keys are included.
 2. Under **Settings → Actions → General**, permit Actions and make sure workflow `GITHUB_TOKEN` can write repository contents (needed for history and public feed).
-3. Under **Settings → Secrets and variables → Actions**, add `GEMINI_API_KEY` and **`SERVERCHAN_SENDKEY`** (ServerChan Turbo; 5 free WeChat notifications/day) as *Repository secrets* if you wish to use them. Alternatively use `PUSHPLUS_TOKEN` only if your PushPlus account has already satisfied its identity-verification requirement. DO NOT paste any secrets into the repo or the public HarmonyOS client.
-4. Under *Repository variables*, add `AI_FREE_TIER_ACK=YES` **only after verifying the Gemini API key belongs to a project whose billing is disabled / free tier only**. Optionally set `CONTACT_EMAIL` (NCBI and Crossref etiquette). Otherwise AI is disabled even when a Key is provided.
-5. For **zero additional spend**, visit [ServerChan Turbo](https://sct.ftqq.com/), log in via WeChat QR code, copy the SendKey (starts with `SCT`), then store it in GitHub as `SERVERCHAN_SENDKEY`. Its free tier allows 5 requests/day; the app caps attempts accordingly. If you already have an eligible PushPlus account, you may instead configure `PUSHPLUS_TOKEN`; the optional `PUSHPLUS_TOPIC` secret enables a topic. With neither token set, the scan continues without alerts.
-6. In GitHub **Actions → SCI Letter Scout → Run workflow**, test the flow and inspect logs. Scheduled scans then run on the default branch, nominally every 5 minutes UTC.
-7. Read `data/feed.json` via GitHub / raw file. Add the read-only remote URL to the HarmonyOS App when implemented.
+3. Optionally set the `CONTACT_EMAIL` repository variable for NCBI/Crossref API etiquette. Do not put API keys or personal data in the public repository or HarmonyOS package.
+4. In GitHub **Actions → SCI Letter Scout → Run workflow**, test the flow and inspect logs. Scheduled scans then run on the default branch, nominally every 5 minutes UTC.
+5. Read `data/feed.json` through the public raw GitHub URL used by the HarmonyOS app.
 
 ### Zero-spend safeguards
 
 - The repository uses the standard `ubuntu-latest` runner in a **public** repo; public standard Actions runners are currently free. Private repos have different billing rules.
-- AI requests require both your API Key AND explicit `AI_FREE_TIER_ACK=YES`; the owner must independently confirm no billable project is linked. The code cannot certify Google's actual billing state; the acknowledgement does NOT itself guarantee $0 if the project's billing changes later.
-- Application-side cap defaults to 25 Gemini calls/day and 4 per scan, ignoring articles already seen. When AI fails or quota is exhausted, rule-based discovery continues.
-- Repeated scanning does not repeatedly notify an accepted DOI; failed push attempts can retry. PushPlus API acceptance is **not** proof of handset delivery.
+- The deployed workflow does not inject any AI or WeChat credentials. AI and external notifications are disabled in `config/settings.json`.
+- Repeated scanning deduplicates DOI/PMID records. Rule-based discovery continues without any model account.
 - Don't put unpublished papers, credentials, private notes or drafts into the public repo or free model input.
 
 ### Settings
 
-Change `config/settings.json` for polling rotation batch size, daily AI call budget, notification channel (`auto`, `serverchan`, or `pushplus`), ServerChan daily attempt cap and push priority threshold. Change `config/journals.json` to enable/disable journal titles. The GitHub cron frequency is set in `.github/workflows/monitor.yml`.
+Change `config/settings.json` for polling windows and rotation batch size. Change `config/journals.json` to enable/disable journal titles. The GitHub cron frequency is set in `.github/workflows/monitor.yml`. Do not enable AI or an external notification adapter until its billing and privacy behavior has been independently verified.
 
 ### Test locally without secrets
 
@@ -52,7 +50,7 @@ The real fetch command requires internet access, and the current development env
 ### Operational design constraints
 
 - GitHub schedules can be delayed/skipped and public repo schedules may be disabled after 60 days of inactivity.
-- The Crossref rotating 12-of-100 check means a journal is generally revisited after ~45 minutes, not every 5 minutes; PubMed searches span all titles every run, subject to NCBI indexing delay.
+- The Crossref rotating 12-of-113 check means a journal is generally revisited after ~50 minutes, not every 5 minutes; PubMed searches span all titles every run, subject to NCBI indexing delay. The public feed tags each newly found paper with `specialty`; historic papers without a tag are treated as oncology by the App.
 - In journal list version 0.1, some journal naming variants will not match the exact publisher container title and will need ISSN resolution during the next phase.
 - Per-scan state is committed to the repo; public feed shows bibliographic metadata. There are no protected medical records or personal manuscript content in the published feed.
 - To avoid a misleading stream of commits, the repository heartbeat normally changes about once per hour if no articles were added.
@@ -61,8 +59,9 @@ The real fetch command requires internet access, and the current development env
 
 1. Verify title/ISSN mapping, increase specialty coverage, add source timestamp accuracy and acceptance-policy checks.
 2. Run a 24–72-hour real-data pilot on GitHub; compare against official Online First lists and tune alert quality/latency.
-3. Implement the minimal HarmonyOS ArkTS/ArkUI app, seven-step onboarding and safe cloud config synchronization.
-4. OpenCode skill deeper review of a user-selected PDF + supplemental material. Human decision remains mandatory.
+3. Add publisher Online First sources for a small high-priority set, then measure real detection latency.
+4. Integrate Huawei Push Kit after AppGallery Connect configuration and a physical-device test are available.
+5. Add safe cloud subscription synchronization and deeper review of user-selected full text/supplements. Human decision remains mandatory.
 
 ## Ethics and author policies
 

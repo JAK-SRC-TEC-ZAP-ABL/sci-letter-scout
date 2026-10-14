@@ -7,7 +7,7 @@ import os
 from pathlib import Path
 
 from src.ai import screen_abstract
-from src.engine import fetch_pubmed, fetch_crossref, merge_papers, rank_paper, unique_id, utcnow
+from src.engine import fetch_pubmed, fetch_crossref, merge_papers, normalize_title, unique_id, utcnow
 from src.notify import send_notification, resolve_provider
 
 ROOT=Path(__file__).resolve().parent
@@ -27,9 +27,21 @@ def write_json(path, obj):
     tmp.replace(path)
 
 
+def specialty_round_robin(papers):
+    """Prevent a busy specialty from filling every new-paper slot."""
+    queues={}
+    for paper in sorted(papers,key=lambda item:-item['priority_score']):
+        queues.setdefault(paper['specialty'],[]).append(paper)
+    while any(queues.values()):
+        for queue in queues.values():
+            if queue:
+                yield queue.pop(0)
+
+
 def run():
     conf=load_json(ROOT/'config/settings.json', {})
     journals=[j for j in load_json(ROOT/'config/journals.json',{'journals':[]})['journals'] if j.get('enabled',True)]
+    specialty_by_journal={normalize_title(j['name']):j.get('specialty','oncology') for j in journals}
     state=load_json(DATA/'state.json',{'seen':{},'ai_calls_per_day':{},'sent':[],'last_scan':None})
     state.setdefault('seen',{})
     state.setdefault('ai_calls_per_day',{})
@@ -49,13 +61,21 @@ def run():
         source_health['pubmed']='error:'+type(exc).__name__
         print('PubMed fetch error',type(exc).__name__)
     try:
-        collected.extend(fetch_crossref(journals,hours=conf['monitoring']['crossref_indexed_hours'],per_run=conf['monitoring']['crossref_journals_per_run']))
+        collected.extend(fetch_crossref(
+            journals,
+            hours=conf['monitoring']['crossref_indexed_hours'],
+            per_run=conf['monitoring']['crossref_journals_per_run'],
+            max_publication_age_days=conf['monitoring'].get('crossref_max_publication_age_days',45),
+        ))
         source_health['crossref']='ok'
     except Exception as exc:
         source_health['crossref']='error:'+type(exc).__name__
         print('Crossref fetch error',type(exc).__name__)
+    candidates=merge_papers(collected)
+    for p in candidates:
+        p['specialty']=specialty_by_journal.get(normalize_title(p.get('journal','')),'oncology')
     new=[]
-    for p in sorted(merge_papers(collected),key=lambda p:-p['priority_score']):
+    for p in specialty_round_robin(candidates):
         uid=unique_id(p)
         if uid and uid not in state['seen'] and len(new)<conf['monitoring']['max_new_per_run']:
             p['first_detected']=utcnow().isoformat()
@@ -75,7 +95,8 @@ def run():
         state['seen'][unique_id(p)]=p
     # Note: by design, notification failures remain eligible for a future retry.
     notify_cfg=conf['notifications']
-    not_sent=[p for p in state['seen'].values() if unique_id(p) not in state['sent'] and p.get('priority_score',0)>=notify_cfg['score_threshold']]
+    # Existing WeChat settings remain oncology-only; other specialties are app-feed data.
+    not_sent=[p for p in state['seen'].values() if p.get('specialty','oncology')=='oncology' and unique_id(p) not in state['sent'] and p.get('priority_score',0)>=notify_cfg['score_threshold']]
     not_sent.sort(key=lambda p:(p.get('first_detected',''),p.get('priority_score',0)),reverse=True)
     batch=not_sent[:notify_cfg['max_messages_per_scan']]
     sent=False
@@ -110,7 +131,20 @@ def run():
         state['source_health']=source_health
     public=sorted(state['seen'].values(),key=lambda p:p.get('first_detected',''),reverse=True)[:300]
     # Never expose tokens, local state accounting, or secret-bearing config in public JSON.
-    write_json(DATA/'feed.json',{'generated_at':state['last_scan'],'subject':'oncology','papers':public})
+    journal_counts={}
+    for journal in journals:
+        specialty=journal.get('specialty','oncology')
+        journal_counts[specialty]=journal_counts.get(specialty,0)+1
+    write_json(DATA/'feed.json',{
+        'schema_version':'0.3',
+        'generated_at':state['last_scan'],
+        'subjects':sorted(journal_counts),
+        'journal_counts':journal_counts,
+        'source_health':source_health,
+        'ai_status':'disabled',
+        'harmony_push_status':'not_configured',
+        'papers':public,
+    })
     write_json(DATA/'state.json',state)
     print(json.dumps({'journals_configured':len(journals),'source_health':source_health,'new_papers':len(new),'ai_attempts_today':used,'notification_accepted':sent,'notification_provider':provider,'feed_size':len(public)},ensure_ascii=False))
     if all(v.startswith('error:') for v in source_health.values()):
