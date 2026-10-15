@@ -1,15 +1,9 @@
-# HarmonyOS client — design contract (not yet a compiled App)
+# HarmonyOS client — working development project
 
-The current release focuses on a working oncology watcher. This folder defines the contract for a subsequent lightweight **ArkTS + ArkUI** client and avoids pretending an installable `.hap` exists.
+The native ArkTS/ArkUI project is in `LetterScout/`. It compiles in DevEco Studio 26 and has run in the Huawei simulator. It is still a development build, not an AppGallery-ready release.
 
-## Onboarding (planned)
-1. Select specialty (oncology default)
-2. Review recommended journals (tier, user-selected, search by name)
-3. Select notifications (cloud polling is administrator-configured; alert cadence is user-configurable)
-4. Select AI relevance strictness and topics
-5. Select multiple notification destinations (PushPlus/WeCom/DingTalk in future)
-6. Connect **your own** GitHub + free-tier AI + push credentials, via instructions and secure external authorization
-7. Run validation, then enter the app
+## Onboarding status
+The app offers first-run specialty selection for oncology and anesthesiology, all-versus-selected journal choices, and a clear status page for AI and HarmonyOS notifications. Choices are persisted locally. They filter the shared public feed on the device; they do not alter the cloud scanner or enable AI/Push Kit.
 
 ## First four screens
 - Latest articles
@@ -20,7 +14,7 @@ The current release focuses on a working oncology watcher. This folder defines t
 ## Read-only remote feed V0.1
 `https://raw.githubusercontent.com/<YOUR_ACCOUNT>/sci-letter-scout/main/data/feed.json`
 
-Schema: `{ "generated_at": "UTC timestamp or null", "subject": "oncology", "papers": [{"doi":...,"title":...,"journal":...,"online_date":...,"priority_score":...,"ai":...}] }`
+Schema: `{ "schema_version": "0.3", "generated_at": "UTC timestamp or null", "subjects": ["oncology", "anesthesiology"], "journal_counts": {...}, "source_health": {...}, "ai_status": "disabled", "harmony_push_status": "not_configured", "papers": [{"doi":...,"title":...,"journal":...,"specialty":...,"online_date":...,"priority_score":...}] }`
 
 Current feed is public. It MUST NOT contain secrets, personal drafts or private user preferences. The phone can filter articles locally. Cloud-side changes to journals and push frequency are NOT yet supported from the app. A future authenticated config synchronization service is required before enabling remote edits.
 

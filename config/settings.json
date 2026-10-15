@@ -1,21 +1,25 @@
 {
-  "subject": "oncology",
+  "subjects": [
+    "oncology",
+    "anesthesiology"
+  ],
   "monitoring": {
     "pubmed_created_days": 3,
     "crossref_indexed_hours": 72,
+    "crossref_max_publication_age_days": 45,
     "crossref_journals_per_run": 12,
     "max_new_per_run": 60,
     "pubmed_batch_size": 12
   },
   "ai": {
-    "enabled": true,
+    "enabled": false,
     "model": "gemini-3.1-flash-lite",
     "max_calls_per_day": 25,
     "max_calls_per_scan": 4
   },
   "notifications": {
-    "channel": "auto",
-    "enabled": true,
+    "channel": "none",
+    "enabled": false,
     "score_threshold": 65,
     "max_messages_per_scan": 2,
     "daily_digest": false,
@@ -24,6 +28,6 @@
   "onboarding_defaults": {
     "specialty": "oncology",
     "alert_mode": "high_priority",
-    "delivery": "wechat"
+    "delivery": "harmony_push_pending"
   }
 }

@@ -137,10 +137,11 @@ def _pubmed_batches(journals, batch_size):
 def fetch_pubmed(journals, days=3, batch_size=12):
     """Return articles from configured journals that were created in PubMed recently."""
     base = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils/'
-    wanted = {normalize_title(j['name']): j for j in journals}
+    wanted = {normalize_title(title): j for j in journals for title in [j['name'], *j.get('aliases', [])]}
+    wanted_nlm = {j['nlm_id']: j for j in journals if j.get('nlm_id')}
     out = []
     for subset in _pubmed_batches(journals, batch_size):
-        term = '(' + ' OR '.join('"' + j['name'].replace('"', '') + '"[jour]' for j in subset) + ') AND "last ' + str(days) + ' days"[crdt]'
+        term = '(' + ' OR '.join('"' + j['issn'] + '"[issn]' if j.get('issn') else '"' + j['name'].replace('"', '') + '"[jour]' for j in subset) + ') AND "last ' + str(days) + ' days"[crdt]'
         params = {'db': 'pubmed', 'term': term, 'retmode': 'json', 'retmax': 500}
         if os.getenv('CONTACT_EMAIL'):
             params['email'] = os.environ['CONTACT_EMAIL']
@@ -159,7 +160,8 @@ def fetch_pubmed(journals, days=3, batch_size=12):
                 if citation is None:
                     continue
                 journal = clean_text(citation.findtext('./Article/Journal/Title'))
-                j = wanted.get(normalize_title(journal))
+                nlm_id = citation.findtext('./MedlineJournalInfo/NlmUniqueID')
+                j = wanted_nlm.get(nlm_id) or wanted.get(normalize_title(journal))
                 if not j:
                     # NCBI can use a journal title variant, retain strict matching.
                     continue
@@ -188,7 +190,7 @@ def fetch_pubmed(journals, days=3, batch_size=12):
     return out
 
 
-def fetch_crossref(journals, hours=72, per_run=12, now=None):
+def fetch_crossref(journals, hours=72, per_run=12, now=None, max_publication_age_days=45):
     """Rotate Crossref checks; full roster is covered over several runs."""
     now = now or utcnow()
     cycle = int(now.timestamp() // 300)
@@ -201,19 +203,33 @@ def fetch_crossref(journals, hours=72, per_run=12, now=None):
     out = []
     for j in selected:
         params = {
-            'query.container-title': j['name'],
             'filter': 'from-index-date:' + since + ',type:journal-article',
             'rows': 60,
-            'select':'DOI,title,container-title,abstract,published-online,published,issued,URL,type'
+            'select':'DOI,title,container-title,ISSN,abstract,published-online,published,issued,URL,type'
         }
+        if j.get('issn'):
+            params['filter'] += ',issn:' + j['issn']
+        else:
+            params['query.container-title'] = j['name']
         if os.getenv('CONTACT_EMAIL'):
             params['mailto'] = os.environ['CONTACT_EMAIL']
         results = http_get_json('https://api.crossref.org/works', params)
         for m in results.get('message',{}).get('items',[]):
             names = m.get('container-title') or []
-            if not any(normalize_title(x) == normalize_title(j['name']) for x in names):
+            accepted = {normalize_title(title) for title in [j['name'], *j.get('aliases', [])]}
+            issns = m.get('ISSN') or []
+            if j.get('issn') and j['issn'] not in issns:
+                continue
+            if not j.get('issn') and not any(normalize_title(x) in accepted for x in names):
                 continue
             date = crossref_publication_date(m)
+            if date and max_publication_age_days is not None:
+                try:
+                    age=(now.date()-dt.date.fromisoformat(date)).days
+                    if age > max_publication_age_days:
+                        continue
+                except ValueError:
+                    pass
             out.append(rank_paper({'doi':m.get('DOI'), 'title':clean_text((m.get('title') or [''])[0]), 'abstract':clean_text(m.get('abstract',''))[:5000], 'journal':j['name'], 'tier':j['tier'], 'online_date':date, 'source':'crossref', 'url':m.get('URL')}))
         time.sleep(0.15)
     return out

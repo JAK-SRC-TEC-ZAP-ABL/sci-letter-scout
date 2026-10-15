@@ -68,5 +68,21 @@ class ScanTests(unittest.TestCase):
         self.assertEqual(push.call_count,2)
         self.assertEqual(len(json.loads((self.root/'data'/'state.json').read_text())['sent']),1)
 
+    def test_anesthesiology_is_scanned_and_tagged_without_wechat_push(self):
+        catalogue=self.root/'config'/'journals.json'
+        content=json.loads(catalogue.read_text())
+        content['journals'].append({'name':'Anesthesiology','specialty':'anesthesiology','tier':'specialist','enabled':True})
+        catalogue.write_text(json.dumps(content))
+        anesthesia={**self.paper(),'doi':'10.1234/anesthesia','title':'Anesthesia paper','journal':'Anesthesiology'}
+        with patch.object(scan,'fetch_pubmed',return_value=[anesthesia]),patch.object(scan,'fetch_crossref',return_value=[]),patch.dict(os.environ,{'SERVERCHAN_SENDKEY':'fake'},clear=True),patch.object(scan,'send_notification') as push:
+            scan.run()
+        feed=json.loads((self.root/'data'/'feed.json').read_text())
+        self.assertIn('anesthesiology',feed['subjects'])
+        self.assertEqual(feed['journal_counts']['anesthesiology'],1)
+        self.assertEqual(feed['papers'][0]['specialty'],'anesthesiology')
+        self.assertEqual(feed['ai_status'],'disabled')
+        self.assertEqual(feed['harmony_push_status'],'not_configured')
+        push.assert_not_called()
+
 if __name__=='__main__':
     unittest.main()
