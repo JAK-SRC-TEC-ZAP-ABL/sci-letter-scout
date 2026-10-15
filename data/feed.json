@@ -1,12 +1,1186 @@
 {
   "ai_status": "disabled",
-  "generated_at": "2026-10-15T14:33:30.757878+00:00",
+  "generated_at": "2026-10-15T18:37:40.364030+00:00",
   "harmony_push_status": "not_configured",
   "journal_counts": {
     "anesthesiology": 13,
     "oncology": 100
   },
   "papers": [
+    {
+      "abstract": "Anemia represents a frequent and clinically burdensome complication in patients with primary lung cancer receiving platinum-based regimens, yet robust risk stratification tools that integrate multidimensional clinical data and undergo external validation remain scarce. This multicenter study sought to develop and externally validate a machine learning-based predictive model for CIA in this population. A total of 3,434 patients with primary lung cancer were retrospectively enrolled from two geographically distinct institutions, with 3,097 assigned to the training/internal validation set (7:3 split) and 337 retained as an independent external validation set. Variables with missing rates exceeding 30% were excluded, and remaining missing data were imputed using multiple imputation by chained equations (MICE). Thirteen candidate predictors were preselected via univariate screening and least absolute shrinkage and selection operator (LASSO) regression. Nine machine learning algorithms were developed and comparatively evaluated using area under the receiver operating characteristic curve (AUC), calibration plots, and decision curve analysis. Model interpretability was achieved through SHapley Additive exPlanations (SHAP). The primary outcome was defined as hemoglobin levels < 100 g/L (CTCAE Grade ≥ 2) recorded during the first two cycles of chemotherapy. Among the nine candidate models, LightGBM achieved the highest discriminative performance, with AUCs of 0.871 (95% CI: 0.852-0.891) in the training set, 0.797 (95% CI: 0.763-0.831) in internal validation, and 0.684 (95% CI: 0.626-0.742) in the external validation set derived from Linfen Central Hospital. Calibration and decision curve analyses consistently demonstrated superior agreement and net clinical benefit for LightGBM across all three datasets. SHAP-based interpretation identified lymphocyte count, D-dimer, alanine aminotransferase, total bilirubin, sex, and albumin as the six most influential predictors, with D-dimer, female sex, and outpatient admission positively associated with anemia risk, whereas lymphocyte count, liver function indices, and albumin showed inverse associations. The LightGBM-based model developed herein demonstrates acceptable and moderate predictive performance, satisfactory calibration, and potential clinical utility across geographically diverse populations, offering a preliminary risk-stratification tool for early identification of lung cancer patients at elevated anemia risk prior to chemotherapy initiation. However, given the modest external validation performance, cautious interpretation and further refinement are warranted before widespread clinical deployment.",
+      "doi": "10.3389/fonc.2026.1948751",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362851+00:00",
+      "journal": "Frontiers in Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-30",
+      "pmid": "42876835",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 44,
+      "research_types": [
+        "machine_learning"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Development and validation of a machine learning-based prediction model for anemia risk in patients with primary lung cancer receiving platinum-based chemotherapy: a multicenter study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42876835/"
+    },
+    {
+      "abstract": "To compare the therapeutic outcomes of neoadjuvant chemotherapy followed by interval debulking surgery (NACT-IDS) and primary debulking surgery (PDS) in patients with advanced epithelial ovarian cancer (AEOC) and to evaluate factors associated with prognosis. This retrospective study included 97 patients with AEOC treated between April 2015 and July 2020. According to treatment strategy, 36 patients underwent PDS and 61 underwent NACT-IDS. Overall survival (OS), progression-free survival (PFS), and perioperative outcomes were compared between the two groups. Kaplan-Meier analysis and Cox proportional hazards regression were used to evaluate survival outcomes. Additional adjusted models were used to account for baseline imbalance. Because CA-125 normalization occurred after treatment initiation, it was defined as a serum CA-125 concentration of ≤35 U/mL and analyzed as a time-dependent covariate. Significant baseline differences were observed between the groups in age, BMI, baseline CA-125 level, and FIGO stage (all P<0.05). During a median follow-up of 43 months [95% CI (39.87, 50.32)], 53 of 97 patients (54.64%) died. Median OS was 41 months in the PDS group and 43 months in the NACT-IDS group, and median PFS was 20 months in both groups. No significant differences were found in unadjusted OS or PFS between the groups (OS: log-rank P = 0.484; PFS: log-rank P = 0.410). After adjustment for age, BMI, log-transformed baseline CA-125 level, and FIGO stage, treatment strategy was not associated with OS [adjusted HR = 0.88, 95% CI (0.49, 1.58), P = 0.667] or PFS [adjusted HR = 1.07, 95% CI (0.64, 1.79), P = 0.798]. Patients who achieved complete cytoreduction (R0) had longer median OS than those with incomplete cytoreduction (R1+R2) [43 vs. 38 months, P = 0.025] and longer median PFS [22 vs. 18 months, P = 0.040]. After adjustment, NACT-IDS remained associated with shorter operation time, lower intraoperative blood loss, earlier initiation of postoperative chemotherapy, and a lower likelihood of drainage-tube placement, whereas its association with postoperative complications was no longer statistically significant. Residual disease was associated with higher mortality [adjusted HR = 2.61, 95% CI 1.10-6.18, P = 0.029]. CA-125 normalization was associated with lower hazards of death [time-dependent adjusted HR = 0.59, 95% CI 0.35-0.99, P = 0.047] and progression or death [time-dependent adjusted HR = 0.63, 95% CI 0.42-0.95, P = 0.026]. In this exploratory single-center retrospective non-randomized cohort, NACT-IDS was associated with shorter operation time, lower intraoperative blood loss, earlier initiation of postoperative chemotherapy, and less frequent drainage-tube placement than PDS, but not with a significantly lower adjusted postoperative complication rate or with OS or PFS. These findings should not be interpreted as evidence of equivalent survival efficacy or causal treatment benefit. Residual disease was associated with poorer survival, whereas documented CA-125 normalization showed a favorable time-dependent prognostic association.",
+      "doi": "10.3389/fonc.2026.1893041",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362848+00:00",
+      "journal": "Frontiers in Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-30",
+      "pmid": "42876839",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 44,
+      "research_types": [
+        "clinical_trial"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Therapeutic outcomes and prognostic determinants of neoadjuvant chemotherapy plus interval debulking surgery compared with primary debulking surgery in advanced-stage epithelial ovarian cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42876839/"
+    },
+    {
+      "abstract": "The tumour microenvironment comprises a variety of cell types that interact with malignant cells, influencing both cancer progression and the patient response to therapy. Given the intricate interactions among these components, assessing how signalling pathways contribute to cancer progression by acting on different components of the TME is particularly complex. Multiplexed imaging allows simultaneous assessment of signalling in multiple of these components. Here, we utilise a highly multiplexed dataset of 61 markers across 746 colorectal tumours to investigate how complex mTOR signalling in different tissue compartments influences patient prognosis. We found that mTOR pathway signalling in immune cells correlates with favourable patient survival. Advanced spatially-aware analysis of signalling activities using graph neural networks revealed that the positive association between immune mTOR signalling and patient survival was more pronounced in tumours with features of a more differentiated morphology. Integrative analysis using TCGA data and spatial transcriptomics confirmed a role for immune mTOR signalling in immune activation, accompanied by reduced TGF-β signalling. Our work highlights the importance of adopting a personalised approach to targeting mTOR in cancer patients and establishes a framework for studying cell type-specific signalling in the TME.",
+      "doi": "10.1038/s41698-026-01674-w",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362846+00:00",
+      "journal": "npj Precision Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-25",
+      "pmid": "42875457",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 44,
+      "research_types": [
+        "single_cell"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Decoding spatial mTOR signalling reveals distinct roles in the tumour microenvironment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875457/"
+    },
+    {
+      "abstract": "Germline and somatic mutations in POT1 promote oncogenesis by enabling aberrant telomere elongation. For inherited POT1 mutations, it remains unclear whether elongated telomeres are transmitted to the next generation and whether the inherited long telomeres elevate cancer risk. Using a nanopore sequencing approach that provides haplotype-specific telomere length resolution, we examined telomere inheritance in families carrying POT1 mutations. We found that offspring preferentially inherit their longest telomeres from the carrier parent, consistent with extensive germline telomere elongation, whereas comparatively short telomeres predominantly derive from the non-carrier parent. Analysis of carrier and non-carrier siblings demonstrated that telomeres from both parents are elongated in POT1 carriers, with preferential elongation of the shortest telomeres. These findings support a potential mechanism of genetic anticipation in which POT1 mutations progressively deplete short telomeres capable of enforcing telomere-based tumor suppression from the carrier germline. Therefore, telomeres inherited from both parents jointly shape telomere-based tumor suppressive barriers.",
+      "doi": "10.1038/s41467-026-77414-2",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362803+00:00",
+      "journal": "Nature Communications",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-14",
+      "pmid": "42875414",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 47,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Telomere length of both parents contributes to heritable POT1 cancer-predisposition syndrome.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875414/"
+    },
+    {
+      "abstract": "SETD2 is a critical tumor suppressor in lung cancer that catalyzes histone H3 lysine 36 (H3K36) trimethylation. Oncogenic histone H3 alleles, including H3K36M, causally drive cancer formation by dominantly inhibiting SETD2 and other H3K36 methyltransferases. Here we show that expression of the H3K36M oncogene paradoxically suppresses tumor growth in KRAS-driven lung cancer by promoting transcription of repetitive elements and accumulation of cytoplasmic dsRNA, activating antiviral-like immune clearance. Unexpectedly, all attendant effects of H3K36M expression require SETD2 activity despite widespread loss of H3K36 trimethylation. Reducing H3K36 dimethylation through genetic or pharmacologic attenuation of NSD2 phenocopies H3K36M expression, revealing NSD2 as the relevant target through which H3K36M triggers immune activation. Mechanistically, H3K36M expression or NSD2 attenuation reveals a SETD2-dependent mechanism that limits EZH2-mediated repression of repetitive elements, enabling dsRNA accumulation and immune activation. These findings establish opposing roles for NSD2- and SETD2-dependent H3K36 methylation in lung tumor immunity and reveal an NSD2-SETD2-EZH2 axis that can be targeted to modulate viral mimicry and immune surveillance in cancer.",
+      "doi": "10.1038/s41467-026-76657-3",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362801+00:00",
+      "journal": "Nature Communications",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-14",
+      "pmid": "42875424",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 47,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Antagonistic roles of histone H3 lysine methyltransferases dictate tumor immune surveillance.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875424/"
+    },
+    {
+      "abstract": "Pulmonary tuberculosis (TB), caused by lung infection with Mycobacterium tuberculosis (Mtb), often manifests both alveolar pneumonia and aggregation of immune cells containing Mtb, termed granulomas, within the same lung. Here, we integrate spatial transcriptomics, single-cell RNA sequencing, high-resolution imaging, and functional assays of lung biopsies from four men with pulmonary TB to compare alveolar pneumonia with adjacent granulomas. We find that alveolar TB pneumonia is enriched for TREM2⁺ lipid-laden macrophages characterized by increased lipid metabolism gene expression, reduced T cell infiltration, attenuated antimicrobial gene expression, and abundant Mtb transcripts and antigens. By contrast, neighboring granulomas exhibit organized lymphoid architecture and robust antimicrobial programs. In vitro, Mtb lipids induce TREM2 expression, activate TREM2-DAP12 signaling, and promote lipid droplet accumulation in primary human monocyte-derived macrophages (MDM). Furthermore, TREM2+ MDMs are more susceptible to in vitro Mtb infection. When treating MDMs with 1,25-dihydroxyvitamin D₃, which induces antimicrobial macrophage programs, TREM2+ MDM numbers, lipid droplet abundance and Mtb viability are decreased. Thus, we propose a spatially localized, alveolar pneumonia-intrinsic TREM2⁺ macrophage program that potentially contributes to Mtb persistence in pulmonary TB infection in humans.",
+      "doi": "10.1038/s41467-026-76814-8",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362798+00:00",
+      "journal": "Nature Communications",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-08-21",
+      "pmid": "42875426",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 47,
+      "research_types": [
+        "single_cell"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Identification of a spatially organized TREM2-associated permissive macrophage niche in human pulmonary tuberculosis alveolar pneumonia.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875426/"
+    },
+    {
+      "abstract": "Coupled cluster theory using a Kohn-Sham density functional reference can dramatically outperform the standard Hartree-Fock-based approach for strongly correlated systems, but the origin of these improvements has remained unclear. We show these improvements arise from differences in the one-particle density as encoded into the Fock matrix, not from the nature of the orbitals themselves, as is commonly assumed. Exploiting this insight, Kohn-Sham references enable near-chemical accuracy for electronic and thermochemical properties of transition metal dimers and main group compounds. Notably, Kohn-Sham coupled cluster qualitatively recovers the entire chromium dimer potential energy surface, a notorious failure case for conventional methods. We further introduce a density difference diagnostic that detects multireference character and guides the selection of optimal references at mean-field cost. Together, these results establish a practical route to treating strong correlation within quantum chemistry's \"gold standard\" framework, with immediate implications for machine learning potential development and materials research, which rely heavily on density functional theory.",
+      "doi": "10.1038/s41467-026-77540-x",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362796+00:00",
+      "journal": "Nature Communications",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-11",
+      "pmid": "42875438",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 47,
+      "research_types": [
+        "machine_learning"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Improving coupled cluster theory for strongly correlated molecules with Kohn-Sham density encoding.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875438/"
+    },
+    {
+      "abstract": "Hypertension has paradoxical prothrombotic-hemorrhagic predisposition toward cerebral infarction and intracerebral hemorrhage (ICH), but the mechanism remains poorly understood. We observed Angiotensin II (Ang II) inhibited coagulation by activating antithrombin through heparin-like acceleration of antithrombin-thrombin interaction. Ang II allosterically modulates the 386-397 loop of antithrombin to enhance thrombin inhibition. In vivo, single injection of Ang II inhibited coagulation, alleviating thrombosis and aggravating ICH. Conversely, anti-Ang II monoclonal antibody promoted coagulation, aggravating thrombus formation and alleviating ICH. Notably, the blockage or deficiency of Ang II receptor had no significant effect on the alleviated thrombus formation or aggravated hemorrhage elicited by Ang II, suggesting the phenotypes were independent of Ang II receptor. In hypertensive mice, anti-Ang II monoclonal antibody significantly promoted coagulation and ameliorated ICH. These results identify Ang II as a key coagulation regulator with heparin-like function, suggesting that targeting Ang II-coagulation pathway could be a novel strategy to mitigate cerebral bleeding.",
+      "doi": "10.1038/s41467-026-77481-5",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362794+00:00",
+      "journal": "Nature Communications",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-14",
+      "pmid": "42875448",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 47,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Angiotensin II exacerbates intracerebral hemorrhage in mice via heparin-like antithrombin activation and coagulation dysfunction.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875448/"
+    },
+    {
+      "abstract": "The Novel Organic Cation Transporter 1 (OCTN1) facilitates the uptake of endogenous metabolites and therapeutic drugs across diverse tissues. Recognized as a key transporter for the antioxidant ergothioneine (ET), OCTN1 also mediates the cellular entry and release of various cationic compounds. Dysregulation of OCTN1 has been implicated in cancer progression and drug interaction. In non-neuronal systems, OCTN1-mediated acetylcholine (ACh) transport has been implicated in promoting cancer progression by enhancing tumor cell proliferation and invasion. Despite its physiological and clinical relevance, the structural mechanisms underlying substrate recognition and transport by OCTN1 have remained poorly understood. Here, we present cryo-EM structures of human OCTN1 in both apo and ET-bound states, revealing the binding site of ET and elucidating conformational changes essential for sodium-dependent substrate transport. Furthermore, structure-based virtual screening identified mebendazole (MBZ) as a potent inhibitor targeting OCTN1, effectively suppressing the proliferation of cervical and lung cancer cells. Our findings provide a structural framework for understanding OCTN1 function and inform strategies to target this transporter in cancer.",
+      "doi": "10.1038/s41467-026-77727-2",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362792+00:00",
+      "journal": "Nature Communications",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-14",
+      "pmid": "42875455",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 47,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Structural and mechanistic insights into OCTN1-mediated transport and cancer cell proliferation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875455/"
+    },
+    {
+      "abstract": "Dynamics and physical state of chromatin are crucial in regulating gene expression, DNA replication, and repair. Intrinsically disordered histone tails were previously recognized as key modulators of chromatin states. However, detailed atomistic mechanisms by which histone tail dynamics are associated with chromatin compaction and higher-order chromatin organization remain poorly understood. In this work, we combine extensive all-atom molecular dynamics simulations of tri-nucleosomes with varying linker lengths and cryo-electron tomography (cryo-ET) of native nucleosome arrays. Our approach offers distinct advantages as it elucidates realistic inter-nucleosomal interactions and tri-nucleosome orientations derived from physics-based MD simulations, enabling a more accurate and physically grounded interpretation of cryo-ET data. The results reveal that tri-nucleosome models can be successfully used for fitting and the near-atomistic interpretation of cryo-ET density maps of native human chromatin. Moreover, histone tails were shown to promote chromatin compaction via three major patterns: through histone-DNA interactions, histone H2A-H4 and H3-H4 tail-tail interactions. Notably, the distributions of MD-generated structural parameters of tri-nucleosomes were found to be in strong agreement with those of experimental condensed chromatin arrays.",
+      "doi": "10.1038/s41467-026-77871-9",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362790+00:00",
+      "journal": "Nature Communications",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-15",
+      "pmid": "42875456",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 47,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Molecular dynamics guided all-atom reconstruction of cryo-ET maps reveals mechanisms of histone tail mediated chromatin compaction.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875456/"
+    },
+    {
+      "abstract": "Heart failure with preserved ejection fraction (HFpEF) accounts for over half of heart failure cases but remains poorly defined due to its clinical heterogeneity. In the prospective PACIFIC-Preserved cohort (NCT04189029, n = 155), we applied multimodal deep phenotyping, including high-throughput proteomics, and unsupervised machine learning to identify biologically distinct HFpEF subgroups. Multiview clustering revealed two major HFpEF phenogroups: PEF1, characterized by inflammatory signaling, TNF receptor activation, cardio-skeletal injury, and greater renal dysfunction; and PEF2, marked by endothelial stress and milder perturbations. Conventional diagnostics alone could not reliably distinguish these subgroups, but a multimodal classifier integrating clinical, imaging, and proteomic variables achieved high predictive accuracy (F1-score 0.87). External validation in the MEDIA-DHF cohort (n = 456) confirmed that PEF1 was independently associated with adverse outcomes (adjusted HR 2.27, 95% CI 1.04-4.94). These findings establish a classifier-driven, biologically informed stratification of HFpEF, providing a framework for precision medicine in heart failure.",
+      "doi": "10.1038/s41467-026-77642-6",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362788+00:00",
+      "journal": "Nature Communications",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-15",
+      "pmid": "42875459",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 47,
+      "research_types": [
+        "machine_learning"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Multimodal data-driven clustering analysis of heart failure patients identifies two distinct patterns of heart failure with preserved ejection fraction: Results from the PACIFIC-PRESERVED study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875459/"
+    },
+    {
+      "abstract": "Targeting tumor-associated macrophages holds great promise for cancer immunotherapy. Surface glycoproteins in macrophages regulate their interactions with tumor cells and represent emerging therapeutic targets. Given the importance of glycoproteins in immunity and cancer, we systematically investigate the total and surface glycoproteomes in polarized macrophages using multiplexed proteomics coupled with selective enrichment. In monocyte-derived macrophages, distinct changes of N-glycoproteins are observed between M1 and M2 phenotypes, with more pronounced alterations in pro-inflammatory M1. In M1, glycoproteins involved in chondroitin sulfate-type glycosaminoglycan (CS-GAG) biosynthesis are upregulated, validated by the elevated CS-GAG levels, and enzymes associated with nucleotide sugar biosynthesis are also upregulated, consistent with the increased hexokinase activity. Furthermore, surface glycoproteomic analysis of primary human macrophages with M1 or M2 phenotype (HM1 and HM2) reveals phenotype-specific remodeling: HM1 display enhanced innate immune signaling, whereas surface glycoproteins related to adhesion and endocytosis are upregulated in HM2. Integrative analyses of cell-surface glycoproteomic, transcriptomic, and tissue-specific datasets enable prioritization of candidate surface proteins associated with M2 phenotype, including LIPA, CD200R1, and CR1, and phenotype-specific changes of several surface glycoproteins are validated by immunofluorescence imaging. Together, this study provides insights into macrophage functional specialization and advances our understanding of cell-surface glycoproteins.",
+      "doi": "10.1038/s41467-026-77775-8",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362786+00:00",
+      "journal": "Nature Communications",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-14",
+      "pmid": "42875461",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 47,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Deciphering the mechanisms of macrophage polarization through comprehensive analysis of cellular and cell-surface protein glycosylation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875461/"
+    },
+    {
+      "abstract": "The RAS/MAPK pathway is among the most frequently dysregulated in human cancer, predominantly driven by activating mutations across RAS and BRAF in a broad spectrum of tumor types. The recent clinical validation of direct inhibitors of RAS, long considered undruggable, has reenergized the field and renewed focus on targeting the full RAS/MAPK axis. MEK, a central node in MAPK signaling, remains an attractive mutation-agnostic target, yet the efficacy of first-generation MEK inhibitors has been limited by pathway reactivation in tumors and by on-target, off-tissue toxicity. In this issue of Cancer Research, Kolitz and colleagues describe atebimetinib, a novel MEK inhibitor that also prevents feedback-induced MEK phosphorylation by RAF. The uniquely short plasma half-life of atebimetinib enables deep cyclic inhibition (DCI): transient but profound MEK/ERK output suppression with full recovery between doses. At each drug's tolerability limit, atebimetinib outperformed the MEK inhibitor binimetinib across multiple RAS- and BRAF-mutant tumor models. Whether DCI or suppression of MEK phosphorylation is the primary driver of the improved therapeutic window and how atebimetinib compares with the clinical standard and other MEK-targeting agents remain important open questions, but the work makes a compelling case that novel pharmacology can unlock therapeutic spaces at targets long considered exhausted. See related article by Kolitz et al., p. 5223.",
+      "doi": "10.1158/0008-5472.CAN-26-2050",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362736+00:00",
+      "journal": "Cancer Research",
+      "letter_eligibility": "unverified",
+      "online_date": null,
+      "pmid": "42876249",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 51,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "MEKing Room: On the Quest for New Sources of Therapeutic Index in RAS/MAPK-Driven Cancers.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42876249/"
+    },
+    {
+      "abstract": "Extensive-stage small cell lung cancer (ES-SCLC) is a rare yet highly aggressive malignancy with severely limited treatment options. The efficacy of immunotherapy for ES-SCLC remain limited, with only 14% of patients deriving additional benefit from immune checkpoint inhibitors (ICIs), underscoring significant heterogeneity in patient response. This study aimed to develop a model for the accurate prediction of prognosis and therapeutic response to optimize treatment strategies. 99 and 25 ES-SCLC patients were enrolled as training and independent internal validation cohorts. Baseline CT images, clinical data, and laboratory markers were collected. Prognostic factors were screened via Cox regression. A mediastinal window CT-based deep learning model (MWDL) was developed and combined with Progastrin-releasing peptide (log(ProGRP + 1)) and bone metastasis to establish the novel MWGB-Cox model. ProGRP and bone metastasis were independent prognostic factors with area under the curves (AUCs) of 0.705 and 0.666 respectively for predicting 1-year OS. Among the pure deep learning models, the MWDL model achieved better performance with a mean AUC of 0.813 than the deep learning model based on lung window CT images (LWDL, AUC 0.756). Whereas the multimodal MWGB-Cox model not only achieved the highest AUC (0.902) for 1-year OS prediction, but also effectively overcame the limitation of insufficient sensitivity. The predictive performance of the MWGB-Cox model was further validated in the independent internal validation cohort. This novel, simple, and cost-effective multimodal MWGB-Cox model integrating CT-based deep learning, log(ProGRP + 1), and bone metastasis could robustly predict 1-year OS of ES-SCLC patients receiving first-line immunotherapy, providing a reliable tool for clinical decision-making. By integrating CT-based deep learning, log(ProGRP + 1) levels, and bone metastasis, the novel multimodal model achieved the highest predictive AUC (0.902) with improved sensitivity, serving as a simple, cost-effective tool for clinical decision-making.",
+      "doi": "10.3389/fonc.2026.1901931",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362723+00:00",
+      "journal": "Frontiers in Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-30",
+      "pmid": "42876499",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 52,
+      "research_types": [
+        "machine_learning",
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "A novel multimodal model integrating CT-based deep learning and clinical information for predicting 1-year OS of first-line immunotherapy in ES-SCLC patients.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42876499/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/s41592-026-03266-9",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362717+00:00",
+      "journal": "Nature Methods",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-14",
+      "pmid": "42875596",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 53,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Integrating sex as a biological variable into one's science.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875596/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/s41551-026-01816-2",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362708+00:00",
+      "journal": "Nature Biomedical Engineering",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-14",
+      "pmid": "42875563",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 53,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "From pandemic response to a global scientific network via Tissue Talks.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875563/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/s41588-026-02828-z",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362706+00:00",
+      "journal": "Nature Genetics",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-14",
+      "pmid": "42875587",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 53,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Author Correction: Histone H3 proline 16 hydroxylation regulates mammalian gene expression.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875587/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/s41467-026-78586-7",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362666+00:00",
+      "journal": "Nature Communications",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-14",
+      "pmid": "42875466",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 53,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Spectral sensing at a glance.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875466/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/s41467-026-78589-4",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362664+00:00",
+      "journal": "Nature Communications",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-14",
+      "pmid": "42875474",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 53,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Author Correction: A microbial platform for selective biosynthesis of monoterpene esters.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875474/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/s41467-026-78746-9",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362662+00:00",
+      "journal": "Nature Communications",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-14",
+      "pmid": "42875478",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 53,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Author Correction: Versatile molecular tools enabling customizable DNA methylation editing in Arabidopsis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875478/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/s41586-026-11267-z",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362660+00:00",
+      "journal": "Nature",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-14",
+      "pmid": "42875504",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 53,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Author Correction: Wafer-scale epitaxy growth of high-mobility p-type boron carbon nitride.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875504/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/d41586-026-03114-y",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362658+00:00",
+      "journal": "Nature",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-14",
+      "pmid": "42875521",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 53,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Becoming real.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875521/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/d41586-026-03085-0",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362655+00:00",
+      "journal": "Nature",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-14",
+      "pmid": "42875522",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 53,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Alveolar stem cells go beyond making gas-exchange cells to repair damaged airways.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875522/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/d41586-026-03081-4",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362653+00:00",
+      "journal": "Nature",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-14",
+      "pmid": "42875523",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 53,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Lay of the land: terrestrial conservation efforts cover a wider area than thought.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875523/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/d41586-026-03075-2",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362651+00:00",
+      "journal": "Nature",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-14",
+      "pmid": "42875524",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 53,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Large blind test of methane-detecting satellites lends credibility to emissions data.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875524/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/d41586-026-03206-9",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362649+00:00",
+      "journal": "Nature",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-14",
+      "pmid": "42875525",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 53,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "A guide to the Nature Index.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875525/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/d41586-026-03061-8",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362647+00:00",
+      "journal": "Nature",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-14",
+      "pmid": "42875526",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 53,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "How early tetrapods got their neck.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875526/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/d41586-026-03236-3",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362645+00:00",
+      "journal": "Nature",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-13",
+      "pmid": "42875527",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 53,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Lead-tainted teeth reveal medieval mines' unequal toll.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875527/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/d41586-026-03301-x",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362642+00:00",
+      "journal": "Nature",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-14",
+      "pmid": "42875528",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 53,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "This is why butterflies are so hard to catch.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875528/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/d41586-026-03306-6",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362640+00:00",
+      "journal": "Nature",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-13",
+      "pmid": "42875529",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 53,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Daily briefing: What makes a happy scientist at work?",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875529/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/d41586-026-02442-3",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362638+00:00",
+      "journal": "Nature",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-14",
+      "pmid": "42875530",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 53,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Will my lack of country-specific grants limit my chances of employment abroad?",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875530/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/d41586-026-03302-w",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362635+00:00",
+      "journal": "Nature",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-14",
+      "pmid": "42875531",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 53,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Overlooked brown fat in our bodies linked to wide range of health benefits.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875531/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/d41586-026-03307-5",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362633+00:00",
+      "journal": "Nature",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-14",
+      "pmid": "42875532",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 53,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "The world is closer to a major conservation target than scientists thought.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42875532/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1007/s00540-026-03889-4",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362383+00:00",
+      "journal": "Journal of anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-07",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 25,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Comment on “Usefulness of the phase angle for inflammation criteria of the global leadership initiative on malnutrition in critically ill patients” by Kariya et al",
+      "url": "https://doi.org/10.1007/s00540-026-03889-4"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1053/j.jvca.2026.06.026",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362380+00:00",
+      "journal": "Journal of cardiothoracic and vascular anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 25,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Concordance of Activated Partial Thromboplastin Time and Anti‒Factor Xa Levels in Monitoring Heparin Therapy Among Cardiac Surgery Patients in Pre- and Postoperative Settings",
+      "url": "https://doi.org/10.1053/j.jvca.2026.06.026"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1053/j.jvca.2026.07.012",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362376+00:00",
+      "journal": "Journal of cardiothoracic and vascular anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 25,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "A Survey Comparing Cardiac Operating Room Setup and Anesthetic Management Among Academic US Adult Cardiothoracic Anesthesiology Programs",
+      "url": "https://doi.org/10.1053/j.jvca.2026.07.012"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1053/j.jvca.2026.06.035",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362373+00:00",
+      "journal": "Journal of cardiothoracic and vascular anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 25,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Fast Recovery Through Prevention of Major Bilateral Thoracic Surgery in a Frail Octogenarian With Impalement Injury Affecting Both Chest Cavities",
+      "url": "https://doi.org/10.1053/j.jvca.2026.06.035"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1053/j.jvca.2026.08.126",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362370+00:00",
+      "journal": "Journal of cardiothoracic and vascular anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 25,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Mitral Valve Vegetation Causing Left Ventricular Outflow Tract Obstruction",
+      "url": "https://doi.org/10.1053/j.jvca.2026.08.126"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1053/j.jvca.2026.08.166",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362367+00:00",
+      "journal": "Journal of cardiothoracic and vascular anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 25,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Lactate and pH as Predictors of In-Hospital Mortality in Extracorporeal Cardiopulmonary Resuscitation: A Single-Center Retrospective Study",
+      "url": "https://doi.org/10.1053/j.jvca.2026.08.166"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1053/j.jvca.2026.09.033",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362363+00:00",
+      "journal": "Journal of cardiothoracic and vascular anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 25,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Anesthetic Management of Open and Endovascular Thoracoabdominal Aortic Aneurysm Repair: When, How, and Why to Use Intraoperative Transesophageal Echocardiography. A Narrative Review and Practical Framework",
+      "url": "https://doi.org/10.1053/j.jvca.2026.09.033"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1053/j.jvca.2026.06.032",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362360+00:00",
+      "journal": "Journal of cardiothoracic and vascular anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 25,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Respiration-Related Catheter Displacement and Physiological Tolerance of High-Frequency Very Low Tidal Volume Ventilation With Peak Pressure Limitation During Atrial Fibrillation Ablation: A Prospective 1-Way Crossover Pilot Study",
+      "url": "https://doi.org/10.1053/j.jvca.2026.06.032"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1053/j.jvca.2026.05.053",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362357+00:00",
+      "journal": "Journal of cardiothoracic and vascular anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 25,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Stellate Ganglion Block for the Treatment of Refractory Ventricular Tachycardia and Electrical Storm: A Narrative Review",
+      "url": "https://doi.org/10.1053/j.jvca.2026.05.053"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1053/j.jvca.2026.08.132",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362354+00:00",
+      "journal": "Journal of cardiothoracic and vascular anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 25,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "When Lactate Predicts a Score That Already Contains Lactate",
+      "url": "https://doi.org/10.1053/j.jvca.2026.08.132"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1053/j.jvca.2026.07.032",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362351+00:00",
+      "journal": "Journal of cardiothoracic and vascular anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 25,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Advances in Cardiovascular Pharmacotherapy. IX. Protection Against Major Adverse Cardiovascular Events by Glucagon-like Peptide-1 Receptor Agonists in Type 2 Diabetes Mellitus and Obesity",
+      "url": "https://doi.org/10.1053/j.jvca.2026.07.032"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1053/j.jvca.2026.08.112",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362347+00:00",
+      "journal": "Journal of cardiothoracic and vascular anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 25,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Shifting Patterns in Anesthesia-Related Mortality: A Two-Decade National Study in the United States, 1999 to 2024",
+      "url": "https://doi.org/10.1053/j.jvca.2026.08.112"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1053/j.jvca.2026.06.013",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362344+00:00",
+      "journal": "Journal of cardiothoracic and vascular anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 25,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Renal Dysfunction Modifies the Prognostic Value of Lactate Clearance in Extracorporeal Cardiopulmonary Resuscitation: A Retrospective Interaction Analysis",
+      "url": "https://doi.org/10.1053/j.jvca.2026.06.013"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1053/s1053-0770(26)00901-8",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362341+00:00",
+      "journal": "Journal of cardiothoracic and vascular anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 25,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Articles to Appear in Future Issues",
+      "url": "https://doi.org/10.1053/s1053-0770(26)00901-8"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1053/j.jvca.2026.04.028",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362337+00:00",
+      "journal": "Journal of cardiothoracic and vascular anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 25,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Prophylactic Cerebrospinal Fluid Drains in Emergent Acute Type B Aortic Dissection Surgical Repair: Evaluating Clinical Necessity and Efficacy",
+      "url": "https://doi.org/10.1053/j.jvca.2026.04.028"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1053/j.jvca.2026.06.033",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362334+00:00",
+      "journal": "Journal of cardiothoracic and vascular anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 25,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Brain Death Determination During VA-ECMO After Pediatric Cardiac Surgery: A Case-Based Analysis of the 2023 Unified Consensus",
+      "url": "https://doi.org/10.1053/j.jvca.2026.06.033"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1016/j.bja.2026.05.016",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362331+00:00",
+      "journal": "British journal of anaesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 25,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Cognitive prehabilitation in surgical patients: a scoping review",
+      "url": "https://doi.org/10.1016/j.bja.2026.05.016"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1016/j.accpm.2026.101840",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362323+00:00",
+      "journal": "Anaesthesia, critical care & pain medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 33,
+      "research_types": [
+        "clinical_trial"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Effect of cricoid pressure on tracheal intubation time during C-MAC video laryngoscopy: A Randomized Controlled Trial",
+      "url": "https://doi.org/10.1016/j.accpm.2026.101840"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1053/j.jvca.2026.06.047",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362319+00:00",
+      "journal": "Journal of cardiothoracic and vascular anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 33,
+      "research_types": [
+        "clinical_trial"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Changes in Free and Total Remimazolam Concentrations During Cardiopulmonary Bypass: A Randomized Dose-Comparison Trial",
+      "url": "https://doi.org/10.1053/j.jvca.2026.06.047"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1016/j.jclinane.2026.112318",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362316+00:00",
+      "journal": "Journal of clinical anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 33,
+      "research_types": [
+        "meta_analysis"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Flow–controlled ventilation: A systematic review of preclinical and clinical studies",
+      "url": "https://doi.org/10.1016/j.jclinane.2026.112318"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1053/j.jvca.2026.10.021",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362308+00:00",
+      "journal": "Journal of cardiothoracic and vascular anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 37,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Anesthetic Management of Glucose-6-Phosphate Dehydrogenase Deficiency in Cardiac Surgery: A Narrative Review",
+      "url": "https://doi.org/10.1053/j.jvca.2026.10.021"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1053/j.jvca.2026.10.005",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362305+00:00",
+      "journal": "Journal of cardiothoracic and vascular anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 37,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Use of von Willebrand Factor in VA-ECMO-associated acquired von Willebrand Syndrome: a nationwide retrospective study",
+      "url": "https://doi.org/10.1053/j.jvca.2026.10.005"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1213/01.ane.0001282976.51283.05",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362300+00:00",
+      "journal": "Anesthesia and analgesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-09",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 37,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Abstracts of International Anesthesia Research Society & Society of Critical Care Anesthesiologists 2026 Annual Meetings",
+      "url": "https://doi.org/10.1213/01.ane.0001282976.51283.05"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1053/j.jvca.2026.10.015",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362283+00:00",
+      "journal": "Journal of cardiothoracic and vascular anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 45,
+      "research_types": [
+        "clinical_trial"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Deep Parasternal Intercostal Plane Block for Cardiac Surgery via Median Sternotomy: A Randomised Controlled Trial",
+      "url": "https://doi.org/10.1053/j.jvca.2026.10.015"
+    },
+    {
+      "abstract": "Patient-centred precision care [(PC) 2 ] is a new paradigm in anaesthesia that applies individualised care principles to tailor perioperative care to individual patient characteristics, preferences, and values. This individualised strategy aims to optimise anaesthetic effectiveness, minimise side effects, and align care with what matters most to patients – whether survival, cognitive preservation, pain control, or rapid functional recovery. By considering elements such as genetics, comorbidities, environmental influences, and lifestyle, (PC) 2 improves outcomes and fosters long-term health and cost-effectiveness. Despite its promise, implementing (PC) 2 faces challenges. Healthcare systems often prioritise efficiency over individualisation, while clinicians may focus on short-term outcomes. Regulatory hurdles and fragmented stakeholder input sometimes hinder industry efforts. To guide practical application, we present 12 practice recommendations for integrating (PC) 2 into routine anaesthesia practice. These recommendations were derived from our experience implementing (PC) 2 approaches, including Enhanced Recovery After Surgery, the Safe Brain Initiative, and the Brain Health Initiative. We also highlight the importance of evidence-based practice, health economic awareness, pragmatic clinical solutions, and the development of continuous quality improvement processes to promote sustainable excellence in care. Together, these strategies offer a roadmap for clinicians and organisations to deliver more precise, patient-specific, and effective anaesthesia, ultimately leading to better perioperative outcomes and experiences. Successful adoption of (PC) 2 in real-world practice requires systemic alignment, a feedback-oriented culture, and active leadership engagement. This review highlights that these organisational elements are crucial for implementing (PC) 2 across diverse healthcare settings.",
+      "doi": "10.1097/eja.0000000000002516",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362279+00:00",
+      "journal": "European journal of anaesthesiology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-08",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 45,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Twelve tips for implementing patient-centred precision care in anaesthesia",
+      "url": "https://doi.org/10.1097/eja.0000000000002516"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1007/s00540-026-03924-4",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362265+00:00",
+      "journal": "Journal of anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-15",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 47,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Reply to the letter to the editor: comment on “Usefulness of the phase angle for inflammation criteria of the global leadership initiative on malnutrition in critically ill patients”",
+      "url": "https://doi.org/10.1007/s00540-026-03924-4"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1111/anae.70154",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-15T18:37:40.362244+00:00",
+      "journal": "Anaesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-13",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 47,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Issue Information – Editorial Board",
+      "url": "https://doi.org/10.1111/anae.70154"
+    },
     {
       "abstract": "",
       "doi": "10.1038/d41586-026-03266-x",
@@ -4743,1148 +5917,6 @@
       "tier": "oncology",
       "title": "A self-amplifying IL-1β-CCL2 circuit between macrophages and cancer-associated fibroblasts drives colorectal cancer progression.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42874989/"
-    },
-    {
-      "abstract": "Long-distance interaction has deep prehistoric roots, but the networks that emerged during the Urban Revolution were unprecedented in scale and organization. How early cities sustained this extensive connectivity in the absence of formal markets or centralized states remains a fundamental question. Focusing on the Uruk Expansion in Mesopotamia (ca. 3900 to 3000 BCE), we assemble the largest spatial dataset currently available and reconstruct transportation networks across three successive phases. Using network analysis, we show that an initially dendritic, river-based system evolved into modular regional clusters and ultimately into a more integrated structure linked by selective long-distance shortcuts. This transformation reduced dependence on key intermediaries and generated small world-like patterns combining strong local cohesion with efficient system-wide reach. These results demonstrate that decentralized interaction processes, supported in part by mobile intermediary communities, played a central role in sustaining early urban connectivity.",
-      "doi": "10.1126/sciadv.aee5162",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066475+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873845",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "The network structure of the urban revolution.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873845/"
-    },
-    {
-      "abstract": "Landscape fires are increasingly threatening public health by causing substantial fire-sourced air pollution (SFAP), with risks amplified during heatwaves. We investigated the global spatial, temporal, and sociodemographic distribution of the population coexposure to heatwaves and SFAP from 2000 to 2019. We found that 52.4% of populated areas and 55.9% of the global population experienced increasing coexposure. On average, 916 million people per year were exposed to at least one coexposure day, increasing by 287 million people per decade. The global annual average exposed days per person was 1.3 days, rising from 1.0 days in 2000-2009 to 1.7 days in 2010-2019. Coexposure person-days increased by 5.5 billion per decade, of which 70.5% was attributable to increasing coexposure intensity and 29.5% to population growth. Countries with a low human development index (HDI) experienced the highest coexposure days per person and the greatest increases. These findings provide high-resolution data to inform health impact assessments and target mitigation and adaptation strategies.",
-      "doi": "10.1126/sciadv.aea9749",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066471+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873846",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Rising global population coexposure to heatwaves and landscape fire-sourced air pollution.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873846/"
-    },
-    {
-      "abstract": "Solar vapor generation is a promising technique for water purification, although the development of efficient and sustainable systems for practical use remains challenging. Here, we introduce a higher plant-derived evaporator, leveraging the structural advantages of plants and the synergistic integration of multiple components, including carbon black-coated ultrathin wood slices with perforated pores, nanocellulose aerogel, and vertically aligned wheat straws. This configuration facilitates low-tortuosity water transport within the internal framework while promoting interfacial evaporation at its surface. Under 1 sun, the evaporator achieved an evaporation rate of up to 3.2 kilograms per square meter (kg m-2) per hour. The material's scalability and the capability to continuously collect clean water in outdoor environments were successfully demonstrated. Outdoors, under a solar intensity of 0.5 to 0.9 sun, the assembled device achieved a daily fresh water yield of up to 10.9 kg m-2 from seawater. With highly accessible renewable raw materials, low production cost, and exceptional water purification efficiency, this cost-effective solar evaporator is edge closer to viable, real-world applications.",
-      "doi": "10.1126/sciadv.aeh3059",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066468+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873848",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Sustainable solar water purification: Exploring the structural advantages of higher plants.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873848/"
-    },
-    {
-      "abstract": "Immune checkpoint therapies have shown limited efficacy in metastatic castration-resistant prostate cancer (mCRPC). The AMADEUS prostate expansion cohort (NCT03651271) evaluated the efficacy, safety, and biomarkers of escalating ipilimumab doses combined with nivolumab. Patients received ipilimumab 1 milligram per kilogram (mg/kg) + nivolumab 360 mg (I1+N360), ipilimumab 3 mg/kg + nivolumab 1 mg/kg (I3+N1), or ipilimumab 5 mg/kg + nivolumab 1 mg/kg (I5+N1). Coprimary endpoints were 6-month disease control rate (DCR) and changes in tumoral CD8 percentage. Thirty-two patients were enrolled. DCRs were 33% (4 of 12) for I1+N360, 20% (1 of 5) for I3+N1, and 20% (3 of 15) for I5+N1. Across cohorts, tumoral CD8 percentage increased by a median of 5.0%. Although higher ipilimumab doses were tolerable, I1+N360 achieved similar disease control and immune activation with a more favorable safety profile. Early disease progression was associated with increased expression of a TREM2-associated myeloid gene signature, which was also significantly enriched in two independent prostate cancer datasets.",
-      "doi": "10.1126/sciadv.aee8730",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066465+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873849",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Immune biomarkers of response and resistance to ipilimumab and nivolumab in metastatic castration-resistant prostate cancer.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873849/"
-    },
-    {
-      "abstract": "Transitive inference (TI) is a form of deductive reasoning that enables the derivation of unknown relationships among premises. It is hypothesized that this cognitive process relies on mapping stimuli onto a \"mental line,\" a linear workspace organized by arbitrarily assigned ranks. However, its neural basis remains unclear: Does this mental line have a neural correlate and how is it learned? This study investigates the role of dorsal premotor cortex (PMd) in encoding the hypothesized mental line as monkeys acquire item relationships for motor decisions. Findings reveal that PMd multiunit activity organizes along a theoretically predicted direction, supporting a geometrical model that explains behavior. Moreover, a learning process is observed, where the mental line rotates to align with motor planning.",
-      "doi": "10.1126/sciadv.aec2068",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066462+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873851",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Learning to infer transitively on a mental line in premotor cortex.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873851/"
-    },
-    {
-      "abstract": "In most cells, Malat1 long noncoding RNA localizes to the nucleus where it affects splicing and chromatin function. In mouse neurons, Malat1 is exported to the cytoplasm where it is translated to generate the M1 micropeptide. Here, we characterize an internal ribosome entry site (IRES) required for M1 translation that is sufficient to induce cap-independent expression of a downstream open reading frame. In vivo chemical probing and structural modeling defined a three-stem-loop RNA secondary structure that encompasses the active IRES segment and coincides with a mouse B1 SINE (short interspersed element) repetitive element. In affinity purification experiments, a minimal IRES/B1 RNA selectively bound ribosomal subunits, translation factors, and the known IRES cofactors Rack1 and hnRNP A2/B1. Depletion of Rack1 and hnRNP A2/B1 inhibited IRES-dependent translation of the reporter and expression of the endogenous M1 peptide. Our study identifies an unexpected functional unit hidden within a widely studied long noncoding RNA.",
-      "doi": "10.1126/sciadv.aee5884",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066458+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873854",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "A B1 SINE element within the mouse Malat1 long noncoding RNA acts as an internal ribosome entry site mediating micropeptide translation.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873854/"
-    },
-    {
-      "abstract": "Mineral dusts are the most important type of ice-nucleating particles and play a key role in cloud formation and climate. Their activity is commonly assumed to scale with particle surface area, yet whether this assumption holds across particle sizes remains unverified. Here, we quantify size-dependent ice nucleation activity using compositionally pure, size-segregated kaolinite (KGa-1b). Ice nucleation active site (INAS) densities were determined for size classes from submicron to 48 μm, revealing two distinct ice-nucleation regimes. At low temperatures (∼240 K), INAS density per surface area is independent of particle size. In contrast, at warm temperatures (∼260 K), particles of 6 to 12 μm exhibit the highest INAS densities, up to two orders of magnitude greater than smaller particles and nonsize-selected bulk samples. Linking these results to particle morphology indicates that well-aligned, multilayered platelet edges provide the continuous hydroxylated surfaces required for efficient ice nucleation. Our findings demonstrate that morphology can modulate particle size-dependent ice nucleation, highlighting limitations of simple surface area-based parameterizations.",
-      "doi": "10.1126/sciadv.aeg1206",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066455+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873855",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Ice nucleation by kaolinite: Morphology shapes the size dependence of ice nucleation active sites on dust particles.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873855/"
-    },
-    {
-      "abstract": "Classical algorithms have successfully reproduced expectation values of observables for certain quantum circuits using off-the-shelf computing resources; however, matching the performance of the most advanced quantum devices on sampling problems typically incurs extreme memory and computational costs, restricting such simulations to only a handful of supercomputers worldwide. In this work, we demonstrate a classical simulation outperforming Gaussian boson sampling experiments of 100 modes on established benchmark tests using a single central processing unit (CPU) or graphics processing unit (GPU). Being embarrassingly parallelizable, a small number of CPUs or GPUs allows us to match previous sampling rates that required more than 100 GPUs. We believe that algorithmic and implementation improvements have the potential to generalize our tools to photocounting and pseudo-photon number-resolving scenarios and larger system sizes. Last, most of the innovations in our tools remain valid for generic probability distributions over binary variables, rendering them potentially applicable to the simulation of qubit-based sampling problems and creating classical surrogates for classical-quantum algorithms.",
-      "doi": "10.1126/sciadv.aef8431",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066451+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873857",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "A fast and frugal Gaussian boson sampling emulator.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873857/"
-    },
-    {
-      "abstract": "The slow kinetics of sulfur cathodes caused by the high energy barriers of Li+ desolvation stem primarily from the structure of the inner Helmholtz plane (IHP). Herein, a synergistic strategy combining electrochemical tandem catalysis with spatial nanoconfinement is proposed to regulate the Li(solvent)x+ dynamics. As a proof-of-concept, the porous covalent organic framework (denoted as TPBD) decorated MXene is in situ constructed, acting as a tandem kinetic promoter. The theoretical simulations and in situ Raman reveal that the porous TPBD layer confines the bulky Li(solvent)x+ species and sieves the spatial structure with accelerated Li+ diffusion kinetics. Meanwhile, MXene serves as a negatively charged substrate that helps disrupt anion-solvent interactions and reconstruct the solvation structure at the IHP, thereby enhancing Li+ kinetics and sulfur redox reversibility. Encouragingly, the assembled cells demonstrate a superior Li+ transference number (0.77), long-term cycling lifespan up to 1000 cycles, as well as excellent areal capacity (>6 mAh cm-2) at 0°C and superior rate capability at 50°C under a high sulfur loading of 7.51 mg cm-2. The as-prepared pouch cell remains stable for over 100 cycles, validating this novel integration of catalysis and nanoconfinement for tandem kinetics in Li-S batteries.",
-      "doi": "10.1126/sciadv.aej0353",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066448+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873858",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Nanoconfinement-cooperated catalysis enables rapid tandem redox kinetics for wide-temperature lithium-sulfur batteries.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873858/"
-    },
-    {
-      "abstract": "Klebsiella pneumoniae is the leading cause of neonatal sepsis in low- and middle-income countries and the foremost cause of infectious deaths in young children. K. pneumoniae isolates are becoming increasingly resistant to antibiotics, creating a great need for additional therapies or preventative strategies. Maternal vaccination serves as an attractive approach to protect from K. pneumoniae neonatal sepsis. Herein, we report a murine model of maternal immunization followed by pup challenge to evaluate putative K. pneumoniae vaccines. Dams were immunized with capsular polysaccharide bioconjugate vaccines at mating and boosted with two different immunization schedules throughout the gestational period. After parturition, offspring were tested for antigen-specific antibody levels and later challenged with a lethal dose of K. pneumoniae. Pups born to dams immunized with K1- and K2-conjugate vaccines demonstrated significant protection from sepsis relative to control pups. Antibodies transferred from vaccinated dams persisted and remained protective in pups for at least six weeks after birth. Collectively these results demonstrate a feasible and reproducible murine model of maternal immunization verifying the efficacy of bioconjugate vaccines in protecting against lethal neonatal K. pneumoniae infection.",
-      "doi": "10.1126/sciadv.aeh8222",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066445+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873859",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Maternal vaccination with capsular polysaccharide bioconjugates protects against murine Klebsiella pneumoniae neonatal sepsis.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873859/"
-    },
-    {
-      "abstract": "Ultrasound-actuated microbubbles have served as efficient microscale engines demonstrating wireless actuation, simplified robotic architectures, and rapid response. Despite recent advances, a limitation of many microbubble technologies is that they use passive capturing of bubbles. The lack of control over bubble placement and size hinders the ability to individually address specified bubbles, a feature that would be important for performing multiple functions. Here, we present an on-chip bubble customization platform that enables active control of individual microbubbles. Instead of trapping bubbles, we purposely generate them via electrolysis on electrode arrays. The bubbles, when actuated by an external ultrasound input, create a variety of programmed flows ranging from streaming due to volumetric oscillation of a single bubble to diverse symmetry-broken directional flows when multiple bubbles interact. The bubble configuration can also be altered by simply increasing the electrolysis voltage on specified electrodes to detach the unneeded bubbles. We find that in this regime, when coupled to acoustic oscillations, we can generate a distinct bubble shooting flow pattern whose flow direction is selectively controlled by the incident ultrasound frequency. Collectively, the active bubble reconfiguration ability unlocks a range of previously inaccessible acoustofluidic functions in a single device with unprecedented controllability.",
-      "doi": "10.1126/sciadv.aeg5408",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066441+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873860",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Ultrasound-driven electronically programmable microbubbles.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873860/"
-    },
-    {
-      "abstract": "Expanded excavations at White Sands National Park have unearthed 20 stratigraphic horizons containing in situ human footprints, megafaunal trackways, and linear features created by travois. Advances in radiocarbon dating of conifer pollen, combined with ages of aquatic seeds, refines the chronology of the footprint-bearing sequence to between 23.5 and 21.7 thousand years ago (ka). Biomarker, pollen, and stratigraphic evidence indicate a complete overturning of the environment from a perennial lake to a playa and capture a large aridification episode coincident with Dansgaard-Oeschger event 2 at 23.2 ka, which shrank pluvial Lake Otero and allowed people to traverse the former shoreline area for nearly two millennia. This well-dated and highly resolved paleoclimate record provides compelling evidence that humans in North America experienced marked environmental changes during the Last Glacial Maximum.",
-      "doi": "10.1126/sciadv.aeh0707",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066438+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873862",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Humans experienced abrupt environmental changes at White Sands during the Last Glacial Maximum.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873862/"
-    },
-    {
-      "abstract": "Precise detection of subtle temperature variations under cryogenic conditions is critical for environmental monitoring but remains challenging because conventional thermistors suffer from limited sensitivity and mechanical interference. Here, we report a bioinspired supramolecular thermistor that achieves thermal transduction through molecularly gated charge transport. The hybrid polyurethane/carboxymethyl cellulose (PU/CMC)/MXene/NiO composite integrates dynamic hydrogen-bond reconfiguration, hydrated ionic conduction, and temperature-dependent electronic transport. Upon cooling, cooperative supramolecular evolution continuously modulates coupled ionic and electronic pathways, producing an ultrahigh negative temperature coefficient of -22,280% °C-1 between -80° and -75°C. The thermistor resolves detectable temperature changes below 0.01°C while maintaining negligible hysteresis, excellent reproducibility, and effective thermal-mechanical decoupling. Combined with a dedicated low-noise readout circuit, it enables reliable monitoring of subtle temperature evolution during simulated atmospheric cooling. Integrated into a multichannel sensor array, it further provides force-independent thermal mapping for robotic manipulation. This work establishes molecularly gated supramolecular thermal transduction as a strategy for ultrahigh-resolution cryogenic temperature sensing.",
-      "doi": "10.1126/sciadv.aei0002",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066435+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873863",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Bioinspired supramolecular thermistor for resolving subtle temperature variations.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873863/"
-    },
-    {
-      "abstract": "Alzheimer's disease (AD) is a devastating neurodegenerative disorder with no effective cure, characterized by the cerebral parenchymal and vascular accumulation of aggregated amyloid-β (Aβ) and hyperphosphorylated tau. Cerebrovascular and mitochondria dysfunction are early causal events in the progression of AD. Previous studies support that inhibiting carbonic anhydrases (CAs) may prevent mitochondrial and cerebrovascular dysfunction in AD models. Here, we selectively target the mitochondrial CA isoform CA-VB by pharmacological and genetic manipulation in human cerebral microvascular endothelial cells (hCMEC), and we confirm the protective effects of the CA-V inhibitor in AD mice. CA-V inhibition and CA-VB KO prevent Aβ induced mitochondria-mediated endothelial apoptosis, loss of barrier resistance, and hCMEC inflammatory activation. Strikingly, CA-V inhibition also mitigates caspase activation and endothelial cell activation in the brains of 3xTg AD mice, resulting in preserved memory function. Our results demonstrate that selective CA-V inhibition is an effective and promising strategy against AD-mediated cerebrovascular pathology, neuroinflammation and cognitive impairment.",
-      "doi": "10.1126/sciadv.ady1161",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066431+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873864",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Mitochondrial carbonic anhydrase-VB inhibition rescues brain endothelial stress and memory in Alzheimer's disease models.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873864/"
-    },
-    {
-      "abstract": "Effective modeling of chronic human diseases in vivo requires precise spatiotemporal regulation of molecular processes at defined tissue locations. Optogenetic and optoelectronic tools can provide such control but targeting internal organs such as the lungs remain challenging. To address this, we developed E-LightR-Cre recombinase, enabling precise, spatially restricted gene activation with no dark-state activity and robust blue light responsiveness. To achieve local activation of E-LightR-Cre in specific organ sites, we engineered wireless, fully implantable optoelectronic devices enabling focal illumination of murine lungs with no discernible organ damage. The size of the activated area is controlled by modulating light intensity and duration. Using implanted optoelectronic devices, we activated E-LightR-Cre in a selected area of mouse lungs and achieved local regulation of targeted genes. Light-regulated expression of the oncogenic KRas-G12D mutant in mouse lungs induced local formation of oncogenic lesions. These results show that our protein engineering and adaptable optoelectronic approaches enable facile application of optogenetic tools for locally controlled disease modeling in vivo.",
-      "doi": "10.1126/sciadv.aed1014",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066428+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873865",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Local control of Cre-regulated genetic modeling in vivo using wireless implantable optoelectronics.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873865/"
-    },
-    {
-      "abstract": "Ozone has been viewed as the principal oxidant of skin oils and other unsaturated surface films, but their fate under realistic indoor conditions remains poorly constrained. Here, we use squalene (SQ), a major component of skin lipids, to investigate the dominant oxidation pathways in occupied indoor environments and laboratory flow reactors. With exposure to indoor air, SQ decay and reactive oxygen species (ROS) formation accelerated over time, consistent with autoxidation. Laboratory experiments with ozone alone drove first-order SQ loss and humidity-dependent emissions of volatile organic compounds (VOCs). In contrast, exposure to both ozone and •OH produced nonexponential SQ decays, higher ROS yields, a much stronger in-film •OH source, and condensed-phase products enriched in highly oxidized organic hydroperoxides that closely match those observed indoors. Unexpectedly, gas-phase •OH strongly suppressed VOC emissions. These results demonstrate that gas-phase radical-induced autoxidation governs SQ aging, challenging the prevailing ozone-centric view of indoor skin oil oxidation.",
-      "doi": "10.1126/sciadv.aei2144",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066425+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873866",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Radical-induced autoxidation dominates squalene oxidative aging under environmental conditions.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873866/"
-    },
-    {
-      "abstract": "Human dispersal across the Bering Land Bridge (BLB) was a key event in the peopling of the Americas, but Beringia's archaeological record remains poorly understood. In response, the Shég' Xdaltth'í' site in interior Alaska has been the focus of a multi-disciplinary study since 2016. The site contains three archaeological components dating to the Late Pleistocene, 13.8, 13, and 12.7 thousand years ago. The oldest component yielded an expressive array of cultural remains, including a unique hafted-biface form, osseous tools, diverse fauna, and well-preserved activity areas, a record unparalleled for this age in Beringia. Shég' Xdaltth'í' represents the earliest known Nenana Complex occupation east of the BLB, and its distinct hafted-biface form occurs in coeval sites west of the BLB, providing an important trans-Beringian cultural link. Although not Beringia's oldest site, Shég' Xdaltth'í' reveals important information about Late Glacial peopling and settling-in behavior in this far northern setting.",
-      "doi": "10.1126/sciadv.aeh0802",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066422+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873868",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Highlights from an early base camp in Beringia 13,800 years ago: Shég' Xdaltth'í' and the Late Pleistocene peopling of Alaska.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873868/"
-    },
-    {
-      "abstract": "Differences in lithology within alpine watersheds lead to strong contrasts in bedrock erodibility, which modulate climatic and tectonic influences on erosion, chemical weathering, and carbon dioxide exchange. However, the difficulty of measuring denudation rates in fine-grained rocks has limited our ability to quantify the magnitude of erodibility differences between weak sedimentary and strong igneous rocks. Here, we combine newly developed cosmogenic beryllium-10 measurements in shale with conventional beryllium-10 measurements in intrusive rocks, topographic analysis, solute data, and landscape evolution modeling in the East River watershed, Colorado. Shale-dominated catchments denude three times faster than adjacent intrusive catchments despite having gentler topography. Hydrochemical data and modeling indicate that elevated shale denudation enhances solute generation and net inorganic weathering-driven carbon dioxide release during prolonged landscape adjustment over million-year timescales. These results show that spatial variability in rock type alone can substantially alter the carbon dioxide balance of alpine landscapes by hiding the fastest erosion rates in relatively gentle terrain.",
-      "doi": "10.1126/sciadv.aei9275",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066418+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873869",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Bedrock erodibility governs transient erosion and CO2 release in alpine landscapes.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873869/"
-    },
-    {
-      "abstract": "Alaska's Shég' Xdaltth'í' looks a lot like fluted point sites south of the North American ice sheets. Archaeologists have expected this for 60 years.",
-      "doi": "10.1126/sciadv.aem6534",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066415+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873871",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Shég' Xdaltth'í' and the enduring value of old ideas.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873871/"
-    },
-    {
-      "abstract": "Seabirds and native forests reconnect ocean, reef, and island processes, strengthening the physical foundations of atoll resilience.",
-      "doi": "10.1126/sciadv.aem6116",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066411+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873872",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Rewilding the atoll engine.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873872/"
-    },
-    {
-      "abstract": "Intervertebral disc degeneration (IVDD), driven by progenitor cell loss and oxidative stress, remains a major clinical challenge with limited effective regenerative therapies. Here, we present a \"Progenitor Cell Ark,\" a triple-layered hydrogel microsphere system designed for synergistic cell delivery and microenvironment remediation. The Ark comprises an outer nucleus pulposus progenitor cell (NPPC) layer for cell replenishment, a middle GelMA/HAMA scaffold for support, and an inner SS31-modified ultrasmall Prussian blue nanozyme (SS31-UPN) layer that specifically targets mitochondria to scavenge ROS and promote mitophagy. In vitro, SS31-UPN effectively protected NPPCs from oxidative damage, restored mitochondrial function, and enhanced mitophagy. Critically, in severe IVDD rat models, the Progenitor Cell Ark significantly improved intervertebral disc structure, promoted neo-tissue formation, and restored biomechanical function, outperforming cell or bioscaffold therapy alone. Mechanistically, we demonstrate that SS31-UPN's mitochondrial targeting enhances mitophagy, drives ECM and energy metabolic remodeling, and preserves NPPC stemness, thereby creating a proregenerative milieu. This integrated \"cell-in-a-box\" strategy offers a robust platform for reversing IVDD and holds notable translational potential for regenerative medicine.",
-      "doi": "10.1126/sciadv.aeh5001",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066408+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873876",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "A \"Progenitor Cell Ark\" hydrogel system for intervertebral disc regeneration via mitochondrial targeting and mitophagy enhancement.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873876/"
-    },
-    {
-      "abstract": "The Atlantic Meridional Overturning Circulation (AMOC) is considered vulnerable to irreversible weakening or collapse under global warming and related Greenland ice sheet (GrIS) melt, yet its resilience to either forcing remains poorly constrained. Here, we use a carbon dioxide emission-driven Earth system model with an interactive GrIS to assess AMOC reversibility under a range of idealized carbon dioxide emission pathways that produce near-linear global warming up to 10 kelvins (K), stabilization across 1.5 to 9 K, and subsequent cooling. We find that although the AMOC reaches threshold-defined collapsed states, these do not represent dynamical tipping in this model: The overturning weakens quasi-linearly with global mean temperature increase yet consistently and promptly recovers under cooling. In contrast, GrIS mass loss accelerates with warming, continues through stabilizations, and is only slowed by cooling, committing the planet to long-term sea level rise. These results reveal contrasting resilience across climate system components: Under transient carbon dioxide forcing, AMOC strength remains dynamically reversible despite continued Greenland meltwater input, whereas the GrIS is locked into persistent decline. Our findings underscore the urgency of rapid emission cuts to limit climate overshoot, AMOC weakening, and irreversible ice sheet loss.",
-      "doi": "10.1126/sciadv.aee5373",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066405+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873877",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Reversible Atlantic overturning despite continued Greenland ice sheet melt.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873877/"
-    },
-    {
-      "abstract": "How did durable inequality emerge before the rise of states? Drawing on a synthesis of previously published mortuary data from more than 2300 burials, together with isotopic, zooarchaeological, and osteological data spanning nearly 6000 years (7000 to 1500 BCE) in the prehistoric Central Plain of China, we reconstruct long-term patterns of relational mortuary inequality. We show that inequality followed a strongly nonlinear trajectory and cannot be explained primarily by agricultural intensification or population scale. Instead, substantial disparities were structured by differential positions within social-relational networks that mediated access to labor, resources, and symbolic capital. Transformations in subsistence, the rise of mobile and appropriable wealth, and escalating conflict reorganized these networks, concentrating ritual and political-military power and technological control. Early states stabilized rather than created these preexisting disparities by institutionalizing control over resources, violence, and network-based access. These findings highlight the central role of social networks in shaping durable inequality before formal state institutions.",
-      "doi": "10.1126/sciadv.ady6737",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066401+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873878",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "How inequality became durable before states: Evidence from 6000 years in the Central Plain of China.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873878/"
-    },
-    {
-      "abstract": "The interplay between coherent (wave-like) and incoherent (particle-like) phonon transport is central to heat conduction, yet experimental evidence of their crossover in bulk three-dimensional (3D) crystals remains scarce. Here, we report intrinsically ultralow lattice thermal conductivity ([Formula: see text]) in the lead-free double perovskite Cs2AgBiCl6, reaching 0.52 and 0.28 W m-1 K-1 in single crystal and polycrystals, respectively, at room temperature. Combining thermal transport, low-temperature heat capacity, Raman spectroscopy, synchrotron x-ray pair distribution function analysis, and anharmonic lattice-dynamics calculations, we uncover the microscopic origin of this anomalous heat transport. Chemical bonding heterogeneity, weakly bound rattling-like Cs vibrations, anisotropic Cl dynamics, and soft lattice modes generate low-energy localized optical phonons that strongly interact with acoustic modes. Enhanced three- and four-phonon scattering suppresses phonon lifetimes, while anharmonic renormalization flattens optical branches and reduces group velocities. Coherent contributions account for ∼50% of [Formula: see text] near room temperature and exceeding incoherent contributions above ∼200 K, revealing an emergent coherent-incoherent phonon crossover in a fully crystalline 3D solid.",
-      "doi": "10.1126/sciadv.aej9757",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066398+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873879",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Emergent coherent-incoherent phonon crossover enables ultralow lattice thermal conductivity in 3D double perovskite.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873879/"
-    },
-    {
-      "abstract": "Highly selective oxidation of methane to liquid oxygenates under mild conditions remains challenging because of the difficulty in controlling overoxidation at highly reactive sites. Here, we demonstrate remote control of single-atom Cu reactivity through outer-shell coordination engineering in Zr-based metal-organic frameworks (MOFs). By anchoring Cu1 to Zr-oxo nodes in UiO-66-X (X = -NO2, -H, and -CH3), remote X-BDC ligands systematically modulate the electronic properties of Cu1 sites and the catalytic microenvironment. In situ characterization combined with ab initio molecular dynamics in an explicitly solvated aqueous environment reveals a dynamic outer-shell-to-inner-shell regulation that reshapes the active structure and reactive oxygen species around Cu1 sites, thereby facilitating CH4 activation. In particular, the electron-withdrawing NO2-BDC ligand creates electron-deficient Cu1-•OH* sites, while adsorbed water further regulates active-site conformation. Consequently, Cu1/U6-NO2 achieves a turnover frequency of 322.4 h-1 with nearly 100% oxygenate selectivity under mild conditions, establishing a general strategy for overcoming activity-selectivity trade-offs in methane conversion.",
-      "doi": "10.1126/sciadv.aei9401",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066394+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873881",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Remote allosteric control of single-atom Cu sites in Zr-MOFs enables selective CH4 hydroxylation.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873881/"
-    },
-    {
-      "abstract": "Breathing is a fundamental motor rhythm necessary to sustain life. The rhythm and pattern of breathing arises from the coordination of a rostrocaudally extended ventral respiratory column (VRC) in the medulla. Although recurrent excitation is sufficient for rhythmic bursting in reduced in vitro preparations, comparatively less is understood about how inhibition and excitation interact with feedback circuits to generate the breathing rhythm in vivo. Here, we expand on the classical \"inspiratory-off switch\" model that inhibitory signaling from lung stretch afferent pathways plays a critical role in generating the breathing rhythm in vivo. We perform high-density extracellular recordings along the length of the VRC during optogenetic and physiological manipulations and apply computational analyses to characterize how these perturbations govern low-dimensional neural dynamics. We show that stimulation of GABAergic afferents of the nucleus of the solitary tract advance or delay breathing in a manner similar to, but quantitatively distinct from, inhibition local to the VRC. We use generative dynamical models to show that inhibitory activity controls respiratory activity through transient stabilization of an attractive region of the low-dimensional manifold corresponding to expiration. Together, these results propose an \"inspiratory-off attractor\" model that underlies network level control of breathing in vivo.",
-      "doi": "10.1126/sciadv.aed2474",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066391+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873882",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "An inspiration-off attractor supports the robust and flexible control of breathing.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873882/"
-    },
-    {
-      "abstract": "Ecosystem restoration is expected to enhance ecosystem resilience to climate change, but few empirical and mechanistic demonstrations of such assertions exist. Here, we explore this topic for tropical atoll systems, combining science on nutrient subsidies and geo-ecological functions through a unifying ecological energetics lens. We show that native forest cover and seabird nutrient inputs increase primary productivity and secondary metabolism on islands and adjacent coral reefs, scaling with key ecosystem processes. We then demonstrate that seabird and native forest restoration could contribute to reducing island climate change vulnerability by (i) increasing reef accretion rates such that they keep pace with sea-level rise under a 2.0°C warming scenario, (ii) enhancing the production rate of sediment, which could contribute to island maintenance, and (iii) increasing vegetation fine root length, aiding island sediment stabilization. Collectively, our findings provide an integrated energetics and geo-ecological perspective that suggests rewilding of atolls can contribute to climate resilience.",
-      "doi": "10.1126/sciadv.aei1145",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066387+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873883",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Seabirds and native vegetation drive ecosystem processes that support atoll island resilience.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873883/"
-    },
-    {
-      "abstract": "Marine protected areas (MPAs) are the cornerstone of global marine conservation strategies. Yet, their capacity to achieve conservation gains (i.e., conservation additionality) hinges on the decrease in human threats to biodiversity within their boundary, a feature rarely measured or reported. Here, we test a central but underexamined question in global conservation policy: Have MPA implementations actually reduced within-boundary fishing pressure, currently the main direct human threat to marine biodiversity? Using a stratified before-after-control-impact approach, we investigated 861 MPAs of varying levels of protection across all ocean basins, representing half of global MPA coverage, and found that most implementations were not followed by decreases in industrial fishing effort. Protection levels strongly predicted the direction and magnitude of relative changes in fishing effort after implementation. Only fully protected areas were associated with significant decreases in fishing effort within boundaries. Highly protected areas were only associated with lower rates of increase in fishing effort within compared to outside boundaries. Both fully and highly protected areas were implemented in areas experiencing initial low fishing effort, reducing the overall abatement in fishing effort achieved. Conversely, areas with higher initial fishing effort tended to be attributed to MPAs with low levels of protection, also limiting abatement. Larger MPAs were associated with greater decreases in fishing effort, while time since implementation had no significant effect. Complementing targets of protection coverage and protection levels with conservation additionality targets, such as pressure abatement, could shift incentives from quantity to effectiveness of interventions and ensure positive biodiversity conservation outcomes.",
-      "doi": "10.1126/sciadv.aed6878",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066384+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873884",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Global conservation additionality hindered by persisting fishing pressure in marine protected areas.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873884/"
-    },
-    {
-      "abstract": "Electrical synapses are expressed ubiquitously across the brain and are crucial components of active neural circuitry and connectomes. Identification of coupled networks in living tissue is limited by technical demands of multiplexed recordings, and no dyes, fluorescent reporters, or genetic labels can now fill the gap. We introduce a novel method of identifying and quantifying electrical synapses, opto-δL, that combines focal photostimulation of soma-targeted opsins with a spike timing-based computation for the strength of electrical synapses to rapidly measure and map electrically coupled networks in vitro. We leverage opto-δL to show that coupled networks of the mature thalamic reticular nucleus extend as far as 100 micrometers, synapse promiscuously across genetic subtypes of neurons, and couple one to four neighboring neurons to each recorded hub cell. We applied opto-δL to cortical networks, where we found that somatostatin neurons were more strongly and prevalently coupled. These results highlight the broad potential of opto-δL to interrogate the identity and roles of electrical synapses in circuitry, behavior, and cognition.",
-      "doi": "10.1126/sciadv.aed7447",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066380+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873885",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Photomapping electrically coupled networks of the mature thalamus and cortex.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873885/"
-    },
-    {
-      "abstract": "Transposable elements (TEs) constitute nearly half of the human genome and have crucial roles in regulatory networks and clinical utility in cancers. However, the expression profiles at a single-element resolution remain unexplored. By integrating multiomics data from ∼10,000 samples and 1000 cancer cell lines, we established an expression atlas of 95,512 individual TEs across 980 subfamilies. Transcription factors and RNA binding proteins that are broadly associated with expressed TEs were involved in cancer-related signaling pathways (e.g., MYC activity). We identified 264,252 TEs as putative cis-regulatory elements associated with oncogenic pathways such as inflammatory response. We analyzed alterations in TE expression in tumors and their associations with clinical relevance and responses to more than 1000 anticancer drugs. Last, we developed the Atlas of Transposon Expression in Cancer (ATEC), a TE data portal enabling users to explore TE expression patterns, putative regulatory networks, and clinical significance. Overall, this study established a comprehensive resource for TEs across cancer types.",
-      "doi": "10.1126/sciadv.aec9550",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066377+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873886",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Comprehensive characterization of transposable element expression reveals regulatory circuitry and clinical implications in cancers.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873886/"
-    },
-    {
-      "abstract": "The selective oxidation of methane under mild conditions remains a formidable challenge because of the inert C─H bond and the ease of over-oxidation. Here we report a facile strategy that enables methane conversion at room temperature and ambient pressure using molecular O2 and commercially available Cu powder in dilute aqueous H2SO4. The reaction is capable of proceeding with only trace CO2 formation, producing methyl bisulfate and methanol as the primary partial oxidation products. In situ Raman spectroscopy indicates that an in situ O2-derived Cu2O surface is the reaction-relevant phase associated with C─H bond activation. The observed selectivity arises from bisulfate adsorption on this Cu2O surface, which suppresses methanol over-oxidation, together with the interception of surface-generated methyl intermediates to form oxidation-resistant methyl bisulfate. This Cu/O2-H2SO4 system demonstrates that methane can be selectively oxidized under mild aqueous conditions and provides mechanistic insight into Cu/O2-mediated oxidation, suggesting a bisulfate-assisted approach to suppressing over-oxidation that may be applicable to other substrates.",
-      "doi": "10.1126/sciadv.aei3285",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066374+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873888",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Bisulfate-mediated selective methane oxidation under mild aqueous conditions.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873888/"
-    },
-    {
-      "abstract": "Subduction zones govern Earth's deep volatile cycle. The slab-mantle interface is a key locus of volatile exchange between the subducting crust and the overlying mantle wedge, yet whether and how chemical reactions at this interface affect arc magmatism remains poorly constrained. Arc magmas typically lack a geochemical hallmark of garnet fractionation, leading to the prevailing interpretation that they derive predominantly from the shallower, garnet-free mantle wedge. Here, we challenge this view using Mg isotopic data from Nicaragua, the South Sandwich Islands, and the central-eastern Aleutian arc, integrated with a global arc magma compilation. We show that heavy Mg isotopic signatures in mafic arc magmas vary with indicators of volatile enrichment, pointing to a volatile-rich source, most likely the heavily metasomatized base of the mantle wedge. The heaviest Mg isotopic compositions occur in arcs underlain by the most steeply dipping subducting slab, suggesting a focusing effect by the geometry of the downgoing slab. Monte Carlo isotope mixing models indicate that up to 50% of the Mg budget in some arc magma sources derives from deep, water-saturated melting near the slab-mantle interface. These findings highlight the base of the mantle wedge as a volumetrically and geochemically significant contributor to arc magmatism and the water cycle.",
-      "doi": "10.1126/sciadv.aei6572",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066370+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873889",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Deep hydrous melting of the mantle wedge recorded by Mg isotopes.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873889/"
-    },
-    {
-      "abstract": "Pediatric brain tumors (PBTs) remain a leading cause of cancer-related mortality in children, underscoring the need for more effective therapeutic strategies. These tumors arise from disrupted neurodevelopmental programs and evolve within a developmentally constrained immune landscape that is tolerogenic, epigenetically plastic, and susceptible to tumor-mediated co-option. Increasing evidence indicates that, besides molecular heterogeneity, the tumor immune microenvironment critically influences clinical outcomes. Despite its therapeutic promise, immunotherapy has yet to demonstrate consistent clinical benefit in most PBTs, highlighting the need for rational multimodal strategies guided by deeper understanding of tumor-immune interactions in the developing brain. To provide a comprehensive perspective on fetal immune ontogeny and its tumor-driven dysregulation we used medulloblastoma, pediatric gliomas, atypical teratoid/rhabdoid tumors, and ependymoma as representative entities. Drawing on insights from developmental neurobiology, tumor immunology, and emerging multi-omic studies, we outline how PBTs exploit physiological immune maturation programs to establish immune evasion, sustain chronic inflammation, and promote therapy resistance. We further discuss emerging multimodal immunotherapeutic strategies and next-generation CAR T-cell approaches currently under clinical investigation. In addition, we highlight therapeutic avenues such as targeting tumor-associated myeloid populations and key inflammatory regulators that may offer promising opportunities for future clinical translation. We believe this Review will help address current limitations in preclinical models, improve patient stratification and guide rational design of therapeutic strategies.",
-      "doi": "10.1093/neuonc/noag168",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066349+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42872492",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 63,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "tier": "specialist",
-      "title": "Hijacking Developmental Immunity: Inflammation and Immune Dysregulation in Pediatric Brain Tumors.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42872492/"
-    },
-    {
-      "abstract": "Neoadjuvant therapy has recently become an integral component of multimodal treatment for resectable lung cancer. However, real-world data on perioperative morbidity and treatment adherence remain limited. This study aimed to assess the feasibility and safety of different neoadjuvant treatment approaches applied within daily clinical routine. We retrospectively analyzed patients with resectable stage II-III non-small cell lung cancer undergoing either neoadjuvant chemoimmunotherapy or chemotherapy/chemoradiotherapy followed by curative surgical resection. Treatment groups were compared with respect to perioperative outcomes, radiologic and pathologic downstaging, and pathologic response. A total of 143 patients met the inclusion criteria, of whom 46 (32.2%) received chemoimmunotherapy and 97 (67.8%) were treated with chemotherapy prior to surgery. Adverse events leading to treatment discontinuation occurred in only two patients in the chemoimmunotherapy group and four patients in the chemotherapy group. Chemoimmunotherapy was associated with significantly higher rates of pathologic complete response (37.0% vs. 4.1%) and more pronounced nodal downstaging, with a higher proportion of patients achieving ypN0 status (76.1% vs. 34.0%). High tumoral PD-L1 expression (≥ 50%) and squamous cell carcinoma histology were independently associated with pathologic complete response. Real-world treatment with neoadjuvant chemoimmunotherapy was feasible and resulted in improved response rates compared with chemotherapy, without increasing perioperative morbidity. Histology and high PD-L1 expression may serve as predictors for complete pathologic response, although the predictive value of PD-L1 requires confirmation in larger cohorts with more complete biomarker data.",
-      "doi": "10.1002/ijc.70789",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066318+00:00",
-      "journal": "International Journal of Cancer",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42872517",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 66,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "tier": "oncology",
-      "title": "Real-World Experience With Multimodal Treatment of Resectable Stage II-III Non-Small Cell Lung Cancer: A Single Institutional Analysis.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42872517/"
-    },
-    {
-      "abstract": "Lynch syndrome, a prevalent hereditary cancer predisposition, is frequently caused by pathogenic variants in the MutL homolog 1 (MLH1) mismatch repair gene. However, a significant proportion of MLH1 missense variants remain classified as variants of uncertain significance (VUS), creating clinical ambiguity. Functional validation assays in vertebrate models are crucial to assess the pathogenicity of these VUS. We previously reported the rare MLH1 NM_000249.4:c.335A>G (p.His112Arg) variant in individuals with cancer histories within the Qatar Genome Program. To assess its functional impact, we established the MLH1 p.His112Arg variant in the human colorectal cancer cell line, COLO205, using CRISPR-Cas9 technology. Isogenic wild-type (WT) and variant-carrying cells were xenotransplanted into the zebrafish. Tumor growth was quantified via fluorescence microscopy at 24 and 72 h post-injection. Zebrafish xenografted with MLH1 p.His112Arg cells exhibited a significant increase in tumor area compared to WT. This accelerated growth was associated with a significant upregulation of the proliferation marker MKI67 in variant-carrying tumors, while cyclin D1 (CCND1) and proliferating cell nuclear antigen (PCNA) (key regulators of cell cycle progression and DNA replication, respectively) expression remained unchanged, despite a tendency for increased expression. Furthermore, our functional characterization of the MLH1 p.His112Arg variant in COLO205 cells showed an enhanced proliferation capacity compared to the WT cell line, as well as increased cell viability and decreased apoptotic susceptibility when subjected to methylation-induced DNA damage. The MLH1 p.His112Arg variant confers a tumor-promoting phenotype in an in vivo zebrafish model, providing functional evidence that supports its reclassification from VUS to likely pathogenic.",
-      "doi": "10.1002/ijc.70790",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066314+00:00",
-      "journal": "International Journal of Cancer",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42872622",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 66,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "tier": "oncology",
-      "title": "MLH1 p.His112Arg Variant Is Associated With Increased Cancer Susceptibility.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42872622/"
-    },
-    {
-      "abstract": "Lung squamous cell carcinoma (LUSC) is an aggressive subtype of non-small cell lung cancer with limited targeted therapeutic options and incompletely defined immune-regulatory dependencies. Here, we identified atypical chemokine receptor 3 (ACKR3) as a squamous-enriched regulator that restrains malignant progression in LUSC. Integrative analyses of human LUSC datasets, autochthonous genetically engineered mouse models, and ex vivo organoid systems showed that ACKR3 loss accelerated tumor growth and remodeled the immune microenvironment, marked by reduced CD8⁺ T cell infiltration and increased T cell exhaustion. Mechanistically, ACKR3 limited activation of the MIF-CD74-PD-L1 axis, thereby constraining tumor-cell PD-L1 expression and preserving antitumor immune surveillance. In preclinical LUSC models, treatment with the ACKR3-directed PD-L1 degrader KineTAC, a bispecific molecule that co-engages ACKR3 and PD-L1 to promote lysosomal degradation of PD-L1, enhanced antitumor efficacy, particularly in combination with chemotherapy. Together, these findings define ACKR3 as a squamous-associated immune checkpoint regulator and nominate ACKR3-directed PD-L1 degradation as a tumor-selective therapeutic strategy for LUSC.",
-      "doi": "10.1158/0008-5472.CAN-25-5347",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066303+00:00",
-      "journal": "Cancer Research",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873839",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 66,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "tier": "core",
-      "title": "ACKR3 Establishes a Squamous-Restricted Immune Checkpoint Axis in Lung Squamous Cell Carcinoma.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873839/"
-    },
-    {
-      "abstract": "The transition from acute kidney injury (AKI) to chronic kidney disease (CKD) remains a major clinical problem with unclear underlying mechanisms. Emerging evidence suggests that alterations in tryptophan metabolism, particularly in the production of downstream metabolites such as quinolinic acid (QA), play a role in renal pathophysiology. QA, an intermediate in de novo nicotinamide adenine dinucleotide biosynthesis, is metabolized by quinolinate phosphoribosyltransferase (QPRT). We investigated whether QA contributes to kidney injury using models of folic acid-induced AKI-to-CKD transition and cisplatin-induced AKI, genetic and exogenous approaches to alter QA, and clinical observations. Untargeted kidney metabolomics identified QA as one of the most elevated metabolites after folic acid injury. After folic acid injury, Qprt haploinsufficiency exacerbated kidney injury and fibrosis-related gene expression; aged Qprt-haploinsufficient mice exhibited increased fibrosis-associated gene expression without overt renal dysfunction. Exogenous QA administration increased serum creatinine in uninjured mice and worsened renal dysfunction and fibrosis-related gene expression in the folic acid AKI-to-CKD model. Conversely, mice deficient in either 3-hydroxyanthranilate 3,4-dioxygenase (HAAO) or kynurenine 3-monooxygenase (KMO), which reduce flux toward QA, showed improved renal outcomes after folic acid injury and cisplatin-induced AKI. Multimodal spatial metabolomics analysis of kidney biopsies from patients with AKI revealed QA accumulation in regions of inflammatory infiltration. Last, children with CKD exhibited higher urinary QA compared with healthy individuals. These findings underscore QA as a potential mediator of kidney injury and a therapeutic target for preventing the progression from AKI to CKD.",
-      "doi": "10.1126/scitranslmed.aec9689",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066291+00:00",
-      "journal": "Science Translational Medicine",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873891",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 69,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Quinolinic acid contributes to maladaptive kidney injury and acute kidney injury-to-chronic kidney disease transition.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873891/"
-    },
-    {
-      "abstract": "Microglial dysfunction is increasingly implicated in Alzheimer's disease (AD) pathogenesis, with loss-of-function variants in the microglial receptor TREM2 as major risk factors for late-onset AD. We report VG-3927, an oral, CNS-penetrant small-molecule TREM2 agonist that engages the transmembrane domains of TREM2 and its adaptor DAP12 to promote higher-order receptor complex formation and downstream signaling. VG-3927 and tool compound VG-3909 exhibited (sub)nanomolar potency, cooperated with endogenous ligands including amyloid-β (Aβ), and restored signaling in disease-associated TREM2 variants. In human iPSC-derived neuron-microglia-astrocyte cultures, VG-3927 reduced inflammatory cytokines and markers of neuronal damage. In 5xFAD amyloidosis mice expressing the common variant of hTREM2 (5xFAD;hTREM2CV), VG-3909 induced neuroprotective transcriptional reprogramming of microglia, particularly in the plaque niche; enhanced Aβ phagocytosis; and boosted brain glucose metabolism. By contrast, a TREM2 agonist antibody, which may be sequestered by soluble TREM2 (sTREM2), failed to engage plaque microglia. In a first-in-human, randomized, double-blind, placebo-controlled phase 1 trial (NCT06343636, n = 115), VG-3927 was well tolerated across single and multiple ascending doses of up to 140 milligrams. Pharmacokinetics supported once-daily dosing with high CNS penetration (CSF-to-unbound plasma ratio of 0.91). VG-3927 induced dose-dependent reductions in CSF sTREM2, a biomarker of target engagement, consistent across healthy and elderly participants and participants with AD, supporting further clinical development in AD under the new designation SAR448851.",
-      "doi": "10.1126/scitranslmed.aec5740",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066287+00:00",
-      "journal": "Science Translational Medicine",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873892",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 69,
-      "research_types": [
-        "clinical_trial"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Preclinical and first-in-human evaluation of VG-3927/SAR448851, an oral small-molecule TREM2 agonist for Alzheimer's disease.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873892/"
-    },
-    {
-      "abstract": "The incidence and mortality of high-grade endometrial cancers are increasing, and heterozygous hotspot mutations in PPP2R1A are drivers of the most aggressive forms of uterine cancer. PPP2R1A encodes the Aα scaffolding subunit of the heterotrimeric phosphatase PP2A. These recurrent mutations, specifically at the Pro179 and Ser256 residues, disrupt the binding of tumor-suppressive substrate-directing B56 and B55 subunits to the PP2A scaffolding subunit while maintaining binding to other regulatory subunits. Here, we identified a series of molecular glues that correct PP2A trimer formation in the context of the P179R (Pro179→Arg) and S256F (Ser256→Phe) mutants. A small-molecule library was designed to fit into the pocket at the binding interface of the Aα/B56α/C heterotrimer. The lead molecule, RPT04402, promoted B56α heterotrimerization to the AαP179R and AαS256F mutant scaffolds. In mice, RPT04402 treatment drove tumor regressions and extended median survival in multiple independent mutant cell lines and patient-derived xenografts, proving a robust single-agent activity. This activity was abrogated upon knockout of B56α. Combined, these data demonstrate that PP2A molecular glues are a promising first-in-class therapy that might benefit patients with PPP2R1A mutant uterine cancer by targeting a driver of this aggressive disease.",
-      "doi": "10.1126/scitranslmed.ady4852",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066283+00:00",
-      "journal": "Science Translational Medicine",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873895",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 69,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Restoration of PP2A AαB56αC trimer formation by RPT04402 molecular glue in high-grade uterine cancer.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873895/"
-    },
-    {
-      "abstract": "Artificial intelligence (AI) now enables the exploration of vast chemical and sequence spaces, the design of synthesizable antibiotics, and the prioritization of safe, mechanism-diverse candidates through integrated modeling and accelerated testing. Here, we survey recent advances in AI for both small-molecule and peptide antimicrobial drugs, highlight emerging data and reporting standards, and outline translational pathways and regulatory hurdles needed to bring these agents to patients.",
-      "doi": "10.1126/scitranslmed.aee4629",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066280+00:00",
-      "journal": "Science Translational Medicine",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873898",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 69,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "From code to cure: Harnessing AI for antibiotic discovery and design.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873898/"
-    },
-    {
-      "abstract": "International guidelines recommend dobutamine for management of septic shock and cardiac dysfunction with persistent hypoperfusion in adults based on very low-certainty evidence. Randomized trials are lacking on the effect of intraoperative dobutamine combined with norepinephrine vs norepinephrine on postoperative outcomes in patients with septic shock undergoing surgical source control. To determine whether intraoperative dobutamine combined with norepinephrine reduces acute kidney injury (AKI) within 7 postoperative days in patients with septic shock undergoing surgical source control. This randomized, open-label clinical trial in 39 tertiary hospitals in China enrolled adults with septic shock who were undergoing surgical source control between June 2024 and August 2025. Follow-up ended on November 15, 2025. Intraoperative, intravenous infusion of dobutamine (up to 5 µg/kg/min) combined with norepinephrine vs norepinephrine alone. The primary outcome was new-onset AKI or worsening of preoperative AKI within 7 days after surgery, defined using Kidney Disease: Improving Global Outcomes (KDIGO) criteria. The 11 secondary outcomes included Sequential Organ Failure Assessment (SOFA) score on postoperative day 1 and urine output 1 hour post intervention. Among 584 patients (median [IQR] age, 67.5 [55.0-76.0] years; 192 [32.9%] females), new-onset or worsening AKI within 7 postoperative days occurred in 22.8% (66/290) randomized to receive dobutamine plus norepinephrine vs 34.7% (102/294) randomized to receive norepinephrine alone (adjusted risk ratio [ARR], 0.64 [95% CI, 0.49-0.83]). No significant differences were observed in 9 of the 11 secondary outcomes. SOFA scores on postoperative day 1 (adjusted difference, -0.53 [95% CI, -0.98 to -0.07]) were lower and urine output 1 hour post intervention (adjusted difference, 0.55 [95% CI, 0.03 to 1.07] mL/kg/h) was higher in the dobutamine plus norepinephrine group. Stage 2 and 3 AKI were lower in the dobutamine plus norepinephrine group compared with the norepinephrine alone group (stage 2: 4.8% vs 9.9%; ARR, 0.48 [95% CI, 0.26-0.88]; stage 3: 7.9% vs 13.6%; ARR, 0.56 [95% CI, 0.35-0.91]). Tachycardia (heart rate >100/min) occurred more frequently in patients receiving dobutamine and norepinephrine than norepinephrine alone. Among adult patients with septic shock undergoing surgical source control, intraoperative dobutamine combined with norepinephrine reduced the incidence of new-onset or worsening AKI within 7 postoperative days compared with norepinephrine. ClinicalTrials.gov Identifier: NCT06462313.",
-      "doi": "10.1001/jama.2026.21322",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066269+00:00",
-      "journal": "JAMA",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42872914",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 69,
-      "research_types": [
-        "clinical_trial"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Intraoperative Dobutamine Plus Norepinephrine to Prevent Postoperative Acute Kidney Injury in Septic Shock: A Randomized Clinical Trial.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42872914/"
-    },
-    {
-      "abstract": "The optimal vasopressor dose at which to initiate a second vasopressor in patients with septic shock is uncertain. To compare the effects of hospital-level strategies initiating vasopressin infusion at a lower threshold vs a higher threshold on outcomes in patients with septic shock. Cluster-randomized, cluster-crossover, pragmatic clinical strategy trial including adult patients receiving vasopressors for septic shock at 13 hospitals in Idaho and Utah from February 1, 2024, to July 31, 2025. The last day of follow-up for the primary outcome was February 17, 2026. Hospital-level implementation of septic shock management strategies recommending fixed-dose vasopressin initiation when the total dose of other vasopressors reached 0.1 µg/kg/min of norepinephrine or equivalent (lower-threshold strategy) or when the total dose of other vasopressors reached 0.4 µg/kg/min of norepinephrine or equivalent (higher-threshold strategy). Hospitals were randomized for the first month to an initial strategy (6 hospitals to the lower threshold vs 7 hospitals to the higher threshold) and then crossed over to the alternate strategy monthly thereafter. The primary outcome of 28-day mortality and the key secondary outcome of kidney replacement therapy-free days through day 28 were analyzed using multivariable generalized linear mixed-effects models, accounting for trial site and baseline patient characteristics. There were 3959 unique patients with septic shock (median age, 68 [IQR, 57 to 77] years; 1903 [48%] were female). Of the patients more likely to experience differential management under the tested hospital-level vasopressin dose strategies (maximum vasopressor dose ≥0.07 µg/kg/min of norepinephrine or equivalent), 1034 of 1521 (68.0%) cared for under the lower-threshold strategy received vasopressin compared with 651 of 1526 (42.7%) cared for under the higher-threshold strategy. In the hospital-level strategy recommending a lower-dose threshold for vasopressin initiation, the maximum vasopressor dose received prior to vasopressin initiation was a median of 0.14 (IQR, 0.10 to 0.22) µg/kg/min of norepinephrine or equivalent vs 0.34 (IQR, 0.16 to 0.42) µg/kg/min of norepinephrine or equivalent in the hospital-level strategy recommending a higher-dose threshold for vasopressin initiation. Mortality at 28 days occurred in 628 of 1975 patients (31.8%) treated with the hospital-level strategy recommending initiation of vasopressin at a lower-dose threshold of other vasopressors vs 655 of 1984 patients (33.0%) treated with the higher-threshold strategy (adjusted marginal odds ratio, 0.98 [95% CI, 0.87 to 1.06], P = .62; adjusted risk difference, -0.4 [95% CI, -2.7 to 1.3] percentage points). Patients in both strategies for vasopressin initiation had a median of 29 (IQR, -1 to 29) kidney replacement therapy-free days (adjusted marginal odds ratio, 1.01 [95% CI, 0.91 to 1.14]). In this large, pragmatic clinical trial comparing the effectiveness of 2 hospital-level strategies for second-line vasopressor management in septic shock, a strategy recommending initiation of vasopressin at a lower dose of other vasopressors did not reduce 28-day mortality compared with a strategy recommending vasopressin initiation at a higher dose of other vasopressors. ClinicalTrials.gov Identifier: NCT06217562.",
-      "doi": "10.1001/jama.2026.21333",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066265+00:00",
-      "journal": "JAMA",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42872917",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 69,
-      "research_types": [
-        "clinical_trial"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Effect of Vasopressin Initiation Threshold on Septic Shock Mortality: The VASSPR Cluster Crossover Randomized Strategy Trial.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42872917/"
-    },
-    {
-      "abstract": "Rigorous evidence for inhaled sedation using isoflurane in mechanically ventilated patients with acute hypoxemic respiratory failure (AHRF) is limited. To evaluate whether an inhaled sedation strategy lowers hospital mortality compared with usual care intravenous sedation strategy in mechanically ventilated adults with AHRF. Pragmatic, effectiveness, open-label, superiority, randomized clinical trial in 14 intensive care units (ICUs) in Canada. Adults (≥18 years) receiving sedation for less than 72 hours and receiving mechanical ventilation for AHRF from non-COVID respiratory failure (ratio of partial pressure of arterial oxygen [Pao2] to fraction of inspired oxygen [Fio2] <300 mm Hg) or COVID-19 were enrolled between September 2020 and March 2025 with follow-up through June 2025. Patients were randomized to an inhaled sedation strategy using isoflurane with intravenous adjuncts as clinically needed or to a usual intravenous sedation care strategy. Sedatives were titrated to achieve the desired target sedation score guided by clinical teams and continued until extubation or death. Primary outcome was all-cause hospital mortality. Secondary outcomes included ICU- and ventilator-free days at day 30; hospital-free days at day 60; use of refractory hypoxemia adjunctive therapies; delirium- and coma-free days at day 14; and quality-of-life and disability scores at 3 months. Of 786 patients randomized, 780 were included in the primary analysis (mean age, 61.1 years; 34.0% female; 73.7% non-COVID AHRF, mean Pao2:Fio2 ratio, 152.6 mm Hg); 385 in the inhaled sedation and 395 in the intravenous sedation groups. In the inhaled sedation group, 49.9% to 55.4% of patients received concomitant intravenous sedation on any day during the first 14 days after randomization. At hospital discharge, 161 of 379 patients (42.5%) in the inhaled sedation group had died, compared with 171 of 390 patients (43.8%) in the intravenous sedation group (risk ratio, 0.98 [95% CI, 0.84 to 1.14]; P = .85). There was no effect modification in prespecified subgroup analyses for age, sex, and COVID-19 status. ICU-, ventilator-, and hospital-free days were similar between groups. The inhaled sedation group received more adjunctive therapies for hypoxemia (239 [63.9%] vs 214 [55.0%]; between-group difference, 8.89% [95% CI, 1.95% to 15.83%]) and had fewer delirium- and coma-free days (between-group difference, -0.95 [95% CI, -1.69 to -0.22]). There was no difference in quality-of-life and disability scores between groups. In mechanically ventilated adults with AHRF, an inhaled sedation strategy using isoflurane with intravenous adjuncts as clinically needed did not reduce hospital mortality compared with an intravenous sedation strategy. ClinicalTrials.gov Identifier: NCT04415060.",
-      "doi": "10.1001/jama.2026.18471",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066262+00:00",
-      "journal": "JAMA",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42872958",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 69,
-      "research_types": [
-        "clinical_trial"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Isoflurane-Based Inhaled Sedation in Mechanically Ventilated Adults With Acute Hypoxemic Respiratory Failure: The SAVE-ICU Randomized Clinical Trial.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42872958/"
-    },
-    {
-      "abstract": "Staphylococcus aureus (SA) causes a broad range of invasive human diseases, increasingly complicated by antibiotic resistance. Macrophages (MΦ) play a central role in innate immunity, yet key aspects of their interaction with SA remain incompletely understood because of the pathogen's diverse immune evasion strategies. Using multi-omics and systems-level analytics, we identified the E3 ubiquitin ligase cullin 4B (CUL4B) as a host factor that modulates MΦ responses to SA infection. CRISPR-mediated deletion of CUL4B in human THP-1 MΦ enhanced intracellular bacterial killing, reduced cell death, decreased caspase-1 activation, and lowered interleukin-1β production, consistent with altered inflammasome signaling. In a murine methicillin-resistant SA (MRSA) pneumonia model, CUL4B deficiency improved pulmonary bacterial clearance, reduced bacteremia, and decreased inflammatory tissue injury. Whole-lung and serum proteomics further revealed increased antimicrobial protein abundance and reduced markers of inflammatory damage. Together, these findings identify CUL4B as a regulator of MΦ inflammatory responses during MRSA infection and suggest a potential host-directed pathway that could be leveraged to improve outcomes against this major pathogen.",
-      "doi": "10.1126/sciadv.aeh4023",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066259+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873844",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 69,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Integrative multi-omics reveals CUL4B as a modulator of macrophage pyroptosis and innate defense against Staphylococcus aureus.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873844/"
-    },
-    {
-      "abstract": "The double-membrane nature of mitochondria generates an intermembrane volume through which ions, reactive oxygen species, and metabolites must flux to reach the matrix or cytosol, but whether this volume is a genetically specified structure remains unknown. We identify SPRIZ (spatial regulator of the intermembrane zone), the product of Ccdc127, a gene conserved across deuterostome animals. SPRIZ assembles into an ∼18-nanometer homodimeric tether anchored in the outer mitochondrial membrane (OMM) and inserted into the inner mitochondrial membrane (IMM) through vertebrate-specific hydrophobic loops, physically spacing the two membranes and setting local intermembrane volume. Cryo-electron tomography of native mitochondria revealed rod-like densities spanning the intermembrane space (IMS), consistent with SPRIZ's predicted rigid coiled-coil architecture and membrane-spanning topology. In mouse liver, two-dimensional morphometry measured ∼3-fold expansion of IMS area with SPRIZ and ∼5.5-fold with lengthened mitochondrial artificial increaser of the IMS (MARTINI); 3D electron tomography confirmed MARTINI's greater OMM-IMM separation and normalized IMS volume. This expansion was functionally validated by increased 14C-mannitol accessibility to the IMS and by impaired mitochondrial Ca2+ uptake. Constitutive Ccdc127/SPRIZ knockout produced viable mice and, in liver mitochondria, preserved overall ultrastructure but caused modest IMS expansion, consistent with loss of local OMM-IMM constraints that stabilize membrane geometry at discrete sites. We therefore identify IMS volume as a genetically encoded and tunable architectural parameter of vertebrate mitochondria. In this model, SPRIZ is a molecular spacing system that locally sets OMM-IMM separation, shaping the environment through which metabolites, ions, and signals diffuse and establishing local gradients within the IMS.",
-      "doi": "10.1126/sciadv.aef3522",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066255+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873847",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 69,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "SPRIZ (CCDC127) protein conserved in deuterostome animals is a rigid OMM-IMM tether that locally sets mitochondrial IMS volume.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873847/"
-    },
-    {
-      "abstract": "Stomatopod crustaceans (mantis shrimps) have extraordinary eyes with unmatched visual rhodopsin diversity, but their potential for broad color detection remains unclear. Here, we report that 17 rhodopsins, mostly from the midband eye region, are involved in color sensing and functionally diverse signaling via Gq/Gi coupling and describe the underlying mechanisms of spectral tuning. Two mid-wavelength rhodopsins preferentially absorb blue light and a majority of long-wavelength opsins absorb in the green range, but three absorb light beyond 600 nanometers, representing exquisite far red-sensitive animal rhodopsins. Several blue and red rhodopsins exhibit photoreversibility with opposite spectral shifts explained by retinal binding interactions, revealing unrecognized photochemical flexibility in stomatopod photoreception. Row-specific spectral sensitivity results from combining carotenoid filters with multiple individually tuned rhodopsins, altogether extending broad vision to the far-red spectrum.",
-      "doi": "10.1126/sciadv.aef5666",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066252+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873850",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 69,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Spectral tuning and signaling of diverse and far red-sensitive rhodopsins in mantis shrimp eyes.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873850/"
-    },
-    {
-      "abstract": "The circadian clock enhances plant fitness by aligning internal timing with the external photoperiod, but how it coordinates spatiotemporal regulation with chromatin dynamics to improve salt tolerance is not well understood. Here, we show that the clock component TIME FOR COFFEE (TIC) forms biomolecular condensates in response to salt stress, but not to osmotic stress alone. Consistently, tic mutants were hypersensitive to salt stress yet displayed enhanced salt tolerance under 21-hour light-dark cycles matching their shortened circadian period, highlighting the importance of circadian clock in salt tolerance. Salt stress increases H3K9ac levels at the salt stress-responsive genes and induces their expression in a time-of-day-dependent manner in wild-type plants, whereas both H3K9ac level and transcriptional activation are attenuated in tic mutants. TIC physically associates with HD2-type histone deacetylases, and a subset of HD2 partially colocalizes with TIC condensates in the nucleolus under salt stress. Genetic and biochemical analyses showed that salt stress promotes TIC condensate formation, accompanied by reduced HD2 occupancy at salt stress-responsive loci, thereby elevating H3K9ac levels and promoting gene expression. Together, these findings uncover a mechanism by which salt-induced TIC condensate formation links chromatin regulation with circadian timing, thereby promoting plant adaptation to salt stress.",
-      "doi": "10.1126/sciadv.aei1213",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066249+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873852",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 69,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "TIME FOR COFFEE coordinates phase separation and chromatin regulation for salt tolerance.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873852/"
-    },
-    {
-      "abstract": "Homeostatic macrophages maintain tissue health and resolve inflammation. Upon sustained exposure to type II cytokine IL4, transcription factors STAT6, KLF4, EGR2 and a ligand-regulated nuclear receptor PPARγ orchestrate the M2IL4 'polarization', marked by enhancer RNA (eRNA) production near multiple M2 genes. The mechanisms of enhancer activation by unliganded PPARγ are poorly understood. We interrogated cofactor requirements for PPARγ-driven gene expression in M2IL4, including those lacking PPARγ or a ligand-dependent nuclear receptor coregulator NCoA2/GRIP1 vs. macrophages treated with the PPARγ agonist rosiglitazone. As expected, rosiglitazone activated conventional PPARγ targets; GRIP1 deletion blunted their induction and depleted GRIP1-interacting histone acetyltransferase p300 from PPARγ-bound sites. Surprisingly, GRIP1 colocalized with unliganded PPARγ in M0 and M2IL4, and GRIP1 ablation dramatically reduced genome-wide DNA binding of PPARγ itself while promoting broad deposition of CTCF insulator. Functionally, GRIP1 deletion mirrored PPARγ deficiency, establishing GRIP1 as a central regulator of unliganded PPARγ DNA binding, required for both eRNA and mRNA transcription of PPARγ targets in homeostatic macrophages.",
-      "doi": "10.1126/sciadv.aeh4524",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066246+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873853",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 69,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "A transcriptional cofactor GRIP1 drives PPARγ DNA binding and p300-dependent enhancer activity during homeostatic macrophage polarization.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873853/"
-    },
-    {
-      "abstract": "We examine human demographic responses to one of the Holocene's largest volcanic eruptions, which devastated East Asia 7300 years ago. Archaeologists have intensively debated the impacts of massive environmental shocks, highlighting either societal collapse or cultural continuity, although few studies situate such catastrophic events within longer-term demographic trajectories. We address this gap in knowledge by using statistical models to infer the demographic and environmental impacts of the Kikai-Akahoya (K-Ah) eruption on Jomon foraging communities occupying the Japanese archipelago. Traditionally framed as an apocalyptic \"forcing\" mechanism that changed the direction of Japanese prehistory, our results identify a more complex and contingent suite of demographic outcomes. Although we do find evidence of major population collapse in immediately adjacent regions to the volcano, some proximal populations actually increased after the catastrophe, whereas some distal communities were affected by environmental consequences that have hitherto been overlooked. Demographic perspectives on ancient disasters are useful in generating a deeper understanding of the contingent ways in which cultures and societies cope with sudden shocks and catastrophes.",
-      "doi": "10.1126/sciadv.aeh7197",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066243+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873861",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 69,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Divergent demographic responses to the Kikai-Akahoya volcanic catastrophe in mid-Holocene Japan.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873861/"
-    },
-    {
-      "abstract": "Passive immunization is an important tool for protecting individuals with primary immune deficiencies from infectious diseases and offers a rapid response strategy for protecting vulnerable populations, particularly during the interval between pathogen emergence and vaccine deployment. Current approaches rely on intravenous delivery of IgG-enriched plasma or monoclonal antibodies, which limits accessibility, scalability, and effectiveness at mucosal surfaces, the primary entry point for respiratory viruses. Here, we tested LCTG-001, a polyclonal secretory IgA preparation derived from pooled human breast milk, to address these limitations. LCTG-001 demonstrated broad antiviral activity against clinically relevant respiratory viruses, including respiratory syncytial virus, adenovirus, and influenza A virus. LCTG-001 effectively recognized both group 1 and group 2 influenza A subtypes, including the highly pathogenic H5N1 clade 2.3.4.4b, and engaged nonneutralizing effector mechanisms such as neuraminidase inhibition and neutrophil activation. When administered intranasally, LCTG-001 conferred complete protection against influenza A challenge in both immunocompetent and antibody-deficient murine models, preventing morbidity and mortality through a transient early reduction in viral burden followed by sustained improvements in lung pathology and lung barrier integrity. These findings highlight the potential of breast milk-derived secretory IgA as a scalable, mucosa-targeted passive immunization strategy capable of addressing both endemic and emerging respiratory viral threats.",
-      "doi": "10.1126/sciadv.aef3207",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066239+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873867",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 69,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Polyclonal breast milk-derived secretory IgA confers broad antiviral protection against multiple respiratory viruses.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873867/"
-    },
-    {
-      "abstract": "Electron-accepting chain reactions play crucial roles in diagnostics for bacterial infections, from nucleic acid amplification for bacterial identification to metabolic assays for phenotypic antibiotic susceptibility testing. When coupled with redox mediators, these reactions can be interrogated using an electroanalytical method. We demonstrate kinetic acceleration of loop-mediated isothermal amplification-based identification and resazurin-based phenotypic antibiotic susceptibility profiling through enhanced electromagnetic fields and modulated hot electron injection at the multilayered plasmonic metasurface-fluidic interface. We systematically investigate rounded versus sharp-apex plasmonic architectures, quantifying near-field magnitude and decay to identify geometries that maximize kinetic amplification under electrochemical readout. This approach is further combined with machine learning-assisted Gaussian fitting to improve data quantification and interpretation. Across diverse bacterial species, we achieved rapid identification with no cross-reactivity and phenotypic antibiotic susceptibility testing without overnight culture. In a prospective pilot clinical study of urine specimens directly from patients with suspected urinary tract infections, we observe high accuracy and strong essential and categorical agreement with standard clinical microbiology assays for bacterial identification and antibiotic susceptibility testing.",
-      "doi": "10.1126/sciadv.aec7686",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066236+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873870",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 69,
-      "research_types": [
-        "machine_learning"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Plasmonic metasurface microfluidic accelerates redox reactions for rapid phenotypic antibiotic susceptibility testing.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873870/"
-    },
-    {
-      "abstract": "Coral bleaching, the temperature-induced loss of dinoflagellate symbionts, is a major driver of global coral reef decline. Although corals can regain symbionts through repopulation of residual symbionts or via environmental acquisition, these processes are often too slow to prevent coral mortality. Mechanisms that enable rapid and effective symbiont reintroduction leading to full recovery remain largely unknown. Here, we demonstrate coral bleaching recovery through contact-mediated transfer of symbionts from healthy corals using small coral fragments. We show that symbiont transfer is rapid, occurring over days to weeks, and highly efficient, with only brief physical contact with healthy corals required. A single week of contact, and in some cases as few as 3 days, provides sufficient symbionts to initiate sustained and full self-recovery. By 1 week, symbiont population doubling time is approximately 4 days, up to an order of magnitude faster than most recovery times for corals in the field. We identify tissue fusion as the mechanism enabling directional symbiont transfer from healthy to bleached coral tissue. As a result, contact-dependent recovery is restricted to corals of the same genet, whereas heterologous genet pairings trigger antagonistic interactions. However, symbiont transfer via polyp uptake occurs immediately upon contact in both same-genet and mixed-genet pairings, revealing an additional, slower pathway for symbiont transfer that is insufficient on its own to support colony recovery. Collectively, these findings reveal a previously unrecognized natural process for efficiently reintroducing symbionts to bleached corals, providing a foundation for research into potential recovery interventions.",
-      "doi": "10.1126/sciadv.aeh1580",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066233+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873873",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 69,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Rapid coral bleaching recovery via symbiont transfer from healthy corals.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873873/"
-    },
-    {
-      "abstract": "Producing alloys from recycled metals via secondary synthesis can markedly cut energy use, greenhouse-gas emissions, and dependence on scarce, strategically important elements relative to primary routes. The central obstacle is the feedstock itself: Scrap is chemically heterogeneous and unpredictable, a \"dirty\" mix whose impurities typically embrittle materials. Conventional strategies address this challenge by diluting impurities through the addition of virgin material, thereby restricting scrap utilization, limiting microstructural design freedom, and undermining cost and sustainability benefits. Here, we introduce a fundamentally different, data-driven paradigm that deliberately reverses a five-millennia-old metallurgical injunction: Rather than purifying the alloy, we design the alloy to accommodate and exploit its contaminants. Using a model ductile iron representative of 120 million metric tons of heavily contaminated scrap, we couple experiments with deep-neural-network optimization to identify chemically robust, impurity-tolerant processing windows. The resulting \"dirty\" irons retain ductility and strength by integrating impurity effects into a purposeful microstructure, rather removing them. The approach achieves complete recyclability, an 8.1% reduction in manufacturing cost, and mechanical gains of up to 15.2% in ultimate tensile strength and 73.2% in elongation at fracture. Crucially, it overcomes the canonical strength-ductility trade-off while enabling far greater scrap utilization and material circularity. By endowing alloys with a practical \"gene of scrap compatibility,\" this strategy reframes alloy design for a resource-constrained future and advances a mass-conserving circular economy for metals.",
-      "doi": "10.1126/sciadv.aeg9183",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066230+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873874",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 69,
-      "research_types": [
-        "machine_learning"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "From scrap to prime: Designing high-performance alloys from dirty feedstocks with machine learning.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873874/"
-    },
-    {
-      "abstract": "Iron homeostasis is a central component of host defense responses. In mammals, iron availability is rapidly adjusted through receptor mediated pathways, whereas it remains unclear how plants regulate iron homeostasis during the earliest stages of immune activation. Here, we identify a rapid iron regulatory mechanism centered on the plasma membrane receptor kinase STRUBBELIG RECEPTOR FAMILY 3 (SRF3), which integrates bacterial immune signaling with ferrous iron homeostasis. Perception of flagellin triggers a burst of reactive oxygen species that induces a rapid and transient depletion of the labile ferrous iron pool. This state promotes SRF3 ubiquitination and clathrin-dependent endocytosis, a process required to restore intracellular ferrous iron levels while dampening immune responses. Using super resolution microscopy, we show that this functional integration relies on ubiquitin dependent nano organization of SRF3 at the plasma membrane, enabling distinct signaling outputs from a single receptor. Thereby, SRF3 modulates both immune signaling and the proliferation of commensal and pathogenic bacteria. Together, our findings uncover a fast-acting iron homeostasis pathway in plants that dynamically couples nutrient availability with immunity, thereby shaping host microbe interactions at the onset of infection.",
-      "doi": "10.1126/sciadv.aeh4671",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066226+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873875",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 69,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "SRF3 couples cellular iron homeostasis and defense responses through ubiquitin-dependent nano-organization.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873875/"
-    },
-    {
-      "abstract": "The ventral hippocampus plays a crucial role in regulating emotional and motivated behaviors. However, the molecular mechanisms underlying its dysfunction in major depressive disorder (MDD) remain poorly understood. Here, we identified elevated expression of vitamin D binding protein (VDBP) in the hippocampi of chronic unpredictable mild stress (CUMS)-susceptible mice, which correlated with the severity of depression-like behaviors. Notably, VDBP up-regulation was specifically in ventral CA3 excitatory (vCA3CaMKIIα) neurons. CA3CaMKIIα VDBP overexpression led to inhibited neuronal activity, synaptic and dendritic impairments, and, ultimately, depression-like behaviors. Conversely, vCA3CaMKIIα-specific VDBP knockdown enhanced resilience to chronic stress. Mechanistically, VDBP directly interacted with PIK3R3 to inhibit the PI3K-Akt-mTOR pathway in a cell-autonomous manner, leading to excessive autophagy and subsequent neuronal dysfunction. Chemogenetic activation, intervention using the Akt-specific activator SC79, and site-specific mutation disrupting the VDBP-PIK3R3 interaction ameliorated vCA3CaMKIIα VDBP-induced depression-like phenotypes. Collectively, these findings underscore the critical involvement of vCA3CaMKIIα neuron-derived VDBP in stress-induced depressive pathology and highlight its potential as a therapeutic target for MDD.",
-      "doi": "10.1126/sciadv.aeh9563",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066223+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873880",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 69,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Vitamin D binding protein in ventral CA3 of the hippocampus drives stress-induced depression.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873880/"
-    },
-    {
-      "abstract": "Quantifying biomorphological evolution and integrating phenotypic data into large-scale ecological and evolutionary studies are often limited by the scalability, subjectivity, and poor interpretability of existing methods. We introduce HAIKA (Hierarchical Attention-based Interpretable K-dimensional Autoencoder), a self-supervised residual channel-attention autoencoder that extracts continuous morphological representations from unlabeled standardized images and highlights the image regions that contribute to those representations. Applied to insect forewings across broad pterygote lineages, HAIKA outperformed most baseline deep learning models and conventional descriptors in clustering, dimensionality reduction, and morphological embedding. When applied to Hymenoptera (i.e., ants, bees, and wasps), the HAIKA-derived continuous characters improved morphology-based phylogenetic reconstruction and illuminated the evolutionary dynamics of wing shape and venation. Our results reveal that wing morphological evolution in Hymenoptera proceeds at decoupled rates across shape and venation modules and is not consistently aligned with key ecological transitions such as parasitoidism or eusociality. HAIKA provides a scalable, image-based route for phenotypic analyses, broadly applicable across diverse taxa and to both 2D and 3D datasets.",
-      "doi": "10.1126/sciadv.aef0605",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066219+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873887",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 69,
-      "research_types": [
-        "machine_learning"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Deep learning reveals ecological decoupling and rate heterogeneity in Hymenoptera wing evolution.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873887/"
-    },
-    {
-      "abstract": "Hepatocellular carcinoma (HCC) driven by gain-of-function mutations in CTNNB1 (CTNNB1GOF) that stabilize β-catenin exhibits a profoundly immunosuppressive tumor microenvironment (TME), rendering it resistant to immune checkpoint blockade (ICB). Metabolic reprogramming is increasingly recognized as a crucial mediator of immune activity, highlighting the need to elucidate the specific metabolic mechanisms underlying immune exclusion in CTNNB1GOF HCC. Here, we identified a critical metabolic-immune network orchestrated by co-mutations of CTNNB1 and ARID2. Integrative analysis of HCC patient cohorts and a de novo MYC/CTNNB1GOF HCC mouse model revealed that tumors harboring concurrent CTNNB1 and ARID2 mutations exhibited a more immune-active TME and improved survival compared to tumors with CTNNB1 mutations alone. Mechanistically, β-catenin and ARID2 cooperatively enhanced the transcription of tryptophan 2,3-dioxygenase (TDO2), leading to accelerated kynurenine production and activation of the aryl hydrocarbon receptor (AhR) in myeloid-derived suppressor cells (MDSCs). This metabolic axis established an immunosuppressive milieu characterized by MDSC accumulation and impaired T cell function. Genetic ablation of Arid2 in CTNNB1GOF HCC attenuated TDO2-dependent kynurenine synthesis, reduced MDSC infiltration, and enhanced CD8⁺ T cell cytotoxicity, thereby sensitizing tumors to anti-PD-1 therapy. Clinically, co-mutations of CTNNB1 and ARID2 correlated with elevated immune infiltration and favorable ICB responses across multiple human cancers, including HCC. Importantly, pharmacological inhibition of AhR phenocopied the immunomodulatory effect of ARID2 loss and, when combined with anti-PD-1, robustly reversed the immune-cold phenotype of CTNNB1GOF HCC. These findings reveal TDO2-kynurenine-AhR signaling as a pivotal metabolic pathway enforcing immune evasion in CTNNB1-mutant HCC.",
-      "doi": "10.1158/0008-5472.CAN-26-0860",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066175+00:00",
-      "journal": "Cancer Research",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873211",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 74,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "tier": "core",
-      "title": "ARID2 Loss Reprograms the Kynurenine-AhR Pathway to Restore Antitumor Immunity in CTNNB1-Mutant Hepatocellular Carcinoma.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873211/"
-    },
-    {
-      "abstract": "Both ARPA-H and the FDA recently launched programs to help accelerate clinical trials. ARPA-H announced the SURPASS program, which is intended to create faster clinical trials that are more cost-effective and have fewer participants than current studies. It is seeking ideas from cross-disciplinary teams in statistics, artificial intelligence, and clinical trial design, operations, and regulation. The FDA has created a pilot program for accelerating phase I clinical trials that pairs drug sponsors with research organizations.",
-      "doi": "10.1158/2159-8290.CD-NW2026-0095",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066171+00:00",
-      "journal": "Cancer Discovery",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873734",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 74,
-      "research_types": [
-        "clinical_trial"
-      ],
-      "source": "pubmed",
-      "tier": "core",
-      "title": "Two New Federal Efforts Designed to Accelerate Clinical Trials.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873734/"
-    },
-    {
-      "abstract": "Integrated strategies to combat antibiotic-resistant bacteria and fungi require innovative commercial models, new discovery platforms, standardized genomic surveillance, and streamlined clinical trials. Machine learning and other new technologies will accelerate the development of diagnostics and therapeutics (small molecules, antibodies, and vaccines) to combat antimicrobial resistance. Next-generation approaches should align societal impact with investment to ensure rapid global public health gains.",
-      "doi": "10.1126/scitranslmed.aef8416",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066161+00:00",
-      "journal": "Science Translational Medicine",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873894",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 77,
-      "research_types": [
-        "machine_learning",
-        "clinical_trial"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Innovative roadmaps for sustainable antimicrobial resistance interventions.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873894/"
-    },
-    {
-      "abstract": "Uridine phosphorylase 1 (UPP1) has recently emerged as a metabolic regulator with critical roles in tumor cell biology. However, its expression pattern and functional significance in nonmalignant components of the tumor microenvironment (TME) remain largely unexplored. Here, we performed a comprehensive pan-cancer single-cell transcriptomic analysis revealing that UPP1 is highly expressed not only in tumor cells but also in tumor-associated macrophages (TAMs) and neutrophils (TANs). Clinically, UPP1 expression in TAMs and TANs correlates with poor prognosis and diminished response to immunotherapy across multiple cancer types. Mechanistically, UPP1 up-regulation could be driven by NF-κB signaling. Functionally, UPP1 reprograms macrophages toward a tumor-promoting phenotype, characterized by enhanced glycolysis, ATP-adenosine signaling activation, and increased production of immunosuppressive cytokines such as granulocyte colony-stimulating factor. In neutrophils, UPP1 also supports TAN polarization, influences neutrophil extracellular trap release, and contributes to broad immunosuppressive remodeling. In vivo, targeting UPP1 in macrophages or neutrophils reprograms the immune landscape and restrains tumor progression. Together, our findings uncover a previously underappreciated role of UPP1 in nonmalignant immune populations and establish it as a key immune mediator within the TME, offering a potentially promising therapeutic target for enhancing antitumor immunity.",
-      "doi": "10.1126/sciadv.aea8798",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-15T00:31:59.066147+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-14",
-      "pmid": "42873856",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 77,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "tier": "cross",
-      "title": "Macrophage- or neutrophil-expressed UPP1 drives tumor growth and immune suppression in the tumor microenvironment.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42873856/"
     }
   ],
   "schema_version": "0.3",
