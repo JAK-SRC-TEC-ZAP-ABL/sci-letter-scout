@@ -24,7 +24,20 @@
         "skills": [
           {
             "entities": ["entity.system.home"],
-            "actions": ["action.system.home"]
+            "actions": ["ohos.want.action.home"]
+          }
+        ]
+      },
+      {
+        "name": "PushMessageAbility",
+        "srcEntry": "./ets/abilities/PushMessageAbility.ets",
+        "launchType": "singleton",
+        "startWindowIcon": "$media:app_icon",
+        "startWindowBackground": "$color:start_window_background",
+        "exported": false,
+        "skills": [
+          {
+            "actions": ["action.ohos.push.listener"]
           }
         ]
       }

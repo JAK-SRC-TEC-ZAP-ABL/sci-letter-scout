@@ -1,6 +1,6 @@
 # SCI Letter Scout · 医学新论文 Letter 雷达 (developer preview 0.3)
 
-**Free-first, self-hosted scholarly metadata monitoring for oncology and anesthesiology.** The current default performs public-metadata retrieval only: paid AI, WeChat delivery and automatic billing are disabled. A native HarmonyOS development client reads the public feed; Huawei Push Kit is not connected yet.
+**Free-first, self-hosted scholarly metadata monitoring for oncology and anesthesiology.** The current default performs public-metadata retrieval only: paid AI, WeChat delivery and automatic billing are disabled. A native HarmonyOS development client reads the public feed. Its Push Kit client scaffold compiles, but AppGallery Connect activation, secure device registration and the server-side sender are not connected yet.
 
 ## What works in this prototype
 
@@ -10,12 +10,12 @@
 - Reading-priority heuristic; **not** a claim that papers are wrong or likely to be accepted as Letters.
 - Optional Gemini abstract-level JSON screening code remains available but is disabled in the default configuration because no usable zero-billing account has been verified for this deployment.
 - `data/feed.json` is the **public, read-only** interface consumed by the HarmonyOS development app. It includes specialty tags, source health, configured-journal counts and explicit AI/Push status.
-- A native ArkTS/ArkUI app compiles in DevEco Studio 26 and has run in the Huawei simulator. It supports specialty/journal onboarding, list/search/detail, local favorites and local settings.
+- A native ArkTS/ArkUI app compiles in DevEco Studio 26 and has run in the Huawei simulator. It supports specialty/journal onboarding, list/search/detail, local favorites and local settings. The Push Kit client obtains a token without logging it, requests notification consent after page load, and registers the single foreground message listener required by HarmonyOS.
 - `SKILL.md` for agent analysis and `.opencode/skills/...` for OpenCode loading.
 
 ## What is NOT built yet
 
-- Huawei Push Kit integration, secure device registration, secure remote changes of subscriptions from the phone, independent user sign-in, formal release signing, formal JCR/ISSN validation of the full oncology list, official journal-policy database, and live publisher Online First retrieval.
+- AppGallery Connect Push Kit activation, secure Push Token registration and server-side message delivery, secure remote changes of subscriptions from the phone, independent user sign-in, formal release signing, formal JCR/ISSN validation of the full oncology list, official journal-policy database, and live publisher Online First retrieval.
 - Rigorous full-text/supplementary Letter review (needs a human and official journal policies).
 - Proven 5-minute detection latency. Publisher feeds and schedule execution may lag; PubMed creation is not online-publication time.
 
@@ -60,7 +60,7 @@ The real fetch command requires internet access, and the current development env
 1. Verify title/ISSN mapping, increase specialty coverage, add source timestamp accuracy and acceptance-policy checks.
 2. Run a 24–72-hour real-data pilot on GitHub; compare against official Online First lists and tune alert quality/latency.
 3. Add publisher Online First sources for a small high-priority set, then measure real detection latency.
-4. Integrate Huawei Push Kit after AppGallery Connect configuration and a physical-device test are available.
+4. Finish Push Kit by creating the AppGallery Connect application, activating Push Kit, configuring signing, connecting secure token registration and testing on a physical HarmonyOS device.
 5. Add safe cloud subscription synchronization and deeper review of user-selected full text/supplements. Human decision remains mandatory.
 
 ## Ethics and author policies
