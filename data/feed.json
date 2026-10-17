@@ -1,12 +1,31 @@
 {
   "ai_status": "disabled",
-  "generated_at": "2026-10-17T13:03:36.454453+00:00",
+  "generated_at": "2026-10-17T16:20:49.879769+00:00",
   "harmony_push_status": "not_configured",
   "journal_counts": {
     "anesthesiology": 13,
     "oncology": 100
   },
   "papers": [
+    {
+      "abstract": "",
+      "doi": "10.1093/jncics/pkag093",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-17T16:20:49.877118+00:00",
+      "journal": "JNCI Cancer Spectrum",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-12",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 28,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "RE: Evaluating the impact of virtual oncology financial and legal navigation on cancer-related financial toxicity",
+      "url": "https://doi.org/10.1093/jncics/pkag093"
+    },
     {
       "abstract": "",
       "doi": "10.1016/j.cllc.2026.09.005",
@@ -5974,26 +5993,6 @@
       "tier": "oncology",
       "title": "Association of PON2 and Its S311C Substitution with Tumor Progression and Its Significance as an Immune-Associated Prognostic Indicator in Clear Cell Renal Cell Carcinoma.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42882781/"
-    },
-    {
-      "abstract": "Minimally invasive surgical (MIS) techniques have fundamentally transformed the management of colorectal cancer. Since the early 1990s, the field has rapidly evolved, shifting from initial concerns about oncologic safety to the widespread adoption of both laparoscopic and robotic surgeries. Specifically, laparoscopic approaches to colorectal cancer resection are now widely adopted and supported by robust randomized controlled trial evidence demonstrating favorable perioperative outcomes with equivalent oncologic results compared to open surgery. Robotic-assisted platforms have gained increasing adoption; however, their incremental clinical and oncologic benefit over laparoscopy remains under active investigation. As these technologies have been implemented, significant challenges related to surgical proficiency and economic sustainability have emerged. MIS approaches, particularly laparoscopic colectomies and proctectomies, involve steep, multidimensional learning curves that require substantial case volumes to achieve technical mastery and consistent clinical outcomes. Simultaneously, the rising costs of robotic platforms raise important considerations regarding the financial sustainability of healthcare systems. While robotic surgery may reduce certain downstream costs through shorter hospital stays and fewer complications, its substantially higher upfront operative costs and uncertain cost-effectiveness relative to laparoscopy require careful consideration, and access remains a barrier, particularly for patients without private insurance. This narrative review describes the evolution of MIS in colorectal cancer treatment and examines the dual considerations of the surgical learning curve and hospital cost implications.",
-      "doi": "10.3390/cancers18193090",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-16T20:06:32.858865+00:00",
-      "journal": "Cancers",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-09-23",
-      "pmid": "42882785",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 44,
-      "research_types": [
-        "clinical_trial"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Minimally Invasive Surgical Approaches to Colorectal Cancer: Learning Curve and Cost Considerations.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42882785/"
     }
   ],
   "schema_version": "0.3",
