@@ -1,12 +1,69 @@
 {
   "ai_status": "disabled",
-  "generated_at": "2026-10-18T19:12:53.629306+00:00",
+  "generated_at": "2026-10-18T21:32:30.111443+00:00",
   "harmony_push_status": "not_configured",
   "journal_counts": {
     "anesthesiology": 13,
     "oncology": 100
   },
   "papers": [
+    {
+      "abstract": "",
+      "doi": "10.1245/s10434-026-20560-0",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-18T21:32:30.108057+00:00",
+      "journal": "Annals of Surgical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-11",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 28,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Association Between National Accreditation Program for Rectal Cancer (NAPRC) Accreditation and Commission on Cancer Operative Standard 5.7 Compliance",
+      "url": "https://doi.org/10.1245/s10434-026-20560-0"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1245/s10434-026-20510-w",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-18T21:32:30.108050+00:00",
+      "journal": "Annals of Surgical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-04",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 28,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Correction: Robotic Versus Laparoscopic Gastrectomy for Advanced Gastric Cancer: Prognostic Implications of Surgical Recovery and Oncologic Control in a Propensity Score-Matched Study",
+      "url": "https://doi.org/10.1245/s10434-026-20510-w"
+    },
+    {
+      "abstract": "Introduction Reconstructing the jaw after tumor removal or trauma increasingly relies on custom 3D-printed titanium plates. This customization applies to the implant's shape. It usually does not apply to the internal structure. The width and thickness of the plate are still determined by the designer, based on experience and clinical observation. The critical design parameters of the PSI govern its mechanical performance. Hence, if the design could analyze these parameters and adjust them accordingly, it could help avoid plate fracture. This study introduces a parametric-design approach that closes this gap. Methods The proposed algorithm addresses these challenges by using stress data derived from finite element analysis (FEA) to selectively reinforce only the high-stress regions of a reconstruction plate, rather than uniformly reinforcing the entire plate. The reinforcement is smoothly integrated into the plate’s geometry to prevent abrupt changes in cross-section that could create stress concentrations. The approach was applied to a baseline plate at two regions of elevated stress. Results and discussion Plate A reinforced only the primary zone; this reduced peak stress by 36.0% and strain by 43.8% in that zone, the largest reduction observed across both design variants, and also lowered stress and strain in the second, unmodified zone by 12.7% and 14.3%, respectively. Plate B reinforced both zones; this further reduced stress and strain at the second zone by approximately 30.6% and 33.3%, respectively, and reduced strain at the primary zone by approximately 40.6% relative to baseline. Relative to Plate A, Plate B showed a slightly higher stress at the first zone; this stress remained well below the original baseline value. This work shows that patient-specific implant geometry can be shaped directly by biomechanical feedback. This algorithm offers an efficient computational workflow, enabling implants that are not only anatomically tailored but also mechanically optimized as per given loading conditions.",
+      "doi": "10.3389/fonc.2026.1966850",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-18T21:32:30.107153+00:00",
+      "journal": "Frontiers in Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-16",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 58,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Stress-informed parametric shape adaptive patient-specific implant design in computer-assisted jaw reconstruction",
+      "url": "https://doi.org/10.3389/fonc.2026.1966850"
+    },
     {
       "abstract": "",
       "doi": "10.1245/s10434-026-20516-4",
@@ -5825,66 +5882,6 @@
       "tier": "oncology",
       "title": "From Innovation to Underutilization: Why Chest Wall Perforator Flaps Have Not Achieved Widespread Adoption-Insights from the Literature and a High-Volume Single-Center Cohort.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42882795/"
-    },
-    {
-      "abstract": "Background: This study aimed to investigate the prevalence of human papillomavirus (HPV) infection in Chinese patients with esophageal squamous cell carcinoma (ESCC) and its association with driver gene mutations (EGFR, KRAS, PIK3CA, PTEN), clinicopathological features, and prognosis. Methods: A retrospective cohort of 120 Chinese ESCC patients was analyzed. HPV infection status and typing were determined by polymerase chain reaction (PCR)-based reverse hybridization in tumor tissues; EGFR, KRAS, PIK3CA, and PTEN mutations were assessed by Sanger sequencing. Associations with clinicopathological variables and survival were evaluated. Results: The HPV infection rate was 44.2%, with 37.5% single-type and 6.7% mixed infections, predominantly high-risk types. No EGFR or KRAS mutations were detected, whereas PTEN and PIK3CA mutations were found in 16.7% and 6.7% of patients, respectively, and were mutually exclusive. HPV-negative tumors more frequently showed lymphovascular invasion (p = 0.03) and PTEN mutations (p = 0.017). HPV positivity was associated with better recurrence-free survival and overall survival. Conclusions: HPV infection is prevalent in Chinese ESCC and may delineate a distinct molecular profile; HPV-negative ESCC was more frequently associated with aggressive clinicopathological features, including lymphovascular invasion and PTEN mutations. These findings support subtype-stratified prevention and treatment strategies for ESCC.",
-      "doi": "10.3390/cancers18193103",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-17T09:18:29.267796+00:00",
-      "journal": "Cancers",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-09-24",
-      "pmid": "42882798",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 36,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Distinct Molecular Landscape and Clinical Subtype of HPV-Positive Esophageal Squamous Cell Carcinoma.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42882798/"
-    },
-    {
-      "abstract": "Conventional chemotherapeutics often suffer from poor aqueous solubility, short circulation half-lives, lack of tumor selectivity, and present dose-limiting systemic toxicity. This perspective examines the Trojan Horse Approach (THA), in which plasma carrier proteins (PCPs) are exploited as discrete, non-covalent supramolecular hosts for chemotherapeutic agents, and discusses its potential to overcome the limitations of both free drugs and conventional protein nanoparticles. Two principal strategies for assembling ex vivo drug-protein complexes are discussed: (i) molecular recognition, in which drugs occupy native ligand-binding pockets, and (ii) molecular anchoring, in which drugs are conjugated to high-affinity anchor ligands. The perspective critically assesses the current state of the art, distinguishes different levels of experimental validation, and discusses the major limitations and barriers to clinical translation. Structural, biochemical, and pharmacological evidence is examined for human serum albumin, transferrin, transthyretin, alpha-1-acid glycoprotein, alpha-fetoprotein, lactoferrin, and other plasma proteins. When appropriately designed and validated, protein-based complexes may preserve the native protein structure while conferring improved drug solubility, protection from premature metabolism, prolonged systemic circulation and enhanced tumor accumulation via combined passive and active targeting. PCPs represent a versatile and underexploited toolbox for cancer drug delivery. Expanding the repertoire of protein carriers, applying in silico rational design to guide the selection and optimization of drug-protein complexes, and exploring the use of patient-derived autologous proteins may open new opportunities for more effective and personalized therapies.",
-      "doi": "10.3390/cancers18193106",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-17T09:18:29.267794+00:00",
-      "journal": "Cancers",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-09-24",
-      "pmid": "42882801",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 36,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Plasma Carrier Proteins as Supramolecular Nanovectors for Cancer Therapy: The Trojan Horse Approach.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42882801/"
-    },
-    {
-      "abstract": "Gastric cancer remains a leading cause of cancer-related death, and its malignant behavior is driven in large part by dysregulated post-translational modifications (PTMs). Yet the prevailing tendency to study individual modifications in isolation has obscured a defining feature of PTM biology: modifications frequently interact, competing for the same residue or cooperating across residues to form regulatory switches that dictate protein fate. This review synthesizes the PTM crosstalk framework in gastric cancer around three principal axes-phosphorylation-ubiquitination relays, SUMOylation-ubiquitination interplay, and metabolic coupling through lactylation-and traces how these axes translate into the hallmarks of proliferation, metastasis, therapeutic resistance, and immune evasion. The framework is further extended to colorectal cancer to separate shared regulatory principles from cancer-specific switches. Central to this account is the proposition that oncogenic output is governed not by any single modification but by the balance among competing and cooperating marks, and that the switch enzymes maintaining this balance constitute the most informative therapeutic targets. Translating this view into therapy will require selective degraders and inhibitors, crosstalk-aware biomarkers, and systematic multi-omics maps of the modification network.",
-      "doi": "10.3390/cancers18193107",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-17T09:18:29.267792+00:00",
-      "journal": "Cancers",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-09-24",
-      "pmid": "42882802",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 36,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Post-Translational Modification Crosstalk in Gastric Cancer: Molecular Switches, Signaling Networks, and Therapeutic Opportunities, with Comparative Insights from Colorectal Cancer.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42882802/"
     }
   ],
   "schema_version": "0.3",
