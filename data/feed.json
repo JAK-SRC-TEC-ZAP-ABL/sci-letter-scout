@@ -1,12 +1,587 @@
 {
   "ai_status": "disabled",
-  "generated_at": "2026-10-26T03:15:47.726592+00:00",
+  "generated_at": "2026-10-26T09:07:48.995741+00:00",
   "harmony_push_status": "not_configured",
   "journal_counts": {
     "anesthesiology": 13,
     "oncology": 100
   },
   "papers": [
+    {
+      "abstract": "",
+      "doi": "10.1038/s41698-026-01731-4",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990867+00:00",
+      "journal": "npj Precision Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-07",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 28,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "B-cell activating factor contributes to CAR-T cell-associated cytokine release syndrome",
+      "url": "https://doi.org/10.1038/s41698-026-01731-4"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/s41698-026-01726-1",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990864+00:00",
+      "journal": "npj Precision Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-05",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 28,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Prime editing reveals the resistance landscape of EGFR tyrosine kinase domain variants",
+      "url": "https://doi.org/10.1038/s41698-026-01726-1"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/s41698-026-01721-6",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990862+00:00",
+      "journal": "npj Precision Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-03",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 28,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Combination strategy of photothermal therapy and targeted IFN-β mutein priming elicits a durable abscopal effect",
+      "url": "https://doi.org/10.1038/s41698-026-01721-6"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1016/j.canlet.2026.218850",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990859+00:00",
+      "journal": "Cancer Letters",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 28,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "CD20 targeted nanomedicine enhances anti-tumor immunity in diffuse large B-cell lymphoma by activating cGAS/STING pathway",
+      "url": "https://doi.org/10.1016/j.canlet.2026.218850"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1016/j.canlet.2026.218877",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990856+00:00",
+      "journal": "Cancer Letters",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 28,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Mechanistic interplay between biomechanical signaling and epigenetic regulation: Targeted therapy against tumor development and malignant progression",
+      "url": "https://doi.org/10.1016/j.canlet.2026.218877"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1016/j.canlet.2026.218883",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990853+00:00",
+      "journal": "Cancer Letters",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 28,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "GAMMA: A genetic–clinical prognostic model for risk stratification in patients with relapsed/refractory acute myeloid leukemia receiving allogeneic hematopoietic stem cell transplantation",
+      "url": "https://doi.org/10.1016/j.canlet.2026.218883"
+    },
+    {
+      "abstract": "ABSTRACT Objective To examine how the age distribution of radical prostatectomy and radical cystectomy changed in Japan during the period in which robot‐assisted surgery spread. Methods We used the National Database Open Data for fiscal years 2014 to 2024 (Japanese fiscal year, April to March). Procedures were identified by procedure code and classified as robot‐assisted or conventional. Rates per 100,000 population were calculated, and the rate in each age group was expressed relative to that in patients aged 70 to 74 years. Cells with fewer than 10 claims are suppressed in the source tables; sensitivity analyses imputed 0, 5 or 9 procedures into these cells. Results Radical prostatectomy increased from 20,222 to 29,239 procedures and radical cystectomy from 3545 to 4793. Rates in patients younger than 75 years rose only about 1.2‐fold. For prostatectomy, the rate ratio in men aged 75 to 79 years rose from 0.40 to 0.93, while that in men aged 80 to 84 years reached only 0.22. For cystectomy, the ratio in patients aged 80 to 84 years rose from 0.74 to 0.95, while no clear increase was seen in patients aged 85 years or older (0.18 to 0.20, p = 0.791). In men aged 80 years or older, robot‐assisted prostatectomy increased from 94 to 1239 procedures, whereas conventional surgery changed from 64 to 97. These findings were unchanged when suppressed cells were imputed as 5 or 9. Conclusions Between fiscal years 2014 and 2024, the age distribution of radical prostatectomy and radical cystectomy in Japan shifted toward older patients. The increase was concentrated in men aged 75 to 84 years for prostatectomy and in patients aged 80 to 84 years for cystectomy, and was accounted for mainly by robot‐assisted procedures.",
+      "doi": "10.1002/cam4.72370",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990813+00:00",
+      "journal": "Cancer Medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-11",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 36,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Changes in the Age Distribution of Radical Prostatectomy and Radical Cystectomy During the Diffusion of Robot‐Assisted Surgery in Japan",
+      "url": "https://doi.org/10.1002/cam4.72370"
+    },
+    {
+      "abstract": "ABSTRACT Joint modeling (JM) of longitudinal and time‐to‐event (TTE) data is a powerful statistical technique that elucidates how temporal changes in a biomarker relate to TTE outcomes while accounting for study confounders. The growing use of next‐generation sequencing (NGS) in precision oncology, particularly in capturing circulating tumor DNA (ctDNA) methylation via liquid biopsy, offers new opportunities to apply JM for patient prognostication. In this study, we used JM to analyze a prospective cohort of 251 non‐small cell lung cancer patients receiving standard‐of‐care immune checkpoint inhibitor treatment regimens. The JM is comprised of two sub‐models—a hierarchical cubic spline random effects model for the longitudinal biomarker component and a Cox proportional hazards model for the TTE outcome component. Each sub‐model incorporated baseline factors of age, gender, smoking status, and cancer stage. The main objective was to establish whether the evolution of a methylation‐derived tumor fraction (TF) is associated with patient outcomes. Our investigation revealed that TF is strongly associated with both real‐world overall survival and real‐world progression‐free survival. These results enable the generation of various patient‐level predictions that capture the dynamic interplay between TF and patient outcomes, offering a path toward real‐time, personalized prognostication. Although validation in larger, multi‐center cohorts is needed before routine adoption, this work represents an important step toward integrating dynamic predictions into serial liquid biopsy monitoring. This approach demonstrates the potential of JM to provide more nuanced and adaptive disease evolution monitoring, offering better clinical decision guidance compared to static models or imaging alone.",
+      "doi": "10.1002/cam4.72308",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990809+00:00",
+      "journal": "Cancer Medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-27",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 36,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Dynamic Predictions in Non‐Small Cell Lung Cancer Using Joint Modeling of Longitudinal and Time‐To‐Event Outcomes Data",
+      "url": "https://doi.org/10.1002/cam4.72308"
+    },
+    {
+      "abstract": "ABSTRACT Introduction Immune‐related adverse events (irAEs) are complications associated with immune checkpoint inhibitors (ICIs). Hematologic irAEs (heme‐irAEs) are rare but potentially serious and may interfere with cancer treatment. However, their clinical characteristics remain insufficiently described. Methods We conducted a single‐center retrospective study using the National Cancer Center Hospital East medical database from April 1, 2014, to March 31, 2024. Potential heme‐irAE cases were identified using diagnostic name searches, bone marrow examination records, and positive DAT results and were followed by chart review to exclude alternative etiologies, such as chemotherapy‐related myelosuppression, marrow involvement, infection, and hematologic malignancy. Results Of the 3371 patients treated with ICI‐containing regimens, 40 patients developed heme‐irAEs, indicating an observed incidence of 1.2%. The most common heme‐irAE reported was immune thrombocytopenia, and 85.0% of these events were Grade 3 or higher. The median time from ICI initiation to heme‐irAE onset was 12 weeks. For all affected patients included in the regimen‐specific onset‐time comparison, the median time to heme‐irAE onset appeared shorter with dual ICI therapy without chemotherapy than with ICI monotherapy, although this descriptive comparison was based on a small number of cases. ICI‐containing regimens were interrupted or discontinued in most patients, and systemic corticosteroids were administered to 25 patients, 18 of whom achieved hematologic improvement. Cancer treatment was resumed or continued for 20 patients, with no recurrent heme‐irAEs observed during the follow‐up period. In an exploratory landmark analysis, hematologic response was associated with longer survival after heme‐irAE onset. Conclusion Heme‐irAEs were rare but frequently severe in this Japanese single‐center cohort. Their occurrence was associated with prolonged interruption of cancer treatment, underscoring the importance of early recognition, careful diagnostic evaluation, and multidisciplinary management of heme‐irAEs. Our findings regarding dual ICI therapy, survival, and subsequent ICI therapy after heme‐irAE onset should be interpreted as exploratory.",
+      "doi": "10.1002/cam4.72337",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990807+00:00",
+      "journal": "Cancer Medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-06",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 36,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Incidence, Clinical Characteristics, Management, and Outcomes of Hematologic Immune‐Related Adverse Events Associated With Immune Checkpoint Inhibitors: A Single‐Center Japanese Retrospective Cohort Study",
+      "url": "https://doi.org/10.1002/cam4.72337"
+    },
+    {
+      "abstract": "ABSTRACT Objective To explore the perioperative changes in inflammatory–immune–nutritional indicators in patients with advanced gallbladder cancer (GBC), defined as American Joint Committee on Cancer (AJCC) Stage III–IV, and to assess whether individual indicators provide incremental prognostic information beyond conventional clinicopathological factors. Methods Patients with pathologically confirmed advanced GBC who underwent surgery at the Department of Hepatobiliary Surgery, National Cancer Center/National Clinical Research Center for Cancer/Cancer Hospital, Chinese Academy of Medical Sciences and Peking Union Medical College, between 2010 and 2022 were retrospectively enrolled. Preoperative and postoperative Day 7 values of the albumin‐to‐alkaline phosphatase ratio (AAPR), albumin‐to‐globulin ratio (AGR), albumin–bilirubin score (ALBI), advanced lung cancer inflammation index (ALI), monocyte‐to‐lymphocyte ratio (MLR), neutrophil‐to‐lymphocyte ratio (NLR), prognostic nutritional index (PNI), and systemic inflammation response index (SIRI) were calculated. Perioperative dynamic changes were compared, and Cox proportional hazards models were constructed to evaluate the incremental prognostic value of these indicators. Results Among 103 patients with advanced GBC, all eight inflammatory–immune–nutritional indicators showed significant changes between the preoperative period and postoperative Day 7. Several preoperative and postoperative indicators were associated with cancer‐specific survival (CSS) in cutoff‐based exploratory analyses. After the incorporation of these indicators into clinicopathological models, most extended models showed varying degrees of improvement in discrimination and goodness of fit. Conclusion In this single‐center cohort, perioperative inflammatory–immune–nutritional indicators exhibit significant dynamic changes in advanced GBC and can improve, to a certain extent, the prognostic performance of models based on conventional clinicopathological characteristics. These indicators may serve as useful supplementary tools for risk stratification and individualized prognostic assessment in patients with advanced GBC.",
+      "doi": "10.1002/cam4.72351",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990804+00:00",
+      "journal": "Cancer Medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-05",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 36,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Prognostic Value of Perioperative Inflammatory–Immune–Nutritional Indicators in Advanced Gallbladder Cancer",
+      "url": "https://doi.org/10.1002/cam4.72351"
+    },
+    {
+      "abstract": "ABSTRACT The diagnostic landscape for the Philadelphia‐negative myeloproliferative neoplasms (MPNs), particularly in distinguishing Essential Thrombocythemia (ET) from Polycythemia Vera (PV), is compromised. The gold standard for diagnosing PV—measurement of red cell mass (RCM) by radioisotope dilution—has been largely abandoned, leading to widespread misclassification. Thus, an estimated 30%–50% (varying by diagnostic center and testing practice) of JAK2V617F ‐positive ET patients may, in fact, have “hidden” PV, depriving them of the cornerstone PV therapy: phlebotomy. This diagnostic inaccuracy exposes a sizable patient population to an unfortunate high risk of life‐threatening thrombotic events. Concurrently, the management of established PV is suboptimal, often relying solely on hematocrit, a flawed parameter especially in iron‐deficient or hydroxyurea‐treated patients. This perspective calls for the revival and clinical implementation of the Carbon Monoxide (CO)‐rebreathing technique as a promising, rapid, and nonradioactive alternative for RCM assessment. Herein, we review the history of this methodology and discuss its potential to improve MPN care by ensuring precise diagnosis, guiding rational phlebotomy, and ultimately reducing thrombotic morbidity and mortality, while also candidly addressing the current evidentiary and practical limitations that must be resolved before clinical adoption, while also offering potential health‐economic benefits.",
+      "doi": "10.1002/cam4.72317",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990801+00:00",
+      "journal": "Cancer Medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-06",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 36,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "CO ‐Rebreathing in Essential Thrombocythemia and Polycythemia Vera. A Revival of an Old Methodology to Improve Diagnosis and Phlebotomy Decisions",
+      "url": "https://doi.org/10.1002/cam4.72317"
+    },
+    {
+      "abstract": "Abstract Early-onset colorectal cancer (EOCRC; age &lt;50 years) has increased in high-income countries. We updated a nationwide Swedish cohort study with data from 2020 to 2024 to compare recent trends with those reported during 1993-2019. Using the National Cancer Register, we identified all incident EOCRC at ages 20-49 years. Temporal trends in age-standardized incidence were assessed using segmented Poisson regression with a breakpoint at 2020 to estimate annual percentage changes (APCs). A total of 1616 EOCRC cases were diagnosed during 2020-2024. Annual percentage changes for left-sided colon and rectal cancers were consistent with continued increases in incidence. In contrast, right-sided colon cancer showed a significant change in trend (P = .01), with a nonsignificant decline during 2020-2024 (APC −3.48, 95% CI = −7.88 to 1.14). These findings indicate that the continued rise in EOCRC is primarily driven by distal tumors, that is, left-sided colon and rectal cancers. Continued surveillance is needed to clarify long-term patterns and underlying drivers.",
+      "doi": "10.1093/jncics/pkag097",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990788+00:00",
+      "journal": "JNCI Cancer Spectrum",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-23",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 36,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Early-onset colorectal cancer in Sweden: increase in distal tumors but a shift in right-sided incidence, 2020-2024",
+      "url": "https://doi.org/10.1093/jncics/pkag097"
+    },
+    {
+      "abstract": "Abstract Background Cervical cancer remains a leading cause of morbidity and mortality among women in Uzbekistan, exceeding WHO elimination targets. Despite a school-based HPV vaccination program launched in 2019, screening coverage remains low, leading to delayed diagnoses; we examined cervical cancer trends in Tashkent (2014-2024) to evaluate the impact of the Korea Foundation for International Healthcare (KOFIH) screening project and UNFPA/UNDP HPV testing initiatives. Methods We analyzed Tashkent City Oncoregister data for women diagnosed with invasive cervical cancer or carcinoma in situ (CIS) between 2014 and 2024 (n = 2140) after data cleaning. We calculated age-standardized incidence and mortality rates, assessed survival using Kaplan-Meier methods, and identified mortality predictors using Cox regression models. Results The age-standardized incidence of invasive cervical cancer was 14.9 per 100 000. After KOFIH and UNFPA/UNDP implementation, CIS diagnoses increased 3.4-fold (0.2-4.7 per 100 000), while the proportion of advanced-stage (III-IV) disease declined by 43%. Five-year survival showed clear stage dependence, ranging from 91.5% for CIS to 27.8% for stage IV. Age and stage were independent predictors of mortality. Crude mortality declined from 10.2 to 1.1 per 100 000 from 2014 to 2024, and case fatality decreased from 48.6% (2014-2019) to 27.2% (2020-2024). Conclusion Organized screening through KOFIH and UNFPA initiatives can improve early detection and reduce mortality. However, 76.6% of staged invasive cases remain advanced (II-IV), and more than 80% of women have never been screened, underscoring the need to expand screening, sustain HPV vaccination, and strengthen prevention programs in Central Asia.",
+      "doi": "10.1093/jncics/pkag107",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990786+00:00",
+      "journal": "JNCI Cancer Spectrum",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-09",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 36,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Population-based registry analysis of cervical cancer trends in Tashkent, Uzbekistan 2014-2024",
+      "url": "https://doi.org/10.1093/jncics/pkag107"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/s41698-026-01707-4",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990783+00:00",
+      "journal": "npj Precision Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-18",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 36,
+      "research_types": [
+        "machine_learning"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Driver gene-based prognostic model benchmarked against machine learning survival models is associated with a CAF–TGFβ–EMT-like phenotype in hepatocellular carcinoma",
+      "url": "https://doi.org/10.1038/s41698-026-01707-4"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1016/j.canlet.2026.218788",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990780+00:00",
+      "journal": "Cancer Letters",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 36,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Ferroptosis in pancreatic ductal adenocarcinoma: Mechanisms, tumor biology, and therapeutic opportunities",
+      "url": "https://doi.org/10.1016/j.canlet.2026.218788"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1016/j.canlet.2026.218882",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990777+00:00",
+      "journal": "Cancer Letters",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 36,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Integrated multi-omics analyses decipher molecular subtype-associated tumor microenvironment patterns in glioma",
+      "url": "https://doi.org/10.1016/j.canlet.2026.218882"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/s41698-026-01750-1",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990660+00:00",
+      "journal": "npj Precision Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-12",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 40,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Multi-omics integration constructs an inflammation-senescence signature for predicting bladder cancer progression and therapy response",
+      "url": "https://doi.org/10.1038/s41698-026-01750-1"
+    },
+    {
+      "abstract": "ABSTRACT Background Gastric cancer (GC) has posed a severe threat to human health. Metabolomics analysis has been applied in the context of multiple diseases, offering new perspectives for the development of non‐invasive detections. Objective We aimed to develop a diagnostic model for GC based on a serum bile acid (BA) panel. Methods A total of 632 participants were recruited for serum samples collection, and their clinical characteristics were recorded. Targeted BA profiling was conducted using ultra‐performance liquid chromatography–mass spectrometry (UPLC–MS). Participants from Xi'an were randomly allocated into a training cohort and an internal tuning cohort at a 7:3 ratio. The key BAs were identified through the two‐step selection method, and nine machine learning (ML) models were constructed and optimized. The optimal model was further evaluated externally using an independent validation cohort from Lanzhou. Results A panel of 10 serum BAs was confirmed for the construction of a diagnostic model. The XGBoost model exhibited the best performance on the tuning cohort, with an area under the receiver operating characteristic curve (AUROC) of 0.858. It also exhibited robust performance on the external validation cohort (AUROC = 0.816), significantly outperforming tumor markers (with the highest AUROC of CA72‐4 = 0.68). The developed model also demonstrated satisfactory predictive performance for patients with resectable stage GC (Stage I–II) (average precision [AP] = 0.75). Conclusion GC patients exhibit BA metabolic disorders. The XGBoost model based on a 10‐BA panel exhibited superior efficacy in GC detection, indicating its promising potential for clinical application.",
+      "doi": "10.1002/cam4.72346",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990591+00:00",
+      "journal": "Cancer Medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-08",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 44,
+      "research_types": [
+        "machine_learning"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Serum Bile Acid Metabolomics‐Based Machine Learning Model for Non‐Invasive Diagnosis of Gastric Cancer",
+      "url": "https://doi.org/10.1002/cam4.72346"
+    },
+    {
+      "abstract": "ABSTRACT Background Estrogen receptor (ER)‐positive/HER2‐positive breast cancer demonstrates significantly lower rates of pathological complete response (pCR) to neoadjuvant HER2‐targeted therapies compared to ER‐negative/HER2‐positive disease. However, the optimal ER positivity cutoff for clinically meaningful patient stratification remains undefined. Methods We analyzed a retrospective cohort of 741 HER2‐positive breast cancer patients treated with neoadjuvant chemotherapy plus dual HER2 blockade (trastuzumab and pertuzumab) at Sun Yat‐sen University Cancer Center. The optimal ER cutoff for predicting pCR was determined by ROC analysis with Youden index and validated by bootstrap resampling (1000 iterations). Transcriptomic data from TCGA and SCAN‐B cohorts were analyzed to characterize biological differences between ER subgroups. Drug response was predicted using the oncoPredict algorithm, and cancer dependency was assessed using DepMap CRISPR screening data. Results ER ≥ 50% positivity was identified as the optimal predictive cutoff (bootstrap 95% CI: 25.0%–77.5%) and was an independent predictor of significantly lower pCR rates in multivariate analysis (OR = 0.27; 95% CI: 0.19–0.40; p < 0.001). Transcriptomic analysis revealed that ER ≥ 50% tumors are characterized by activated estrogen response signaling, downregulated cell cycle and immune pathways. Predicted resistance to trastuzumab, T‐DM1, and T‐DXd was consistently enriched in this subgroup, consistent with lower HER2 and CD16A expression observed in ER ≥ 50% tumors. CCND1, a canonical transcriptional target of ESR1, was significantly upregulated in ER ≥ 50% tumors across both cohorts, and ER + /HER2 + cell lines exhibited significantly higher CCND1 and CDK4 dependency scores in DepMap CRISPR screening ( p < 0.05), supporting activation of the ESR1‐CCND1‐CDK4/6 axis in this subgroup. Conclusions ER ≥ 50% positivity defines a clinically and biologically distinct HER2‐positive subgroup with poor response to standard neoadjuvant therapy and predicted resistance to ADCs, consistent with lower HER2 and CD16A expression in this subgroup. The convergent transcriptomic and functional evidence for ESR1‐CCND1 axis activation provides mechanistic support for combining CDK4/6 inhibitors with endocrine and anti‐HER2 therapies to improve outcomes in this resistant subgroup.",
+      "doi": "10.1002/cam4.72331",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990588+00:00",
+      "journal": "Cancer Medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-29",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 44,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Optimizing the ER Cutoff in HER2 ‐Positive Breast Cancer: ER ≥ 50% Predicts Low pCR Rates and Resistance to Antibody‐Drug Conjugates in the Neoadjuvant Setting",
+      "url": "https://doi.org/10.1002/cam4.72331"
+    },
+    {
+      "abstract": "ABSTRACT Cyclin E1 (CCNE1), a pivotal member of the cyclin family, governs the G1/S phase transition of the cell cycle by binding to and activating cyclin‐dependent kinase 2 (CDK2), thereby initiating DNA replication and driving S‐phase entry. In a broad spectrum of human malignancies—including breast, ovarian, gastric, and non‐small cell lung cancers—amplification or overexpression of CCNE1 disrupts the orderly regulation of cell cycle progression, leading to uncontrolled proliferation, impaired DNA damage repair, and genomic instability. These oncogenic consequences are intimately associated with increased tumor aggressiveness, poor patient prognosis, and diminished therapeutic efficacy. This review provides an integrated examination of CCNE1 biology, spanning its physiological regulation in the cell cycle, the molecular mechanisms by which its dysregulation drives tumorigenesis and drug resistance, the clinical implications of CCNE1 amplification as both a prognostic biomarker and a predictor of therapeutic response, and the emerging strategies to target CCNE1‐driven vulnerabilities. By synthesizing findings across diverse cancer types and regulatory layers, we evaluate the translational potential of CCNE1 as a diagnostic marker and therapeutic target, and highlight key challenges and opportunities for future investigation.",
+      "doi": "10.1002/cam4.72336",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990585+00:00",
+      "journal": "Cancer Medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-28",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 44,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "CCNE1 : A Cell Cycle Regulator That Influences Tumor Progression",
+      "url": "https://doi.org/10.1002/cam4.72336"
+    },
+    {
+      "abstract": "ABSTRACT Background Non‐pathological complete response (non‐pCR) is common in esophageal squamous cell carcinoma (ESCC) patients after neoadjuvant therapy, yet evidence guiding long‐term outcomes and postoperative risk stratification in the immunotherapy era remains limited. Methods We retrospectively enrolled consecutive ESCC patients treated with neoadjuvant immunochemotherapy (nICT) or chemotherapy alone (nCT) followed by esophagectomy and restricted analyses to non‐pCR cases. Primary endpoints were five‐year overall survival (OS) and event‐free survival (EFS). A 1:1 optimal propensity score matching (PSM) procedure and administrative censoring at 60 months were applied. Survival outcomes were assessed using Kaplan–Meier and Cox proportional hazards analyses. Results Among 366 patients with non‐pCR disease, 164 matched pairs were generated. After matching, nICT demonstrated a higher major pathological response (MPR) rate (19.5% vs. 6.1%), a lower ypT4 proportion (3.7% vs. 22.0%), and fewer recurrence/metastasis rate (40.2% vs. 58.5%), all p < 0.001. In the matched multivariable Cox model, nICT was independently associated with a lower risk of EFS events (HR 0.55, 95% CI 0.36–0.84; p = 0.005), whereas no independent association with OS was observed (HR 0.94, 95% CI 0.70–1.27; p = 0.707). Open esophagectomy (OE), ypN2‐3 disease, and perineural invasion (PNI) were associated with worse EFS, whereas lower Ki‐67 expression and postoperative adjuvant treatment were associated with better EFS. PNI was associated with worse OS, and postoperative adjuvant treatment was associated with better OS. Conclusion Among non‐pCR ESCC patients after neoadjuvant therapy and surgery, nICT was associated with lower recurrence risk and improved five‐year EFS compared with nCT, whereas a significant OS advantage was not observed. Pathological factors (PNI, high Ki‐67, and residual nodal burden) and postoperative treatment may help inform risk stratification, although the observational treatment associations should be interpreted cautiously.",
+      "doi": "10.1002/cam4.72260",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990580+00:00",
+      "journal": "Cancer Medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-06",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 44,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Five‐Year Survival Analyses on Non‐Pathological Complete Response Esophageal Squamous Cell Carcinoma Patients After Neoadjuvant Regimens Plus Surgery: A Propensity Score Matching, Real‐World Cohort Study",
+      "url": "https://doi.org/10.1002/cam4.72260"
+    },
+    {
+      "abstract": "Abstract Epithelial–mesenchymal transition (EMT) drives immunotherapy resistance in lung cancer through three interconnected axes: antigen/checkpoint dysregulation, chemokine remodeling, and metabolic reprogramming. We highlight partial EMT (pEMT) as a clinically prevalent hybrid state and biomarker candidate, and metabolic rewiring as an actionable immunometabolic vulnerability. EMT signatures may complement programmed death receptor ligand-1 (PD‑L1), but require treatment-by-biomarker interaction testing. Integrating these axes enables resistance-subtype stratification and precision combination therapy.",
+      "doi": "10.1038/s41698-026-01732-3",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990573+00:00",
+      "journal": "npj Precision Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-10",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 44,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Epithelial–mesenchymal transition in immune escape and immunotherapy resistance of lung cancer",
+      "url": "https://doi.org/10.1038/s41698-026-01732-3"
+    },
+    {
+      "abstract": "Abstract Despite the availability of various treatment modalities for liver cancer, its mortality rate remains high. Immunotherapy represents an emerging approach for liver cancer. However, the response rate to single-agent immune checkpoint blockade therapy is suboptimal. Endoplasmic reticulum (ER) oxidoreductase 1-alpha (ERO1A), a potential therapeutic target associated with ER stress, is implicated in impeding protective antitumor immunity. In this study, we found that targeting ERO1A in liver cancer while activating the protein kinase R-like ER kinase/eukaryotic initiation factor 2 alpha subunit/activating transcription factor 4/C/EBP homologous protein–mediated apoptosis and autophagy signaling downregulated adenosine A1 receptor and inhibited the cyclic guanosine monophosphate–protein kinase G pathway, thereby promoting the expression and secretion of C-C chemokine ligand 4. This led to an increased infiltration of CD8+ T cells into the immune microenvironment, enhancing the antitumor immune response. Furthermore, targeting ERO1A in liver cancer also upregulated type I interferon synthesis, activated the Janus kinase–signal transducers and activators of transcription pathway, and promoted programmed cell death ligand 1 (PD-L1) and MHC-I expression. Using liver cancer animal models, we demonstrated that combination treatment with an ERO1A inhibitor and a PD-L1 inhibitor increased CD8+ T-cell infiltration and enhanced their function within the tumor microenvironment, resulting in synergistic antitumor effects. Therefore, ERO1A represents a promising therapeutic target in liver cancer, potentially suitable for combination with immune checkpoint inhibitors to improve patient outcomes.",
+      "doi": "10.1158/2326-6066.cir-25-1471",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990570+00:00",
+      "journal": "Cancer Immunology Research",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-21",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 44,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Targeting ERO1A Enhances Antitumor Immune Response by Recruiting CD8+ T Cells and Synergizing with PD-L1 Blockade in Liver Cancer",
+      "url": "https://doi.org/10.1158/2326-6066.cir-25-1471"
+    },
+    {
+      "abstract": "ABSTRACT Introduction Cancer care is burdensome, but patient experience with time and administrative burdens is variable. Our objective was to assess the association between daily administrative tasks, time spent, and reported burden and identify demographic and clinical predictors. Methods Participants ( n = 122) from two longitudinal studies of individuals receiving cancer treatment utilized a mobile application (Daynamica) to track time spent on cancer care tasks over 28 days. Participants reported distress levels (NCCN Distress Thermometer) and time spent on three administrative tasks daily: scheduling appointments, managing medical bills/claims, and arranging support/transportation. Relationships between distress and tasks were assessed using generalized linear mixed models. Results Most participants (91.8%) performed at least one administrative task during the study. Participants were more likely to report clinically significant distress (score 4+) on days involving administrative tasks (scheduling [OR = 1.92, 95% CI: 1.40–2.64], managing bills [OR = 2.10, 95% CI: 1.34–3.29], or arranging support [OR = 3.56, 95% CI: 2.19–5.79]) compared to days without these tasks. While the median time spent was low (14 min per week; Q1–Q3: 3–39), the top quartile spent an average of 83 min per week on these tasks. Lack of reliable transportation was the only factor significantly associated with increased time spent on administrative tasks (median 57 vs. 10 min/week, p = 0.01); no other demographic or clinical factors were associated with higher workload. Conclusion Administrative burden is a distinct psychological stressor for individuals with cancer, regardless of the actual time required for administrative tasks. Interventions should focus on streamlining insurance, care coordination, and administrative processes to reduce patient distress. Trial Registration ClinicalTrials.gov identifier: NCT05708703, NCT06322992",
+      "doi": "10.1002/cam4.72416",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990333+00:00",
+      "journal": "Cancer Medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-25",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 58,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Administrative Workload and Associated Distress in Individuals Undergoing Cancer Therapy",
+      "url": "https://doi.org/10.1002/cam4.72416"
+    },
+    {
+      "abstract": "Abstract Background In acute lymphoblastic leukemia (ALL), minimal residual disease (MRD) is an established biomarker of treatment response and strongly associated with poor outcomes. Among children with ALL, air pollution has been associated with lower survival but has not been evaluated with prognostic biomarkers like end of induction (EOI) MRD. Methods Using the Reducing Ethnic Disparities in Acute Leukemia (REDIAL) Consortium, we analyzed 2,125 pediatric patients with ALL. Daily fine particulate matter (PM2.5) estimates were obtained from the Centers for Disease Control and Prevention and linked to patients’ residential and treatment center census tracts. Mean daily PM2.5 during induction was calculated using two definitions: 1) based solely on patients’ residential address, and 2) Days 1-7 based on the treatment center and Days 8 to EOI on patients’ residence. Patients were categorized in quartiles based on mean daily PM2.5. EOI MRD ≥0.1% or ≥ 0.01% was considered positive. Adjusted odds ratios (aORs) and 95% confidence intervals (CIs) were calculated using logistic regression. Results In B-ALL, mean daily residential PM2.5 during induction was associated with positive EOI MRD in quartiles 2 (aOR: 1.56, 95% CI: 1.08, 2.24) and 3 (aOR: 1.51, 95% CI: 1.05, 2.17) but not quartile 4 (aOR: 1.19). The association across all three quartiles strengthened when restricted to NCI high-risk B-ALL (aOR range: 1.73-2.28). Conclusions Residential PM2.5 was associated with positive EOI MRD in patients with NCI high-risk B-ALL. Our findings contribute to a growing body of evidence that environmental exposures are associated with inferior outcomes among children diagnosed with ALL.",
+      "doi": "10.1093/jncics/pkag116",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990329+00:00",
+      "journal": "JNCI Cancer Spectrum",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-24",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 58,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Fine particulate matter and minimal residual disease in childhood acute lymphoblastic leukemia from the REDIAL consortium",
+      "url": "https://doi.org/10.1093/jncics/pkag116"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/s41698-026-01745-y",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990325+00:00",
+      "journal": "npj Precision Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-23",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 58,
+      "research_types": [
+        "machine_learning"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "An individual sample predictive model to classify patients with metastatic renal cell carcinoma",
+      "url": "https://doi.org/10.1038/s41698-026-01745-y"
+    },
+    {
+      "abstract": "ABSTRACT Background Endometrial carcinoma (EC) is one of the most common gynecological malignancies. Aberrant DNA methylation (DNAm) is an important epigenetic alteration involved in cancer progression. Long non‐coding RNAs (LncRNAs) play critical roles in gene regulation and pathological processes. However, the biological and prognostic significance of lncRNA‐mRNA pairs associated with methylation remains unclear. Methods Transcriptomic, DNA methylation, and clinical data from The Cancer Genome Atlas were integrated to construct a differentially methylated sites (DMSs)‐lncRNA‐mRNA network. After mapping DMSs to their corresponding differentially methylated genes (DMGs), the DMS‐mediated network was further represented as a DMG‐lncRNA‐mRNA tripartite network. After removal of DMG nodes, a DMG‐associated lncRNA‐mRNA background network was constructed, and key lncRNA‐mRNA pairs were prioritized according to their topological importance using weighted shortest‐path calculation and PageRank‐based random walk algorithms. The methylation‐associated lncRNA‐ mRNA pair (MLMP) model was then established based on univariate Cox, LASSO Cox, and multivariate Cox regression analyses. Results Eight DMG‐associated lncRNA‐mRNA pairs were selected to construct the MLMP model. Under a common analysis framework, the MLMP model achieved higher area under the curve (AUC) values than 17 previously published prognostic signatures for overall survival prediction. Patients in the low‐MLMP group had significantly better overall survival than those in the high‐MLMP group. Functional enrichment and immune microenvironment analyses indicated that the MLMP model was associated with immune‐related pathways and distinct tumor immune microenvironment characteristics. Predictive analyses suggested that patients in the low‐MLMP group exhibited higher predicted responsiveness to CTLA‐4/PD‐1 blockade and differential predicted sensitivity to several therapeutic agents. Conclusions The MLMP model may serve as a potential tool for prognostic stratification in EC and provide insights into methylation‐associated lncRNA‐mRNA interactions. The predicted associations with immunotherapy response and therapeutic sensitivity may generate hypotheses for future treatment‐related studies. These findings require further validation in independent clinical cohorts and experimental studies before clinical application.",
+      "doi": "10.1002/cam4.72425",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990166+00:00",
+      "journal": "Cancer Medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-25",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 66,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "MLMP : A Methylation‐Associated lncRNA ‐ mRNA Prognostic Signature for Endometrial Carcinoma",
+      "url": "https://doi.org/10.1002/cam4.72425"
+    },
+    {
+      "abstract": "Patients with resectable non-small cell lung cancer (NSCLC) remain at high risk of relapse despite perioperative treatment1-3. NeoCOAST-2 (NCT05061550), a phase 2, randomised platform trial, tested novel perioperative treatments in patients with stage IIA-IIIB NSCLC. At primary analysis, combining standard chemotherapy plus durvalumab (anti-PD-L1 antibody) with oleclumab (Arm 1, n = 76), monalizumab (Arm 2, n = 72) or datopotamab deruxtecan (Dato-DXd; Arm 4, n = 54) resulted in pathological complete response (pCR) rates of 20.3%, 25.7%, and 35.2%, respectively4. Here, we present the first report of prespecified secondary endpoints of event-free survival (EFS) and circulating tumour DNA (ctDNA) clearance, and exploratory analyses of associations between ctDNA dynamics and clinical outcomes. The 24-month EFS rates were 70.5%, 75.7% and 77.9% in Arms 1, 2 and 4, respectively. Using a tumour-agnostic assay, ctDNA clearance at neoadjuvant Cycle 3 Day 1 was highest in Arm 4 (50.9%, 54.5%, and 72.5% in each arm, respectively). ctDNA clearance correlated with prolonged EFS versus non-clearance (pooled hazard ratio (HR) 0.22; 95% CI = 0.11-0.45, P = 0.0000443). Patients with both ctDNA clearance and pCR had favourable EFS outcomes versus those with neither (EFS HR 0.10, 95% CI = 0.02-0.42, P = 0.002). These findings suggest combined assessment of ctDNA clearance and pCR may improve risk stratification, and that the numerically highest pCR4 and EFS rates with the Dato-DXd combination warrant further evaluation.",
+      "doi": "10.1038/s41586-026-11328-3",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990070+00:00",
+      "journal": "Nature",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-25",
+      "pmid": "42927884",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 69,
+      "research_types": [
+        "clinical_trial"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "ctDNA clearance and outcomes for resectable lung cancer from NeoCOAST-2.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42927884/"
+    },
+    {
+      "abstract": "Although nonpharmacological interventions are recommended for preventing perioperative neurocognitive disorders (PND), cognitive training has not been explicitly advocated. Therefore, this systematic review and meta-analysis with trial sequential analysis (TSA) and meta-regression tested the hypothesis that preoperative cognitive training, compared with usual care, reduces the incidence of PND. Eight databases and two clinical trial registries were searched for RCTs comparing preoperative cognitive training with usual care. Primary outcomes were postoperative delirium (POD), delayed neurocognitive recovery (DNR), and postoperative neurocognitive disorder. Thirteen RCTs with 1446 patients were identified. Preoperative cognitive training was associated with a lower risk of POD (RR 0.53; 95% CI 0.36-0.77; P = 0.001; low certainty). Subgroup analysis (P for interaction = 0.01) and meta-regression (β1 1.072, 95% CI 0.006-2.138, P = 0.049) suggested an association between training format and treatment effect on POD, with a potentially greater benefit for traditional training. For DNR, the incidence was lower in the training group than in the usual care group (RR 0.66; 95% CI 0.46-0.96; P = 0.03; very low certainty), but this finding was not supported by several sensitivity analyses. No significant differences were detected between subgroups for training format, total duration, or surgery type (P for interaction = 0.06, 0.37, and 0.34, respectively), and meta-regression suggested that overall risk of bias was a potential moderator for DNR (P = 0.045). TSA suggested a potential for false-positive findings, as the cumulative Z-curves did not cross the TSA boundaries, and the required information sizes were not reached for either outcome. Preoperative cognitive training may reduce the incidence of POD, with traditional training showing a potentially greater benefit than digital training. For DNR, the current evidence is insufficient to support a preventive effect of preoperative cognitive training, although a trend toward benefit was observed. These findings are limited by high risk of bias in several included trials and failure to reach the required information sizes in TSA, particularly for DNR, which need to be confirmed in future large-scale RCTs. PROSPERO (CRD420261293607).",
+      "doi": "10.1016/j.jclinane.2026.112359",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.990007+00:00",
+      "journal": "Journal of clinical anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-25",
+      "pmid": "42927691",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 71,
+      "research_types": [
+        "clinical_trial",
+        "meta_analysis"
+      ],
+      "source": "pubmed",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Preoperative cognitive training for preventing perioperative neurocognitive disorders: A systematic review and meta-analysis with trial sequential analysis and meta-regression of randomised controlled trials.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42927691/"
+    },
+    {
+      "abstract": "To our knowledge, UNION is the first phase 3 trial to assess a neoadjuvant strategy incorporating radiotherapy, immunotherapy, and chemotherapy compared with standard care in patients with locally advanced rectal cancer, which reported positive results for the primary endpoint (blinded independent review committee [BIRC]-assessed pathological complete response rate; 39·8% vs 15·3%). Here, we present a prespecified interim analysis of event-free survival. This open-label, randomised, phase 3 trial was conducted at nine hospitals in China. Eligible patients were aged 18-75 years with untreated cT3-4 or N+ rectal adenocarcinoma (≤10 cm distance from the anal verge) and an Eastern Cooperative Oncology Group performance status of 0 or 1. Patients were randomly assigned (1:1; stratified by clinical T stage and N stage), using permuted blocks, to receive neoadjuvant short-course radiotherapy (25 Gy in five fractions) followed by two cycles of intravenous camrelizumab (200 mg on day 1) plus CAPOX (oral capecitabine 1000 mg/m2 twice daily on days 1-14 and intravenous oxaliplatin 130 mg/m2 on day 1; experimental group) or long-course chemoradiotherapy (50·4 Gy in 28 fractions with concurrent oral capecitabine 825 mg/m2 twice daily) followed by two cycles of CAPOX (standard-of-care group). After surgery, both groups received six cycles of adjuvant CAPOX, and the experimental group additionally received adjuvant camrelizumab for up to 15 cycles. The primary endpoint was BIRC-assessed pathological complete response rate in the intention-to-treat population, which has been previously reported. Here, we performed a prespecified interim analysis of investigator-assessed event-free survival (one of the key secondary endpoints, defined as time from randomisation to radiographic progression precluding surgery, local recurrence or distant metastasis, or death) in the intention-to-treat population (all randomly assigned patients) with a boundary of a two-sided p values less than 0·0102. Safety was evaluated in all patients who received at least one dose of the study treatment according to the assigned regimen. The study was registered with ClinicalTrials.gov, NCT04928807, and is active, but no longer recruiting. Between July 23, 2021, and March 1, 2023, 231 patients (153 [66%] males and 78 [34%] females; 227 [98%] were Han Chinese, and four [2%] were other ethnicity Chinese) were randomly assigned to the experimental group (n=113) and standard-of-care group (n=118). As of Oct 1, 2025, the median follow-up duration was 36·7 months (IQR 32·6-39·9) in the experimental group and 34·7 months (31·1-39·1) in the standard-of-care group. The 3-year investigator-assessed event-free survival rate was 91·3% (95% CI 83·9-95·4) in the experimental group versus 77·4% (67·9-84·4) in the standard-of-care group (stratified hazard ratio 0·33 [0·15-0·71]; two-sided log-rank p=0·0029). During the entire treatment period, the most common grade 3 or 4 treatment-related adverse events were decreased lymphocyte count (23 [20%] of 115 in the experimental group vs 31 [28%] of 112 in the standard-of-care group), decreased white blood cell count (13 [11%] vs 16 [14%]), decreased neutrophil count (13 [11%] vs 13 [12%]), and decreased platelet count (seven [6%] vs 15 [13%]). Treatment-related serious adverse events occurred in 22 (19%) versus 15 (13%) patients, with the most common being decreased platelet count (one [1%] vs six [5%]), and radiation gastroenteritis (two [2%] vs four [4%]). Treatment-related deaths occurred in one patient in the experimental group (septic shock related to chemotherapy, but unrelated to camrelizumab) and none in the standard-of-care group. In this interim analysis, short-course radiotherapy followed by camrelizumab and CAPOX significantly improved 3-year event-free survival in patients with locally advanced rectal cancer, with a safety profile similar to long-course chemoradiotherapy followed by CAPOX. Comparison of this promising new treatment strategy with contemporary total neoadjuvant therapy strategies is warranted. Key Clinical Research Initiative Program of Union Hospital, National Key Technology Research and Development Programme of Hubei Province, and Jiangsu Hengrui Pharmaceuticals. For the Chinese translation of the abstract see Supplementary Materials section.",
+      "doi": "10.1016/S1470-2045(26)00446-8",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T09:07:48.989987+00:00",
+      "journal": "The Lancet Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-25",
+      "pmid": "42927765",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 82,
+      "research_types": [
+        "clinical_trial",
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Neoadjuvant short-course radiotherapy followed by camrelizumab and chemotherapy versus standard of care for locally advanced rectal cancer (UNION): a prespecified interim analysis of a multicentre, open-label, randomised, phase 3 trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42927765/"
+    },
     {
       "abstract": "",
       "doi": "10.1016/j.cels.2026.101707",
@@ -5315,605 +5890,6 @@
       "tier": "core",
       "title": "Inhibition of Translesion DNA Synthesis Sensitizes BRCA-Deficient Ovarian Cancer to PARP Inhibitors",
       "url": "https://doi.org/10.1158/0008-5472.can-26-1379"
-    },
-    {
-      "abstract": "Abstract Objectives Copper is an essential redox cofactor required for mitochondrial respiration and antioxidant defense, yet its dysregulation creates a therapeutic vulnerability that can be exploited by copper active agents. Elesclomol and neocuproine are two potent copper active compounds, but whether they induce the same form of cuproptosis , a copper-dependent cell death mechanism, has remained unclear. We aimed to elucidate the cytotoxic programs triggered by these two agents and to determine whether distinct mechanistic forms of cuproptosis exist. Methods Our study integrates limited-proteolysis proteomics to identify compound-responsive changes in protein structural accessibility, whole-genome CRISPRa (activation) screening, transcriptomic analysis of 436 CCLE cancer cell lines, mass spectrometry-based analysis of cellular and tumor copper abundance, genetic perturbation studies, mitochondrial functional assays, and mitophagy analyses. Pathway enrichment and functional validation were used to identify adaptive survival programs and compound-specific copper-handling mechanisms. Results Building on the previously established FDX1-dependent cuproptosis mechanism induced by elesclomol, we designate this pathway as canonical cuproptosis (c-CPX) and identify neocuproine as inducing a mechanistically distinct, FDX1-independent form of cuproptosis, which we term non-canonical cuproptosis (nc-CPX). In c-CPX, FDX1 mediates elesclomol delivered Cu(II) to Cu(I) reduction, leading to rapid oligomerization of lipoylated mitochondrial proteins and subsequent proteotoxic stress. In contrast, neocuproine induces n-CPX, a FDX1-independent copper-dependent death program that preferentially engages neocuproine stabilized Cu(I)-handling and stress-adaptation networks. Despite its FDX1 independence, neocuproine rapidly induces oligomerization of lipoylated DLAT, identifying an early point of convergence with canonical cuproptosis. Large-scale analysis of CCLE cancer cell lines further revealed that sensitivity to both neocuproine and elesclomol is associated with enrichment of oxidative phosphorylation (OXPHOS) transcriptional programs. Notably, neocuproine-sensitive cancer cells additionally displayed significantly higher mesenchymal/EMT scores across multiple independent gene-expression signatures, linking an OXPHOS-enriched, mesenchymal cell state to increased susceptibility to neocuproine-induced copper-dependent cell death. Limited-proteolysis profiling identified ATOX1 among the prominent neocuproine-responsive proteins. Functional validation demonstrated that ATOX1 depletion partially attenuates neocuproine-induced cytotoxicity, but not elesclomol toxicity, while ATOX1 loss itself promotes DLAT oligomerization, supporting a specific contribution of ATOX1-dependent Cu(I) handling to nc-CPX. CRISPRa screening further revealed that adaptive programs enriched during neocuproine exposure predominantly involve proteasomal and lysosomal pathways; whereas elesclomol is associated with distinct signaling and bioenergetic programs, including PI3K, JAK–STAT, and MAPK pathways, as well as oxidative phosphorylation and glutathione metabolism. The functional relevance of the neocuproine-associated pathways was supported by enhanced cytotoxicity upon pharmacological inhibition of proteasomal or lysosomal function. Despite their divergent initiation mechanisms, both canonical and non-canonical cuproptosis converge on early oligomerization of lipoylated mitochondrial proteins followed by Fe–S-protein loss, respiratory-chain dysfunction, mitochondrial remodeling, impaired mitochondrial quality control, and respiratory failure. Both compounds also induce cytoplasmic and mitochondrial ROS and late apoptotic features. Continuous N-acetylcysteine (NAC) exposure reduced the labile intracellular Cu(I) signal and rescued cytotoxicity; whereas NAC pretreatment followed by washout did not protect against subsequent neocuproine or elesclomol exposure. Together with the lack of rescue by caspase inhibition and the delayed appearance of apoptotic features, these findings support ROS accumulation and apoptosis as predominantly downstream consequences rather than defining initiating mechanisms. Conclusion Our findings establish a mechanistic framework distinguishing canonical FDX1 dependent cuproptosis from non-canonical FDX1 independent cuproptosis. Rather than representing separate downstream death programs, c-CPX and nc-CPX constitute distinct upstream copper-handling routes that converge on a shared mitochondria-centered proteotoxic program. These results provide insight into copper-driven cytotoxicity and suggest FDX1 dependency, ATOX1-dependent copper-handling, EMT/OXPHOS state, and proteostasis pathways as candidate biomarkers and therapeutic vulnerabilities for further investigation.",
-      "doi": "10.1186/s12943-026-02821-4",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T16:56:42.660044+00:00",
-      "journal": "Molecular Cancer",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-24",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 74,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "core",
-      "title": "FDX1-independent non-canonical cuproptosis establishes a parallel mitochondria-centric death program",
-      "url": "https://doi.org/10.1186/s12943-026-02821-4"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1016/j.cmet.2026.09.014",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042132+00:00",
-      "journal": "Cell Metabolism",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-22",
-      "pmid": "42913648",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Distinguishing hepatic metabolic effects from overall cardiometabolic benefit after matched weight loss.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42913648/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1038/s41587-026-03358-z",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042129+00:00",
-      "journal": "Nature Biotechnology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-22",
-      "pmid": "42918886",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Human Argonaute 2 is a programmable targeting domain for RNA editing.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42918886/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1038/s41587-026-03350-7",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042127+00:00",
-      "journal": "Nature Biotechnology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-22",
-      "pmid": "42918887",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Recordanelles capture transient gene expression in single human cells.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42918887/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1038/s41588-026-02793-7",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042124+00:00",
-      "journal": "Nature Genetics",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-22",
-      "pmid": "42918900",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Co-regulation confounds direction of genetic effects in transcriptome-wide association studies.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42918900/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1038/s41551-026-01826-0",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042121+00:00",
-      "journal": "Nature Biomedical Engineering",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-23",
-      "pmid": "42919906",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Red blood cell-derived extracellular vesicles as a potent autologous adjuvant.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42919906/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1001/jama.2026.17748",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042070+00:00",
-      "journal": "JAMA",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-22",
-      "pmid": "42911567",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Clinical Practice Guidelines on Antiviral Therapies for Adults With COVID-19 Infection.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42911567/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1001/jama.2026.17245",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042068+00:00",
-      "journal": "JAMA",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-22",
-      "pmid": "42911568",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "A Technology Journalist Looks at AI and Health: A Conversation With Kevin Roose.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42911568/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1001/jama.2026.17893",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042064+00:00",
-      "journal": "JAMA",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-22",
-      "pmid": "42911571",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Rituximab Maintenance in Eosinophilic Granulomatosis With Polyangiitis.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42911571/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1001/jama.2025.16106",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042061+00:00",
-      "journal": "JAMA",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-22",
-      "pmid": "42911572",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Obesity and Starvation.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42911572/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1001/jama.2026.19124",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042058+00:00",
-      "journal": "JAMA",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-22",
-      "pmid": "42911577",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Rituximab vs Azathioprine for Eosinophilic Granulomatosis With Polyangiitis Maintenance Therapy: Research Summary.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42911577/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1001/jama.2026.21313",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042055+00:00",
-      "journal": "JAMA",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-22",
-      "pmid": "42911580",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Visitors Must Check In.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42911580/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1001/jama.2026.19161",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042052+00:00",
-      "journal": "JAMA",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-22",
-      "pmid": "42911585",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Reforming Risk Adjustment in Medicare Advantage-A View From Congress.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42911585/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1001/jama.2026.17751",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042049+00:00",
-      "journal": "JAMA",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-22",
-      "pmid": "42911601",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Clinical Practice Guidelines on Antiviral Therapies for Adults With COVID-19 Infection-Reply.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42911601/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1001/jama.2026.21223",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042046+00:00",
-      "journal": "JAMA",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-22",
-      "pmid": "42911602",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Compounded GLP-1 Dispensing Patterns and Vitamin B12 Coformulation.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42911602/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1001/jama.2026.20031",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042041+00:00",
-      "journal": "JAMA",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-23",
-      "pmid": "42912385",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "ACC Releases Guidance for Managing Resistant Hypertension.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42912385/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1001/jama.2026.20030",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042038+00:00",
-      "journal": "JAMA",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-23",
-      "pmid": "42912386",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Global Heart Failure Burden Increased Between 1990 and 2023.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42912386/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1001/jama.2026.20033",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042035+00:00",
-      "journal": "JAMA",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-23",
-      "pmid": "42912401",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "WHO Publishes First Guidelines for Managing Obesity in Children.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42912401/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1001/jama.2026.20032",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042032+00:00",
-      "journal": "JAMA",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-23",
-      "pmid": "42912402",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "AAP Advises Against Raw Milk and Other Unpasteurized Dairy.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42912402/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1001/jama.2026.18418",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042028+00:00",
-      "journal": "JAMA",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-23",
-      "pmid": "42912403",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Steatotic Liver Disease Is Becoming a Higher Priority Worldwide.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42912403/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1001/jama.2026.20028",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042025+00:00",
-      "journal": "JAMA",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-23",
-      "pmid": "42912404",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "New Guidelines Issued for Diagnosing Iron Deficiency.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42912404/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1001/jama.2026.20029",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042022+00:00",
-      "journal": "JAMA",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-23",
-      "pmid": "42912408",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "WHO Reports Highest Number of Cholera Deaths in Decades.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42912408/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1001/jama.2026.18998",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042019+00:00",
-      "journal": "JAMA",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-23",
-      "pmid": "42912410",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Testosterone Use Rises Among Women, but Does the Evidence Support It?",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42912410/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1001/jama.2025.16105",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042017+00:00",
-      "journal": "JAMA",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-23",
-      "pmid": "42912495",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "JAMA Editors' Summary Podcast: October 23, 2026.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42912495/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1038/s41467-026-78963-2",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042013+00:00",
-      "journal": "Nature Communications",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-22",
-      "pmid": "42918794",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Author Correction: Coaxially printed magnetic mechanical electrical hybrid structures with actuation and sensing functionalities.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42918794/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1038/d41586-026-03320-8",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042011+00:00",
-      "journal": "Nature",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-21",
-      "pmid": "42918873",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "AI doctors' orders come with a sky-high bill.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42918873/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1038/d41586-026-03414-3",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042008+00:00",
-      "journal": "Nature",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-22",
-      "pmid": "42918874",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Can a 'lullaby' save coral reefs from extinction?",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42918874/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1038/d41586-026-03108-w",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042005+00:00",
-      "journal": "Nature",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-23",
-      "pmid": "42919954",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Rebody.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42919954/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1038/d41586-026-03438-9",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.042002+00:00",
-      "journal": "Nature",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-22",
-      "pmid": "42919955",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Daily briefing: The tell-tale features of a Denisovan.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42919955/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1038/d41586-026-03400-9",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.041999+00:00",
-      "journal": "Nature",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-21",
-      "pmid": "42919956",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Daily briefing: How tech billionaires are changing science funding.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42919956/"
     }
   ],
   "schema_version": "0.3",
