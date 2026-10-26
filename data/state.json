@@ -1,6 +1,6 @@
 {
   "ai_calls_per_day": {},
-  "last_scan": "2026-10-25T23:54:45.080854+00:00",
+  "last_scan": "2026-10-26T03:15:47.726592+00:00",
   "notify_attempts_by_day": {},
   "seen": {
     "doi:10.1001/jama.2025.16073": {
@@ -10691,6 +10691,25 @@
       "tier": "cross",
       "title": "Promoter of lncRNA Gene PVT1 Is a Tumor-Suppressor DNA Boundary Element.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42906539/"
+    },
+    "doi:10.1016/j.cels.2026.101707": {
+      "abstract": "",
+      "doi": "10.1016/j.cels.2026.101707",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T03:15:47.716609+00:00",
+      "journal": "Cell Systems",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 39,
+      "research_types": [
+        "single_cell"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Identifying memory gene expression from single-sample scRNA-seq data using power-law signatures",
+      "url": "https://doi.org/10.1016/j.cels.2026.101707"
     },
     "doi:10.1016/j.cels.2026.101716": {
       "abstract": "Chimeric antigen receptor (CAR) T cell therapy has transformed treatment of resistant cancers, yet it faces major limitations such as variable patient responses, relapse, and safety issues. Optimizing CAR T cell treatment regimens and genetic design could offer solutions to some of these problems, but the resulting design space is often too large to explore experimentally alone. Mathematical modeling-spanning ordinary differential equation (ODE), agent-based, statistical, and machine learning methods-provides a framework to link mechanistic understanding of CAR T cells to predictive design and clinical decision-making. Here, we present a perspective that organizes modeling approaches around key translational challenges in CAR T therapy, evaluating the strengths, limitations, and data gaps of current approaches. We outline a roadmap for clinicians and modelers alike, highlighting advances in machine learning, multiscale modeling, control theory, and alternative cell types as emerging opportunities in model-guided design of next-generation cell therapies.",
@@ -33567,6 +33586,25 @@
       "title": "Apolipoprotein E controls Dectin-1-dependent development of monocyte-derived alveolar macrophages upon pulmonary β-glucan-induced inflammatory adaptation",
       "url": "https://doi.org/10.1038/s41590-024-01830-z"
     },
+    "doi:10.1038/s41590-026-02655-8": {
+      "abstract": "Abstract Regulatory T (T reg ) cells in mice can lose lineage identity and acquire proinflammatory functions, but whether human T reg cells are similarly susceptible to cytokine-driven destabilization remains unclear. Here we established an in vitro model of human T reg cell destabilization defined by silencing of the lineage-specifying transcription factor FOXP3, loss of suppressive function and acquisition of proinflammatory activity. Single-cell chromatin accessibility and transcriptomic profiling revealed a genome-wide increase in accessibility at AP-1-binding sites, including a putative regulatory element distal to IRF4 . Increased accessibility at this element correlated with increased IRF4 expression during T reg cell destabilization, and its excision conferred resistance to inflammatory cytokine-induced reprogramming. Conversely, forced expression of IRF4 together with BATF promoted T reg cell destabilization. These data identify a distal IRF4 regulatory element as a critical node enabling heightened AP-1-IRF4 cooperative activity to drive T reg cell destabilization, with implications for the design of more stable and effective T reg cell-based therapies.",
+      "doi": "10.1038/s41590-026-02655-8",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T03:15:47.716297+00:00",
+      "journal": "Nature Immunology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-21",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 47,
+      "research_types": [
+        "single_cell"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Deletion of a distal IRF4 element prevents inflammation-induced reprogramming of human regulatory T cell fate",
+      "url": "https://doi.org/10.1038/s41590-026-02655-8"
+    },
     "doi:10.1038/s41590-026-02671-8": {
       "abstract": "Neutrophils, the most abundant leukocytes in human blood, have multifaceted roles in health and disease. Here we assembled a single-cell atlas of human neutrophils (SCAHN) by integrating transcriptome data from 1 million human neutrophils from 781 samples and 43 independent datasets. Using SCAHN, we identified multiple neutrophil subsets with distinct functions across tissues and robust changes in gene expression and subset proportions in infection, cancer, immune suppression and sex differences at single-cell resolution. Cross-species reference mapping of mouse and nonhuman primate neutrophils onto SCAHN revealed both conserved and species-specific features. Using 17,023 bulk blood transcriptome profiles from 40 datasets, we found that neutrophil-specific signatures predicted mortality in acutely ill patients at presentation, were associated with cancer diagnosis and survival, and correlated with metabolic dysfunction and long-term all-cause mortality. Our study highlights how neutrophil biology can improve immune risk stratification and develop effective diagnostic and therapeutic strategies.",
       "doi": "10.1038/s41590-026-02671-8",
@@ -48274,6 +48312,25 @@
       "title": "ZmEMF1a is required for the maintenance of H2Aub and H3K27me3 modifications in maize kernel development.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42919309/"
     },
+    "doi:10.1186/s13059-026-04287-5": {
+      "abstract": "",
+      "doi": "10.1186/s13059-026-04287-5",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T03:15:47.716602+00:00",
+      "journal": "Genome Biology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-25",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 39,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "ERVmancer: a phylogeny-guided framework for decoding human endogenous retrovirus regulatory mechanisms in health and disease",
+      "url": "https://doi.org/10.1186/s13059-026-04287-5"
+    },
     "doi:10.1186/s13059-026-04293-7": {
       "abstract": "Notothenioids are a well characterised species flock endemic to the Antarctic and an important model group for studying genome adaptation to extreme cold. A new reference assembly and clade-wide comparative genomic analysis allow for investigation of cryonotothenioid evolution and the appearance of novel functionalities linked to cold adaptation. A new phased assembly of a model notothenioid, Harpagifer antarcticus, demonstrated low levels of haplotypic variability across the genome. Nevertheless, numerous insertions from multiple LINE-L2 clades were found, suggesting ongoing transposition with potential contribution to speciation. Contrary to expectations the afgp locus was highly similar between haplotypes, except for large length allelic variants of afgp genes. Analysis suggests a model for the afgp locus expansion in H. antarcticus through segmental tandem duplications involving two pairs of afgp genes at time. Syntenic reconstruction of genomes from across the clade demonstrates conserved macrosyntenic relationships and group specific chromosomal fusions of notothenioids. Quantification of genome gain and transposition rates during cryonotothenioid diversification showed a first ancestral slow genome expansion concurrent with historic temperature drops. This was followed by lineage-specific massive peaks of genomic gain and transposition activity. Finally, we identified a set of genes that underwent ancestral diversifying selection and acquired novel conserved non-coding elements during the cryonotothenioid emergence. These were related to antioxidants and proteostasis, which may have facilitated the notothenioid Antarctic radiation. Diversifying selection and genomic gain linked to transposon activity are primary contributors to lineage-specific evolutionary dynamics through the clade which facilitated adaptation to life in the cold.",
       "doi": "10.1186/s13059-026-04293-7",
@@ -49056,6 +49113,25 @@
       "tier": "cross",
       "title": "Longitudinal single-cell and spatial profiling of sonic hedgehog medulloblastoma identifies novel therapeutic targets",
       "url": "https://doi.org/10.1186/s13073-026-01803-x"
+    },
+    "doi:10.1186/s13073-026-01805-9": {
+      "abstract": "",
+      "doi": "10.1186/s13073-026-01805-9",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T03:15:47.716024+00:00",
+      "journal": "Genome Medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-23",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 53,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Temporal analysis of clinical variant reclassification (2012–2025)",
+      "url": "https://doi.org/10.1186/s13073-026-01805-9"
     },
     "doi:10.1186/s13073-026-01808-6": {
       "abstract": "",

@@ -1,12 +1,88 @@
 {
   "ai_status": "disabled",
-  "generated_at": "2026-10-25T23:54:45.080854+00:00",
+  "generated_at": "2026-10-26T03:15:47.726592+00:00",
   "harmony_push_status": "not_configured",
   "journal_counts": {
     "anesthesiology": 13,
     "oncology": 100
   },
   "papers": [
+    {
+      "abstract": "",
+      "doi": "10.1016/j.cels.2026.101707",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T03:15:47.716609+00:00",
+      "journal": "Cell Systems",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 39,
+      "research_types": [
+        "single_cell"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Identifying memory gene expression from single-sample scRNA-seq data using power-law signatures",
+      "url": "https://doi.org/10.1016/j.cels.2026.101707"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1186/s13059-026-04287-5",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T03:15:47.716602+00:00",
+      "journal": "Genome Biology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-25",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 39,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "ERVmancer: a phylogeny-guided framework for decoding human endogenous retrovirus regulatory mechanisms in health and disease",
+      "url": "https://doi.org/10.1186/s13059-026-04287-5"
+    },
+    {
+      "abstract": "Abstract Regulatory T (T reg ) cells in mice can lose lineage identity and acquire proinflammatory functions, but whether human T reg cells are similarly susceptible to cytokine-driven destabilization remains unclear. Here we established an in vitro model of human T reg cell destabilization defined by silencing of the lineage-specifying transcription factor FOXP3, loss of suppressive function and acquisition of proinflammatory activity. Single-cell chromatin accessibility and transcriptomic profiling revealed a genome-wide increase in accessibility at AP-1-binding sites, including a putative regulatory element distal to IRF4 . Increased accessibility at this element correlated with increased IRF4 expression during T reg cell destabilization, and its excision conferred resistance to inflammatory cytokine-induced reprogramming. Conversely, forced expression of IRF4 together with BATF promoted T reg cell destabilization. These data identify a distal IRF4 regulatory element as a critical node enabling heightened AP-1-IRF4 cooperative activity to drive T reg cell destabilization, with implications for the design of more stable and effective T reg cell-based therapies.",
+      "doi": "10.1038/s41590-026-02655-8",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T03:15:47.716297+00:00",
+      "journal": "Nature Immunology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-21",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 47,
+      "research_types": [
+        "single_cell"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Deletion of a distal IRF4 element prevents inflammation-induced reprogramming of human regulatory T cell fate",
+      "url": "https://doi.org/10.1038/s41590-026-02655-8"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1186/s13073-026-01805-9",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-26T03:15:47.716024+00:00",
+      "journal": "Genome Medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-23",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 53,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Temporal analysis of clinical variant reclassification (2012–2025)",
+      "url": "https://doi.org/10.1186/s13073-026-01805-9"
+    },
     {
       "abstract": "",
       "doi": "10.1016/j.euo.2026.05.015",
@@ -5838,86 +5914,6 @@
       "tier": "cross",
       "title": "Daily briefing: How tech billionaires are changing science funding.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42919956/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1038/d41586-026-03417-0",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.041996+00:00",
-      "journal": "Nature",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-23",
-      "pmid": "42919957",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Moderna mRNA vaccine almost halves the risk of skin cancer returning.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42919957/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1038/d41586-026-03416-1",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.041993+00:00",
-      "journal": "Nature",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-23",
-      "pmid": "42919958",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "First person infected with rare Shamonda virus: what we know.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42919958/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1038/d41586-026-03318-2",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.041990+00:00",
-      "journal": "Nature",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-23",
-      "pmid": "42919959",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Sleep declines in rural communities after electricity arrives.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42919959/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1038/d41586-026-03418-z",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-24T13:36:00.041987+00:00",
-      "journal": "Nature",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-23",
-      "pmid": "42919960",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Briefing Chat: How physicists successfully trapped the electron's antimatter equivalent.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42919960/"
     }
   ],
   "schema_version": "0.3",
