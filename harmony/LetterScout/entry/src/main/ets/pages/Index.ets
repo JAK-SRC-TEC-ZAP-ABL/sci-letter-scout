@@ -1,3 +1,5 @@
+import { common, OpenLinkOptions } from '@kit.AbilityKit';
+import { BusinessError } from '@kit.BasicServicesKit';
 import { http } from '@kit.NetworkKit';
 import { preferences } from '@kit.ArkData';
 
@@ -17,7 +19,8 @@ interface JournalCatalogue {
 }
 
 interface Paper {
-  doi: string;
+  doi?: string;
+  pmid?: string;
   title: string;
   journal: string;
   online_date: string;
@@ -53,6 +56,7 @@ struct Index {
   @State private selectedJournals: string[] = [];
   @State private availableJournals: string[] = [];
   @State private journalStatus: string = '正在读取期刊库…';
+  @State private linkStatus: string = '';
   private catalogueJournals: Journal[] = [];
   private settingsStore: preferences.Preferences | null = null;
 
@@ -118,8 +122,27 @@ struct Index {
       }
       this.catalogueJournals = catalogue.journals;
       this.updateAvailableJournals();
+      try {
+        this.settingsStore?.putSync('cached_journals', String(response.result));
+        this.settingsStore?.flushSync();
+      } catch (error) {
+        // A cache failure must not prevent use of the freshly downloaded catalogue.
+      }
     } catch (error) {
       this.journalStatus = '无法读取期刊库，请检查网络后重试';
+      try {
+        const saved = this.settingsStore?.getSync('cached_journals', '') as string;
+        if (saved) {
+          const catalogue = JSON.parse(saved) as JournalCatalogue;
+          if (Array.isArray(catalogue.journals)) {
+            this.catalogueJournals = catalogue.journals;
+            this.updateAvailableJournals();
+            this.journalStatus = '正在使用之前保存的期刊库，可能不是最新版本';
+          }
+        }
+      } catch (cacheError) {
+        // Keep the network error visible when there is no usable cache.
+      }
     } finally {
       request.destroy();
     }
@@ -147,6 +170,7 @@ struct Index {
     this.loading = true;
     this.status = '正在读取论文数据…';
     const request = http.createHttp();
+    let failure: string = '无法连接论文数据源，请检查网络后重试';
     try {
       const response = await request.request(FEED_URL, {
         method: http.RequestMethod.GET,
@@ -154,44 +178,75 @@ struct Index {
         readTimeout: 15000
       });
       if (response.responseCode !== 200) {
+        failure = `论文数据源返回 HTTP ${response.responseCode}，请稍后重试`;
         throw new Error(`HTTP ${response.responseCode}`);
       }
+      failure = '论文数据格式不正确，请稍后重试';
       const feed = JSON.parse(String(response.result)) as Feed;
       if (!Array.isArray(feed.papers)) {
+        failure = '论文数据格式不正确，请稍后重试';
         throw new Error('论文数据格式不正确');
       }
       this.papers = feed.papers.filter((paper: Paper) =>
-        typeof paper.doi === 'string' && typeof paper.title === 'string');
+        typeof paper.title === 'string' && this.paperKey(paper).length > 0);
       this.generatedAt = feed.generated_at || '';
       this.status = this.papers.length === 0 ? '云端目前没有论文' : '';
+      try {
+        this.settingsStore?.putSync('cached_feed', String(response.result));
+        this.settingsStore?.flushSync();
+      } catch (error) {
+        // A cache failure must not hide successfully downloaded papers.
+      }
     } catch (error) {
-      this.status = '暂时无法连接论文数据。请检查网络后重试。';
+      const networkCode = (error as BusinessError).code;
+      if (failure === '无法连接论文数据源，请检查网络后重试' && typeof networkCode === 'number') {
+        failure = `${failure}（错误码 ${networkCode}）`;
+      }
+      this.status = this.papers.length > 0 ? `${failure}。当前显示之前读取的数据，可能不是最新论文` : failure;
+      try {
+        const saved = this.settingsStore?.getSync('cached_feed', '') as string;
+        if (saved) {
+          const feed = JSON.parse(saved) as Feed;
+          if (Array.isArray(feed.papers)) {
+            this.papers = feed.papers.filter((paper: Paper) =>
+              typeof paper.title === 'string' && this.paperKey(paper).length > 0);
+            this.generatedAt = feed.generated_at || '';
+            this.status = `${failure}。当前显示上次保存的数据，可能不是最新论文`;
+          }
+        }
+      } catch (cacheError) {
+        // Leave the failure visible if the saved data cannot be read.
+      }
     } finally {
       request.destroy();
       this.loading = false;
     }
   }
 
+  private paperKey(paper: Paper): string {
+    if (typeof paper.doi === 'string' && paper.doi.trim().length > 0) {
+      return paper.doi;
+    }
+    return typeof paper.pmid === 'string' && paper.pmid.trim().length > 0 ? `pmid:${paper.pmid}` : '';
+  }
+
   private visiblePapers(): Paper[] {
     const query = this.searchTerm.trim().toLowerCase();
     return this.papers.filter((paper: Paper) => {
-      // The 65-point oncology cut-off would hide most metadata-only anesthesia papers.
-      if (this.selectedSpecialty === 'oncology' && paper.priority_score < 65) {
-        return false;
-      }
       if ((paper.specialty || 'oncology') !== this.selectedSpecialty) {
         return false;
       }
       if (!this.allJournals && !this.selectedJournals.includes(paper.journal)) {
         return false;
       }
-      if (this.showFavorites && !this.favoriteDois.includes(paper.doi)) {
+      if (this.showFavorites && !this.favoriteDois.includes(this.paperKey(paper))) {
         return false;
       }
       return query.length === 0 ||
         paper.title.toLowerCase().includes(query) ||
         paper.journal.toLowerCase().includes(query) ||
-        paper.doi.toLowerCase().includes(query);
+        (paper.doi || '').toLowerCase().includes(query) ||
+        (paper.pmid || '').toLowerCase().includes(query);
     });
   }
 
@@ -220,6 +275,33 @@ struct Index {
     this.configured = true;
     this.showSettings = false;
     this.saveSettings();
+  }
+
+  private paperLink(paper: Paper): string {
+    const doi = (paper.doi || '').trim();
+    if (/^10\.\d{4,9}\/\S+$/i.test(doi)) {
+      return `https://doi.org/${encodeURI(doi)}`;
+    }
+    const url = (paper.url || '').trim();
+    return /^https:\/\/[^\s/@]+(?:\/|$)/i.test(url) ? url : '';
+  }
+
+  private openPaper(paper: Paper): void {
+    const link = this.paperLink(paper);
+    if (!link) {
+      this.linkStatus = '这篇论文暂无有效的原文链接';
+      return;
+    }
+    const context = this.getUIContext().getHostContext() as common.UIAbilityContext;
+    const options: OpenLinkOptions = { appLinkingOnly: false };
+    this.linkStatus = '';
+    try {
+      context.openLink(link, options).catch((_error: BusinessError) => {
+        this.linkStatus = '无法打开链接，请检查浏览器和网络';
+      });
+    } catch (_error) {
+      this.linkStatus = '无法打开链接，请检查浏览器和网络';
+    }
   }
 
   @Builder
@@ -377,7 +459,7 @@ struct Index {
         .textOverflow({ overflow: TextOverflow.Ellipsis })
         .width('100%')
 
-      Text(`${paper.online_date || '日期待核查'}  ·  DOI: ${paper.doi}`)
+      Text(`${paper.online_date || '日期待核查'}  ·  ${paper.doi ? `DOI: ${paper.doi}` : `PMID: ${paper.pmid || '待核查'}`}`)
         .fontSize(12)
         .fontColor('#667085')
         .maxLines(2)
@@ -387,12 +469,15 @@ struct Index {
         Button('查看摘要')
           .fontSize(13)
           .backgroundColor('#155D70')
-          .onClick(() => { this.selectedPaper = paper; })
-        Button(this.favoriteDois.includes(paper.doi) ? '已收藏' : '收藏')
+          .onClick(() => {
+            this.linkStatus = '';
+            this.selectedPaper = paper;
+          })
+        Button(this.favoriteDois.includes(this.paperKey(paper)) ? '已收藏' : '收藏')
           .fontSize(13)
           .fontColor('#155D70')
           .backgroundColor('#E7F2F3')
-          .onClick(() => { this.toggleFavorite(paper.doi); })
+          .onClick(() => { this.toggleFavorite(this.paperKey(paper)); })
       }
       .width('100%')
     }
@@ -411,9 +496,9 @@ struct Index {
           .fontColor('#155D70')
           .onClick(() => { this.selectedPaper = null; })
         Blank()
-        Button(this.favoriteDois.includes(paper.doi) ? '取消收藏' : '收藏')
+        Button(this.favoriteDois.includes(this.paperKey(paper)) ? '取消收藏' : '收藏')
           .backgroundColor('#155D70')
-          .onClick(() => { this.toggleFavorite(paper.doi); })
+          .onClick(() => { this.toggleFavorite(this.paperKey(paper)); })
       }
       .width('100%')
 
@@ -432,7 +517,7 @@ struct Index {
             .fontSize(14)
             .fontColor('#667085')
             .width('100%')
-          Text(`DOI：${paper.doi}`)
+          Text(paper.doi ? `DOI：${paper.doi}` : `PMID：${paper.pmid || '待核查'}（DOI 尚未收录）`)
             .fontSize(14)
             .fontColor('#155D70')
             .width('100%')
@@ -452,7 +537,17 @@ struct Index {
             .backgroundColor('#FFF4D8')
             .borderRadius(10)
             .width('100%')
-          Text(`原文链接：${paper.url || `https://doi.org/${paper.doi}`}`)
+          Button('打开原文 / DOI')
+            .backgroundColor('#155D70')
+            .enabled(this.paperLink(paper).length > 0)
+            .onClick(() => { this.openPaper(paper); })
+          if (this.linkStatus.length > 0) {
+            Text(this.linkStatus)
+              .fontSize(13)
+              .fontColor('#A04B2C')
+              .width('100%')
+          }
+          Text(`原文链接：${this.paperLink(paper) || '暂无'}`)
             .fontSize(12)
             .fontColor('#667085')
             .width('100%')
@@ -524,11 +619,18 @@ struct Index {
             .width('100%')
         }
 
+        if (this.generatedAt.length > 0) {
+          Text(`数据生成时间：${this.generatedAt}`)
+            .fontSize(12)
+            .fontColor('#667085')
+            .width('100%')
+        }
+
         Scroll() {
           Column({ space: 12 }) {
             ForEach(this.visiblePapers(), (paper: Paper) => {
               this.paperCard(paper)
-            }, (paper: Paper) => paper.doi)
+            }, (paper: Paper) => this.paperKey(paper))
             if (this.visiblePapers().length === 0 && !this.loading && this.status.length === 0) {
               Text(this.showFavorites ? '还没有收藏论文' : '没有匹配的论文')
                 .fontSize(14)
