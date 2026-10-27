@@ -146,7 +146,18 @@ def fetch_pubmed(journals, days=3, batch_size=12):
         if os.getenv('CONTACT_EMAIL'):
             params['email'] = os.environ['CONTACT_EMAIL']
         e = http_get_json(base + 'esearch.fcgi', params)
-        ids = e.get('esearchresult', {}).get('idlist', [])
+        search = e.get('esearchresult', {})
+        ids = list(search.get('idlist', []))
+        count = int(search.get('count', len(ids)))
+        if count > 10000:
+            raise RuntimeError('PubMed search exceeds its 10,000-result retrieval limit; narrow the query')
+        while len(ids) < count:
+            time.sleep(0.4)
+            page = http_get_json(base + 'esearch.fcgi', {**params, 'retstart': len(ids)})
+            page_ids = page.get('esearchresult', {}).get('idlist', [])
+            if not page_ids:
+                raise RuntimeError('PubMed search returned an incomplete results page')
+            ids.extend(page_ids)
         if not ids:
             continue
         for i in range(0, len(ids), 200):

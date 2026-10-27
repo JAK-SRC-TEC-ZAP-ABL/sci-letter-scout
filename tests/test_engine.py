@@ -111,6 +111,25 @@ class MetadataTests(unittest.TestCase):
         self.assertEqual(out[0]['journal'],'Paediatric anaesthesia')
         self.assertIn('1155-5645',fetch.call_args.args[1]['term'])
 
+    def test_pubmed_fetches_results_beyond_first_page(self):
+        first = [str(i) for i in range(1, 501)]
+        pages = [
+            {'esearchresult': {'count': '501', 'idlist': first}},
+            {'esearchresult': {'count': '501', 'idlist': ['501']}},
+        ]
+        xml = b'''<PubmedArticleSet><PubmedArticle><MedlineCitation><PMID>501</PMID>
+        <Article><Journal><Title>Journal of Clinical Oncology</Title></Journal>
+        <ArticleTitle>Later page paper</ArticleTitle></Article></MedlineCitation>
+        </PubmedArticle></PubmedArticleSet>'''
+        journals = [{'name': 'Journal of Clinical Oncology', 'tier': 'core'}]
+        with patch('src.engine.http_get_json', side_effect=pages) as search, \
+             patch('src.engine._request', side_effect=[b'<PubmedArticleSet/>', b'<PubmedArticleSet/>', xml]) as fetch, \
+             patch('src.engine.time.sleep'):
+            out = fetch_pubmed(journals)
+        self.assertEqual(search.call_args_list[1].args[1]['retstart'], 500)
+        self.assertEqual(fetch.call_count, 3)
+        self.assertEqual(out[0]['pmid'], '501')
+
     def test_html_escape_in_push(self):
         content=render_message([{'title':'<script>alert(1)</script>', 'journal':'Cancer Cell','doi':'10.1/test','priority_score':70,'ai':{'potential_letter_angle':'<b>method?</b>'}}])
         self.assertNotIn('<script>',content)
