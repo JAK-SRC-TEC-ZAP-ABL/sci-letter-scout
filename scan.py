@@ -38,6 +38,16 @@ def specialty_round_robin(papers):
                 yield queue.pop(0)
 
 
+def has_future_publication_date(paper, today):
+    published=paper.get('online_date')
+    if not isinstance(published,str):
+        return False
+    try:
+        return dt.date.fromisoformat(published)>today
+    except ValueError:
+        return False
+
+
 def select_public_papers(papers, limit=300):
     """Reserve space across specialties and put newly published work ahead of backfill."""
     today=utcnow().date()
@@ -53,7 +63,7 @@ def select_public_papers(papers, limit=300):
             except ValueError:
                 pass
         return (day, detected, paper.get('priority_score',0))
-    ordered=sorted((p for p in papers if relevant_to_catalog(p)), key=recency, reverse=True)
+    ordered=sorted((p for p in papers if relevant_to_catalog(p) and not has_future_publication_date(p,today)), key=recency, reverse=True)
     if len(ordered)<=limit:
         return ordered
     specialties=sorted({p.get('specialty','oncology') for p in ordered})
@@ -122,6 +132,11 @@ def run():
     state.setdefault('sent',[])
     state.setdefault('notify_attempts_by_day',{})
     today=utcnow().date().isoformat()
+    # A future issue date is not evidence that the article is already published.
+    # Remove previously stored records too, so they can be rediscovered on release.
+    state['seen']={key:paper for key,paper in state['seen'].items()
+                   if not has_future_publication_date(paper,utcnow().date())}
+    state['sent']=[key for key in state['sent'] if key in state['seen']]
     # Keep 2 days of request accounting. Never use a missing or stale state to assume unlimited model quota.
     state['notify_attempts_by_day']={k:v for k,v in state['notify_attempts_by_day'].items() if k>=str(utcnow().date()-dt.timedelta(days=2))}
     state['ai_calls_per_day']={k:v for k,v in state['ai_calls_per_day'].items() if k>=str(utcnow().date()-dt.timedelta(days=2))}
@@ -147,7 +162,8 @@ def run():
     except Exception as exc:
         source_health['crossref']='error:'+type(exc).__name__
         print('Crossref fetch error',type(exc).__name__)
-    candidates=[p for p in merge_papers(collected) if relevant_to_catalog(p)]
+    candidates=[p for p in merge_papers(collected)
+                if relevant_to_catalog(p) and not has_future_publication_date(p,utcnow().date())]
     reconcile_pmid_identifiers(candidates,state)
     for p in candidates:
         rank_paper(p)  # Merge may add publication types or an abstract.
