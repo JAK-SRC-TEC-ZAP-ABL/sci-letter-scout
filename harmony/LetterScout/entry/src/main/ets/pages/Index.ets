@@ -7,6 +7,12 @@ const FEED_URL: string =
   'https://raw.githubusercontent.com/JAK-SRC-TEC-ZAP-ABL/sci-letter-scout/main/data/feed.json';
 const JOURNALS_URL: string =
   'https://raw.githubusercontent.com/JAK-SRC-TEC-ZAP-ABL/sci-letter-scout/main/config/journals.json';
+const BACKUP_FEED_URL: string =
+  'https://sci-letter-scout-push-test.zhangyujian2025.workers.dev/public/feed.json';
+const BACKUP_JOURNALS_URL: string =
+  'https://sci-letter-scout-push-test.zhangyujian2025.workers.dev/public/journals.json';
+const PRIVACY_URL: string =
+  'https://github.com/JAK-SRC-TEC-ZAP-ABL/sci-letter-scout/blob/main/PRIVACY.md';
 
 interface Journal {
   name: string;
@@ -30,11 +36,19 @@ interface Paper {
   evidence_level: string;
   letter_eligibility: string;
   specialty?: string;
+  tier?: string;
+  publication_types?: string[];
 }
 
 interface Feed {
   generated_at: string;
   papers: Paper[];
+  source_health?: SourceHealth;
+}
+
+interface SourceHealth {
+  pubmed?: string;
+  crossref?: string;
 }
 
 @Entry
@@ -48,6 +62,8 @@ struct Index {
   @State private loading: boolean = false;
   @State private status: string = '正在读取论文数据…';
   @State private generatedAt: string = '';
+  @State private sourceStatus: string = '';
+  @State private freshnessStatus: string = '';
   @State private configured: boolean = false;
   @State private showSettings: boolean = false;
   @State private setupStep: number = 0;
@@ -57,6 +73,7 @@ struct Index {
   @State private availableJournals: string[] = [];
   @State private journalStatus: string = '正在读取期刊库…';
   @State private linkStatus: string = '';
+  @State private policyStatus: string = '';
   private catalogueJournals: Journal[] = [];
   private settingsStore: preferences.Preferences | null = null;
 
@@ -105,14 +122,24 @@ struct Index {
     }
   }
 
+  private async readWithFallback(request: http.HttpRequest, primary: string, backup: string): Promise<http.HttpResponse> {
+    try {
+      const response = await request.request(primary, {
+        method: http.RequestMethod.GET, connectTimeout: 8000, readTimeout: 10000
+      });
+      if (response.responseCode === 200) return response;
+    } catch (error) {
+      // A separate public endpoint may be reachable when GitHub is not.
+    }
+    return await request.request(backup, {
+      method: http.RequestMethod.GET, connectTimeout: 8000, readTimeout: 10000
+    });
+  }
+
   private async loadJournals(): Promise<void> {
     const request = http.createHttp();
     try {
-      const response = await request.request(JOURNALS_URL, {
-        method: http.RequestMethod.GET,
-        connectTimeout: 15000,
-        readTimeout: 15000
-      });
+      const response = await this.readWithFallback(request, JOURNALS_URL, BACKUP_JOURNALS_URL);
       if (response.responseCode !== 200) {
         throw new Error(`HTTP ${response.responseCode}`);
       }
@@ -172,11 +199,7 @@ struct Index {
     const request = http.createHttp();
     let failure: string = '无法连接论文数据源，请检查网络后重试';
     try {
-      const response = await request.request(FEED_URL, {
-        method: http.RequestMethod.GET,
-        connectTimeout: 15000,
-        readTimeout: 15000
-      });
+      const response = await this.readWithFallback(request, FEED_URL, BACKUP_FEED_URL);
       if (response.responseCode !== 200) {
         failure = `论文数据源返回 HTTP ${response.responseCode}，请稍后重试`;
         throw new Error(`HTTP ${response.responseCode}`);
@@ -190,6 +213,7 @@ struct Index {
       this.papers = feed.papers.filter((paper: Paper) =>
         typeof paper.title === 'string' && this.paperKey(paper).length > 0);
       this.generatedAt = feed.generated_at || '';
+      this.updateSourceStatus(feed);
       this.status = this.papers.length === 0 ? '云端目前没有论文' : '';
       try {
         this.settingsStore?.putSync('cached_feed', String(response.result));
@@ -211,6 +235,7 @@ struct Index {
             this.papers = feed.papers.filter((paper: Paper) =>
               typeof paper.title === 'string' && this.paperKey(paper).length > 0);
             this.generatedAt = feed.generated_at || '';
+            this.updateSourceStatus(feed);
             this.status = `${failure}。当前显示上次保存的数据，可能不是最新论文`;
           }
         }
@@ -220,6 +245,27 @@ struct Index {
     } finally {
       request.destroy();
       this.loading = false;
+    }
+  }
+
+  private updateSourceStatus(feed: Feed): void {
+    const generated = Date.parse(feed.generated_at || '');
+    if (Number.isNaN(generated)) {
+      this.freshnessStatus = '无法确认数据生成时间，请核查云端运行状态';
+    } else if (generated > Date.now() + 5 * 60 * 1000) {
+      this.freshnessStatus = '数据生成时间晚于设备时间，请检查设备时间';
+    } else if (Date.now() - generated > 2 * 60 * 60 * 1000) {
+      this.freshnessStatus = '数据已超过两小时未更新，请检查云端运行状态';
+    } else {
+      this.freshnessStatus = '';
+    }
+    const source = feed.source_health;
+    if (!source || !source.pubmed || !source.crossref) {
+      this.sourceStatus = '文献来源状态未提供，请留意数据生成时间';
+    } else if (source.pubmed !== 'ok' || source.crossref !== 'ok') {
+      this.sourceStatus = `文献来源异常：PubMed ${source.pubmed === 'ok' ? '正常' : '异常'}，Crossref ${source.crossref === 'ok' ? '正常' : '异常'}；可能漏检`;
+    } else {
+      this.sourceStatus = '';
     }
   }
 
@@ -301,6 +347,19 @@ struct Index {
       });
     } catch (_error) {
       this.linkStatus = '无法打开链接，请检查浏览器和网络';
+    }
+  }
+
+  private openPrivacyPolicy(): void {
+    const context = this.getUIContext().getHostContext() as common.UIAbilityContext;
+    const options: OpenLinkOptions = { appLinkingOnly: false };
+    this.policyStatus = '';
+    try {
+      context.openLink(PRIVACY_URL, options).catch((_error: BusinessError) => {
+        this.policyStatus = '暂时无法打开隐私政策，请检查浏览器和网络';
+      });
+    } catch (_error) {
+      this.policyStatus = '暂时无法打开隐私政策，请检查浏览器和网络';
     }
   }
 
@@ -431,6 +490,16 @@ struct Index {
           .fontColor('#155D70')
           .onClick(() => { this.setupStep -= 1; })
       }
+      Button('查看隐私政策')
+        .backgroundColor('#E7F2F3')
+        .fontColor('#155D70')
+        .onClick(() => { this.openPrivacyPolicy(); })
+      if (this.policyStatus.length > 0) {
+        Text(this.policyStatus)
+          .fontSize(13)
+          .fontColor('#A04B2C')
+          .width('100%')
+      }
     }
     .width('100%')
     .height('100%')
@@ -458,6 +527,20 @@ struct Index {
         .maxLines(3)
         .textOverflow({ overflow: TextOverflow.Ellipsis })
         .width('100%')
+
+      if (paper.tier === 'cross') {
+        Text('综合期刊文章：是否属于所选专业需核查')
+          .fontSize(12)
+          .fontColor('#8A4B08')
+          .width('100%')
+      }
+
+      if (paper.publication_types && paper.publication_types.length > 0) {
+        Text(`PubMed 文章类型：${paper.publication_types.join('、')}`)
+          .fontSize(12)
+          .fontColor('#667085')
+          .width('100%')
+      }
 
       Text(`${paper.online_date || '日期待核查'}  ·  ${paper.doi ? `DOI: ${paper.doi}` : `PMID: ${paper.pmid || '待核查'}`}`)
         .fontSize(12)
@@ -626,6 +709,20 @@ struct Index {
             .width('100%')
         }
 
+        if (this.sourceStatus.length > 0) {
+          Text(this.sourceStatus)
+            .fontSize(12)
+            .fontColor('#8A4B08')
+            .width('100%')
+        }
+
+        if (this.freshnessStatus.length > 0) {
+          Text(this.freshnessStatus)
+            .fontSize(12)
+            .fontColor('#8A4B08')
+            .width('100%')
+        }
+
         Scroll() {
           Column({ space: 12 }) {
             ForEach(this.visiblePapers(), (paper: Paper) => {
@@ -646,6 +743,19 @@ struct Index {
           .fontSize(11)
           .fontColor('#98A2B3')
           .width('100%')
+        Row() {
+          Button('隐私政策')
+            .fontSize(11)
+            .fontColor('#155D70')
+            .backgroundColor('#E7F2F3')
+            .onClick(() => { this.openPrivacyPolicy(); })
+          if (this.policyStatus.length > 0) {
+            Text(this.policyStatus)
+              .fontSize(11)
+              .fontColor('#A04B2C')
+          }
+        }
+        .width('100%')
       }
     }
     .padding(16)
@@ -654,3 +764,4 @@ struct Index {
     .backgroundColor('#F7F9FC')
   }
 }
+
