@@ -126,12 +126,17 @@ def run():
     conf=load_json(ROOT/'config/settings.json', {})
     journals=[j for j in load_json(ROOT/'config/journals.json',{'journals':[]})['journals'] if j.get('enabled',True)]
     specialty_by_journal={normalize_title(j['name']):j.get('specialty','oncology') for j in journals}
+    oncology_context_journals={normalize_title(j['name']) for j in journals if j.get('requires_oncology_context')}
     state=load_json(DATA/'state.json',{'seen':{},'ai_calls_per_day':{},'sent':[],'last_scan':None})
     state.setdefault('seen',{})
     state.setdefault('ai_calls_per_day',{})
     state.setdefault('sent',[])
     state.setdefault('notify_attempts_by_day',{})
     today=utcnow().date().isoformat()
+    # Apply current journal policy to records saved before this filter existed.
+    for paper in state['seen'].values():
+        if normalize_title(paper.get('journal')) in oncology_context_journals:
+            paper['requires_oncology_context']=True
     # A future issue date is not evidence that the article is already published.
     # Remove previously stored records too, so they can be rediscovered on release.
     state['seen']={key:paper for key,paper in state['seen'].items()
@@ -168,6 +173,9 @@ def run():
     for p in candidates:
         rank_paper(p)  # Merge may add publication types or an abstract.
         p['specialty']=specialty_by_journal.get(normalize_title(p.get('journal','')),'oncology')
+        if normalize_title(p.get('journal')) in oncology_context_journals:
+            p['requires_oncology_context']=True
+    candidates=[p for p in candidates if relevant_to_catalog(p)]
     enriched=False
     for p in candidates:
         uid=unique_id(p)
