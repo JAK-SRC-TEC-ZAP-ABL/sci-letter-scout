@@ -116,7 +116,7 @@ def relevant_to_catalog(paper):
     A DOI and a recent date alone are insufficient evidence that a Nature,
     Science, or general medical paper belongs in the oncology feed.
     """
-    if paper.get('tier') != 'cross':
+    if paper.get('tier') != 'cross' and not paper.get('requires_oncology_context'):
         return True
     text = ' '.join((paper.get('title') or '', paper.get('abstract') or ''))
     return bool(_ONCOLOGY_TERMS.search(text))
@@ -232,7 +232,7 @@ def fetch_pubmed(journals, days=3, batch_size=12):
                     for d in article.findall('./PubmedData/History/PubMedPubDate'):
                         if d.get('PubStatus') in ('epublish','aheadofprint'):
                             online = iso_date_from_parts([d.findtext('Year'), d.findtext('Month'), d.findtext('Day')]); break
-                paper = {'doi': doi, 'pmid': pmid, 'title':title, 'abstract':abstract[:5000], 'publication_types':publication_types, 'journal':j['name'], 'tier':j['tier'], 'online_date':online, 'source':'pubmed', 'url':'https://pubmed.ncbi.nlm.nih.gov/'+str(pmid)+'/' if pmid else None}
+                paper = {'doi': doi, 'pmid': pmid, 'title':title, 'abstract':abstract[:5000], 'publication_types':publication_types, 'journal':j['name'], 'tier':j['tier'], 'requires_oncology_context':j.get('requires_oncology_context',False), 'online_date':online, 'source':'pubmed', 'url':'https://pubmed.ncbi.nlm.nih.gov/'+str(pmid)+'/' if pmid else None}
                 if relevant_to_catalog(paper):
                     out.append(rank_paper(paper))
         time.sleep(0.4)  # stay below NCBI's no-key guidelines
@@ -280,7 +280,7 @@ def fetch_crossref(journals, hours=72, per_run=12, now=None, max_publication_age
                         continue
                 except ValueError:
                     pass
-            paper = {'doi':m.get('DOI'), 'title':clean_text((m.get('title') or [''])[0]), 'abstract':clean_text(m.get('abstract',''))[:5000], 'journal':j['name'], 'tier':j['tier'], 'online_date':date, 'source':'crossref', 'url':m.get('URL')}
+            paper = {'doi':m.get('DOI'), 'title':clean_text((m.get('title') or [''])[0]), 'abstract':clean_text(m.get('abstract',''))[:5000], 'journal':j['name'], 'tier':j['tier'], 'requires_oncology_context':j.get('requires_oncology_context',False), 'online_date':date, 'source':'crossref', 'url':m.get('URL')}
             if relevant_to_catalog(paper):
                 out.append(rank_paper(paper))
         time.sleep(0.15)
