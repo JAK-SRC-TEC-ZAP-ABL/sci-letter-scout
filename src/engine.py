@@ -301,9 +301,11 @@ def _crossref_pages(params, max_pages=100):
         cursor = message.get('next-cursor')
         if not cursor:
             total = message.get('total-results')
-            if isinstance(total, int) and received >= total:
-                return
-            raise RuntimeError('Crossref returned a full page without a next cursor')
+            # Crossref omits next-cursor at the end, including when the last
+            # page happens to contain exactly `rows` records.
+            if isinstance(total, int) and received < total:
+                raise RuntimeError('Crossref stopped before its reported total')
+            return
         params = {**params, 'cursor': cursor}
         time.sleep(0.15)
     raise RuntimeError('Crossref pagination exceeded the per-journal safety limit')

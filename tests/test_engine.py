@@ -134,10 +134,16 @@ class MetadataTests(unittest.TestCase):
         self.assertEqual(second['cursor'],'next')
         self.assertIn('until-index-date:2026-10-14T00:00:00',first['filter'])
 
-    def test_crossref_rejects_full_page_missing_cursor(self):
+    def test_crossref_accepts_exactly_full_final_page_without_cursor(self):
         journal={'name':'Cancer Cell','issn':'1535-6108','tier':'core'}
         with patch('src.engine.http_get_json',return_value={'message':{'items':[{}]*60}}),patch('src.engine.time.sleep'):
-            with self.assertRaisesRegex(RuntimeError,'without a next cursor'):
+            self.assertEqual(fetch_crossref([journal]),[])
+
+    def test_crossref_rejects_missing_cursor_before_reported_total(self):
+        journal={'name':'Cancer Cell','issn':'1535-6108','tier':'core'}
+        response={'message':{'items':[{}]*60,'total-results':61}}
+        with patch('src.engine.http_get_json',return_value=response),patch('src.engine.time.sleep'):
+            with self.assertRaisesRegex(RuntimeError,'before its reported total'):
                 fetch_crossref([journal])
 
     def test_pubmed_title_with_xml_text_is_parsed(self):

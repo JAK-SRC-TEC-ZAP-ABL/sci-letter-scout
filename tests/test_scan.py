@@ -62,12 +62,23 @@ class ScanTests(unittest.TestCase):
                  'tier':'cross','journal':'Nature','first_detected':'2026-10-29T12:00:01+00:00'}]
         self.assertEqual([p['doi'] for p in scan.select_public_papers(papers)],['10.1/on-topic'])
 
+    def test_crossref_skips_unverified_issn_and_reports_coverage_gap(self):
+        (self.root/'config'/'journals.json').write_text(json.dumps({'journals':[
+            {'name':'Cancer Cell','tier':'core','enabled':True,'issn':'1535-6108'},
+            {'name':'Unknown Journal','tier':'oncology','enabled':True,'issn':None}
+        ]}), encoding='utf-8')
+        with patch.object(scan,'fetch_pubmed',return_value=[]),patch.object(scan,'fetch_crossref',return_value=[]) as crossref,patch.dict(os.environ,{},clear=True):
+            scan.run()
+        self.assertEqual([j['name'] for j in crossref.call_args.args[0]],['Cancer Cell'])
+        feed=json.loads((self.root/'data'/'feed.json').read_text(encoding='utf-8'))
+        self.assertEqual(feed['source_health']['crossref'],'partial:missing_issn:1')
+
     def setUp(self):
         self.tmp=tempfile.TemporaryDirectory()
         self.root=Path(self.tmp.name)
         (self.root/'config').mkdir()
         (self.root/'data').mkdir()
-        (self.root/'config'/'journals.json').write_text(json.dumps({'journals':[{'name':'Cancer Cell','tier':'core','enabled':True}]}))
+        (self.root/'config'/'journals.json').write_text(json.dumps({'journals':[{'name':'Cancer Cell','tier':'core','enabled':True,'issn':'1535-6108'}]}))
         (self.root/'config'/'settings.json').write_text(json.dumps({'monitoring':{'pubmed_created_days':3,'pubmed_batch_size':12,'crossref_indexed_hours':72,'crossref_journals_per_run':1,'max_new_per_run':10},'ai':{'enabled':True,'model':'gemini-3.1-flash-lite','max_calls_per_day':1,'max_calls_per_scan':1},'notifications':{'enabled':True,'score_threshold':0,'max_messages_per_scan':2}}))
         self.original_root=scan.ROOT
         self.original_data=scan.DATA
