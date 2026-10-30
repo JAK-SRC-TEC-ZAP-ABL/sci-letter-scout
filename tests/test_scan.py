@@ -73,6 +73,22 @@ class ScanTests(unittest.TestCase):
         self.assertEqual([p['doi'] for p in scan.select_public_papers(papers)],
                          ['10.1/fresh','10.1/backfill'])
 
+    def test_future_dated_articles_are_excluded_from_existing_state_and_feed(self):
+        from datetime import timedelta
+        today=scan.utcnow().date()
+        future={**self.paper(),'doi':'10.1234/future',
+                'online_date':(today+timedelta(days=2)).isoformat(),
+                'first_detected':scan.utcnow().isoformat()}
+        state={'seen':{scan.unique_id(future):future},'sent':[scan.unique_id(future)]}
+        (self.root/'data'/'state.json').write_text(json.dumps(state),encoding='utf-8')
+        with patch.object(scan,'fetch_pubmed',return_value=[future]),patch.object(scan,'fetch_crossref',return_value=[]),patch.dict(os.environ,{},clear=True):
+            scan.run()
+        updated=json.loads((self.root/'data'/'state.json').read_text(encoding='utf-8'))
+        feed=json.loads((self.root/'data'/'feed.json').read_text(encoding='utf-8'))
+        self.assertEqual(updated['seen'],{})
+        self.assertEqual(updated['sent'],[])
+        self.assertEqual(feed['papers'],[])
+
     def test_crossref_skips_unverified_issn_and_reports_coverage_gap(self):
         (self.root/'config'/'journals.json').write_text(json.dumps({'journals':[
             {'name':'Cancer Cell','tier':'core','enabled':True,'issn':'1535-6108'},
