@@ -39,8 +39,21 @@ def specialty_round_robin(papers):
 
 
 def select_public_papers(papers, limit=300):
-    """Reserve space across specialties, then fill any unused space by recency."""
-    ordered=sorted((p for p in papers if relevant_to_catalog(p)), key=lambda p:p.get('first_detected',''), reverse=True)
+    """Reserve space across specialties and put newly published work ahead of backfill."""
+    today=utcnow().date()
+    def recency(paper):
+        detected=paper.get('first_detected') or ''
+        published=paper.get('online_date')
+        day=detected[:10]
+        if isinstance(published,str):
+            try:
+                publication_day=dt.date.fromisoformat(published)
+                if publication_day<=today:
+                    day=published
+            except ValueError:
+                pass
+        return (day, detected, paper.get('priority_score',0))
+    ordered=sorted((p for p in papers if relevant_to_catalog(p)), key=recency, reverse=True)
     if len(ordered)<=limit:
         return ordered
     specialties=sorted({p.get('specialty','oncology') for p in ordered})
@@ -56,7 +69,7 @@ def select_public_papers(papers, limit=300):
         else:
             remaining.append(paper)
     selected.extend(remaining[:limit-len(selected)])
-    return sorted(selected,key=lambda p:p.get('first_detected',''),reverse=True)
+    return sorted(selected,key=recency,reverse=True)
 
 
 def enrich_seen(existing, incoming):
