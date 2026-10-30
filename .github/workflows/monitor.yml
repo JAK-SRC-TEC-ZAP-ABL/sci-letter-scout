@@ -3,6 +3,13 @@ on:
   schedule:
     - cron: '2/5 * * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/monitor.yml'
+      - 'scan.py'
+      - 'src/**'
+      - 'config/**'
 permissions:
   contents: write
 concurrency:
