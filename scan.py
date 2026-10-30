@@ -7,7 +7,7 @@ import os
 from pathlib import Path
 
 from src.ai import screen_abstract
-from src.engine import fetch_pubmed, fetch_crossref, merge_papers, normalize_title, unique_id, utcnow
+from src.engine import doi_key, fetch_pubmed, fetch_crossref, merge_papers, normalize_title, rank_paper, relevant_to_catalog, unique_id, utcnow
 from src.notify import send_notification, resolve_provider
 
 ROOT=Path(__file__).resolve().parent
@@ -36,6 +36,67 @@ def specialty_round_robin(papers):
         for queue in queues.values():
             if queue:
                 yield queue.pop(0)
+
+
+def select_public_papers(papers, limit=300):
+    """Reserve space across specialties, then fill any unused space by recency."""
+    ordered=sorted((p for p in papers if relevant_to_catalog(p)), key=lambda p:p.get('first_detected',''), reverse=True)
+    if len(ordered)<=limit:
+        return ordered
+    specialties=sorted({p.get('specialty','oncology') for p in ordered})
+    quota=limit//len(specialties)
+    counts={specialty:0 for specialty in specialties}
+    selected=[]
+    remaining=[]
+    for paper in ordered:
+        specialty=paper.get('specialty','oncology')
+        if counts[specialty]<quota:
+            selected.append(paper)
+            counts[specialty]+=1
+        else:
+            remaining.append(paper)
+    selected.extend(remaining[:limit-len(selected)])
+    return sorted(selected,key=lambda p:p.get('first_detected',''),reverse=True)
+
+
+def enrich_seen(existing, incoming):
+    """Add newly available metadata without changing first detection or AI results."""
+    merged=dict(existing)
+    for field in ('pmid', 'doi', 'url', 'online_date', 'title', 'journal', 'tier'):
+        if not merged.get(field) and incoming.get(field):
+            merged[field]=incoming[field]
+    if len(incoming.get('abstract') or '') > len(merged.get('abstract') or ''):
+        merged['abstract']=incoming['abstract']
+    if incoming.get('publication_types') and incoming.get('source')=='pubmed':
+        merged['publication_types']=incoming['publication_types']
+    if merged != existing:
+        rank_paper(merged)
+    return merged
+
+
+def reconcile_pmid_identifiers(papers, state):
+    """Keep one record when a known PMID later gains a DOI, retaining sent state."""
+    seen=state['seen']
+    pmids={str(p['pmid']):key for key,p in seen.items() if p.get('pmid')}
+    doi_sets={}
+    for paper in [*seen.values(), *papers]:
+        if paper.get('pmid') and doi_key(paper.get('doi')):
+            doi_sets.setdefault(str(paper['pmid']),set()).add(doi_key(paper['doi']))
+    for paper in papers:
+        pmid=str(paper.get('pmid') or '')
+        if len(doi_sets.get(pmid,set())) > 1:
+            continue
+        old_key=pmids.get(pmid)
+        if not old_key or old_key not in seen:
+            continue
+        old=seen[old_key]
+        new_key=unique_id(paper)
+        if old.get('doi') and not paper.get('doi'):
+            paper['doi']=old['doi']
+        elif old_key.startswith('pmid:') and new_key and new_key.startswith('doi:') and new_key not in seen:
+            seen[new_key]=seen.pop(old_key)
+            state['sent']=[new_key if key==old_key else key for key in state['sent']]
+            pmids[pmid]=new_key
 
 
 def run():
@@ -71,9 +132,19 @@ def run():
     except Exception as exc:
         source_health['crossref']='error:'+type(exc).__name__
         print('Crossref fetch error',type(exc).__name__)
-    candidates=merge_papers(collected)
+    candidates=[p for p in merge_papers(collected) if relevant_to_catalog(p)]
+    reconcile_pmid_identifiers(candidates,state)
     for p in candidates:
+        rank_paper(p)  # Merge may add publication types or an abstract.
         p['specialty']=specialty_by_journal.get(normalize_title(p.get('journal','')),'oncology')
+    enriched=False
+    for p in candidates:
+        uid=unique_id(p)
+        if uid and uid in state['seen']:
+            updated=enrich_seen(state['seen'][uid],p)
+            if updated != state['seen'][uid]:
+                state['seen'][uid]=updated
+                enriched=True
     new=[]
     for p in specialty_round_robin(candidates):
         uid=unique_id(p)
@@ -96,7 +167,7 @@ def run():
     # Note: by design, notification failures remain eligible for a future retry.
     notify_cfg=conf['notifications']
     # Existing WeChat settings remain oncology-only; other specialties are app-feed data.
-    not_sent=[p for p in state['seen'].values() if p.get('specialty','oncology')=='oncology' and unique_id(p) not in state['sent'] and p.get('priority_score',0)>=notify_cfg['score_threshold']]
+    not_sent=[p for p in state['seen'].values() if relevant_to_catalog(p) and p.get('specialty','oncology')=='oncology' and unique_id(p) not in state['sent'] and p.get('priority_score',0)>=notify_cfg['score_threshold']]
     not_sent.sort(key=lambda p:(p.get('first_detected',''),p.get('priority_score',0)),reverse=True)
     batch=not_sent[:notify_cfg['max_messages_per_scan']]
     sent=False
@@ -126,10 +197,10 @@ def run():
             needs_heartbeat=(utcnow()-dt.datetime.fromisoformat(old_heartbeat)).total_seconds() >= 3600
         except ValueError:
             needs_heartbeat=True
-    if new or sent or needs_heartbeat or source_health != state.get('source_health'):
+    if new or enriched or sent or needs_heartbeat or source_health != state.get('source_health'):
         state['last_scan']=utcnow().isoformat()
         state['source_health']=source_health
-    public=sorted(state['seen'].values(),key=lambda p:p.get('first_detected',''),reverse=True)[:300]
+    public=select_public_papers(state['seen'].values())
     # Never expose tokens, local state accounting, or secret-bearing config in public JSON.
     journal_counts={}
     for journal in journals:
@@ -152,3 +223,4 @@ def run():
 
 if __name__=='__main__':
     run()
+

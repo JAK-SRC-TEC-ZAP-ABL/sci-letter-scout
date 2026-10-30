@@ -101,6 +101,27 @@ def classify_type(text):
     return [k for k, words in rules.items() if any(w in t for w in words)] or ['other']
 
 
+_ONCOLOGY_TERMS = re.compile(
+    r'\b(?:cancer|tumou?r|neoplasm|oncolog|carcinom|adenocarcinom|'
+    r'leuk[ae]mi|lymphom|melanom|sarcom|glioblastom|gliom|'
+    r'myelo[mad]|metast[a-z]*|malignan|chemotherap|radiotherap|'
+    r'immunotherap|antineoplastic|hepatocellular carcinoma)[a-z]*\b',
+    re.IGNORECASE,
+)
+
+
+def relevant_to_catalog(paper):
+    """Require explicit cancer context for broad, multidisciplinary journals.
+
+    A DOI and a recent date alone are insufficient evidence that a Nature,
+    Science, or general medical paper belongs in the oncology feed.
+    """
+    if paper.get('tier') != 'cross':
+        return True
+    text = ' '.join((paper.get('title') or '', paper.get('abstract') or ''))
+    return bool(_ONCOLOGY_TERMS.search(text))
+
+
 def rank_paper(paper):
     """A *reading priority* heuristic, NOT a probability of paper errors or acceptance."""
     tiers = {'core': 28, 'oncology': 20, 'specialist': 17, 'cross': 23}
@@ -122,6 +143,13 @@ def rank_paper(paper):
         s += 8
     if paper.get('doi'):
         s += 8
+    # PubMed explicitly labels these as non-original article types. Retain
+    # them for review, but do not rank them like a research report.
+    non_original = {'news', 'editorial', 'comment', 'letter', 'interview', 'newspaper article'}
+    types = {str(x).casefold() for x in paper.get('publication_types', [])}
+    if types & non_original:
+        s -= 15
+    s = max(0, s)
     paper['priority_score'] = min(s, 100)
     paper['priority_label'] = '阅读优先级，非研究缺陷或录用概率'
     paper['evidence_level'] = 'metadata_or_abstract_only'
@@ -148,6 +176,9 @@ def fetch_pubmed(journals, days=3, batch_size=12):
         e = http_get_json(base + 'esearch.fcgi', params)
         search = e.get('esearchresult', {})
         ids = list(search.get('idlist', []))
+        if len(set(ids)) != len(ids):
+            raise RuntimeError('PubMed search returned duplicate identifiers')
+        seen_ids = set(ids)
         count = int(search.get('count', len(ids)))
         if count > 10000:
             raise RuntimeError('PubMed search exceeds its 10,000-result retrieval limit; narrow the query')
@@ -157,7 +188,10 @@ def fetch_pubmed(journals, days=3, batch_size=12):
             page_ids = page.get('esearchresult', {}).get('idlist', [])
             if not page_ids:
                 raise RuntimeError('PubMed search returned an incomplete results page')
+            if len(set(page_ids)) != len(page_ids) or seen_ids.intersection(page_ids):
+                raise RuntimeError('PubMed search returned overlapping results pages')
             ids.extend(page_ids)
+            seen_ids.update(page_ids)
         if not ids:
             continue
         for i in range(0, len(ids), 200):
@@ -186,6 +220,8 @@ def fetch_pubmed(journals, days=3, batch_size=12):
                 title = clean_text(''.join(''.join(t.itertext()) for t in titles[0:1])) if titles else ''
                 abstract_nodes = article.findall('./MedlineCitation/Article/Abstract/AbstractText')
                 abstract = ' '.join(clean_text(''.join(x.itertext())) for x in abstract_nodes)
+                publication_types = [clean_text(''.join(x.itertext())) for x in
+                                     article.findall('./MedlineCitation/Article/PublicationTypeList/PublicationType')]
                 article_dates = article.findall('./MedlineCitation/Article/ArticleDate')
                 online = None
                 for d in article_dates:
@@ -196,7 +232,9 @@ def fetch_pubmed(journals, days=3, batch_size=12):
                     for d in article.findall('./PubmedData/History/PubMedPubDate'):
                         if d.get('PubStatus') in ('epublish','aheadofprint'):
                             online = iso_date_from_parts([d.findtext('Year'), d.findtext('Month'), d.findtext('Day')]); break
-                out.append(rank_paper({'doi': doi, 'pmid': pmid, 'title':title, 'abstract':abstract[:5000], 'journal':j['name'], 'tier':j['tier'], 'online_date':online, 'source':'pubmed', 'url':'https://pubmed.ncbi.nlm.nih.gov/'+str(pmid)+'/' if pmid else None}))
+                paper = {'doi': doi, 'pmid': pmid, 'title':title, 'abstract':abstract[:5000], 'publication_types':publication_types, 'journal':j['name'], 'tier':j['tier'], 'online_date':online, 'source':'pubmed', 'url':'https://pubmed.ncbi.nlm.nih.gov/'+str(pmid)+'/' if pmid else None}
+                if relevant_to_catalog(paper):
+                    out.append(rank_paper(paper))
         time.sleep(0.4)  # stay below NCBI's no-key guidelines
     return out
 
@@ -211,11 +249,13 @@ def fetch_crossref(journals, hours=72, per_run=12, now=None, max_publication_age
     offset = (cycle * n) % len(journals)
     selected = [journals[(offset + i) % len(journals)] for i in range(n)]
     since = (now - dt.timedelta(hours=hours)).strftime('%Y-%m-%dT%H:%M:%S')
+    until = now.strftime('%Y-%m-%dT%H:%M:%S')
     out = []
     for j in selected:
         params = {
-            'filter': 'from-index-date:' + since + ',type:journal-article',
+            'filter': 'from-index-date:' + since + ',until-index-date:' + until + ',type:journal-article',
             'rows': 60,
+            'cursor': '*',
             'select':'DOI,title,container-title,ISSN,abstract,published-online,published,issued,URL,type'
         }
         if j.get('issn'):
@@ -224,8 +264,7 @@ def fetch_crossref(journals, hours=72, per_run=12, now=None, max_publication_age
             params['query.container-title'] = j['name']
         if os.getenv('CONTACT_EMAIL'):
             params['mailto'] = os.environ['CONTACT_EMAIL']
-        results = http_get_json('https://api.crossref.org/works', params)
-        for m in results.get('message',{}).get('items',[]):
+        for m in _crossref_pages(params):
             names = m.get('container-title') or []
             accepted = {normalize_title(title) for title in [j['name'], *j.get('aliases', [])]}
             issns = m.get('ISSN') or []
@@ -241,14 +280,48 @@ def fetch_crossref(journals, hours=72, per_run=12, now=None, max_publication_age
                         continue
                 except ValueError:
                     pass
-            out.append(rank_paper({'doi':m.get('DOI'), 'title':clean_text((m.get('title') or [''])[0]), 'abstract':clean_text(m.get('abstract',''))[:5000], 'journal':j['name'], 'tier':j['tier'], 'online_date':date, 'source':'crossref', 'url':m.get('URL')}))
+            paper = {'doi':m.get('DOI'), 'title':clean_text((m.get('title') or [''])[0]), 'abstract':clean_text(m.get('abstract',''))[:5000], 'journal':j['name'], 'tier':j['tier'], 'online_date':date, 'source':'crossref', 'url':m.get('URL')}
+            if relevant_to_catalog(paper):
+                out.append(rank_paper(paper))
         time.sleep(0.15)
     return out
 
 
+def _crossref_pages(params, max_pages=100):
+    """Read a bounded cursor sequence; fail rather than silently truncate it."""
+    params = dict(params)
+    received = 0
+    for _ in range(max_pages):
+        message = http_get_json('https://api.crossref.org/works', params).get('message', {})
+        items = message.get('items', [])
+        received += len(items)
+        yield from items
+        if len(items) < params['rows']:
+            return
+        cursor = message.get('next-cursor')
+        if not cursor:
+            total = message.get('total-results')
+            if isinstance(total, int) and received >= total:
+                return
+            raise RuntimeError('Crossref returned a full page without a next cursor')
+        params = {**params, 'cursor': cursor}
+        time.sleep(0.15)
+    raise RuntimeError('Crossref pagination exceeded the per-journal safety limit')
+
+
 def merge_papers(papers):
+    # A PMID may arrive from one source before its DOI. Only adopt the DOI
+    # when all DOI-bearing records for that PMID agree; conflicting metadata
+    # must remain separate for manual verification.
+    pmid_dois={}
+    for paper in papers:
+        if paper.get('pmid') and doi_key(paper.get('doi')):
+            pmid_dois.setdefault(str(paper['pmid']),set()).add(doi_key(paper['doi']))
     merged={}
     for p in papers:
+        candidates=pmid_dois.get(str(p.get('pmid') or ''),set())
+        if not p.get('doi') and len(candidates)==1:
+            p={**p,'doi':next(iter(candidates))}
         key = unique_id(p)
         if not key:
             continue
@@ -261,3 +334,4 @@ def merge_papers(papers):
             other = prev if richer is p else p
             merged[key] = {k: richer.get(k) or other.get(k) for k in set(richer)|set(other)}
     return list(merged.values())
+

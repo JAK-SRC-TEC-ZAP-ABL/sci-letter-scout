@@ -7,6 +7,61 @@ from unittest.mock import patch
 import scan
 
 class ScanTests(unittest.TestCase):
+    def test_conflicting_dois_do_not_migrate_existing_pmid_or_sent_marker(self):
+        old={'pmid':'123','doi':None}
+        state={'seen':{'pmid:123':old},'sent':['pmid:123']}
+        papers=[{'pmid':'123','doi':'10.1/a'}, {'pmid':'123','doi':'10.1/b'}]
+        scan.reconcile_pmid_identifiers(papers,state)
+        self.assertEqual(list(state['seen']),['pmid:123'])
+        self.assertEqual(state['sent'],['pmid:123'])
+
+    def test_pmid_record_gains_doi_without_duplicate_or_repeat_notification(self):
+        old={'pmid':'123','doi':None,'title':'Study','abstract':'','journal':'Cancer Cell',
+             'tier':'core','first_detected':'2026-10-29T12:00:00+00:00'}
+        state={'seen':{'pmid:123':old},'sent':['pmid:123']}
+        paper={**old,'doi':'10.1234/new','abstract':'Updated abstract'}
+        scan.reconcile_pmid_identifiers([paper],state)
+        self.assertEqual(list(state['seen']),['doi:10.1234/new'])
+        self.assertEqual(state['sent'],['doi:10.1234/new'])
+        enriched=scan.enrich_seen(state['seen']['doi:10.1234/new'],paper)
+        self.assertEqual(enriched['first_detected'],old['first_detected'])
+        self.assertEqual(enriched['abstract'],'Updated abstract')
+
+    def test_missing_doi_is_recovered_from_existing_record_by_pmid(self):
+        state={'seen':{'doi:10.1234/new':{'pmid':'123','doi':'10.1234/new'}},'sent':[]}
+        paper={'pmid':'123','doi':None}
+        scan.reconcile_pmid_identifiers([paper],state)
+        self.assertEqual(scan.unique_id(paper),'doi:10.1234/new')
+
+    def test_later_pubmed_metadata_enriches_existing_paper_without_duplicate_alert(self):
+        first={**self.paper(),'abstract':'','source':'crossref'}
+        later={**first,'abstract':'New detailed abstract','source':'pubmed','pmid':'123','publication_types':['News']}
+        with patch.object(scan,'fetch_pubmed',side_effect=[[],[later]]),patch.object(scan,'fetch_crossref',side_effect=[[first],[]]),patch.dict(os.environ,{},clear=True):
+            scan.run()
+            initial=json.loads((self.root/'data'/'state.json').read_text(encoding='utf-8'))
+            scan.run()
+            updated=json.loads((self.root/'data'/'state.json').read_text(encoding='utf-8'))
+        self.assertEqual(len(updated['seen']),1)
+        record=next(iter(updated['seen'].values()))
+        self.assertEqual(record['abstract'],'New detailed abstract')
+        self.assertEqual(record['publication_types'],['News'])
+        self.assertEqual(record['first_detected'],next(iter(initial['seen'].values()))['first_detected'])
+
+    def test_public_feed_keeps_recent_papers_from_both_specialties(self):
+        papers=[{'doi':f'10.1/o{i}', 'specialty':'oncology', 'first_detected':f'2026-10-29T{i:03d}'} for i in range(400)]
+        papers += [{'doi':f'10.1/a{i}', 'specialty':'anesthesiology', 'first_detected':f'2026-10-28T{i:03d}'} for i in range(3)]
+        feed=scan.select_public_papers(papers, 300)
+        self.assertEqual(len(feed),300)
+        self.assertEqual(sum(p['specialty']=='anesthesiology' for p in feed),3)
+        self.assertIn('10.1/o399', {p['doi'] for p in feed})
+
+    def test_public_feed_excludes_legacy_unrelated_cross_journal_paper(self):
+        papers=[{'doi':'10.1/offtopic','title':'Research independence','abstract':'',
+                 'tier':'cross','journal':'Nature','first_detected':'2026-10-29T12:00:00+00:00'},
+                {'doi':'10.1/on-topic','title':'Cancer immunotherapy','abstract':'',
+                 'tier':'cross','journal':'Nature','first_detected':'2026-10-29T12:00:01+00:00'}]
+        self.assertEqual([p['doi'] for p in scan.select_public_papers(papers)],['10.1/on-topic'])
+
     def setUp(self):
         self.tmp=tempfile.TemporaryDirectory()
         self.root=Path(self.tmp.name)
@@ -30,13 +85,13 @@ class ScanTests(unittest.TestCase):
     def test_new_paper_then_dedup_without_secrets(self):
         with patch.object(scan,'fetch_pubmed',return_value=[self.paper()]),patch.object(scan,'fetch_crossref',return_value=[]),patch.dict(os.environ,{},clear=True):
             scan.run()
-            first=json.loads((self.root/'data'/'state.json').read_text())
+            first=json.loads((self.root/'data'/'state.json').read_text(encoding='utf-8'))
             scan.run()
-            second=json.loads((self.root/'data'/'state.json').read_text())
+            second=json.loads((self.root/'data'/'state.json').read_text(encoding='utf-8'))
         self.assertEqual(len(first['seen']),1)
         self.assertEqual(len(second['seen']),1)
         self.assertEqual(second['ai_calls_per_day'],{})
-        self.assertEqual(len(json.loads((self.root/'data'/'feed.json').read_text())['papers']),1)
+        self.assertEqual(len(json.loads((self.root/'data'/'feed.json').read_text(encoding='utf-8'))['papers']),1)
 
     def test_ai_requires_explicit_free_ack(self):
         with patch.object(scan,'fetch_pubmed',return_value=[self.paper()]),patch.object(scan,'fetch_crossref',return_value=[]),patch.dict(os.environ,{'GEMINI_API_KEY':'fake'},clear=True),patch.object(scan,'screen_abstract') as model:
@@ -66,7 +121,7 @@ class ScanTests(unittest.TestCase):
             scan.run()
             scan.run()
         self.assertEqual(push.call_count,2)
-        self.assertEqual(len(json.loads((self.root/'data'/'state.json').read_text())['sent']),1)
+        self.assertEqual(len(json.loads((self.root/'data'/'state.json').read_text(encoding='utf-8'))['sent']),1)
 
     def test_anesthesiology_is_scanned_and_tagged_without_wechat_push(self):
         catalogue=self.root/'config'/'journals.json'
@@ -76,7 +131,7 @@ class ScanTests(unittest.TestCase):
         anesthesia={**self.paper(),'doi':'10.1234/anesthesia','title':'Anesthesia paper','journal':'Anesthesiology'}
         with patch.object(scan,'fetch_pubmed',return_value=[anesthesia]),patch.object(scan,'fetch_crossref',return_value=[]),patch.dict(os.environ,{'SERVERCHAN_SENDKEY':'fake'},clear=True),patch.object(scan,'send_notification') as push:
             scan.run()
-        feed=json.loads((self.root/'data'/'feed.json').read_text())
+        feed=json.loads((self.root/'data'/'feed.json').read_text(encoding='utf-8'))
         self.assertIn('anesthesiology',feed['subjects'])
         self.assertEqual(feed['journal_counts']['anesthesiology'],1)
         self.assertEqual(feed['papers'][0]['specialty'],'anesthesiology')
@@ -86,3 +141,4 @@ class ScanTests(unittest.TestCase):
 
 if __name__=='__main__':
     unittest.main()
+

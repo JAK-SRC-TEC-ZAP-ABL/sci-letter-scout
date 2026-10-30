@@ -20,10 +20,15 @@ jobs:
         with:
           python-version: '3.12'
       - name: Scan public paper metadata
+        id: scan
         env:
           CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}
         run: python scan.py
       - name: Persist dedup history and public app feed
+        # A scan can write source_health before returning an error. Keep that
+        # status visible to the app even when both upstreams failed; the scan
+        # step itself remains failed so Actions still reports the failure.
+        if: ${{ always() && steps.scan.outcome != 'skipped' }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -32,3 +37,4 @@ jobs:
             git commit -m "chore: update monitored literature feed [skip ci]"
             git push
           fi
+
