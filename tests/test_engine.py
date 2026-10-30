@@ -48,6 +48,25 @@ class MetadataTests(unittest.TestCase):
         self.assertTrue(relevant_to_catalog({**unrelated,'title':'New immunotherapy for glioblastoma'}))
         self.assertTrue(relevant_to_catalog({**unrelated,'tier':'core'}))
 
+    def test_broad_specialist_requires_cancer_context_without_hiding_anesthesia(self):
+        broad={'title':'New treatment for inflammatory bowel disease', 'abstract':'',
+               'journal':'Gut','tier':'specialist','requires_oncology_context':True}
+        self.assertFalse(relevant_to_catalog(broad))
+        self.assertTrue(relevant_to_catalog({**broad,'title':'Colorectal cancer trial'}))
+        self.assertTrue(relevant_to_catalog({**broad,'requires_oncology_context':False,
+                                              'journal':'Anesthesiology'}))
+
+    def test_broad_specialist_is_filtered_at_source(self):
+        journals=[{'name':'Gut','issn':'0017-5749','tier':'specialist',
+                   'requires_oncology_context':True}]
+        response={'message':{'items':[
+            {'DOI':'10.1/ibd','title':['Inflammatory bowel disease'], 'ISSN':['0017-5749']},
+            {'DOI':'10.1/cancer','title':['Colorectal cancer trial'], 'ISSN':['0017-5749']},
+        ]}}
+        with patch('src.engine.http_get_json',return_value=response),patch('src.engine.time.sleep'):
+            out=fetch_crossref(journals)
+        self.assertEqual([p['doi'] for p in out],['10.1/cancer'])
+
     def test_crossref_multidisciplinary_paper_is_filtered(self):
         journals=[{'name':'Nature','tier':'cross'}]
         response={'message':{'items':[
