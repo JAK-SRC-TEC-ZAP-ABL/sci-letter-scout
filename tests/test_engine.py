@@ -117,6 +117,18 @@ class MetadataTests(unittest.TestCase):
             out=fetch_crossref(journals,now=dt.datetime(2026,10,14,tzinfo=dt.timezone.utc),max_publication_age_days=45)
         self.assertEqual([paper['doi'] for paper in out],['10.1/new'])
 
+    def test_crossref_future_publication_date_is_not_alerted(self):
+        journals=[{'name':'Cancer Cell','issn':'1535-6108','tier':'core'}]
+        response={'message':{'items':[
+            {'DOI':'10.1/future','title':['Future article'],'ISSN':['1535-6108'],
+             'published-online':{'date-parts':[[2026,11,1]]}},
+            {'DOI':'10.1/today','title':['Current article'],'ISSN':['1535-6108'],
+             'published-online':{'date-parts':[[2026,10,30]]}}
+        ]}}
+        with patch('src.engine.http_get_json',return_value=response),patch('src.engine.time.sleep'):
+            out=fetch_crossref(journals,now=dt.datetime(2026,10,30,tzinfo=dt.timezone.utc))
+        self.assertEqual([paper['doi'] for paper in out],['10.1/today'])
+
     def test_crossref_reads_all_pages_with_a_fixed_index_window(self):
         now=dt.datetime(2026,10,14,tzinfo=dt.timezone.utc)
         journal={'name':'Cancer Cell','issn':'1535-6108','tier':'core'}
