@@ -1,12 +1,69 @@
 {
   "ai_status": "disabled",
-  "generated_at": "2026-10-29T23:39:27.277490+00:00",
+  "generated_at": "2026-10-30T02:58:55.875469+00:00",
   "harmony_push_status": "not_configured",
   "journal_counts": {
     "anesthesiology": 13,
     "oncology": 100
   },
   "papers": [
+    {
+      "abstract": "",
+      "doi": "10.1016/j.xcrm.2026.103044",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T02:58:55.869085+00:00",
+      "journal": "Cell Reports Medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 31,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "First-line fecal microbiota transplantation for the management of immune checkpoint inhibitor-mediated diarrhea and colitis",
+      "url": "https://doi.org/10.1016/j.xcrm.2026.103044"
+    },
+    {
+      "abstract": "Methicillin-resistant Staphylococcus aureus (MRSA) bacteremia causes substantial morbidity, but tissue reservoirs that permit bacterial persistence remain poorly defined. Using intravenous USA300 MRSA infection in mice, multiplexed imaging, dual-species transcriptomics, host and bacterial genetics, and cell-based assays, we uncovered the renal inner medulla, the site of urine concentration, as an MRSA reservoir. In this hyperosmotic niche, MRSA evaded immune detection and co-opted tissue polyamines to sustain growth, enabling subsequent spread toward the renal cortex. Neutrophil recruitment to the inner medulla was profoundly delayed owing to osmotic inhibition of immune cell migration. Disruption of medullary osmolality with the loop diuretic furosemide accelerated neutrophil infiltration, limited bacterial spread, and improved renal outcomes. Mechanistically, polyamines promoted MRSA persistence through both extracellular and intracellular actions that depended on local osmolality and pH. In the medullary milieu, polyamines primarily associated with the bacterial surface and stabilized membranes against osmotic stress. Intracellular polyamines enhanced translation of guaB (inosine monophosphate dehydrogenase), the rate-limiting enzyme in bacterial de novo purine biosynthesis. The polyamine-catabolizing gene speG (spermidine acetyltransferase), uniquely present in epidemic USA300 MRSA strains, mitigated polyamine toxicity and conferred a selective advantage in the polyamine-rich kidney. These findings revealed the inner medulla as a physiologically immune-restricted MRSA reservoir and supported modulation of medullary osmolality and bacterial polyamine metabolism as candidate adjunctive strategies for limiting renal persistence and dissemination during MRSA bacteremia.",
+      "doi": "10.1126/scitranslmed.aed4200",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T02:58:55.868872+00:00",
+      "journal": "Science Translational Medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-30",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 39,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Hyperosmotic niche adaptation and tissue polyamines underlie MRSA persistence in the kidney",
+      "url": "https://doi.org/10.1126/scitranslmed.aed4200"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/s41422-026-01299-5",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T02:58:55.868254+00:00",
+      "journal": "Cell Research",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-30",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 61,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Substrate recognition and ion-coupling mechanism of human VIAAT",
+      "url": "https://doi.org/10.1038/s41422-026-01299-5"
+    },
     {
       "abstract": "",
       "doi": "10.1038/s41375-026-03134-7",
@@ -5941,66 +5998,6 @@
       "tier": "cross",
       "title": "Harmonic brightness oscillations point to magnetar giant flares in rare short gamma-ray bursts.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42950052/"
-    },
-    {
-      "abstract": "Continuous touch positioning and trajectory tracking are essential for immersive human-machine interaction, yet conventional interfaces are fundamentally limited by rigid power supplies and tethered data transmission. Here, we present a completely self-powered, finger-worn interface that wirelessly transmits spatial trajectory data driven solely by biomechanical motion. The device integrates a miniaturized (3.7 cm2) corona-discharge triboelectric nanogenerator with a flexible electromagnetic transmitter, converting multidirectional fingertip movement directly into wireless communication signals. By coupling these signals with three non-collinear receivers and a machine-learning-assisted decoding algorithm, the system achieves sub-millimeter localization accuracy (<0.9 mm). We demonstrate the interface's capability for the high-fidelity reconstruction of handwritten inputs, enabling robust human-machine control. By synergizing motion-energy harvesting with precise spatial tracking, this work offers an untethered, self-contained paradigm for next-generation interactive intelligent systems.",
-      "doi": "10.1126/sciadv.aek0501",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-28T21:47:32.922235+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-28",
-      "pmid": "42950053",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "A self-powered finger-worn wireless tracking interface for human-machine interaction.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42950053/"
-    },
-    {
-      "abstract": "Regulatory T cells (Treg cells) maintain immune tolerance, but how broadly acting epigenetic pathways are selectively used by Treg cells versus conventional T cells (Tconv cells) remains unclear. Here, we identify the COMPASS-trimethylation of histone H3 lysine 4 (H3K4me3) pathway, through its Wdr82 component, as a key epigenetic regulator that preferentially supports Treg cell development and function. Although Wdr82 deficiency broadly impairs T cell activation, T cell-specific deletion paradoxically causes progressive, microbiota-dependent intestinal inflammation and expansion of inflammatory Tconv cell programs. This pathology is prevented by microbiome depletion or transfer of wild-type Treg cells, indicating a primary defect in Treg cell-mediated tolerance. Mechanistically, Wdr82/COMPASS promotes Foxp3 induction, maintains H3K4me3 and chromatin accessibility at Treg cell-associated genes, and restrains effector programs within the Treg cell lineage. Foxp3 coordinates with COMPASS components in a T cell receptor/costimulation-dependent manner, linking antigen receptor signaling to chromatin regulation. Together, these findings reveal selective integration of a broadly active epigenetic pathway into the Foxp3-centered regulatory hierarchy that sustains Treg cell control of microbiota-driven intestinal inflammation.",
-      "doi": "10.1126/sciadv.aeh9188",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-28T21:47:32.922232+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-28",
-      "pmid": "42950054",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Wdr82-COMPASS coordinates Foxp3 and TCR signaling to sustain Treg cell control of microbiota-driven intestinal inflammation.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42950054/"
-    },
-    {
-      "abstract": "Dietary restrictions are increasingly recognized as modulators of immune cell function. However, how they shape CD8+ T cell fate decisions remains incompletely understood. Here, we investigated the impact of intermittent fasting (IF) on differentiation of heterogeneous effector T cell subsets and the formation of a long-lived homeostatic memory pool. We found that IF skewed CD8+ T cell differentiation toward memory precursor effector cells (MPECs) and enhanced the central memory CD8+ T cell development and functions. Mechanistically, glucose restriction induced by IF promotes alternative metabolic fluxes leading to fatty acid oxidation. This metabolic shift enhanced mitochondrial fitness and supported MPEC differentiation via metabolic-epigenetic cross-talk, culminating in durable and functionally robust memory CD8+ T cell responses. Applying this strategy in adoptive transfer therapy, intratumoral defects could be circumvented by imprinting a memory phenotype under IF-mimicking conditions, resulting in improved and long-lasting antitumor activity. Collectively, these findings underscore the importance of IF in orchestrating metabolic-epigenetic cross-talk to enhance memory formation and antitumor immunity.",
-      "doi": "10.1126/sciadv.aeg0361",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-28T21:47:32.922229+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-28",
-      "pmid": "42950055",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Glucose restriction induced by intermittent fasting promotes alternative metabolic fluxes leading to memory CD8+ T cell development.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42950055/"
     }
   ],
   "schema_version": "0.3",
