@@ -27,6 +27,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Sync latest monitored state
+        # A queued run may have been created before an earlier scan committed
+        # its feed. Start from that newer state to avoid replaying old dedup data.
+        run: git pull --ff-only origin main
       - name: Scan public paper metadata
         id: scan
         env:
