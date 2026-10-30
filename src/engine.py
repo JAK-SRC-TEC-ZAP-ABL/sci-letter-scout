@@ -273,10 +273,10 @@ def fetch_crossref(journals, hours=72, per_run=12, now=None, max_publication_age
             if not j.get('issn') and not any(normalize_title(x) in accepted for x in names):
                 continue
             date = crossref_publication_date(m)
-            if date and max_publication_age_days is not None:
+            if date:
                 try:
                     age=(now.date()-dt.date.fromisoformat(date)).days
-                    if age > max_publication_age_days:
+                    if age < 0 or (max_publication_age_days is not None and age > max_publication_age_days):
                         continue
                 except ValueError:
                     pass
