@@ -62,6 +62,22 @@ class ScanTests(unittest.TestCase):
                  'tier':'cross','journal':'Nature','first_detected':'2026-10-29T12:00:01+00:00'}]
         self.assertEqual([p['doi'] for p in scan.select_public_papers(papers)],['10.1/on-topic'])
 
+    def test_existing_broad_journal_record_is_removed_from_public_feed(self):
+        catalogue=self.root/'config'/'journals.json'
+        content=json.loads(catalogue.read_text())
+        content['journals'].append({'name':'Gut','tier':'specialist','enabled':True,
+                                    'requires_oncology_context':True})
+        catalogue.write_text(json.dumps(content))
+        unrelated={**self.paper(),'doi':'10.1234/ibd','title':'Inflammatory bowel disease',
+                   'abstract':'','journal':'Gut','tier':'specialist',
+                   'first_detected':scan.utcnow().isoformat()}
+        state={'seen':{scan.unique_id(unrelated):unrelated},'sent':[]}
+        (self.root/'data'/'state.json').write_text(json.dumps(state))
+        with patch.object(scan,'fetch_pubmed',return_value=[]),patch.object(scan,'fetch_crossref',return_value=[]),patch.dict(os.environ,{},clear=True):
+            scan.run()
+        feed=json.loads((self.root/'data'/'feed.json').read_text(encoding='utf-8'))
+        self.assertEqual(feed['papers'],[])
+
     def test_public_feed_puts_new_publication_ahead_of_recently_indexed_backfill(self):
         today=scan.utcnow().date().isoformat()
         papers=[{'doi':'10.1/backfill','title':'Cancer treatment','journal':'Cancer Cell',
