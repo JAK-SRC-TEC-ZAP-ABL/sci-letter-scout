@@ -1,6 +1,6 @@
 {
   "ai_calls_per_day": {},
-  "last_scan": "2026-10-30T17:25:36.449365+00:00",
+  "last_scan": "2026-10-30T20:22:08.776483+00:00",
   "notify_attempts_by_day": {},
   "seen": {
     "doi:10.1001/jama.2025.16073": {
@@ -2635,6 +2635,27 @@
       "title": "JAMA Oncology",
       "url": "https://doi.org/10.1001/jamaoncol.2025.4016"
     },
+    "doi:10.1001/jamaoncol.2026.2781": {
+      "abstract": "Importance Adaptive therapy is an evolution-based treatment paradigm that has been shown to delay resistance in prostate cancer through treatment breaks that control, rather than minimize, tumor burden. However, patient responses are highly heterogeneous, and there is a significant unmet clinical need for biomarkers to personalize treatment scheduling. Objective To develop and retrospectively validate mathematical biomarkers that predict time to progression (TTP), mean daily dose, and overall survival (OS) under adaptive therapy from first-cycle prostate-specific antigen (PSA) dynamics. Design, Setting, and Participants This retrospective modeling and validation study used longitudinal, nonrandomized clinical trial data from 2 independent cohorts: 40 patients with castrate-sensitive prostate cancer (CSPC) (June 1996 to September 2006) and 13 patients with metastatic castrate-resistant prostate cancer (mCRPC) (April 2015 to January 2022). A 2-population differential equation model was used to describe the overall tumor growth through the competing dynamics of drug-sensitive and drug-resistant cells. The statistical analysis was conducted from January 2025 to May 2026. Exposures Patients received either intermittent androgen deprivation therapy (for CSPC) or adaptive abiraterone acetate (for mCRPC). The initial treatment cycle served as the exposure period to extract longitudinal PSA kinetics. Main Outcomes and Measures Mechanism-based mathematical biomarkers (adaptive therapy score, expected TTP, and expected mean daily dose) were derived from first-cycle PSA kinetics. Outcomes included in silico benchmarking experiments and retrospective validation against clinical TTP and OS. Performance was benchmarked against standard phenomenological PSA metrics (eg, PSA nadir, time to nadir, and doubling time). Results Overall, data from 53 patients across 2 clinical trials were included. In the CSPC cohort of 40 patients, the adaptive therapy score derived from first-cycle data was highly prognostic for prolonged clinical TTP (univariable hazard ratio [HR], 0.49; 95% CI, 0.31-0.76; P = .002). In the mCRPC cohort of 13 patients, the adaptive therapy score exhibited a strong rank correlation with clinical TTP (Spearman ρ = 0.76; P = .002) and was associated with prolonged TTP (HR, 0.41; 95% CI, 0.16-1.07; P = .07). Analysis of long-term survival data in the mCRPC cohort demonstrated that both the adaptive therapy score and expected TTP were significantly associated with prolonged OS, whereas standard empirical PSA metrics displayed no association with OS. Conclusions and Relevance In this modeling and validation study, mechanism-based mathematical biomarkers derived from the initial-cycle PSA dynamics accurately predicted patient-specific outcomes and survival, outperforming traditional phenomenological PSA monitoring. These accessible metrics could act as a mathematically informed decision support framework to stratify patients into personalized treatment protocols.",
+      "doi": "10.1001/jamaoncol.2026.2781",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652143+00:00",
+      "journal": "JAMA Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 60,
+      "requires_oncology_context": false,
+      "research_types": [
+        "clinical_trial",
+        "mechanism"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Mathematical Biomarkers of Adaptive Therapy Outcomes in Prostate Cancer",
+      "url": "https://doi.org/10.1001/jamaoncol.2026.2781"
+    },
     "doi:10.1001/jamaoncol.2026.2790": {
       "abstract": "Importance Metabolic syndrome (MetS) includes obesity, insulin resistance, hypertension, and dyslipidemia. While androgen deprivation therapy (ADT) is associated with an increased risk of dyslipidemia, adiposity, and MetS, evidence is limited on the occurrence and timing of metabolic dysfunction among men receiving concurrent androgen receptor pathway inhibitor (ARPI) therapy and whether patterns vary by age. Objective To characterize the occurrence and rate of MetS during the first year following initiation of ADT-ARPI, examine associations with age and ARPI type, and evaluate component metabolic outcomes (secondary end points). Design, Setting, and Participants This retrospective cohort study of adult patients from January 2014 to September 2025 with up to 12 months of follow-up per person used data from a national, deidentified health record dataset (Epic Cosmos) and included patients with prostate cancer who initiated treatment with ADT-ARPI (abiraterone acetate, enzalutamide, apalutamide, and darolutamide) without evidence of MetS or its components before treatment. Data were analyzed between October 2025 and January 2026 (further analyses were done with revisions through May 2026). Exposure Concurrent ADT and ARPI use, with index date defined as the first date of overlap between therapies. Main Outcomes and Measures New-onset MetS during the 12 months following the index date. Secondary outcomes included individual metabolic abnormalities. Results The cohort included 16 924 men with prostate cancer (mean [SD] age, 73.1 [9.1] y; 509 [3.0%] Asian individuals, 912 [5.4%] Hispanic individuals, 3562 [21.0%] non-Hispanic Black individuals, and 11 083 [65.5%] non-Hispanic White individuals). Medical ADT use predominated, and enzalutamide was the most frequently used ARPI. During the first year following initiation of concurrent ADT and ARPI therapy, the cumulative incidence of metabolic syndrome increased steadily, reaching nearly 40%, and varied by age group. Hypertension was the most frequently documented component outcome. Metabolic associations varied by age, with the highest incidence of metabolic syndrome among patients aged 70 to 79 years (51.7 events per 1000 person-months; 95% CI, 50.7-53.9). Heterogeneity in metabolic outcomes by ARPI type was observed in exploratory analyses. Conclusions and Relevance This study found that while ARPIs are standard of care for advanced prostate cancer, metabolic abnormalities were frequently documented shortly after initiation of concurrent ADT and ARPI therapy. This suggests that monitoring should extend beyond cancer-specific outcomes to include early detection of metabolic dysfunction, ideally through multidisciplinary care. The early burden of metabolic abnormalities highlights the need to evaluate scalable interventions addressing cardiometabolic risk in men with prostate cancer.",
       "doi": "10.1001/jamaoncol.2026.2790",
@@ -2751,7 +2772,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42911587/"
     },
     "doi:10.1001/jamaoncol.2026.3918": {
-      "abstract": "Consolidation immunotherapy improves outcomes after chemoradiotherapy for unresectable stage III non-small cell lung cancer (NSCLC). Disease progression remains common, and more effective consolidation strategies are needed. To evaluate the efficacy and safety of benmelstobart with or without anlotinib as consolidation therapy after chemoradiotherapy for unresectable stage III NSCLC. This multicenter double-blind phase 3 randomized clinical trial took place at 42 centers in China from 2020 to 2023 among patients with unresectable stage III NSCLC without progression after concurrent or sequential chemoradiotherapy. In stage 1, patients were randomized 1:1:1 to 2 active regimens or placebo; in stage 2, additional patients were randomized 1:1 between the active regimens to power their direct comparison. Data cutoffs were November 30, 2023, for stage 1 and July 8, 2024, for the pooled analysis. Data analysis was performed from January 17 to March 23, 2025. Patients were randomized to receive benmelstobart plus anlotinib, benmelstobart plus anlotinib placebo, or their matching placebos. Primary end point was independent review committee (IRC)-assessed progression-free survival (PFS). Of 553 participants (median [IQR] age, 62 [56-67] years; 495 male individuals [89.5%]), 390 were randomized in stage 1 and 163 in stage 2. In stage 1, median PFS was 15.1 months (95% CI, 9.4-21.7) with benmelstobart plus anlotinib, 9.7 months (95% CI, 6.0-34.4) with benmelstobart alone, and 4.2 months (95% CI, 3.2-6.8) with placebo. The hazard ratios (HRs) were 0.49 (95% CI, 0.36-0.66; P < .001) for benmelstobart plus anlotinib vs placebo and 0.53 (95% CI, 0.39-0.72; P < .001) for benmelstobart vs placebo. In the pooled stage 1 and 2 analysis, median PFS was 17.4 (95% CI, 12.5-24.8) months with benmelstobart plus anlotinib and 11.2 (95% CI, 7.0-20.7) months with benmelstobart alone (HR, 0.82; 95% CI, 0.63-1.08; P = .12). Grade 3 to 5 treatment-related adverse events occurred in 48.8%, 29.4%, and 19.7% in the benmelstobart plus anlotinib, benmelstobart alone, and placebo groups, respectively; grade 5 events occurred in 7.2%, 1.4%, and 1.5%, respectively. This randomized clinical trial found that benmelstobart with or without anlotinib significantly improved PFS compared with placebo. Adding anlotinib did not significantly improve PFS compared with benmelstobart alone and increased severe and fatal treatment-related adverse events. ClinicalTrials.gov Identifier: NCT04325763.",
+      "abstract": "Importance Consolidation immunotherapy improves outcomes after chemoradiotherapy for unresectable stage III non–small cell lung cancer (NSCLC). Disease progression remains common, and more effective consolidation strategies are needed. Objective To evaluate the efficacy and safety of benmelstobart with or without anlotinib as consolidation therapy after chemoradiotherapy for unresectable stage III NSCLC. Design, Setting, and Participants This multicenter double-blind phase 3 randomized clinical trial took place at 42 centers in China from 2020 to 2023 among patients with unresectable stage III NSCLC without progression after concurrent or sequential chemoradiotherapy. In stage 1, patients were randomized 1:1:1 to 2 active regimens or placebo; in stage 2, additional patients were randomized 1:1 between the active regimens to power their direct comparison. Data cutoffs were November 30, 2023, for stage 1 and July 8, 2024, for the pooled analysis. Data analysis was performed from January 17 to March 23, 2025. Interventions Patients were randomized to receive benmelstobart plus anlotinib, benmelstobart plus anlotinib placebo, or their matching placebos. Main Outcomes and Measures Primary end point was independent review committee (IRC)−assessed progression-free survival (PFS). Results Of 553 participants (median [IQR] age, 62 [56-67] years; 495 male individuals [89.5%]), 390 were randomized in stage 1 and 163 in stage 2. In stage 1, median PFS was 15.1 months (95% CI, 9.4-21.7) with benmelstobart plus anlotinib, 9.7 months (95% CI, 6.0-34.4) with benmelstobart alone, and 4.2 months (95% CI, 3.2-6.8) with placebo. The hazard ratios (HRs) were 0.49 (95% CI, 0.36-0.66; P &amp;lt; .001) for benmelstobart plus anlotinib vs placebo and 0.53 (95% CI, 0.39-0.72; P &amp;lt; .001) for benmelstobart vs placebo. In the pooled stage 1 and 2 analysis, median PFS was 17.4 (95% CI, 12.5-24.8) months with benmelstobart plus anlotinib and 11.2 (95% CI, 7.0-20.7) months with benmelstobart alone (HR, 0.82; 95% CI, 0.63-1.08; P = .12). Grade 3 to 5 treatment-related adverse events occurred in 48.8%, 29.4%, and 19.7% in the benmelstobart plus anlotinib, benmelstobart alone, and placebo groups, respectively; grade 5 events occurred in 7.2%, 1.4%, and 1.5%, respectively. Conclusions and Relevance This randomized clinical trial found that benmelstobart with or without anlotinib significantly improved PFS compared with placebo. Adding anlotinib did not significantly improve PFS compared with benmelstobart alone and increased severe and fatal treatment-related adverse events. Trial Registration ClinicalTrials.gov Identifier: NCT04325763",
       "doi": "10.1001/jamaoncol.2026.3918",
       "evidence_level": "metadata_or_abstract_only",
       "first_detected": "2026-10-29T23:39:27.271688+00:00",
@@ -2936,7 +2957,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42911563/"
     },
     "doi:10.1001/jamaoncol.2026.4196": {
-      "abstract": "Alterations in the fibroblast growth factor receptor (FGFR) pathway, particularly FGFR3, are among the most common genomic events in urothelial carcinoma (UC) and represent a cornerstone of precision oncology. Although FGFR3 alterations predominate, selected FGFR2 fusions also identify patients who may benefit from targeted therapy. This review summarizes the biology, molecular diagnostics, and evolving clinical applications of FGFR alterations in UC. FGFR2/3 alterations are clinically actionable biomarkers across non-muscle-invasive, muscle-invasive, metastatic, and upper-tract UC. Comprehensive genomic profiling, tissue sequencing, plasma circulating tumor DNA, urine-based molecular assays, and molecular residual disease assessment are expanding their roles in diagnosis, treatment selection, surveillance, and disease monitoring. Recent clinical studies support combination strategies, next-generation FGFR inhibitors, and earlier use of FGFR-directed therapy, while emerging technologies, including artificial intelligence-assisted pathology and integrated multi-omic biomarkers, may further improve patient selection. FGFR alterations have become integral to the molecular classification and precision management of UC. Continued advances in molecular diagnostics, liquid biopsy, biomarker-guided therapy, and next-generation FGFR inhibitors are expected to further personalize care. This review provides a practical framework for integrating FGFR biomarkers into contemporary management and highlights emerging developments likely to influence future clinical practice.",
+      "abstract": "Importance Alterations in the fibroblast growth factor receptor (FGFR) pathway, particularly FGFR3 , are among the most common genomic events in urothelial carcinoma (UC) and represent a cornerstone of precision oncology. Although FGFR3 alterations predominate, selected FGFR2 fusions also identify patients who may benefit from targeted therapy. This review summarizes the biology, molecular diagnostics, and evolving clinical applications of FGFR alterations in UC. Observations FGFR2/3 alterations are clinically actionable biomarkers across non–muscle-invasive, muscle-invasive, metastatic, and upper-tract UC. Comprehensive genomic profiling, tissue sequencing, plasma circulating tumor DNA, urine-based molecular assays, and molecular residual disease assessment are expanding their roles in diagnosis, treatment selection, surveillance, and disease monitoring. Recent clinical studies support combination strategies, next-generation FGFR inhibitors, and earlier use of FGFR-directed therapy, while emerging technologies, including artificial intelligence–assisted pathology and integrated multi-omic biomarkers, may further improve patient selection. Conclusions and Relevance FGFR alterations have become integral to the molecular classification and precision management of UC. Continued advances in molecular diagnostics, liquid biopsy, biomarker-guided therapy, and next-generation FGFR inhibitors are expected to further personalize care. This review provides a practical framework for integrating FGFR biomarkers into contemporary management and highlights emerging developments likely to influence future clinical practice.",
       "doi": "10.1001/jamaoncol.2026.4196",
       "evidence_level": "metadata_or_abstract_only",
       "first_detected": "2026-10-29T23:39:27.271924+00:00",
@@ -2980,7 +3001,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42911610/"
     },
     "doi:10.1001/jamaoncol.2026.4274": {
-      "abstract": "Primary bone cancers include multiple histologic types, with survival differing by age and location. Results from the Global Burden of Diseases, Injuries, and Risk Factors Study (GBD) 2023 were analyzed to support policies and initiatives worldwide. To estimate the global burden of bone cancer from 1990 to 2023 and forecast future trends to 2050. This systematic analysis estimated bone cancer incidence, mortality, and disability-adjusted life-years (DALYs) in 204 countries and territories grouped by GBD super-regions and World Bank income groups from 1990 to 2023, with forecasts through 2050. Individuals of all ages with bone cancers included in the GBD 2023 study were included in analyses. Data were analyzed from June 2023 to July 2025. The GBD 2023 study used standardized estimation methods to describe bone cancer incidence, mortality, and DALYs in 2023, as well as trends over the past 3 decades and forecasts through 2050. All estimates are presented with 95% uncertainty intervals (UIs), and age-standardized rates (ASRs) were calculated using GBD-specific age weights. In 2023, there were 111 000 (95% UI, 81 300-164 000) malignant bone cancer cases, 76 600 (95% UI, 60 700-96 300) deaths, and 3.02 million (95% UI, 2.29 million-3.96 million) DALYs globally. A bimodal age distribution was noted in both incidence (peaking at ages 10 to 14 years and 65 to 69 years) and mortality (peaking at ages 15 to 19 years and 65 to 69 years). The highest ASRs for incidence were in Southeast Asia, East Asia, and Oceania (1.6 per 100 000; 95% UI, 1.1-2.4), while Sub-Saharan Africa had the highest ASRs for DALYs (51.0 per 100 000; 95% UI, 27.7-79.7). By World Bank income group, upper-middle-income countries had the highest ASRs for incidence, whereas low-income countries exhibited the highest ASRs for both mortality and DALYs. Globally, incident cases, deaths, and DALYs increased from 1990 to 2023, while global mortality and DALY ASRs were relatively stable; high-income countries experienced a decline in mortality and DALY ASRs. Forecasts suggest a potential increase in global cases and deaths by 2050. In this systematic analysis, the burden of bone cancer varied by age, geography, and time, underscoring global disparities. These findings provide valuable insights to inform health system planning and resource allocation tailored to different settings.",
+      "abstract": "Importance Primary bone cancers include multiple histologic types, with survival differing by age and location. Results from the Global Burden of Diseases, Injuries, and Risk Factors Study (GBD) 2023 were analyzed to support policies and initiatives worldwide. Objective To estimate the global burden of bone cancer from 1990 to 2023 and forecast future trends to 2050. Design, Setting, and Participants This systematic analysis estimated bone cancer incidence, mortality, and disability-adjusted life-years (DALYs) in 204 countries and territories grouped by GBD super-regions and World Bank income groups from 1990 to 2023, with forecasts through 2050. Individuals of all ages with bone cancers included in the GBD 2023 study were included in analyses. Data were analyzed from June 2023 to July 2025. Main Outcomes and Measures The GBD 2023 study used standardized estimation methods to describe bone cancer incidence, mortality, and DALYs in 2023, as well as trends over the past 3 decades and forecasts through 2050. All estimates are presented with 95% uncertainty intervals (UIs), and age-standardized rates (ASRs) were calculated using GBD-specific age weights. Results In 2023, there were 111 000 (95% UI, 81 300-164 000) malignant bone cancer cases, 76 600 (95% UI, 60 700-96 300) deaths, and 3.02 million (95% UI, 2.29 million-3.96 million) DALYs globally. A bimodal age distribution was noted in both incidence (peaking at ages 10 to 14 years and 65 to 69 years) and mortality (peaking at ages 15 to 19 years and 65 to 69 years). The highest ASRs for incidence were in Southeast Asia, East Asia, and Oceania (1.6 per 100 000; 95% UI, 1.1-2.4), while Sub-Saharan Africa had the highest ASRs for DALYs (51.0 per 100 000; 95% UI, 27.7-79.7). By World Bank income group, upper-middle–income countries had the highest ASRs for incidence, whereas low-income countries exhibited the highest ASRs for both mortality and DALYs. Globally, incident cases, deaths, and DALYs increased from 1990 to 2023, while global mortality and DALY ASRs were relatively stable; high-income countries experienced a decline in mortality and DALY ASRs. Forecasts suggest a potential increase in global cases and deaths by 2050. Conclusions and Relevance In this systematic analysis, the burden of bone cancer varied by age, geography, and time, underscoring global disparities. These findings provide valuable insights to inform health system planning and resource allocation tailored to different settings.",
       "doi": "10.1001/jamaoncol.2026.4274",
       "evidence_level": "metadata_or_abstract_only",
       "first_detected": "2026-10-29T23:39:27.271922+00:00",
@@ -3023,7 +3044,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42879142/"
     },
     "doi:10.1001/jamaoncol.2026.4366": {
-      "abstract": "",
+      "abstract": "This Viewpoint describes dose optimization and pragmatic de-escalation for financially constrained health systems.",
       "doi": "10.1001/jamaoncol.2026.4366",
       "evidence_level": "metadata_or_abstract_only",
       "first_detected": "2026-10-29T23:39:27.272095+00:00",
@@ -3032,7 +3053,7 @@
       "online_date": "2026-10-29",
       "pmid": "42955011",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 58,
+      "priority_score": 66,
       "publication_types": [
         "Journal Article"
       ],
@@ -3046,7 +3067,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42955011/"
     },
     "doi:10.1001/jamaoncol.2026.4380": {
-      "abstract": "",
+      "abstract": "This essay describes a Brazilian oncologist’s reaction to new daraxonrasib data.",
       "doi": "10.1001/jamaoncol.2026.4380",
       "evidence_level": "metadata_or_abstract_only",
       "first_detected": "2026-10-29T23:39:27.272098+00:00",
@@ -3055,7 +3076,7 @@
       "online_date": "2026-10-29",
       "pmid": "42954967",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 58,
+      "priority_score": 66,
       "publication_types": [
         "Journal Article"
       ],
@@ -7595,6 +7616,7 @@
       "pmid": "42860799",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 71,
+      "requires_oncology_context": true,
       "research_types": [
         "single_cell",
         "mechanism"
@@ -7615,6 +7637,7 @@
       "pmid": "42866901",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 71,
+      "requires_oncology_context": true,
       "research_types": [
         "single_cell",
         "mechanism"
@@ -7635,6 +7658,7 @@
       "pmid": "42885281",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 55,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -7658,6 +7682,7 @@
       "publication_types": [
         "Journal Article"
       ],
+      "requires_oncology_context": true,
       "research_types": [
         "single_cell"
       ],
@@ -7681,6 +7706,7 @@
       "publication_types": [
         "Journal Article"
       ],
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -7704,6 +7730,7 @@
       "publication_types": [
         "Journal Article"
       ],
+      "requires_oncology_context": true,
       "research_types": [
         "machine_learning"
       ],
@@ -7727,6 +7754,7 @@
       "publication_types": [
         "Journal Article"
       ],
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -7747,6 +7775,7 @@
       "pmid": "42894409",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 55,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -7770,6 +7799,7 @@
       "publication_types": [
         "Journal Article"
       ],
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -10278,6 +10308,106 @@
       "title": "Dysnatremia in critically ill burn patients: incidence, timing and association with kidney outcomes.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42956896/"
     },
+    "doi:10.1016/j.annonc.2026.05.704": {
+      "abstract": "",
+      "doi": "10.1016/j.annonc.2026.05.704",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652666+00:00",
+      "journal": "Annals of Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 44,
+      "requires_oncology_context": false,
+      "research_types": [
+        "clinical_trial"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Final outcomes of the SOFT and TEXT phase III trials in premenopausal hormone receptor-positive early breast cancer",
+      "url": "https://doi.org/10.1016/j.annonc.2026.05.704"
+    },
+    "doi:10.1016/j.annonc.2026.07.004": {
+      "abstract": "",
+      "doi": "10.1016/j.annonc.2026.07.004",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652670+00:00",
+      "journal": "Annals of Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 44,
+      "requires_oncology_context": false,
+      "research_types": [
+        "machine_learning"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "A multimodal deep learning model for preoperative prediction of post-operative complications in gastric cancer",
+      "url": "https://doi.org/10.1016/j.annonc.2026.07.004"
+    },
+    "doi:10.1016/j.annonc.2026.09.009": {
+      "abstract": "",
+      "doi": "10.1016/j.annonc.2026.09.009",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652961+00:00",
+      "journal": "Annals of Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 36,
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Final results of nivolumab plus ipilimumab versus nivolumab or chemotherapy in microsatellite instability-high/mismatch repair-deficient metastatic colorectal cancer from CheckMate 8HW",
+      "url": "https://doi.org/10.1016/j.annonc.2026.09.009"
+    },
+    "doi:10.1016/j.annonc.2026.09.014": {
+      "abstract": "",
+      "doi": "10.1016/j.annonc.2026.09.014",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652674+00:00",
+      "journal": "Annals of Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 44,
+      "requires_oncology_context": false,
+      "research_types": [
+        "clinical_trial"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Efficacy of cryotherapy in preventing taxane-induced neuropathy: the CryoPac randomised controlled trial",
+      "url": "https://doi.org/10.1016/j.annonc.2026.09.014"
+    },
+    "doi:10.1016/j.annonc.2026.10.094": {
+      "abstract": "",
+      "doi": "10.1016/j.annonc.2026.10.094",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652969+00:00",
+      "journal": "Annals of Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 36,
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Final analysis of the Neotorch study: perioperative toripalimab in combination with chemotherapy for patients with stage Ⅱ/Ⅲ resectable non-small-cell lung cancer",
+      "url": "https://doi.org/10.1016/j.annonc.2026.10.094"
+    },
     "doi:10.1016/j.annonc.2026.10.095": {
       "abstract": "",
       "doi": "10.1016/j.annonc.2026.10.095",
@@ -10334,6 +10464,46 @@
       "tier": "core",
       "title": "Sacituzumab tirumotecan versus chemotherapy in previously treated locally recurrent or metastatic triple-negative breast cancer: final overall survival analysis of the Phase III OptiTROP-Breast01",
       "url": "https://doi.org/10.1016/j.annonc.2026.10.098"
+    },
+    "doi:10.1016/j.annonc.2026.10.1280": {
+      "abstract": "",
+      "doi": "10.1016/j.annonc.2026.10.1280",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652965+00:00",
+      "journal": "Annals of Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 36,
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Clinical Complete Response with Dostarlimab Monotherapy in dMMR/MSI-H Locally Advanced Rectal Cancer: First Results from the Global AZUR-1 Trial",
+      "url": "https://doi.org/10.1016/j.annonc.2026.10.1280"
+    },
+    "doi:10.1016/j.annonc.2026.10.1288": {
+      "abstract": "",
+      "doi": "10.1016/j.annonc.2026.10.1288",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652956+00:00",
+      "journal": "Annals of Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 36,
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Overall survival with adjuvant ribociclib plus nonsteroidal aromatase inhibitor in patients with high-risk HR+/HER2– early breast cancer: Six-year follow-up of the NATALEE trial",
+      "url": "https://doi.org/10.1016/j.annonc.2026.10.1288"
     },
     "doi:10.1016/j.bja.2026.05.016": {
       "abstract": "",
@@ -11164,6 +11334,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 33,
+      "requires_oncology_context": true,
       "research_types": [
         "meta_analysis"
       ],
@@ -11183,6 +11354,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -11202,6 +11374,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -11221,6 +11394,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -13774,6 +13948,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -13793,6 +13968,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -13812,6 +13988,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -13831,6 +14008,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 33,
+      "requires_oncology_context": true,
       "research_types": [
         "meta_analysis"
       ],
@@ -13850,6 +14028,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -13869,6 +14048,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -13888,6 +14068,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -13907,6 +14088,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -13926,6 +14108,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 33,
+      "requires_oncology_context": true,
       "research_types": [
         "meta_analysis"
       ],
@@ -13945,6 +14128,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -13964,6 +14148,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -16437,6 +16622,7 @@
       "pmid": "42918654",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 55,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -16456,6 +16642,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -16476,6 +16663,7 @@
       "pmid": "42881023",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -16496,6 +16684,7 @@
       "pmid": "42864228",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 63,
+      "requires_oncology_context": true,
       "research_types": [
         "clinical_trial"
       ],
@@ -16515,6 +16704,7 @@
       "pmid": "42934071",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 63,
+      "requires_oncology_context": true,
       "research_types": [
         "meta_analysis"
       ],
@@ -16534,6 +16724,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -16554,6 +16745,7 @@
       "pmid": "42901841",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -16574,6 +16766,7 @@
       "pmid": "42919740",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -16594,6 +16787,7 @@
       "pmid": "42888111",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 55,
+      "requires_oncology_context": true,
       "research_types": [
         "clinical_trial"
       ],
@@ -16614,6 +16808,7 @@
       "pmid": "42901840",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -16637,6 +16832,7 @@
       "publication_types": [
         "Letter"
       ],
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -16657,6 +16853,7 @@
       "pmid": "42907292",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 55,
+      "requires_oncology_context": true,
       "research_types": [
         "clinical_trial"
       ],
@@ -16677,6 +16874,7 @@
       "pmid": "42919739",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 55,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -18123,6 +18321,7 @@
       "pmid": "42880861",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 32,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -18143,6 +18342,7 @@
       "pmid": "42875294",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -18163,6 +18363,7 @@
       "pmid": "42863682",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 55,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -18182,6 +18383,7 @@
       "pmid": "42874873",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -18202,6 +18404,7 @@
       "pmid": "42880416",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -18222,6 +18425,7 @@
       "pmid": "42892558",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -18242,6 +18446,7 @@
       "pmid": "42933731",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -18262,6 +18467,7 @@
       "pmid": "42933733",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -18282,6 +18488,7 @@
       "pmid": "42933732",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -18302,6 +18509,7 @@
       "pmid": "42933735",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 71,
+      "requires_oncology_context": true,
       "research_types": [
         "single_cell",
         "mechanism"
@@ -18327,6 +18535,7 @@
         "Journal Article",
         "Review"
       ],
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -18347,6 +18556,7 @@
       "pmid": "42933734",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -20019,6 +20229,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -20038,6 +20249,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -20057,6 +20269,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 33,
+      "requires_oncology_context": true,
       "research_types": [
         "mechanism"
       ],
@@ -20076,6 +20289,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 33,
+      "requires_oncology_context": true,
       "research_types": [
         "machine_learning"
       ],
@@ -20095,6 +20309,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -20114,6 +20329,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -20133,6 +20349,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -20152,6 +20369,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -20171,6 +20389,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -20190,6 +20409,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -20209,6 +20429,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -20228,6 +20449,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -20247,6 +20469,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -20266,6 +20489,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -20285,6 +20509,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -20304,6 +20529,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -20323,6 +20549,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -20342,6 +20569,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -20361,6 +20589,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -20380,6 +20609,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -20399,6 +20629,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -20418,6 +20649,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -20437,6 +20669,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -20456,6 +20689,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 33,
+      "requires_oncology_context": true,
       "research_types": [
         "mechanism"
       ],
@@ -20475,6 +20709,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -20494,6 +20729,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -20513,6 +20749,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -20532,6 +20769,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -22580,6 +22818,26 @@
       "tier": "core",
       "title": "Zamtocabtagene autoleucel, a tandem CD20-CD19-directed CAR T-cell therapy, for second line treatment of large B-cell lymphoma in patients ineligible for transplantation (DALY 2-EU): primary analysis of an open-label, multicentre, randomised phase 2 study.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42933440/"
+    },
+    "doi:10.1016/s1470-2045(26)00302-5": {
+      "abstract": "",
+      "doi": "10.1016/s1470-2045(26)00302-5",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652952+00:00",
+      "journal": "The Lancet Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-01",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 36,
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Accelerating equitable cancer genomics and precision oncology in health care and research: a Lancet Oncology Commission",
+      "url": "https://doi.org/10.1016/s1470-2045(26)00302-5"
     },
     "doi:10.1016/s1470-2045(26)00307-4": {
       "abstract": "",
@@ -44269,6 +44527,26 @@
       "title": "Author Correction: pH sensing controls tissue inflammation by modulating cellular metabolism and endo-lysosomal function of immune cells.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42897306/"
     },
+    "doi:10.1038/s41591-026-04559-4": {
+      "abstract": "",
+      "doi": "10.1038/s41591-026-04559-4",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652972+00:00",
+      "journal": "Nature Medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-15",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 36,
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Oral KRAS G12D inhibitor GFH375 for previously treated advanced solid tumors with KRASG12D mutations: a phase 1 trial",
+      "url": "https://doi.org/10.1038/s41591-026-04559-4"
+    },
     "doi:10.1038/s41591-026-04607-z": {
       "abstract": "",
       "doi": "10.1038/s41591-026-04607-z",
@@ -44306,6 +44584,26 @@
       "tier": "core",
       "title": "Population-scale reconstruction of menopause dynamics reveals a physiological cliff at the final menstrual period.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42864411/"
+    },
+    "doi:10.1038/s41591-026-04625-x": {
+      "abstract": "",
+      "doi": "10.1038/s41591-026-04625-x",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652976+00:00",
+      "journal": "Nature Medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-16",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 36,
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Liquid biopsy for early detection of pancreatic ductal adenocarcinoma",
+      "url": "https://doi.org/10.1038/s41591-026-04625-x"
     },
     "doi:10.1038/s41591-026-04626-w": {
       "abstract": "Abstract Artificial intelligence has high potential for impact in healthcare applications, but its training and deployment are challenging due to diverse data, a complex spectrum of possible tasks and important privacy needs. High-performing foundation models that enable data-efficient fine-tuning for diverse downstream tasks can meaningfully accelerate development in this domain. We introduce MedGemma, a collection of medical vision-language foundation models based on Gemma 3. MedGemma demonstrates advanced medical understanding and reasoning across images and text and multiple medical imaging domains, exceeding the performance of similarly sized generative models while maintaining the general capabilities of the Gemma base models. For out-of-distribution tasks, MedGemma achieves improvements of 2.6–10% in medical image question answering, 15.5–18.1% in chest X-ray finding classification and 10.8% in agentic evaluations compared with the base models. Our results show that fine-tuning MedGemma can be more effective than fine-tuning the base Gemma 3 model for medical tasks, particularly in the setting of limited training data. We additionally introduce MedSigLIP, a medically tuned vision encoder derived from SigLIP. MedSigLIP powers the visual understanding capabilities of MedGemma and, as an encoder, achieves performance comparable to or better than that of many specialized medical image encoders. Taken together, the MedGemma collection provides a strong foundation of medical image and text capabilities, with the potential to accelerate medical research and the development of downstream applications.",
@@ -44363,6 +44661,26 @@
       "tier": "core",
       "title": "Practical lessons in the global scaling of clinical AI: from one hospital to over a million patients screened",
       "url": "https://doi.org/10.1038/s41591-026-04643-9"
+    },
+    "doi:10.1038/s41591-026-04651-9": {
+      "abstract": "Abstract Safiglipron is an oral small-molecule glucagon-like peptide-1 (GLP-1) receptor agonist administered without fasting or dietary restrictions. We evaluated its efficacy and safety in OUTSTAND-1, a phase 3, multicenter, randomized, double-blind, placebo-controlled trial at 46 sites in China. We randomized 284 adults with type 2 diabetes managed with diet and exercise alone (mean baseline HbA1c 7.95%, median diabetes duration 1.6 years, 33.1% women) to once-daily safiglipron 30 mg ( n = 70), 60 mg ( n = 70), 90 mg ( n = 72) or placebo ( n = 72) for 32 weeks, followed by a 20-week active-treatment extension. For the primary endpoint, placebo-adjusted treatment differences in HbA1c change from baseline to week 32 were −1.22% (95% CI, −1.53 to −0.91), −1.20% (95% CI, −1.52 to −0.89) and −1.45% (95% CI, −1.75 to −1.14) for 30 mg, 60 mg and 90 mg, respectively (all P < 0.0001; treatment policy estimand). Secondary outcomes showed HbA1c < 7.0% in 71.4−77.8% versus 25.0%, HbA1c ≤ 6.5% in 58.6−68.1% versus 16.7% and placebo-adjusted fasting plasma glucose differences of −1.58, −1.68 and −2.08 mmol l − 1 , respectively (all P < 0.0001). Body weight differences were modest (−0.65%, −2.23% and −3.56% versus placebo). Other secondary outcomes generally favored safiglipron for HbA1c < 5.7% attainment, postprandial glycemia, homeostatic model assessment of β cell function (HOMA-β), homeostatic model assessment of insulin resistance (HOMA-IR), disposition index and waist circumference, with less rescue therapy use. Insulin and C-peptide responses varied by dose, and changes in treatment satisfaction were limited. Gastrointestinal adverse events were most common and mostly mild or moderate. Adverse events led to treatment discontinuation in 1.4%, 2.9%, 6.9% and 0% of participants receiving safiglipron 30 mg, 60 mg, 90 mg and placebo, respectively. These findings support once-daily oral safiglipron as an effective treatment option for type 2 diabetes. ClinicalTrials.gov identifier: NCT06672172 .",
+      "doi": "10.1038/s41591-026-04651-9",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652383+00:00",
+      "journal": "Nature Medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-29",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 52,
+      "requires_oncology_context": false,
+      "research_types": [
+        "clinical_trial"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Oral small-molecule GLP-1 receptor agonist safiglipron in early type 2 diabetes: a randomized, double-blind, placebo-controlled trial",
+      "url": "https://doi.org/10.1038/s41591-026-04651-9"
     },
     "doi:10.1038/s41591-026-04655-5": {
       "abstract": "Despite their considerable promise, many current medical foundation models remain modality specific and lack transparent reasoning, limiting clinical adoption. To address this gap, we introduce Explainable Vision Language Foundation Model for Medicine (EVLF-FM), a multimodal vision language foundation model that combines broad diagnostic capabilities with fine-grained explainability. The development and testing of EVLF-FM encompassed more than 1.3 million total samples from 18 global datasets across 10 imaging modalities related to six clinical specialties: dermatology, hepatology, ophthalmology, pathology, pulmonology and radiology. External validation employed 13,443 independent test samples from 17 additional datasets across 10 imaging modalities. EVLF-FM supports disease diagnosis, visual question answering and pixel-level visual grounding with reasoning capabilities. In internal validation for disease diagnostics, EVLF-FM achieved the highest average accuracy, 0.895, outperforming leading generalist and specialist models. In medical visual grounding, EVLF-FM also achieved reasonable performance across nine modalities with average accuracy at 0.5 intersection over union (Acc@0.5) of 0.842. External testing further confirmed consistent zero-shot and few-shot performance, with competitive F1 scores despite a smaller model size. A hybrid training strategy combining supervised and visual reinforcement fine-tuning enables EVLF-FM to generate clinically interpretable explanations aligned with visual evidence. Human evaluation of these reasoning outputs using the S.C.O.R.E. framework yielded a high overall mean score of 4.25/5, supporting their clinical interpretability. Current limitations include the need for additional validation across diverse healthcare settings. Prospective clinical studies are required to evaluate the safety, effectiveness and clinical utility of EVLF-FM before routine clinical deployment.",
@@ -44446,6 +44764,26 @@
       "tier": "core",
       "title": "Talazoparib plus enzalutamide in high-volume metastatic hormone-naive prostate cancer: a randomized phase 2 trial.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42875559/"
+    },
+    "doi:10.1038/s41591-026-04673-3": {
+      "abstract": "",
+      "doi": "10.1038/s41591-026-04673-3",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652980+00:00",
+      "journal": "Nature Medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-02",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 36,
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Urine cell-free RNA for bladder cancer detection and treatment response prediction",
+      "url": "https://doi.org/10.1038/s41591-026-04673-3"
     },
     "doi:10.1038/s41591-026-04680-4": {
       "abstract": "One-third of the world's 70 million people with epilepsy have seizures uncontrolled by medication, and implantable devices are a promising treatment. These devices can detect impending seizures, missed medication and impaired cognition, but, like most medical devices, they cannot share this information with patients in real time. This is a missed opportunity for devices to learn from clinical events and teach patients how their behaviors affect their health. Here we present a device platform that converses with patients to help them manage their epilepsy. The inpatient prototype links scalp and intracranial electroencephalography (EEG) to a secure, large language model-based artificial intelligence (AI) that communicates bidirectionally through a smartphone app. The AI processes biomarkers of sleep, medication, cognition and seizure probability, notifies patients of clinical events and trends, records symptoms and responses, and uses their feedback to retrain its seizure detector, reducing false alarms. We validated this platform in 13 patients who are undergoing video-EEG monitoring for epilepsy (scalp, n = 11; intracranial, n = 2). In a pseudoprospective simulation, seizure detectors improved precision from patient feedback alone, without expert intervention. We propose this system as a scalable, safeguarded platform for medical devices that can rapidly adapt to patient and provider needs across epilepsy and other medical conditions.",
@@ -44771,6 +45109,26 @@
       "tier": "core",
       "title": "Insights into early-onset colorectal cancer from a single-nucleus RNA-seq atlas of colorectal cancer across the age continuum.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42957776/"
+    },
+    "doi:10.1038/s41591-026-04722-x": {
+      "abstract": "",
+      "doi": "10.1038/s41591-026-04722-x",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652250+00:00",
+      "journal": "Nature Medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-30",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 58,
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Climate change threatens malaria elimination in the Asia Pacific",
+      "url": "https://doi.org/10.1038/s41591-026-04722-x"
     },
     "doi:10.1038/s41591-026-04723-w": {
       "abstract": "PHERGain was a randomized, non-comparative phase 2 trial evaluating a positron 18F-fluorodeoxyglucose-positron emission tomography (18F-FDG-PET)-guided, pathological complete response (pCR)-adapted strategy to omit chemotherapy in HER2-positive early breast cancer. Female patients with HER2-positive stages I-IIIA operable breast cancer (tumor size ≥ 1.5 cm) were randomized to receive chemotherapy plus trastuzumab and pertuzumab (HP; group A) or HP ± endocrine therapy (group B). In group B, treatment was adapted according to 18F-FDG-PET response after two cycles and pCR, with chemotherapy administered to nonresponders or patients without pCR. We previously reported that this de-escalation approach revealed a 3-year invasive disease-free survival (iDFS) of 94.3% (95% confidence interval (CI): 90.9 to 96.8) in group B. Here we report the prespecified secondary endpoint, 5-year iDFS and exploratory circulating tumor DNA (ctDNA) findings. After a median follow-up of 5.6 years, the 5-year iDFS was 89.5% (95% CI: 85.7 to 93.4) in group B (n = 267) and 92.4% (95% CI: 86.7 to 98.5) among 18F-FDG-PET responders achieving pCR without chemotherapy (n = 86), with one distant recurrence. The latter estimate describes a long-term outcome in a post-randomization subgroup defined by 18F-FDG-PET response and pCR and should be interpreted as descriptive rather than as causal effects of omitting chemotherapy. Detectable ctDNA at baseline or during treatment was associated with inferior iDFS, whereas ctDNA clearance correlated with higher pCR rates and improved long-term outcomes. These findings continue to support the clinical validity of an 18F-FDG-PET-guided, pCR-adapted approach and suggest a potential role for ctDNA in refining treatment individualization. ClinicalTrials.gov identifier: NCT03161353 .",
@@ -46553,6 +46911,26 @@
       "title": "crossNN is an explainable framework for cross-platform DNA methylation-based classification of tumors",
       "url": "https://doi.org/10.1038/s43018-025-00976-5"
     },
+    "doi:10.1038/s43018-026-01203-5": {
+      "abstract": "",
+      "doi": "10.1038/s43018-026-01203-5",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652057+00:00",
+      "journal": "Nature Cancer",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-30",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 66,
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Targeting GALE harnesses γδ T cells for cancer immunotherapy",
+      "url": "https://doi.org/10.1038/s43018-026-01203-5"
+    },
     "doi:10.1038/s43018-026-01229-9": {
       "abstract": "Abstract Recent studies demonstrate that the gut mycobiota plays a key role in several tumors. However, the contribution of commensal fungi to prostate cancer initiation and progression remains understudied. Here we find that Nakaseomyces glabratus is enriched in fecal, blood and tumor samples of patients with castration-resistant prostate cancer, correlating with patients’ poor overall survival. Oral administration of N. glabratus to castrated mice accelerated cancer progression by promoting infiltration and activation of polymorphonuclear myeloid-derived suppressor cells (PMN-MDSCs). Mechanistically, androgen deprivation therapy increases intestinal permeability, resulting in the leakage of N. glabratus from the gut to the tumor site, activating PMN-MDSCs via the Dectin-2 receptor. Treatment of mice with a negatively charged intestinal hydrogel blocks N. glabratus translocation to tumor, reducing PMN-MDSCs’ intratumoral infiltration and activation. Taken together, these findings reveal that the gut-to-tumor translocation of N. glabratus contributes to endocrine resistance in prostate cancer by enhancing the immunosuppressive microenvironment of these tumors.",
       "doi": "10.1038/s43018-026-01229-9",
@@ -46630,6 +47008,26 @@
       "title": "Unraveling the lexicon of complex mutational phenomena in human cancers",
       "url": "https://doi.org/10.1038/s43018-026-01242-y"
     },
+    "doi:10.1038/s43018-026-01249-5": {
+      "abstract": "",
+      "doi": "10.1038/s43018-026-01249-5",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652231+00:00",
+      "journal": "Nature Cancer",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-30",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 58,
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "GALE is a tumor-intrinsic checkpoint of Vγ9Vδ2 T cell-mediated killing",
+      "url": "https://doi.org/10.1038/s43018-026-01249-5"
+    },
     "doi:10.1038/s43018-026-01251-x": {
       "abstract": "",
       "doi": "10.1038/s43018-026-01251-x",
@@ -46649,6 +47047,26 @@
       "tier": "core",
       "title": "Stroke-induced astrocyte memories promote glioma progression.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42875652/"
+    },
+    "doi:10.1038/s43018-026-01253-9": {
+      "abstract": "",
+      "doi": "10.1038/s43018-026-01253-9",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652948+00:00",
+      "journal": "Nature Cancer",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-06",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 36,
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Intestinal epithelial GSK3β governs fumarate-dependent neutrophil reprogramming to promote colorectal cancer",
+      "url": "https://doi.org/10.1038/s43018-026-01253-9"
     },
     "doi:10.1038/s43018-026-01258-4": {
       "abstract": "",
@@ -46674,7 +47092,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42957895/"
     },
     "doi:10.1038/s43018-026-01263-7": {
-      "abstract": "Despite decades of investigation, the fundamental molecular and cellular principles that enable bacteria to thrive within the tumor microenvironment have yet to be defined. Here, through a genome‑wide functional screen, we identify the bacterial genes and pathways that govern intratumoral fitness. Targeted deletion of nonglucose phosphotransferase systems to align bacterial metabolic preference with tumor metabolite availability promotes bacterial intratumoral fitness. Integrating multiple metabolic adaptations into a single tumor‑avid Escherichia coli strain (Ec‑TA) results in increased tumor colonization, not only after intratumoral delivery but also after intravenous delivery, leading to increased anti‑tumor efficacy when using Ec‑TA engineered to deliver an encoded immunostimulatory payload. Furthermore, Ec‑TA displaces wild‑type bacteria from pre‑colonized tumors when administered systemically, underscoring its potential for locally delivering therapeutics in the presence of resident tumor microbes. These data demonstrate that adapting bacteria to the unique characteristics of the tumor metabolic microenvironment can drive the development of safer and more effective chassis for next‑generation bacterial cancer therapies.",
+      "abstract": "Abstract Despite decades of investigation, the fundamental molecular and cellular principles that enable bacteria to thrive within the tumor microenvironment have yet to be defined. Here, through a genome‑wide functional screen, we identify the bacterial genes and pathways that govern intratumoral fitness. Targeted deletion of nonglucose phosphotransferase systems to align bacterial metabolic preference with tumor metabolite availability promotes bacterial intratumoral fitness. Integrating multiple metabolic adaptations into a single tumor‑avid Escherichia coli strain (Ec‑TA) results in increased tumor colonization, not only after intratumoral delivery but also after intravenous delivery, leading to increased anti‑tumor efficacy when using Ec‑TA engineered to deliver an encoded immunostimulatory payload. Furthermore, Ec‑TA displaces wild‑type bacteria from pre‑colonized tumors when administered systemically, underscoring its potential for locally delivering therapeutics in the presence of resident tumor microbes. These data demonstrate that adapting bacteria to the unique characteristics of the tumor metabolic microenvironment can drive the development of safer and more effective chassis for next‑generation bacterial cancer therapies.",
       "doi": "10.1038/s43018-026-01263-7",
       "evidence_level": "metadata_or_abstract_only",
       "first_detected": "2026-10-30T09:52:50.699705+00:00",
@@ -46697,7 +47115,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42957894/"
     },
     "doi:10.1038/s43018-026-01264-6": {
-      "abstract": "Immune-related adverse events (irAEs) affect up to 40% of patients receiving immune checkpoint inhibitors, yet identification requires laborious, inconsistent manual chart review. Here we show that agentic artificial intelligence coupled with human verification could enhance efficiency, performance and consistency for irAE assessment. We developed and evaluated an agentic large language model system to extract the presence, temporality, severity grade, attribution and certainty of six irAE types from clinical notes. Retrospectively, the system achieved a macro-averaged F1 of 0.92 for current-event detection and 0.66 for multi-class severity grading; self-consistency improved F1 by 0.14. The best-performing configuration cost approximately US$0.02 per note. In prospective silent deployment over 3 months, the binary F1 was 0.72-0.79. In a randomized crossover study of clinical trial staff, agentic assistance reduced annotation time by 2.71 min (P < 0.001), increased complete-match accuracy (odds ratio 1.45; 95% confidence interval 1.01-2.08; P = 0.045) and improved interannotator agreement (Krippendorff's α from 0.22-0.51 to 0.82-0.85).",
+      "abstract": "Abstract Immune-related adverse events (irAEs) affect up to 40% of patients receiving immune checkpoint inhibitors, yet identification requires laborious, inconsistent manual chart review. Here we show that agentic artificial intelligence coupled with human verification could enhance efficiency, performance and consistency for irAE assessment. We developed and evaluated an agentic large language model system to extract the presence, temporality, severity grade, attribution and certainty of six irAE types from clinical notes. Retrospectively, the system achieved a macro-averaged F 1 of 0.92 for current-event detection and 0.66 for multi-class severity grading; self-consistency improved F 1 by 0.14. The best-performing configuration cost approximately US$0.02 per note. In prospective silent deployment over 3 months, the binary F 1 was 0.72–0.79. In a randomized crossover study of clinical trial staff, agentic assistance reduced annotation time by 2.71 min ( P < 0.001), increased complete-match accuracy (odds ratio 1.45; 95% confidence interval 1.01–2.08; P = 0.045) and improved interannotator agreement (Krippendorff’s α from 0.22–0.51 to 0.82–0.85).",
       "doi": "10.1038/s43018-026-01264-6",
       "evidence_level": "metadata_or_abstract_only",
       "first_detected": "2026-10-30T09:52:50.699697+00:00",
@@ -46718,6 +47136,26 @@
       "tier": "core",
       "title": "An agentic AI system enhances clinical detection of immune-related adverse events in a multi-phase validation study.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42957896/"
+    },
+    "doi:10.1038/s43018-026-01265-5": {
+      "abstract": "",
+      "doi": "10.1038/s43018-026-01265-5",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652235+00:00",
+      "journal": "Nature Cancer",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-30",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 58,
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "ANO6-mediated trogocytosis of cancer-associated fibroblasts promotes pancreatic cancer cell growth and immune suppression",
+      "url": "https://doi.org/10.1038/s43018-026-01265-5"
     },
     "doi:10.1038/s43018-026-01266-4": {
       "abstract": "",
@@ -46741,6 +47179,26 @@
       "tier": "core",
       "title": "A metabolic-epigenetic pathway drives immune suppression in colorectal cancer.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42951947/"
+    },
+    "doi:10.1038/s43018-026-01267-3": {
+      "abstract": "",
+      "doi": "10.1038/s43018-026-01267-3",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652053+00:00",
+      "journal": "Nature Cancer",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-30",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 66,
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "BAZ2A-induced epigenetic states in cancer cells fuel palmitate accumulation in the tumor microenvironment driving CAR-T cell exhaustion",
+      "url": "https://doi.org/10.1038/s43018-026-01267-3"
     },
     "doi:10.1038/s43018-026-01268-2": {
       "abstract": "",
@@ -46830,6 +47288,7 @@
       "pmid": "42880671",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -46850,6 +47309,7 @@
       "pmid": "42925912",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -46870,6 +47330,7 @@
       "pmid": "42928530",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -46890,6 +47351,7 @@
       "pmid": "42928529",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -46910,6 +47372,7 @@
       "pmid": "42914292",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 48,
+      "requires_oncology_context": true,
       "research_types": [
         "meta_analysis"
       ],
@@ -46930,6 +47393,7 @@
       "pmid": "42914291",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 32,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -46950,6 +47414,7 @@
       "pmid": "42869256",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 63,
+      "requires_oncology_context": true,
       "research_types": [
         "mechanism"
       ],
@@ -46969,6 +47434,7 @@
       "pmid": "42869257",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 71,
+      "requires_oncology_context": true,
       "research_types": [
         "single_cell",
         "mechanism"
@@ -46989,6 +47455,7 @@
       "pmid": "42906825",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 63,
+      "requires_oncology_context": true,
       "research_types": [
         "mechanism"
       ],
@@ -47009,6 +47476,7 @@
       "pmid": "42906827",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 71,
+      "requires_oncology_context": true,
       "research_types": [
         "clinical_trial",
         "mechanism"
@@ -47030,6 +47498,7 @@
       "pmid": "42880670",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -47050,6 +47519,7 @@
       "pmid": "42906828",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 55,
+      "requires_oncology_context": true,
       "research_types": [
         "clinical_trial"
       ],
@@ -47070,6 +47540,7 @@
       "pmid": "42887790",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -47090,6 +47561,7 @@
       "pmid": "42914035",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -47110,6 +47582,7 @@
       "pmid": "42914034",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -47130,6 +47603,7 @@
       "pmid": "42933673",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 63,
+      "requires_oncology_context": true,
       "research_types": [
         "clinical_trial"
       ],
@@ -47150,6 +47624,7 @@
       "pmid": "42906826",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -47170,6 +47645,7 @@
       "pmid": "42918357",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -52176,6 +52652,7 @@
       "online_date": "2026-09-24",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -57838,6 +58315,7 @@
       "pmid": "42901758",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -57861,6 +58339,7 @@
       "publication_types": [
         "Journal Article"
       ],
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -57881,6 +58360,7 @@
       "pmid": "42919657",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -57901,6 +58381,7 @@
       "pmid": "42919659",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -57921,6 +58402,7 @@
       "pmid": "42863977",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -57943,6 +58425,7 @@
       "publication_types": [
         "Journal Article"
       ],
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -57963,6 +58446,7 @@
       "pmid": "42863976",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -57982,6 +58466,7 @@
       "pmid": "42901757",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -58001,6 +58486,7 @@
       "online_date": "2026-09-22",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 49,
+      "requires_oncology_context": true,
       "research_types": [
         "single_cell",
         "mechanism"
@@ -58021,6 +58507,7 @@
       "online_date": "2026-09-21",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 25,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -58041,6 +58528,7 @@
       "pmid": "42888016",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -58061,6 +58549,7 @@
       "pmid": "42907163",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -58080,6 +58569,7 @@
       "online_date": "2026-10-23",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -58099,6 +58589,7 @@
       "online_date": "2026-09-18",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 33,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -58119,6 +58610,7 @@
       "pmid": "42888015",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -58139,6 +58631,7 @@
       "pmid": "42901759",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -58159,6 +58652,7 @@
       "pmid": "42919658",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -58179,6 +58673,7 @@
       "pmid": "42907164",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 47,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -59607,8 +60102,28 @@
       "title": "A Germline-Encoded lncRNA-Mitochondrial Axis Rewires Oxidative Phosphorylation to Drive Progression in Clear Cell Renal Cell Carcinoma.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42868004/"
     },
+    "doi:10.1158/0008-5472.can-25-5898": {
+      "abstract": "Abstract Neutrophil extracellular traps (NET) have recently emerged as key modulators of cancer progression and metastasis. However, a more comprehensive understanding of the underlying mechanisms could help identify effective strategies to prevent and treat NET-mediated metastasis. In this study, we observed a marked accumulation of intratumoral NETs in metastatic primary lung adenocarcinoma (LUAD). Tumor cells with elevated CXCL2 expression not only recruited neutrophils via interactions with CXCR2 but also facilitated NET formation. In turn, NET-derived DNA (NET-DNA), through specific DNA motifs, directly bound to the extracellular domain of integrin β1 (ITGB1), thereby activating FAK signaling and promoting invasion and metastasis. NET-DNA was capable of enhancing CXCL2 expression through MAPK–ELK1, thereby establishing a positive feedback loop that maintained continuous neutrophil recruitment and NET formation. In both in vitro and in vivo models, targeting either NETs or ITGB1–FAK signaling significantly inhibited LUAD metastasis. These findings suggest that the CXCL2–NET–ITGB1–FAK signaling axis plays a pivotal role in driving NET-mediated metastasis, which provides a rationale for targeting this signaling pathway to inhibit LUAD metastasis. Significance: Tumor-secreted CXCL2 recruits neutrophils and induces formation of neutrophil extracellular traps that bind to integrin β1 to activate FAK signaling and enhance the metastatic potential of lung cancer.",
+      "doi": "10.1158/0008-5472.can-25-5898",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652386+00:00",
+      "journal": "Cancer Research",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-09-18",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 52,
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Neutrophil Extracellular Trap–Derived DNA Activates the ITGB1/FAK Pathway to Promote Lung Adenocarcinoma Metastasis",
+      "url": "https://doi.org/10.1158/0008-5472.can-25-5898"
+    },
     "doi:10.1158/0008-5472.can-26-0035": {
-      "abstract": "Vasculogenic mimicry (VM) is a process in which malignant cells acquire endothelial-like functions to generate perfusable vascular channels independent of endothelial cells. VM represents a major barrier to effective vascular endothelial growth factor A (VEGFA)-targeted therapy in cancer. In this study, we used organ-scale vascular imaging that identified a mechanism of VM in glioblastoma (GBM) mediated by alpha-L-fucosidase 1 (FUCA1). FUCA1 was preferentially expressed in glioblastoma stem-like cells (GSCs) with high CD44 expression. FUCA1 functioned as a key regulator of GSC-mediated VM by stabilizing LDHA protein and promoting a metabolic shift toward glycolysis. Elevated glycolytic flux increased lactate production and enhanced histone H3 lysine 18 lactylation (H3K18la), which in turn activated SERPINF1 transcription and drove VM in GSCs. In preclinical models, the FUCA1 inhibitor deoxyfuconojirimycin hydrochloride (DFH) significantly reduced GSC tumorigenicity and VM in vivo and exhibited robust antitumor activity when combined with anti-VEGFA therapy. Collectively, these findings define a FUCA1-mediated histone lactylation pathway that enhances GSC VM and highlight a therapeutically targetable mechanism to improve the efficacy of current anti-angiogenic strategies in GBM.",
+      "abstract": "Abstract Vasculogenic mimicry (VM) is a process in which malignant cells acquire endothelial-like functions to generate perfusable vascular channels independent of endothelial cells. VM represents a major barrier to effective vascular endothelial growth factor A (VEGFA)-targeted therapy in cancer. In this study, we used organ-scale vascular imaging that identified a mechanism of VM in glioblastoma (GBM) mediated by alpha-L-fucosidase 1 (FUCA1). FUCA1 was preferentially expressed in glioblastoma stem-like cells (GSCs) with high CD44 expression. FUCA1 functioned as a key regulator of GSC-mediated VM by stabilizing LDHA protein and promoting a metabolic shift toward glycolysis. Elevated glycolytic flux increased lactate production and enhanced histone H3 lysine 18 lactylation (H3K18la), which in turn activated SERPINF1 transcription and drove VM in GSCs. In preclinical models, the FUCA1 inhibitor deoxyfuconojirimycin hydrochloride (DFH) significantly reduced GSC tumorigenicity and VM in vivo and exhibited robust antitumor activity when combined with anti-VEGFA therapy. Collectively, these findings define a FUCA1-mediated histone lactylation pathway that enhances GSC VM and highlight a therapeutically targetable mechanism to improve the efficacy of current anti-angiogenic strategies in GBM.",
       "doi": "10.1158/0008-5472.CAN-26-0035",
       "evidence_level": "metadata_or_abstract_only",
       "first_detected": "2026-10-29T19:48:34.708309+00:00",
@@ -59629,6 +60144,47 @@
       "tier": "core",
       "title": "FUCA1-Mediated Metabolic Adaptation Facilitates Lactylation-Induced Vasculogenic Mimicry in Glioblastoma.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42954743/"
+    },
+    "doi:10.1158/0008-5472.can-26-0297": {
+      "abstract": "Abstract Fibroblast activation and extracellular matrix stiffening are hallmarks of the fibrotic tumor microenvironment. Fibrotic microenvironmental remodeling is also linked to immune exclusion and evasion, suggesting that common microenvironmental signals might coordinate both fibrotic and inflammatory outputs. In this study, we identified methylenetetrahydrofolate dehydrogenase 2 (MTHFD2) as a redox-sensitive metabolic regulator linking TGFβ-driven fibroblast activation to inflammatory signaling in lung adenocarcinoma. MTHFD2 was elevated in cancer-associated fibroblasts across multiple single-cell RNA sequencing datasets, and TGFβ induced MTHFD2 even under compliant matrix conditions, with matrix stiffening further enhancing its expression. Notably, although MTHFD2 knockdown suppressed both myofibroblastic and inflammatory programs, enforced expression was sufficient to drive inflammatory cytokine production even in the absence of TGFβ, and this response was further amplified by concomitant TGFβ signaling. These MTHFD2-mediated responses depended on redox perturbation rather than biosynthetic one-carbon metabolism, as they resisted formate supplementation but responded to pro-oxidants. Mechanistically, MTHFD2-driven redox imbalance promoted mitochondrial stress, cytosolic mitochondrial DNA accumulation, and activation of the cGAS–STING–NF-κB pathway, resulting in IL6 and IL8 production. Fibroblast-specific MTHFD2 knockdown suppressed paracrine programmed cell death ligand 1 (PD-L1) induction in tumor cells and inhibited tumor growth in vivo in an immune-dependent manner. Clinically, high stromal MTHFD2 correlated with epithelial PD-L1 expression and poor lung adenocarcinoma prognosis. Together, these findings identify stromal MTHFD2 as a redox-sensitive metabolic checkpoint linking fibrotic remodeling to immune evasion. Significance: Stromal MTHFD2 couples fibrotic remodeling to cGAS–STING-dependent inflammatory signaling and PD-L1 induction through redox-dependent cGAS–STING activation in lung cancer, creating a stromal niche that supports immune evasion.",
+      "doi": "10.1158/0008-5472.can-26-0297",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.651801+00:00",
+      "journal": "Cancer Research",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-30",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 82,
+      "requires_oncology_context": false,
+      "research_types": [
+        "single_cell",
+        "mechanism"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Stromal MTHFD2 Links Fibrotic Remodeling to Immune Evasion via Redox-Dependent Inflammatory Signaling in Lung Adenocarcinoma",
+      "url": "https://doi.org/10.1158/0008-5472.can-26-0297"
+    },
+    "doi:10.1158/0008-5472.can-26-0490": {
+      "abstract": "Abstract Tumors display marked similarities with embryos, exploiting embryonic developmental programs. Beyond the embryo, the placenta also shares features with malignant tumors, such as invasion, immune evasion, and rapid nutrient exchange, highlighting the need for mechanistic investigations of tumor development through the lens of placental biology. In this study, by screening placental-specific genes with aberrant expression in hepatocellular carcinoma (HCC), we found that the paternally expressed gene 10 (PEG10, a retrovirus-like gene) was overexpressed in HCC and associated with poor patient prognosis. Liver-specific deletion of Peg10 significantly impeded hepatocarcinogenesis and tumor progression in a hydrodynamic tail vein injection–induced HCC mouse model. PEG10 drove tumor cells to co-opt the metabolic phenotype of trophoblast cells by upregulating key glucose metabolic regulators glucose transporter 1 (GLUT1) and hexokinase 2 (HK2). Mechanistically, as an RNA-binding protein, PEG10 inhibited the Staufen 1 (STAU1)–mediated mRNA decay (SMD) pathway, stabilizing GLUT1 and HK2 mRNA to enhance glucose uptake and aerobic glycolysis. Furthermore, retinoic acid pharmacologically suppressed PEG10 expression, effectively abrogating the adaptive metabolic advantage and acting synergistically with sorafenib to restrict tumor growth. Collectively, this study reveals how HCC aberrantly reactivates the placental gene PEG10 to orchestrate oncogenic glucose uptake and metabolism, identifying it as a compelling therapeutic target for metabolic intervention in cancer. Significance: Aberrant reactivation of the placental gene PEG10 drives tumor glucose uptake and metabolic reprogramming in hepatocellular carcinoma by inhibiting Staufen1-mediated mRNA decay, which may open avenues for targeting onco-fetal pathways in cancer.",
+      "doi": "10.1158/0008-5472.can-26-0490",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652077+00:00",
+      "journal": "Cancer Research",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-29",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 66,
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Placenta-Related PEG10 Inhibits mRNA Decay to Promote Glucose Metabolism and Tumor Progression in Hepatocellular Carcinoma",
+      "url": "https://doi.org/10.1158/0008-5472.can-26-0490"
     },
     "doi:10.1158/0008-5472.can-26-0507": {
       "abstract": "Epigenetic dysregulation plays a vital role in the progression of endometrial cancer (EC), yet targeted treatment options remain limited. Here, we identified the histone acetyltransferase KAT5 as a therapeutic target in EC. KAT5 was significantly overexpressed in EC and correlated with poor patient outcome. Silencing KAT5 inhibited EC cell proliferation and tumor growth. KAT5-deficient EC cells exhibited impaired cytoskeletal dynamics, leading to heightened DNA damage and increased micronuclei formation. The release of micronuclear DNA into the cytoplasm activated the cGAS-STING pathway, thereby amplifying proinflammatory immune responses. Mechanistically, KAT5 acetylated H2A.Z to transcriptionally activate Arp2/3 complex genes, promoting actin polymerization and chromosomal stability. Inhibition of Arp2/3 or depletion of its subunit ARPC5 replicated the effects of KAT5 loss, whereas restoring ARPC5 mitigated chromosomal instability and cGAS activation. In transplantation models of EC cell lines and syngeneic murine Trp53-/-;Pten-/- EC organoids, pharmacological inhibition of KAT5 with NU9056 suppressed tumor progression and enhanced immune cell infiltration. NU9056 also induced Arp2/3 disruption, genomic instability, and cGAS-STING activation in patient-derived organoids from clinical endometrial cancer samples. Together, these findings highlight KAT5 as a promising therapeutic target in EC that influences chromatin remodeling, cytoskeletal dynamics, and immune modulation.",
@@ -59672,6 +60228,26 @@
       "title": "Targeting Branched-Chain Amino Acid Transamination Sensitizes Clear Cell Renal Cell Carcinoma to Glutaminase Inhibition.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42945304/"
     },
+    "doi:10.1158/0008-5472.can-26-0801": {
+      "abstract": "Abstract Enhancer of zeste homolog 2 (EZH2), the catalytic subunit of the histone methyltransferase complex polycomb repressive complex 2, is overexpressed and associated with a poor prognosis in triple-negative breast cancer (TNBC). Although EZH2 inhibition significantly alters chromatin landscapes and gene expression, it has a limited impact on the growth of TNBC models, suggesting adaptive compensatory mechanisms. In this study, we demonstrated that EZH2 inhibition causes the accumulation of misfolded proteins and double-stranded RNA, triggering an essential integrated stress response (ISR) through protein kinase R and protein kinase RNA–like endoplasmic reticulum kinase activation. By inducing ISR-mediated activating transcription factor 4 (ATF4), EZH2 inhibition enhanced amino acid flux and promoted glutaminolysis to support TNBC cell survival. Pharmacologic targeting of this metabolic axis with a glutaminase inhibitor in combination with EZH2 inhibition significantly impaired TNBC cell proliferation and tumor growth. These findings reveal a stress-driven metabolic adaptation that sustains TNBC survival upon EZH2 blockade and highlight the inhibition of this pathway as a strategy to enhance the efficacy of EZH2 inhibitors in TNBC. Significance: By inducing integrated stress response–ATF4-mediated metabolic rewiring, EZH2 inhibition creates a critical glutamine dependency in triple-negative breast cancer, exposing an actionable vulnerability through co-inhibition of glutaminase.",
+      "doi": "10.1158/0008-5472.can-26-0801",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.651931+00:00",
+      "journal": "Cancer Research",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-28",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 74,
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "EZH2 Inhibition Induces a Metabolic Stress Response, Sensitizing Triple-Negative Breast Cancer to Glutaminase Targeting",
+      "url": "https://doi.org/10.1158/0008-5472.can-26-0801"
+    },
     "doi:10.1158/0008-5472.can-26-0860": {
       "abstract": "Hepatocellular carcinoma (HCC) driven by gain-of-function mutations in CTNNB1 (CTNNB1GOF) that stabilize β-catenin exhibits a profoundly immunosuppressive tumor microenvironment (TME), rendering it resistant to immune checkpoint blockade (ICB). Metabolic reprogramming is increasingly recognized as a crucial mediator of immune activity, highlighting the need to elucidate the specific metabolic mechanisms underlying immune exclusion in CTNNB1GOF HCC. Here, we identified a critical metabolic-immune network orchestrated by co-mutations of CTNNB1 and ARID2. Integrative analysis of HCC patient cohorts and a de novo MYC/CTNNB1GOF HCC mouse model revealed that tumors harboring concurrent CTNNB1 and ARID2 mutations exhibited a more immune-active TME and improved survival compared to tumors with CTNNB1 mutations alone. Mechanistically, β-catenin and ARID2 cooperatively enhanced the transcription of tryptophan 2,3-dioxygenase (TDO2), leading to accelerated kynurenine production and activation of the aryl hydrocarbon receptor (AhR) in myeloid-derived suppressor cells (MDSCs). This metabolic axis established an immunosuppressive milieu characterized by MDSC accumulation and impaired T cell function. Genetic ablation of Arid2 in CTNNB1GOF HCC attenuated TDO2-dependent kynurenine synthesis, reduced MDSC infiltration, and enhanced CD8⁺ T cell cytotoxicity, thereby sensitizing tumors to anti-PD-1 therapy. Clinically, co-mutations of CTNNB1 and ARID2 correlated with elevated immune infiltration and favorable ICB responses across multiple human cancers, including HCC. Importantly, pharmacological inhibition of AhR phenocopied the immunomodulatory effect of ARID2 loss and, when combined with anti-PD-1, robustly reversed the immune-cold phenotype of CTNNB1GOF HCC. These findings reveal TDO2-kynurenine-AhR signaling as a pivotal metabolic pathway enforcing immune evasion in CTNNB1-mutant HCC.",
       "doi": "10.1158/0008-5472.CAN-26-0860",
@@ -59690,6 +60266,67 @@
       "tier": "core",
       "title": "ARID2 Loss Reprograms the Kynurenine-AhR Pathway to Restore Antitumor Immunity in CTNNB1-Mutant Hepatocellular Carcinoma.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42873211/"
+    },
+    "doi:10.1158/0008-5472.can-26-0955": {
+      "abstract": "Abstract Clinical outcomes are often suboptimal in patients with colorectal cancer treated with neoadjuvant chemotherapy (NAC). A key determinant of the response to NAC is the functional state of tumor-infiltrating immune cells. Understanding how NAC reshapes the immunologic landscape will be essential for refining patient stratification and identifying effective combination treatment strategies. In this study, we analyzed paired samples before and after NAC treatment by single-cell RNA sequencing (scRNA-seq), revealing that NAC treatment significantly reshaped the immune microenvironment. Tumors from NAC nonresponders featured increased immunosuppressive M2-like macrophage infiltration, which correlated with elevated phosphatidylserine-specific phospholipase A1 (PLA1A). Mechanistically, PLA1A hydrolyzed phosphatidylserine (PS) exposed by chemotherapy to elevate lysophosphatidylserine (LysoPS), which activated the P2ry10 receptor and downstream signaling to promote M2-like macrophage polarization. Importantly, pharmacologic inhibition of PLA1A by cilengitide synergized with chemoimmunotherapy to suppress tumor progression in murine models. Clinically, high plasma PLA1A levels negatively correlated with responses to chemoimmunotherapy. Collectively, these findings reveal a chemotherapy-driven metabolic axis that induces an immunosuppressive milieu by increasing LysoPS release. This axis highlights PLA1A as a therapeutic target to mitigate immunosuppression and improve chemoimmunotherapy efficacy. Significance: Chemotherapy-resistant colorectal cancer elevates PLA1A to induce anti-inflammatory macrophage polarization, supporting the potential of PLA1A as a therapeutic target for enhancing chemoimmunotherapy efficacy and as a biomarker of treatment response.",
+      "doi": "10.1158/0008-5472.can-26-0955",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.651808+00:00",
+      "journal": "Cancer Research",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-30",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 82,
+      "requires_oncology_context": false,
+      "research_types": [
+        "single_cell",
+        "mechanism"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "PLA1A Inhibition Enhances Chemoimmunotherapy Efficacy by Blocking Immunosuppressive Macrophage Polarization in Colorectal Cancer",
+      "url": "https://doi.org/10.1158/0008-5472.can-26-0955"
+    },
+    "doi:10.1158/0008-5472.can-26-1047": {
+      "abstract": "Abstract Although chimeric antigen receptor (CAR)–engineered T- and NK-cell therapies have revolutionized hematologic malignancy treatment, translating this success to solid tumors remains a persistent challenge. In this study, we demonstrated a stromal-associated metabolic mechanism in which cancer-associated fibroblasts and macrophage-associated populations in gastrointestinal cancers contribute to CAR loss through CYP27A1-derived 27-hydroxycholesterol (27HC). 27HC triggered membrane cholesterol depletion, destabilizing lipid rafts and promoting the release of full-length CAR in ARF6+CD81+ microvesicle–enriched fractions. NK92 cells chronically exposed to sublethal 27HC adapted to this stress via an AKT–FOXO1–insulin receptor (INSR) signaling cascade that restores cholesterol biosynthesis. Capitalizing on this mechanism, “metabolically armored” INSR-overexpressing CAR-NK92 and primary CAR-T cells were engineered, which stabilized lipid rafts, preserved CAR expression, and improved antitumor activity in patient-derived organoids, precision-cut tumor slices, and xenografts. Collectively, these findings identify a stromal-mediated metabolic immune evasion pathway in gastrointestinal tumors, uncovering a potential strategy to potentiate CAR-engineered therapies. Significance: Stromal 27HC promotes cholesterol loss and CAR shedding, which can be overcome with INSR armoring to preserve cholesterol homeostasis and improve CAR-NK and CAR-T cell activity in gastrointestinal tumor models.",
+      "doi": "10.1158/0008-5472.can-26-1047",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.651937+00:00",
+      "journal": "Cancer Research",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-30",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 74,
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "INSR Armoring Protects CAR-NK and CAR-T Cells against Tumor Stroma–Induced CAR Shedding by Maintaining Cholesterol Homeostasis",
+      "url": "https://doi.org/10.1158/0008-5472.can-26-1047"
+    },
+    "doi:10.1158/0008-5472.can-26-1087": {
+      "abstract": "Abstract T cells initiate anticancer immune responses at an early stage of tumorigenesis, thus enabling dynamic monitoring of peripheral blood T-cell receptor (TCR) repertoire changes as a promising strategy for early cancer detection. However, the current TCR-based cancer detection methods focus on limited high-frequency TCRs instead of repertoire-scale representation, overlooking numerous crucial cancer-associated TCRs (caTCR). Herein, we developed ScanTCR, a computational framework for early cancer detection that introduces a reference-guided repertoire-scale encoding method capable of incorporating all TCRs. ScanTCR exhibited remarkable precision in distinguishing patients with cancer from noncancer individuals using peripheral blood TCRs. In a pan-cancer analysis encompassing seven cancer types, ScanTCR demonstrated robust performance in detecting both cancer types included in the training data and unseen cancer types, surpassing state-of-the-art TCR-based methods. Furthermore, ScanTCR identified caTCRs in which corresponding T cells exhibit enhanced cellular immune capacity. Collectively, this work proposes a TCR-based approach enabling repertoire-scale representation of immune receptors for noninvasive early cancer detection. Significance: Overcoming limitations of current methods that favor high-frequency cancer-associated T-cell receptors, repertoire-scale profiling preserves all sequences for accurate cancer detection, supporting the potential of this approach for early-stage cancer diagnostics.",
+      "doi": "10.1158/0008-5472.can-26-1087",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652073+00:00",
+      "journal": "Cancer Research",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-30",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 66,
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "ScanTCR Enables Early Cancer Detection by Repertoire-Scale Representation of Cancer-Associated T-cell Receptors in Peripheral Blood",
+      "url": "https://doi.org/10.1158/0008-5472.can-26-1087"
     },
     "doi:10.1158/0008-5472.can-26-1315": {
       "abstract": "Abstract Activating mutations in KRAS drive pancreatic ductal adenocarcinoma (PDAC) and non–small cell lung cancer (NSCLC). Although mutant-selective KRAS inhibitors and pan-RAS inhibitors provide clinical benefits, the development of resistance limits durable responses. In this study, transcriptomic and proteomic analyses revealed that, despite effective suppression of mutant KRAS signaling, resistant cells sustain cell-cycle progression. Distinct orthogonal mitogenic pathways were engaged in a context-dependent manner to bypass KRAS inhibition. Although these pathways could be broadly inhibited using the pan–RAS-ON inhibitor RMC-6236, cells remained capable of developing acquired resistance, in which cell proliferation was uncoupled from RAS signaling. Combinatorial drug screens and genome-wide CRISPR–Cas9 screens showed that perturbing cell-cycle nodes via targeting cyclin-dependent kinases CDK4/6 and CDK2 restored sensitivity to KRAS/RAS inhibitors. Cotargeting CDK4/6 induced G1 arrest and suppressed E2F-regulated proteins across all resistant models. In contrast, cotargeting CDK2 exerted a broader effect by impairing DNA replication, inducing G2 arrest, preventing mitotic entry, and yielding a more durable cytostatic response that delayed cellular outgrowth after drug withdrawal. Finally, concurrent inhibition of KRAS with either CDK4/6 or CDK2 yielded durable tumor control in vivo in xenografts derived from models with acquired resistance. In conclusion, these findings identify sustained cell-cycle activity as a defining feature of resistance to KRAS-directed therapies and establish cell-cycle cotargeting as an effective strategy to overcome KRAS/RAS inhibitor resistance. Significance: Acquired resistance to KRAS/RAS inhibitors limits clinical benefit. We identify active cell cycle machinery as a defining feature of resistance and demonstrate distinct combinatorial strategies to target cell cycle progression.",
@@ -59854,8 +60491,28 @@
       "title": "Beyond Internalization: Target Binding as the Trigger.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42895468/"
     },
+    "doi:10.1158/0008-5472.can-26-4564": {
+      "abstract": "Abstract Cellular senescence contributes dynamically to fibrosis and cancer depending on the senescent cell type and its tissue remodeling senescence-associated secretory phenotype; however, current senotherapies lack specificity in targeting pathogenic senescent cells and have limiting toxicities. In a recent issue of Science, Hinterleitner and colleagues designed P-selectin-directed nanoparticles (SMNPs) capable of delivering senotherapies specifically to pathogenic P-selectin+ senescent macrophages in fibrotic tissues while preventing uptake in beneficial senescent endothelial cells. Precision targeting by SMNPs resolved fibrosis and restored organ function in the lung and liver and minimized senotherapeutic toxicity in mice. In tumor models, SMNP targeting of this small senescent macrophage subset was sufficient to overcome fibrosis-mediated immune exclusion and sensitize liver and lung cancers to T cell-directed immunotherapy. P-selectin+ macrophages with senescent features were also enriched in fibrotic human tissues and treatment-refractory cancer patient samples. Overall, this study provides a platform for reducing the toxicity and enhancing the specificity of senotherapies necessary to advance their clinical development for treating chronic disease.",
+      "doi": "10.1158/0008-5472.can-26-4564",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.651943+00:00",
+      "journal": "Cancer Research",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-30",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 74,
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Senescence-modulating nanoparticles SELECT the right senescent cells to treat fibrosis and cancer",
+      "url": "https://doi.org/10.1158/0008-5472.can-26-4564"
+    },
     "doi:10.1158/0008-5472.can-26-4570": {
-      "abstract": "KRAS inhibitors (KRASi) are reshaping the treatment of aggressive tumors such as pancreatic ductal adenocarcinoma (PDAC), but it is appreciated that patients will eventually acquire resistance through multiple pathways. To avoid this outcome, there is much effort to identify combination therapies that take advantage of the 'window-of-opportunity' permitted from KRAS inhibition. Tumor cell-intrinsic targeting - as a result of KRASi - results in altered immune and stromal features within the PDAC tumor site that could allow for improved, non-KRAS-targeted, treatment efficacy. Qiang and colleagues investigate the potential of pairing KRASi with immunotherapy - here, an IL-21 mimic - for therapeutic benefit during this 'open window' phase of the KRASi-induced tumor debulking. IL-21 promotes a CD4 T cell response that requires both conventional type 2 dendritic cells (cDC2s) and interferon (IFN)-γ, but not direct tumor cell recognition via major histocompatibility complex (MHC). This work fits in a series of studies highlighting the ability to drive PDAC tumor rejection through cytokines derived from CD4, but not CD8, T cells. These findings highlight a divergence from more 'traditional' immunotherapeutic responses, where cytotoxic CD8 T cells have historically dominated tumor control. Identifying alternative paths towards targeting PDAC may be beneficial - and points towards cell types and modalities that could be leveraged for clinical benefit as the field identifies potential combinatorial partners for KRASi and more patients start receiving these drugs.",
+      "abstract": "Abstract KRAS inhibitors (KRASi) are reshaping the treatment of aggressive tumors such as pancreatic ductal adenocarcinoma (PDAC), but it is appreciated that patients will eventually acquire resistance through multiple pathways. To avoid this outcome, there is much effort to identify combination therapies that take advantage of the ‘window-of-opportunity’ permitted from KRAS inhibition. Tumor cell-intrinsic targeting – as a result of KRASi – results in altered immune and stromal features within the PDAC tumor site that could allow for improved, non-KRAS-targeted, treatment efficacy. Qiang and colleagues investigate the potential of pairing KRASi with immunotherapy – here, an IL-21 mimic – for therapeutic benefit during this ‘open window’ phase of the KRASi-induced tumor debulking. IL-21 promotes a CD4 T cell response that requires both conventional type 2 dendritic cells (cDC2s) and interferon (IFN)-γ, but not direct tumor cell recognition via major histocompatibility complex (MHC). This work fits in a series of studies highlighting the ability to drive PDAC tumor rejection through cytokines derived from CD4, but not CD8, T cells. These findings highlight a divergence from more ‘traditional’ immunotherapeutic responses, where cytotoxic CD8 T cells have historically dominated tumor control. Identifying alternative paths towards targeting PDAC may be beneficial – and points towards cell types and modalities that could be leveraged for clinical benefit as the field identifies potential combinatorial partners for KRASi and more patients start receiving these drugs.",
       "doi": "10.1158/0008-5472.CAN-26-4570",
       "evidence_level": "metadata_or_abstract_only",
       "first_detected": "2026-10-29T19:48:34.708303+00:00",
@@ -60701,7 +61358,7 @@
       "url": "https://doi.org/10.1158/2159-8290.cd-25-0884"
     },
     "doi:10.1158/2159-8290.cd-25-0942": {
-      "abstract": "Breast cancers with a stiff extracellular matrix (ECM) frequently evade immune surveillance through mechanisms that remain incompletely understood. Here, we identify a mechanosensitive immune-evasion pathway governed by the phosphorylation-dependent prolyl isomerase Pin1. We show that ECM rigidity stabilizes Pin1 and promotes its nuclear accumulation in cancer cells, where it preserves heterochromatin organization and nuclear envelope integrity by sustaining HP1α-Lamin interactions, thereby suppressing transposable element (TE) activity. Pin1 loss induces early heterochromatin relaxation and LINE1 reactivation, activating the cGAS/STING/type I interferon pathway. Pin1 depletion further promotes TE-derived neoantigen generation and broadly remodels the tumor immune microenvironment, eliciting innate and adaptive immune responses that enhance tumor clearance. Genetic Pin1 depletion, or pharmacological inhibition with clinically available drugs, sensitizes fibrotic, immune-cold tumors to immune checkpoint blockade. These findings uncover a mechano-genomic mechanism of immune evasion in breast cancer and establish Pin1 as a therapeutic target to restore tumor immunogenicity and improve immunotherapy efficacy.",
+      "abstract": "Abstract Breast cancers with a stiff extracellular matrix (ECM) frequently evade immune surveillance through mechanisms that remain incompletely understood. Here, we identify a mechanosensitive immune-evasion pathway governed by the phosphorylation-dependent prolyl isomerase Pin1. We show that ECM rigidity stabilizes Pin1 and promotes its nuclear accumulation in cancer cells, where it preserves heterochromatin organization and nuclear envelope integrity by sustaining HP1α-Lamin interactions, thereby suppressing transposable element (TE) activity. Pin1 loss induces early heterochromatin relaxation and LINE1 reactivation, activating the cGAS/STING/type I interferon pathway. Pin1 depletion further promotes TE-derived neoantigen generation and broadly remodels the tumor immune microenvironment, eliciting innate and adaptive immune responses that enhance tumor clearance. Genetic Pin1 depletion, or pharmacological inhibition with clinically available drugs, sensitizes fibrotic, immune-cold tumors to immune checkpoint blockade. These findings uncover a mechano-genomic mechanism of immune evasion in breast cancer and establish Pin1 as a therapeutic target to restore tumor immunogenicity and improve immunotherapy efficacy.",
       "doi": "10.1158/2159-8290.CD-25-0942",
       "evidence_level": "metadata_or_abstract_only",
       "first_detected": "2026-10-28T17:22:09.302057+00:00",
@@ -60825,6 +61482,27 @@
       "title": "Cabergoline Suppresses Postpartum Breast Cancer by Enhancing Mammary Gland Involution in Brca1-Mutant Mice and Is Associated with Reduced Risk in Younger Women.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42878664/"
     },
+    "doi:10.1158/2159-8290.cd-26-0248": {
+      "abstract": "Abstract Allogeneic chimeric antigen receptor (CAR) T cells could overcome limitations of autologous therapies but are limited by immune rejection. We evaluated 11 patients with large B-cell lymphoma treated with a single lot of cemacabtagene ansegedleucel (cema-cel), an allogeneic anti-CD19 CAR T product. Despite receiving identical infusion products (IP), patients exhibited heterogeneous cema-cel expansion and clinical outcomes. Our integrated analyses using longitudinal T-cell receptor (TCR) β sequencing, single-cell molecular profiling, and mixed lymphocyte reaction assays revealed that high frequencies of preexisting, recipient-derived alloreactive CD8+ T cells-mediated rapid CAR T rejection in nonexpanders. Furthermore, effector-like features, rather than stem/central memory programs, drove robust clonal CAR T expansion consistently across expanders. We confirmed similar expansion patterns in two independent cohorts treated with a separate lot of cema-cel or an allogeneic anti–B-cell maturation antigen (BCMA) CAR T product. These findings highlight distinct cell-extrinsic and cell-intrinsic mechanisms that influence allogeneic CAR T performance and provide insights to optimize donor selection, manufacturing, and product design. Significance: Clinical adoption of allogeneic CAR T-cell therapies has been limited by poor CAR T-cell expansion in some recipients. Using patient samples, we elucidated the cell-extrinsic and cell-intrinsic mechanisms governing allogeneic CAR T-cell rejection and expansion. Our findings provide actionable strategies to improve allogeneic CAR T-cell efficacy.",
+      "doi": "10.1158/2159-8290.cd-26-0248",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.651775+00:00",
+      "journal": "Cancer Discovery",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-30",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 82,
+      "requires_oncology_context": false,
+      "research_types": [
+        "single_cell",
+        "mechanism"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Cellular and Molecular Mechanisms Determining Allogeneic CAR T-cell Rejection and Expansion",
+      "url": "https://doi.org/10.1158/2159-8290.cd-26-0248"
+    },
     "doi:10.1158/2159-8290.cd-26-0255": {
       "abstract": "T cell exhaustion within the tumor microenvironment poses a major barrier to effective cancer immunotherapy, yet the epigenetic mechanisms that preserve functional states of tumor-infiltrating T cells remain incompletely understood. Here, using an in vivo CRISPR screen, we identify heterogeneous nuclear ribonucleoprotein A2/B1 (hnRNPA2B1) as a regulator of CD8+ T cell fitness. Transcriptomic analyses of cancer patient cohorts reveal that hnRNPA2B1 is preferentially enriched in a proliferative, intermediate exhausted T cell subset associated with favorable clinical outcomes. Genetic ablation of hnRNPA2B1 in CD8+ T cells accelerates terminal exhaustion, impairs antitumor immunity, and diminishes responsiveness to immune checkpoint blockade. Mechanistically, hnRNPA2B1 forms nuclear puncta and stabilizes RNAs involved in chromatin organization, thereby maintaining chromatin accessibility that restrains exhaustion-associated programs while preserving proliferative and cytotoxic potential. Together, these findings establish hnRNPA2B1 as an RNA-mediated epigenetic regulator sustaining functional exhausted T cell states in tumors.",
       "doi": "10.1158/2159-8290.CD-26-0255",
@@ -60846,7 +61524,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42929145/"
     },
     "doi:10.1158/2159-8290.cd-26-1312": {
-      "abstract": "Neuroendocrine differentiation (NED) promotes lineage plasticity and therapy resistance in prostate and lung cancers. Here we identify NED as a route of treatment escape in breast cancer: neuroendocrine features emerged or increased in 22% of progressive cases, predominantly, but not exclusively, in HER2-positive subtype. Using patient-derived, epithelial/neuroendocrine organoid and xenograft models, we map the epigenetic and transcriptional divergence between epithelial and neuroendocrine states arising from a shared mutational background and define a breast cancer neuroendocrine signature. NED involves epigenetic silencing of EpCAM and amplified HER2, while NEUROD1 functions as a master transcriptional regulator of the neuroendocrine fate. NCAM-positive putative circulating tumor cells were detected in patients in whom EpCAM-based detection had failed. Neuroendocrine tumor cells exhibit an FGFR1 dependency associated with NCAM-FGFR1 interaction and mesenchymal FGFR1 splicing. Together, these findings establish NED as a mechanism of escape from HER2-targeted therapy in breast cancer, with implications for disease monitoring and intervention.",
+      "abstract": "Abstract Neuroendocrine differentiation (NED) promotes lineage plasticity and therapy resistance in prostate and lung cancers. Here we identify NED as a route of treatment escape in breast cancer: neuroendocrine features emerged or increased in 22% of progressive cases, predominantly, but not exclusively, in HER2-positive subtype. Using patient-derived, epithelial/neuroendocrine organoid and xenograft models, we map the epigenetic and transcriptional divergence between epithelial and neuroendocrine states arising from a shared mutational background and define a breast cancer neuroendocrine signature. NED involves epigenetic silencing of EpCAM and amplified HER2, while NEUROD1 functions as a master transcriptional regulator of the neuroendocrine fate. NCAM-positive putative circulating tumor cells were detected in patients in whom EpCAM-based detection had failed. Neuroendocrine tumor cells exhibit an FGFR1 dependency associated with NCAM–FGFR1 interaction and mesenchymal FGFR1 splicing. Together, these findings establish NED as a mechanism of escape from HER2-targeted therapy in breast cancer, with implications for disease monitoring and intervention.",
       "doi": "10.1158/2159-8290.CD-26-1312",
       "evidence_level": "metadata_or_abstract_only",
       "first_detected": "2026-10-28T17:22:09.302079+00:00",
@@ -62032,6 +62710,7 @@
       "online_date": "2026-10-29",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 55,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62052,6 +62731,7 @@
       "pmid": "42868262",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 63,
+      "requires_oncology_context": true,
       "research_types": [
         "single_cell"
       ],
@@ -62071,6 +62751,7 @@
       "pmid": "42895921",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 55,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62090,6 +62771,7 @@
       "online_date": "2026-10-29",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 63,
+      "requires_oncology_context": true,
       "research_types": [
         "mechanism"
       ],
@@ -62109,6 +62791,7 @@
       "online_date": "2026-10-01",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 49,
+      "requires_oncology_context": true,
       "research_types": [
         "single_cell",
         "mechanism"
@@ -62129,6 +62812,7 @@
       "online_date": "2026-10-22",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 45,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62148,6 +62832,7 @@
       "online_date": "2026-10-15",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 33,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62167,6 +62852,7 @@
       "online_date": "2026-09-17",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 33,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62186,6 +62872,7 @@
       "online_date": "2026-10-29",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 63,
+      "requires_oncology_context": true,
       "research_types": [
         "mechanism"
       ],
@@ -62206,6 +62893,7 @@
       "pmid": "42886676",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 55,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62225,6 +62913,7 @@
       "online_date": "2026-10-22",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 55,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62244,6 +62933,7 @@
       "online_date": "2026-10-29",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 63,
+      "requires_oncology_context": true,
       "research_types": [
         "mechanism"
       ],
@@ -62264,6 +62954,7 @@
       "pmid": "42913486",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 63,
+      "requires_oncology_context": true,
       "research_types": [
         "mechanism"
       ],
@@ -62283,6 +62974,7 @@
       "online_date": "2026-10-29",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 63,
+      "requires_oncology_context": true,
       "research_types": [
         "mechanism"
       ],
@@ -62303,6 +62995,7 @@
       "pmid": "42879178",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 32,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62323,6 +63016,7 @@
       "pmid": "42913488",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 71,
+      "requires_oncology_context": true,
       "research_types": [
         "single_cell",
         "mechanism"
@@ -62343,6 +63037,7 @@
       "online_date": "2026-10-29",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 55,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62362,6 +63057,7 @@
       "online_date": "2026-10-29",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 55,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62382,6 +63078,7 @@
       "pmid": "42868261",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 63,
+      "requires_oncology_context": true,
       "research_types": [
         "single_cell"
       ],
@@ -62401,6 +63098,7 @@
       "pmid": "42932254",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 63,
+      "requires_oncology_context": true,
       "research_types": [
         "clinical_trial"
       ],
@@ -62421,6 +63119,7 @@
       "pmid": "42913487",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 63,
+      "requires_oncology_context": true,
       "research_types": [
         "mechanism"
       ],
@@ -62441,6 +63140,7 @@
       "pmid": "42911651",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 32,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62464,6 +63164,7 @@
       "publication_types": [
         "Journal Article"
       ],
+      "requires_oncology_context": true,
       "research_types": [
         "mechanism"
       ],
@@ -62487,6 +63188,7 @@
       "publication_types": [
         "Journal Article"
       ],
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62507,6 +63209,7 @@
       "pmid": "42868258",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 55,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62525,6 +63228,7 @@
       "online_date": "2026-10-29",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 55,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62545,6 +63249,7 @@
       "pmid": "42879177",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 32,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62565,6 +63270,7 @@
       "pmid": "42911649",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 32,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62585,6 +63291,7 @@
       "pmid": "42911648",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 40,
+      "requires_oncology_context": true,
       "research_types": [
         "mechanism"
       ],
@@ -62605,6 +63312,7 @@
       "pmid": "42911650",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 32,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62625,6 +63333,7 @@
       "pmid": "42879180",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 32,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62645,6 +63354,7 @@
       "pmid": "42932250",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 63,
+      "requires_oncology_context": true,
       "research_types": [
         "mechanism"
       ],
@@ -62665,6 +63375,7 @@
       "pmid": "42879176",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 32,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62685,6 +63396,7 @@
       "pmid": "42879183",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 32,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62705,6 +63417,7 @@
       "pmid": "42911647",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 32,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62725,6 +63438,7 @@
       "pmid": "42886677",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 55,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62745,6 +63459,7 @@
       "pmid": "42911646",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 32,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62765,6 +63480,7 @@
       "pmid": "42895904",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 71,
+      "requires_oncology_context": true,
       "research_types": [
         "clinical_trial",
         "mechanism"
@@ -62790,6 +63506,7 @@
         "Editorial",
         "Comment"
       ],
+      "requires_oncology_context": true,
       "research_types": [
         "mechanism"
       ],
@@ -62814,6 +63531,7 @@
         "Editorial",
         "Comment"
       ],
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62838,6 +63556,7 @@
         "Editorial",
         "Comment"
       ],
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62858,6 +63577,7 @@
       "pmid": "42879179",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 32,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62878,6 +63598,7 @@
       "pmid": "42879173",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 32,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62898,6 +63619,7 @@
       "pmid": "42879172",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 32,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62918,6 +63640,7 @@
       "pmid": "42932249",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 63,
+      "requires_oncology_context": true,
       "research_types": [
         "mechanism"
       ],
@@ -62938,6 +63661,7 @@
       "pmid": "42879181",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 32,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62962,6 +63686,7 @@
         "Editorial",
         "Comment"
       ],
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -62982,6 +63707,7 @@
       "pmid": "42911645",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 32,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -63002,6 +63728,7 @@
       "pmid": "42879182",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 32,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -63025,6 +63752,7 @@
       "publication_types": [
         "Journal Article"
       ],
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -63049,6 +63777,7 @@
         "Editorial",
         "Comment"
       ],
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -63073,6 +63802,7 @@
         "Editorial",
         "Comment"
       ],
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -63097,6 +63827,7 @@
         "Editorial",
         "Comment"
       ],
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -63117,6 +63848,7 @@
       "pmid": "42879175",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 32,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -63137,6 +63869,7 @@
       "pmid": "42879174",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 32,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -63160,6 +63893,7 @@
       "publication_types": [
         "Journal Article"
       ],
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -63180,6 +63914,7 @@
       "pmid": "42911643",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 32,
+      "requires_oncology_context": true,
       "research_types": [
         "other"
       ],
@@ -63200,6 +63935,7 @@
       "pmid": "42911644",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 40,
+      "requires_oncology_context": true,
       "research_types": [
         "single_cell"
       ],
@@ -63663,6 +64399,26 @@
       "tier": "core",
       "title": "FDX1-independent non-canonical cuproptosis establishes a parallel mitochondria-centric death program",
       "url": "https://doi.org/10.1186/s12943-026-02821-4"
+    },
+    "doi:10.1186/s12943-026-02823-2": {
+      "abstract": "",
+      "doi": "10.1186/s12943-026-02823-2",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652254+00:00",
+      "journal": "Molecular Cancer",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-29",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 58,
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Polystyrene nanoplastics promote colorectal tumorigenesis via gut microbiota-metabolite-Th17 cell axis",
+      "url": "https://doi.org/10.1186/s12943-026-02823-2"
     },
     "doi:10.1186/s13045-026-01835-1": {
       "abstract": "The development of tyrosine kinase inhibitors (TKIs) has markedly improved outcomes in Philadelphia chromosome-positive leukemias; however, resistance mediated by BCR::ABL1 kinase domain (KD) mutations remains a major challenge. While the third-generation TKIs ponatinib and asciminib can suppress many resistant mutations including the gatekeeper mutation T315I, their use may be limited by vascular toxicity and emerging resistance, respectively. Compound mutations (CMs), particularly those involving T315I, are frequent in advanced chronic myeloid leukemia (CML) and Philadelphia chromosome-positive acute lymphoblastic leukemia and are largely refractory to approved TKIs when used as monotherapy. Vamotinib (formerly PF-114), a structural analogue of ponatinib with a narrower kinase inhibition profile avoiding vascular endothelial growth factor receptor-2 (VEGFR-2) inhibition, was developed to retain broad anti-BCR::ABL1 activity while reducing toxicity. Here, we evaluated the in vitro activity of vamotinib against a comprehensive panel of BCR::ABL1 KD mutants using drug concentrations corresponding to clinically relevant dosing regimens and compared the results with available clinical data from a phase-1 trial. Our findings indicate that, even at effective average plasma concentrations corresponding to the maximum tolerated dose, vamotinib exhibits a resistance profile comparable to that of a well-performing second-generation TKI. Notably, high-level resistance persisted for T315I and several P-loop mutations. Clinical responses in mutation-positive patients were largely concordant with these observations. Collectively, these data suggest that vamotinib may not meet the criteria for classification as a third-generation TKI but could have utility in selected patient populations or in rational combination strategies.",
@@ -66004,6 +66760,207 @@
       "tier": "oncology",
       "title": "CD73-targeted CAR-NK cell therapy displays potent antitumor activity and translational potential in relapsed/refractory lung adenocarcinoma.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42958550/"
+    },
+    "doi:10.1200/jco-26-00404": {
+      "abstract": "Purpose Stereotactic body radiotherapy (SBRT) is standard of care for inoperable stage I or II non–small cell lung cancer (NSCLC). KEYNOTE-867 (ClinicalTrials.gov identifier: NCT03924869 ) evaluated the addition of pembrolizumab to SBRT in participants diagnosed with stage I or II NSCLC that was inoperable or in participants who refused surgery. Methods Adults with untreated, stage I or II (T1 to limited T3, N0, M0) NSCLC (AJCC 8 th edition) that was inoperable, or adults who refused surgery, were randomly assigned 1:1 to thoracic SBRT to primary tumors for ≤2 weeks concomitantly with pembrolizumab 200 mg or placebo once every 3 weeks for ≤17 cycles. The primary end point was event-free survival (EFS) by blinded independent central review. Results A total of 448 participants were randomly assigned to SBRT plus pembrolizumab (n = 227) or SBRT plus placebo (n = 221). The median time from random assignment to the data cutoff date (June 11, 2024) for the prespecified first interim analysis was 20.6 (range, 1.3-56.8) months. The median EFS (95% CI) was 31.2 (22.5 to 39.1) months and 28.3 (19.8 to 33.1) months for the pembrolizumab and placebo arms, respectively (hazard ratio, 0.92 [95% CI, 0.69 to 1.24]; P = .2932). Among participants who received ≥1 dose of study treatment, grade 3-5 treatment-related adverse events (AEs) occurred in 46/226 (20.4%) participants in the pembrolizumab arm and 8/218 (3.7%) participants in the placebo arm. There were five treatment-related deaths all of which occurred in the pembrolizumab arm (2.2%). Conclusion The addition of pembrolizumab to SBRT did not improve EFS and was associated with a higher incidence of treatment-related AEs compared with SBRT alone in participants with inoperable stage I or II NSCLC. Based on the benefit-risk profile, the KEYNOTE-867 trial was prematurely stopped, and all study treatment was discontinued.",
+      "doi": "10.1200/jco-26-00404",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.651922+00:00",
+      "journal": "Journal of Clinical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-28",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 74,
+      "requires_oncology_context": false,
+      "research_types": [
+        "clinical_trial"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "KEYNOTE-867: A Phase III, Randomized, Double-Blind Study of Stereotactic Body Radiotherapy With Pembrolizumab for Unresected Stage I or II Non–Small Cell Lung Cancer",
+      "url": "https://doi.org/10.1200/jco-26-00404"
+    },
+    "doi:10.1200/jco-26-00802": {
+      "abstract": "Purpose Metastatic uveal melanoma (mUM) has poor prognosis with limited therapies. GNAQ/11 mutations that activate protein kinase C (PKC) are detected in 95% of UM tumors. Darovasertib is a first-in-class, oral, targeted PKC inhibitor that, in combination with the MET inhibitor crizotinib, has shown responses and encouraging survival outcomes in early mUM clinical trials. Here, we present phase 2 results in first-line patients with mUM treated with darovasertib 300 mg twice a day and crizotinib 200 mg twice a day. Methods The OptimUM-01 study was a phase I/II, multicenter, open-label, dose escalation and expansion study of darovasertib in patients with solid tumors harboring GNAQ/11 mutations irrespective of human leukocyte antigen status; this analysis focuses on the phase II expansion in previously untreated patients with mUM. Eligibility criteria included Response Evaluation Criteria in Solid Tumors v1.1 measurable disease, Eastern Cooperative Oncology Group performance status 0-1, and adequate organ function. Study end points included safety, objective response rate (ORR), duration of response (DOR), disease control rate (DCR), progression-free survival (PFS), and overall survival (OS). Results Overall, 44 treatment-naïve patients were enrolled. The most common adverse events (AEs) were diarrhea (95.2%), nausea (84.1%), peripheral edema (61.4%), and vomiting (52.3%). The most common grade 3 or greater AEs were pulmonary embolism (9.1%) and iron deficiency anemia (6.8%). AEs leading to discontinuation occurred in three patients (6.8%). ORR was 34.1%, DOR was 9.0 months, and DCR was 90.2% at 8 weeks. The median PFS and OS were 7.0 months (95% CI, 5.0 to 8.3) and 21.1 months (95% CI, 11.9 to 20.7), respectively. Conclusion Results from OptimUM-01 suggest that the combination of darovasertib and crizotinib has encouraging efficacy with a manageable safety profile and may represent a first-in-class targeted treatment option for patients with previously untreated mUM.",
+      "doi": "10.1200/jco-26-00802",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.651915+00:00",
+      "journal": "Journal of Clinical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-28",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 74,
+      "requires_oncology_context": false,
+      "research_types": [
+        "clinical_trial"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Darovasertib and Crizotinib First-Line Treatment for Metastatic Uveal Melanoma: Overall Survival, Efficacy, and Safety From the OptimUM-01 Study",
+      "url": "https://doi.org/10.1200/jco-26-00802"
+    },
+    "doi:10.1200/jco-26-01143": {
+      "abstract": "Through an art-based body mapping session, oncology clinicians are reminded that true care begins by stepping into a shared space where invisible pain can finally be seen.",
+      "doi": "10.1200/jco-26-01143",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652061+00:00",
+      "journal": "Journal of Clinical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-27",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 66,
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Art as a Shared Space: Tracing the Unseen Through a Body Map",
+      "url": "https://doi.org/10.1200/jco-26-01143"
+    },
+    "doi:10.1200/jco-26-01966": {
+      "abstract": "",
+      "doi": "10.1200/jco-26-01966",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652065+00:00",
+      "journal": "Journal of Clinical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-28",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 66,
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Immunotherapy With Stereotactic Body Radiation Therapy in Early-Stage Non‑Small Cell Lung Cancer: Matching Risk, Biology, and Timing",
+      "url": "https://doi.org/10.1200/jco-26-01966"
+    },
+    "doi:10.1200/jco-26-02068": {
+      "abstract": "",
+      "doi": "10.1200/jco-26-02068",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652243+00:00",
+      "journal": "Journal of Clinical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-27",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 58,
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Was Futility in RADICAL Robust to Analytic Specification?",
+      "url": "https://doi.org/10.1200/jco-26-02068"
+    },
+    "doi:10.1200/jco-26-02163": {
+      "abstract": "",
+      "doi": "10.1200/jco-26-02163",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652239+00:00",
+      "journal": "Journal of Clinical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-27",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 58,
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Advancing Cascade Genetic Testing for BRCA1 / 2 Pathogenic Variants Beyond the Academic Research Setting",
+      "url": "https://doi.org/10.1200/jco-26-02163"
+    },
+    "doi:10.1200/jco-26-02352": {
+      "abstract": "",
+      "doi": "10.1200/jco-26-02352",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652246+00:00",
+      "journal": "Journal of Clinical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-27",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 58,
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Reply to: Was Futility in RADICAL Robust to Analytic Specification?",
+      "url": "https://doi.org/10.1200/jco-26-02352"
+    },
+    "doi:10.1200/jco-26-02412": {
+      "abstract": "PURPOSE This living guideline provides recommendations on the use of poly(ADP-ribose) polymerase inhibitors (PARPis) in the management of epithelial ovarian cancer (EOC). METHODS An Expert Panel developed recommendations based on a systematic review of randomized controlled trials, and cohort studies evaluating homologous recombination deficiency (HRD) testing and PARPi efficacy and safety. RESULTS The updated evidence base comprises 79 publications, including 18 studies evaluating 13 homologous recombination deficiency (HRD) assays and 31 pivotal trials assessing PARPi efficacy and safety. Frontline trials demonstrated progression-free survival benefits. However, later-line treatment and recurrent maintenance trials reported potential overall survival disadvantages. RECOMMENDATIONS All patients with newly diagnosed advanced EOC should undergo genetic testing, and HRD tumor testing if BRCA -negative, using FDA-approved or prospectively validated companion diagnostic assays. In advanced EOC, PARPi maintenance should be prioritized for the first clinical remission. Frontline PARPi monotherapy maintenance should be offered after platinum-based chemotherapy response to patients with germline or somatic BRCA 1/2 mutations or HRD-positive disease. Olaparib plus bevacizumab maintenance may be offered to patients responding to first-line platinum-based chemotherapy plus bevacizumab who have BRCA 1/2 mutations or HRD-positive disease. PARPi maintenance therapy is not recommended for patients with non- BRCA mut HRD-negative tumors or early-stage EOC. In the recurrent setting, PARPi maintenance should be restricted primarily to PARPi-naïve patients with BRCA 1/2 mutations responding to second-line or greater platinum-based chemotherapy. Monotherapy PARPi should not be offered for the treatment of recurrent EOC outside clinical trials. Furthermore, PARPi are not recommended for use in combination with chemotherapy, other targeted agents, or immune-oncology agents outside a clinical trial. Clinicians should monitor for serious adverse events, including myelodysplastic syndrome, acute myeloid leukemia, and pulmonary complications.",
+      "doi": "10.1200/jco-26-02412",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.651794+00:00",
+      "journal": "Journal of Clinical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-27",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 82,
+      "requires_oncology_context": false,
+      "research_types": [
+        "clinical_trial",
+        "meta_analysis"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "PARP Inhibitors in the Management of Ovarian Cancer: ASCO Living Guideline, Version 2026.1.0",
+      "url": "https://doi.org/10.1200/jco-26-02412"
+    },
+    "doi:10.1200/jco-26-02432": {
+      "abstract": "PURPOSE MET amplification accounts for up to 30% of acquired resistance to EGFR-TKI, especially following third-generation EGFR-TKI treatment, yet precision-targeted therapeutic options remain limited. Early-phase studies demonstrated promising antitumor activity with the MET-TKI dalmelitinib combined with the third-generation EGFR-TKI aumolertinib. This phase 3 trial compared dalmelitinib-aumolertinib with platinum-based chemotherapy in EGFR -mutated, MET -amplified advanced NSCLC after EGFR-TKIs progression. PATIENTS AND METHODS This randomized, open-label, phase 3 trial ( NCT06110663 ) enrolled patients with locally advanced or metastatic EGFR -mutated, MET -amplified NSCLC after EGFR-TKI progression. MET amplification was defined by fluorescence in situ hybridization as a mean MET copy number ≥5 or MET / CEP7 ratio ≥2. Patients were randomly assigned (1:1) to dalmelitinib-aumolertinib or platinum-based chemotherapy groups. The primary endpoint was progression-free survival (PFS) assessed by blinded independent central review per RECIST 1.1. Secondary endpoints included overall survival, objective response rate (ORR), duration of response (DoR), and safety. RESULTS A total of 314 enrolled patients were assigned to dalmelitinib-aumolertinib (n=156) or platinum-based chemotherapy (n=158). Median follow-up was 11.2 months at the data cutoff date (December 10, 2025). Median PFS was 6.2 months with dalmelitinib-aumolertinib and 4.4 months with chemotherapy (HR, 0.60; 95% CI, 0.45 to 0.81; P <0.001). Corresponding ORRs were 59.6% and 38.6%, and median DoRs were 9.7 months and 4.4 months, respectively. Overall survival data were immature. Grade ≥3 treatment-emergent adverse events occurred in 50.0% and 51.0% of patients, respectively. Toxicity profiles differed, with more hepatic laboratory abnormalities with dalmelitinib-aumolertinib and more hematologic toxicities with chemotherapy. CONCLUSION The dalmelitinib-aumolertinib combination significantly improved PFS versus chemotherapy, with a manageable safety profile in advanced EGFR -mutated, MET -amplified NSCLC after progression on EGFR-TKI. These findings support dual EGFR/ MET inhibition as a new treatment option in this biomarker selected population.",
+      "doi": "10.1200/jco-26-02432",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652109+00:00",
+      "journal": "Journal of Clinical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-26",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 64,
+      "requires_oncology_context": false,
+      "research_types": [
+        "clinical_trial"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Dalmelitinib Plus Aumolertinib in Advanced NSCLC Patients With EGFR-TKI Resistance and MET Amplification: A Randomized Phase 3 Trial",
+      "url": "https://doi.org/10.1200/jco-26-02432"
+    },
+    "doi:10.1200/jco-26-02597": {
+      "abstract": "This guideline has been updated. This ASCO Living Guideline is reviewed on an eight-week cycle. Please see the online dynamic version for the latest updates. Living guidelines are developed for selected topic areas with rapidly evolving evidence that drives frequent change in recommended clinical practice. Living guidelines are updated on a regular schedule by a standing expert panel that systematically reviews the health literature on a continuous basis, as described in the ASCO Guidelines Methodology Manual . ASCO Living Guidelines follow the ASCO Conflict of Interest Policy Implementation for Clinical Practice Guidelines . Living Guidelines and updates are not intended to substitute for independent professional judgment of the treating clinician and do not account for individual variation among patients. See appendix for disclaimers and other important information (Appendix I and Appendix II). Updates are published regularly and can be found on the ASCO Publications website .",
+      "doi": "10.1200/jco-26-02597",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-30T20:22:08.652070+00:00",
+      "journal": "Journal of Clinical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-29",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 66,
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Therapy for Stage IV Non-Small Cell Lung Cancer With Driver Alterations: ASCO Living Guideline, Version 2026.3.4",
+      "url": "https://doi.org/10.1200/jco-26-02597"
     },
     "doi:10.1200/po-25-00377": {
       "abstract": "PURPOSE Updated analysis of phase I/II trials in recurrent/refractory (R/R) Ewing sarcoma (EwS) over the past 11 years. METHODS A systematic review was performed to identify phase I/II trials for R/R EwS in three databases (WHO, US National Library of Medicine, and European Clinical Trials Database) and/or published in PubMed/ASCO/European Society for Medical Oncology websites from 2014 to 2024. The search criteria included EwS OR bone sarcoma OR sarcoma AND Phase-I OR Phase-II. Eligibility and data extraction were performed independently by three reviewers, with priority given to trials with EwS specified data. Trials were categorized by therapeutic intervention, including targeted therapies, immunotherapy, chemotherapy, and combined therapies. RESULTS One hundred eight trials met inclusion criteria, predominantly academic (70%) and multicenter (81.5%), with significant US and European collaboration. Trial designs were mainly single-arm, with an increase in multiarm trials in the recent years and increased focus on the pediatric population. Trial modalities emphasized targeted therapies with tyrosine kinase, poly-ADP ribose polymerase, EWSR1::FLI1, and cell cycle inhibitors. Immunotherapy with monoclonal antibodies and CAR-T cells as primary agents is also under investigation. The COVID-19 pandemic coincided with a marked reduction in trial initiation in 2020. Among evaluable data, disease control rates averaged 44% and response rates 8%. CONCLUSION This review highlights evolving therapeutic directions in R/R EwS, with increased emphasis on targeted therapies and immunotherapies. Despite pandemic-related delays, trials have progressed in exploring novel targets, including EWSR1::FLI1 oncogenic fusion and DNA repair pathways. These findings underscore ongoing global efforts to address critical unmet needs in EwS treatment, offering a foundation for future trial designs, especially international, randomized phase‐II trials across all age ranges.",
