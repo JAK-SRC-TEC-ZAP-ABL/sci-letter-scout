@@ -62,6 +62,17 @@ class ScanTests(unittest.TestCase):
                  'tier':'cross','journal':'Nature','first_detected':'2026-10-29T12:00:01+00:00'}]
         self.assertEqual([p['doi'] for p in scan.select_public_papers(papers)],['10.1/on-topic'])
 
+    def test_public_feed_puts_new_publication_ahead_of_recently_indexed_backfill(self):
+        today=scan.utcnow().date().isoformat()
+        papers=[{'doi':'10.1/backfill','title':'Cancer treatment','journal':'Cancer Cell',
+                 'tier':'core','specialty':'oncology','online_date':'2026-01-01',
+                 'first_detected':today+'T12:00:00+00:00'},
+                {'doi':'10.1/fresh','title':'Cancer treatment','journal':'Cancer Cell',
+                 'tier':'core','specialty':'oncology','online_date':today,
+                 'first_detected':today+'T11:00:00+00:00'}]
+        self.assertEqual([p['doi'] for p in scan.select_public_papers(papers)],
+                         ['10.1/fresh','10.1/backfill'])
+
     def test_crossref_skips_unverified_issn_and_reports_coverage_gap(self):
         (self.root/'config'/'journals.json').write_text(json.dumps({'journals':[
             {'name':'Cancer Cell','tier':'core','enabled':True,'issn':'1535-6108'},
