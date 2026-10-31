@@ -239,14 +239,15 @@ def fetch_pubmed(journals, days=3, batch_size=12):
     return out
 
 
-def fetch_crossref(journals, hours=72, per_run=12, now=None, max_publication_age_days=45):
-    """Rotate Crossref checks; full roster is covered over several runs."""
+def fetch_crossref(journals, hours=72, per_run=12, now=None, max_publication_age_days=45,
+                   start_index=None):
+    """Rotate Crossref checks; callers may persist the next catalogue index."""
     now = now or utcnow()
     cycle = int(now.timestamp() // 300)
     if not journals:
         return []
     n = min(per_run, len(journals))
-    offset = (cycle * n) % len(journals)
+    offset = (cycle * n) % len(journals) if start_index is None else start_index % len(journals)
     selected = [journals[(offset + i) % len(journals)] for i in range(n)]
     since = (now - dt.timedelta(hours=hours)).strftime('%Y-%m-%dT%H:%M:%S')
     until = now.strftime('%Y-%m-%dT%H:%M:%S')
