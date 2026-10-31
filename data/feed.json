@@ -1,12 +1,52 @@
 {
   "ai_status": "disabled",
-  "generated_at": "2026-10-31T12:51:08.818899+00:00",
+  "generated_at": "2026-10-31T17:25:54.848555+00:00",
   "harmony_push_status": "not_configured",
   "journal_counts": {
     "anesthesiology": 13,
     "oncology": 100
   },
   "papers": [
+    {
+      "abstract": "",
+      "doi": "10.1186/s40364-026-01033-8",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-31T17:25:54.745118+00:00",
+      "journal": "Biomarker Research",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-31",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 50,
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Prognostic scores and biomarkers in hematologic malignancies: current evidence and future perspectives",
+      "url": "https://doi.org/10.1186/s40364-026-01033-8"
+    },
+    {
+      "abstract": "Abstract Background Ischaemic stroke occurs when blood flow to the brain is obstructed. Rapid restoration of blood supply frequently induces cerebral ischaemia‒reperfusion injury (CIRI). Bone marrow mesenchymal stem cell (BMSC)‐derived exosomes exhibit promising therapeutic potential for CIRI. In‐depth exploration of their therapeutic mechanisms holds crucial significance for CIRI management. Methods The middle cerebral artery occlusion/reperfusion (MCAO) model was established in mice. An in vitro ischaemic stroke model was established by treating BV‐2 cells with oxygen‒glucose deprivation/reoxygenation (OGD/R). Exosomes were isolated from BMSCs and intranasally administrated into mice or added into BV‐2 cells. Neurological deficits, grasping and coordination function were evaluated. Cell viability, apoptosis, proliferation and migration were examined. The localisation of KLF3‐AS1 was examined by combined staining of immunofluorescence and fluorescence in situ hybridisation. Intracellular Ca 2+ and adenosine triphosphate levels, mitochondrial reactive oxygen species and membrane potential were assessed. Results KLF3‐AS1 enhanced BMSC viability, proliferation and migration, accompanied by epigenetic reprogramming at its promoter characterised by increased H3K27 acetylation (H3K27Ac) and decreased H3K27 trimethylation (H3K27Me3). BMSC‐derived KLF3‐AS1‐enriched exosomes indicated therapeutic efficacy in both in vivo and in vitro models of cerebral ischaemia. In MCAO‐induced mice, these exosomes alleviated neurological deficits and shifted microglial polarisation from pro‐inflammatory M1‐like to anti‐inflammatory M2‐like phenotypes. Similar effects were observed in OGD/R‐treated BV‐2 microglia, where KLF3‐AS1‐enriched exosomes attenuated oxidative stress and mitochondrial dysfunction while upregulating Silent Information Regulator 3 (SIRT3) expression. Mechanistically, KLF3‐AS1 facilitated ETS Variant Transcription Factor 4 (ETV4) nuclear translocation to activate SIRT3 transcription in microglia, and inhibition of SIRT3 abolished the neuroprotective effects of exosomal KLF3‐AS1. Conclusion BMSC‐derived exosomes delivering KLF3‐AS1 ameliorates CIRI by preserving microglial mitochondrial function and inhibiting inflammatory polarisation, highlighting KLF3‐AS1 as a critical epigenetic regulator and exosome‐mediated therapeutic agent for CIRI through the ETV4/SIRT3 axis. Key points/Highlights KLF3‐AS1 enhances bone marrow mesenchymal stem cell (BMSC) function via promoter H3K27Ac/H3K27Me3 reprogramming. KLF3‑AS1 directly binds ETS Variant Transcription Factor 4 (ETV4) to activate Silent Information Regulator 3 (SIRT3), preserving mitochondrial integrity. BMSC‑derived exosomal KLF3‑AS1 promotes M2 microglial polarisation and ameliorates cerebral ischaemia–reperfusion injury.",
+      "doi": "10.1002/ctm2.70870",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-10-31T17:25:54.744897+00:00",
+      "journal": "Clinical and Translational Medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-31",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 66,
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Intranuclear localisation of KLF3‐AS1 under the balance of histone acetylation and methylation in BMSCs ameliorates cerebral ischaemia‒reperfusion injury by preserving microglial mitochondrial function and inhibiting inflammatory polarisation",
+      "url": "https://doi.org/10.1002/ctm2.70870"
+    },
     {
       "abstract": "",
       "doi": "10.1038/s41388-026-04038-7",
@@ -3810,56 +3850,6 @@
       "tier": "specialist",
       "title": "Constantinescu SN, Vainchenker W, Pecquet C. Next-generation JAK inhibitors in the treatment of myeloproliferative neoplasms. Blood. 2026;147(12):1255-1266.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42954972/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1182/blood.2026035512",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-29T23:39:27.272844+00:00",
-      "journal": "Blood",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-29",
-      "pmid": "42954975",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 32,
-      "publication_types": [
-        "Editorial",
-        "Comment"
-      ],
-      "requires_oncology_context": true,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "MEIS1 guardian USP22 fuels transcription in KMT2Ar leukemia.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42954975/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1182/blood.2026035659",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-29T23:39:27.272838+00:00",
-      "journal": "Blood",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-29",
-      "pmid": "42954979",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 32,
-      "publication_types": [
-        "Editorial",
-        "Comment"
-      ],
-      "requires_oncology_context": true,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "Targeting MYC through GSPT1 codegradation in blood cancers.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42954979/"
     },
     {
       "abstract": "",
