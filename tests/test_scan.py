@@ -116,6 +116,26 @@ class ScanTests(unittest.TestCase):
         feed=json.loads((self.root/'data'/'feed.json').read_text(encoding='utf-8'))
         self.assertEqual(feed['source_health']['crossref'],'partial:missing_issn:1')
 
+    def test_crossref_cursor_advances_only_after_successful_scan(self):
+        catalogue=self.root/'config'/'journals.json'
+        content=json.loads(catalogue.read_text())
+        content['journals'].extend([
+            {'name':'Second Journal','tier':'core','enabled':True,'issn':'1111-1111'},
+            {'name':'Third Journal','tier':'core','enabled':True,'issn':'2222-2222'},
+        ])
+        catalogue.write_text(json.dumps(content))
+        with patch.object(scan,'fetch_pubmed',return_value=[]), \
+             patch.object(scan,'fetch_crossref',side_effect=[[],RuntimeError('temporary failure'),[]]) as crossref, \
+             patch.dict(os.environ,{},clear=True):
+            scan.run()
+            first=json.loads((self.root/'data'/'state.json').read_text(encoding='utf-8'))
+            scan.run()
+            failed=json.loads((self.root/'data'/'state.json').read_text(encoding='utf-8'))
+            scan.run()
+            third=json.loads((self.root/'data'/'state.json').read_text(encoding='utf-8'))
+        self.assertEqual([call.kwargs['start_index'] for call in crossref.call_args_list],[0,1,1])
+        self.assertEqual([first['crossref_cursor'],failed['crossref_cursor'],third['crossref_cursor']],[1,1,2])
+
     def setUp(self):
         self.tmp=tempfile.TemporaryDirectory()
         self.root=Path(self.tmp.name)
