@@ -156,13 +156,19 @@ def run():
         print('PubMed fetch error',type(exc).__name__)
     crossref_journals=[j for j in journals if j.get('issn')]
     missing_issn=len(journals)-len(crossref_journals)
+    crossref_start=int(state.get('crossref_cursor',0))
     try:
         collected.extend(fetch_crossref(
             crossref_journals,
             hours=conf['monitoring']['crossref_indexed_hours'],
             per_run=conf['monitoring']['crossref_journals_per_run'],
             max_publication_age_days=conf['monitoring'].get('crossref_max_publication_age_days',45),
+            start_index=crossref_start,
         ))
+        if crossref_journals:
+            state['crossref_cursor']=(crossref_start + min(
+                int(conf['monitoring']['crossref_journals_per_run']),len(crossref_journals)
+            )) % len(crossref_journals)
         source_health['crossref']='ok' if not missing_issn else f'partial:missing_issn:{missing_issn}'
     except Exception as exc:
         source_health['crossref']='error:'+type(exc).__name__
