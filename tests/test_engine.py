@@ -67,6 +67,17 @@ class MetadataTests(unittest.TestCase):
             out=fetch_crossref(journals)
         self.assertEqual([p['doi'] for p in out],['10.1/cancer'])
 
+    def test_crossref_persisted_index_controls_batch_when_runs_are_delayed(self):
+        journals=[{'name':f'Journal {i}','issn':f'0000-000{i}','tier':'core'} for i in range(4)]
+        selected=[]
+        def record(params):
+            selected.append(params['filter'].split('issn:')[-1])
+            return iter(())
+        with patch('src.engine._crossref_pages',side_effect=record),patch('src.engine.time.sleep'):
+            fetch_crossref(journals,per_run=2,start_index=0)
+            fetch_crossref(journals,per_run=2,start_index=2)
+        self.assertEqual(selected,['0000-0000','0000-0001','0000-0002','0000-0003'])
+
     def test_crossref_multidisciplinary_paper_is_filtered(self):
         journals=[{'name':'Nature','tier':'cross'}]
         response={'message':{'items':[
