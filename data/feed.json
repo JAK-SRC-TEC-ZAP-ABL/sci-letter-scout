@@ -1,12 +1,36 @@
 {
   "ai_status": "disabled",
-  "generated_at": "2026-11-01T16:30:02.587905+00:00",
+  "generated_at": "2026-11-01T20:48:17.451604+00:00",
   "harmony_push_status": "not_configured",
   "journal_counts": {
     "anesthesiology": 13,
     "oncology": 100
   },
   "papers": [
+    {
+      "abstract": "",
+      "doi": "10.1007/s00540-026-03940-4",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-01T20:48:17.330242+00:00",
+      "journal": "Journal of anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-01",
+      "pmid": "42967253",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 32,
+      "publication_types": [
+        "Letter"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Reply to \"Clarification of age-term coding in a pediatric tracheal tube prediction model\".",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42967253/"
+    },
     {
       "abstract": "Mitochondrial dysfunction is frequently well-known to induce mitochondrial dysfunction-associated senescence (MIDAS), a specialized form of cellular senescence marked by a distinct senescent phenotype. Sirtuin-3 (SIRT3) is a key regulator of mitochondrial function through its deacetylase activity, and emerging evidence highlights that its deficiency induces MIDAS in fibroblasts. However, the precise mechanism by which SIRT3 regulates MIDAS, as well as the role of MIDAS in tumorigenesis, remains incompletely understood. Here, we report that SIRT3 deficiency inhibits colorectal cancer (CRC) progression by inducing MIDAS. Mechanistically, SIRT3 deacetylates the mitochondrial carrier SLC25A13 at lysine 568. SIRT3 loss triggers K568 hyperacetylation, impairing SLC25A13 function and disrupting the malate-aspartate shuttle. This cascade reduces the cytosolic NAD+/NADH ratio, activating the AMPK-p53 axis to initiate MIDAS. Clinically, low levels of SLC25A13-K568 acetylation are associated with poor prognosis in human CRC. Furthermore, senolytic treatment selectively eliminates these senescent cells and suppresses tumor growth. Our findings unveil a SIRT3-SLC25A13 axis governing NAD+/NADH homeostasis and MIDAS, revealing a potential therapeutic strategy for CRC.",
       "doi": "10.1038/s41388-026-04037-8",
@@ -6539,26 +6563,6 @@
       "tier": "specialist",
       "title": "Electrolyte redistribution during acute respiratory acid-base changes: an in vivo study using apnoea testing.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42888143/"
-    },
-    {
-      "abstract": "Patients from more deprived backgrounds experience poorer postoperative outcomes. We analysed preoperative characteristics in UK Perioperative Quality Improvement Programme participants according to socioeconomic position to explore opportunities for targeted interventions. Participants were adults aged ≥18 yr undergoing major elective surgery at UK Perioperative Quality Improvement Programme sites. Socioeconomic position was determined using postcode data and the Index of Multiple Deprivation (IMD) standardised aggregate scale of area-level deprivation. Associations between IMD position and patient characteristics, health behaviours, and comorbidities were analysed using descriptive statistics with appropriate parametric and nonparametric testing. Of 55 938 participants included, quintile 1 (most deprived) represented the smallest subgroup (14.2%), with recruitment varying by region and site. Median age was 66 yr with IMD 1 participants 5 yr younger (62 yr) than IMD 5 (67 yr). Deprivation gradients (IMD 5 to 1) were seen for home ownership, occupation, and educational attainment. Prevalences of smoking, inactivity, and obesity increased from IMD 5 to 1. Higher prevalences of major long-term conditions including diabetes mellitus, heart failure, stroke, and ASA physical status 3-4 were observed in more deprived quintiles. Prevalence rates of dementia and renal impairment were similar across quintiles despite the age gradient. Notably, the proportions of patients living with frailty and disability increased with deprivation. Patients presenting for major surgery from more deprived backgrounds do so in poorer overall health. They can encounter barriers to both research participation and available preoperative support. Addressing this unmet need to prevent widening perioperative health inequalities requires interventions tailored to the patient's socioeconomic context.",
-      "doi": "10.1016/j.bja.2026.09.002",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-17T05:06:33.265402+00:00",
-      "journal": "British journal of anaesthesia",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-16",
-      "pmid": "42888145",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 55,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "anesthesiology",
-      "tier": "specialist",
-      "title": "Socioeconomic position and preoperative characteristics in Perioperative Quality Improvement Programme participants: a UK national observational study.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42888145/"
     }
   ],
   "schema_version": "0.3",
