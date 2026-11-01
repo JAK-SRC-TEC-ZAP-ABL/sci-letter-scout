@@ -1,12 +1,87 @@
 {
   "ai_status": "disabled",
-  "generated_at": "2026-11-01T09:47:38.053851+00:00",
+  "generated_at": "2026-11-01T16:30:02.587905+00:00",
   "harmony_push_status": "not_configured",
   "journal_counts": {
     "anesthesiology": 13,
     "oncology": 100
   },
   "papers": [
+    {
+      "abstract": "Mitochondrial dysfunction is frequently well-known to induce mitochondrial dysfunction-associated senescence (MIDAS), a specialized form of cellular senescence marked by a distinct senescent phenotype. Sirtuin-3 (SIRT3) is a key regulator of mitochondrial function through its deacetylase activity, and emerging evidence highlights that its deficiency induces MIDAS in fibroblasts. However, the precise mechanism by which SIRT3 regulates MIDAS, as well as the role of MIDAS in tumorigenesis, remains incompletely understood. Here, we report that SIRT3 deficiency inhibits colorectal cancer (CRC) progression by inducing MIDAS. Mechanistically, SIRT3 deacetylates the mitochondrial carrier SLC25A13 at lysine 568. SIRT3 loss triggers K568 hyperacetylation, impairing SLC25A13 function and disrupting the malate-aspartate shuttle. This cascade reduces the cytosolic NAD+/NADH ratio, activating the AMPK-p53 axis to initiate MIDAS. Clinically, low levels of SLC25A13-K568 acetylation are associated with poor prognosis in human CRC. Furthermore, senolytic treatment selectively eliminates these senescent cells and suppresses tumor growth. Our findings unveil a SIRT3-SLC25A13 axis governing NAD+/NADH homeostasis and MIDAS, revealing a potential therapeutic strategy for CRC.",
+      "doi": "10.1038/s41388-026-04037-8",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-01T16:30:02.518738+00:00",
+      "journal": "Oncogene",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-31",
+      "pmid": "42966746",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 66,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "SIRT3 deficiency triggers mitochondrial dysfunction-associated senescence to suppress colorectal cancer progression via SLC25A13 acetylation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42966746/"
+    },
+    {
+      "abstract": "PD-(L)1×VEGF bispecific antibodies integrate immune checkpoint blockade and VEGF inhibition within a single molecule, offering a potential strategy to overcome angiogenesis-associated immune resistance. At the 2026 ASCO Annual Meeting, the randomized phase 3 HARMONi-6 trial demonstrated an overall survival benefit with ivonescimab plus chemotherapy over tislelizumab plus chemotherapy in previously untreated advanced squamous non-small cell lung cancer (NSCLC), extending survival evidence to an active PD-1-based first-line comparator. Exploratory phase 2 studies of pumitamig, SSGJ-707, and HB0025 reported encouraging activity in first-line NSCLC, while phase 1 and 2 studies of IMM2510 and ivonescimab-based regimens suggested activity after prior immunotherapy. Smaller exploratory studies also reported activity in perioperative head and neck cancer, colorectal cancer, endometrial cancer, and mucosal melanoma. Collectively, these findings highlight the clinical potential of PD-(L)1×VEGF bispecific antibodies, with the strongest evidence in first-line squamous NSCLC and broader applications remaining hypothesis-generating. Future development should prioritize predictive biomarkers, resistance mechanisms, optimal treatment sequencing, and careful assessment of immune-related and VEGF-associated toxicities.",
+      "doi": "10.1186/s13045-026-01864-w",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-01T16:30:02.518711+00:00",
+      "journal": "Journal of Hematology & Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-31",
+      "pmid": "42966842",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 67,
+      "publication_types": [
+        "Journal Article",
+        "Review",
+        "Letter"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "clinical_trial",
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "PD-(L)1×VEGF bispecific antibodies in solid tumors: clinical trial updates from ASCO 2026.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42966842/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1016/j.bja.2026.08.072",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-01T16:30:02.518693+00:00",
+      "journal": "British journal of anaesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-31",
+      "pmid": "42966683",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 40,
+      "publication_types": [
+        "Letter"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "clinical_trial"
+      ],
+      "source": "pubmed",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Perioperative intravenous fluid and chronic kidney disease: long-term follow-up of the restrictive versus liberal fluid therapy in major abdominal surgery randomised trial. Comment on Br J Anaesth 2026; 137: 479-89.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42966683/"
+    },
     {
       "abstract": "",
       "doi": "10.1016/j.tranon.2026.103098",
@@ -382,8 +457,12 @@
       "journal": "Blood Cancer Journal",
       "letter_eligibility": "unverified",
       "online_date": "2026-10-31",
+      "pmid": "42966782",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 47,
+      "priority_score": 32,
+      "publication_types": [
+        "Letter"
+      ],
       "requires_oncology_context": false,
       "research_types": [
         "other"
@@ -450,8 +529,12 @@
       "journal": "Annals of Surgical Oncology",
       "letter_eligibility": "unverified",
       "online_date": "2026-10-31",
+      "pmid": "42966838",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 50,
+      "publication_types": [
+        "Journal Article"
+      ],
       "requires_oncology_context": false,
       "research_types": [
         "other"
@@ -463,15 +546,19 @@
       "url": "https://doi.org/10.1245/s10434-026-20870-3"
     },
     {
-      "abstract": "",
+      "abstract": "Local tumor excision (LTE) and segmental resection (SR) represent the two principal kidney-sparing surgery (KSS) modalities for upper tract urothelial carcinoma (UTUC), yet the optimal procedure remains undefined. We compared their long-term survival outcomes and developed a tailored prognostic tool to guide individualized surgical decision-making. A cohort of patients with UTUC managed via KSS was identified from the Surveillance, Epidemiology, and End Results database and stratified into LTE and SR cohorts. Following propensity score matching to mitigate baseline confounding, long-term overall survival and cancer-specific survival were compared. Independent predictors derived from multivariable Cox regression analyses were subsequently integrated to develop a prognostic nomogram, which underwent external validation in an independent, real-world cohort. Following propensity score matching (n = 312), SR was associated with improved survival outcomes compared with LTE. Multivariable analysis confirmed SR as an independent predictor of improved overall survival (hazard ratio 0.657, P = 0.005) and cancer-specific survival (hazard ratio 0.592, P = 0.019), and this prognostic benefit remained robust across all clinical subgroups (all P for interaction > 0.05). The derived prognostic nomogram showed favorable performance during external validation, achieving a peak area under the curve of 0.852 during external validation and improving individualized risk assessment for patients in the KSS setting. For patients with localized UTUC undergoing KSS, our findings suggest that SR may be associated with favorable long-term survival outcomes compared with LTE. In addition, the externally validated nomogram showed satisfactory predictive performance and may serve as a useful tool for individualized risk stratification and clinical decision-making.",
       "doi": "10.1245/s10434-026-20726-w",
       "evidence_level": "metadata_or_abstract_only",
       "first_detected": "2026-10-31T20:37:41.821208+00:00",
       "journal": "Annals of Surgical Oncology",
       "letter_eligibility": "unverified",
       "online_date": "2026-10-31",
+      "pmid": "42966839",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 50,
+      "priority_score": 58,
+      "publication_types": [
+        "Journal Article"
+      ],
       "requires_oncology_context": false,
       "research_types": [
         "other"
@@ -490,8 +577,12 @@
       "journal": "Annals of Surgical Oncology",
       "letter_eligibility": "unverified",
       "online_date": "2026-10-31",
+      "pmid": "42966836",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 50,
+      "publication_types": [
+        "Journal Article"
+      ],
       "requires_oncology_context": false,
       "research_types": [
         "other"
@@ -510,8 +601,12 @@
       "journal": "Annals of Surgical Oncology",
       "letter_eligibility": "unverified",
       "online_date": "2026-10-31",
+      "pmid": "42966837",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 58,
+      "publication_types": [
+        "Journal Article"
+      ],
       "requires_oncology_context": false,
       "research_types": [
         "other"
@@ -523,18 +618,24 @@
       "url": "https://doi.org/10.1245/s10434-026-20811-0"
     },
     {
-      "abstract": "",
+      "abstract": "The advent of immunotherapy has profoundly transformed the therapeutic landscape of hematologic malignancies. A broad range of immune-based strategies, including immune checkpoint inhibitors and adoptive cell therapies based on both T cells and natural killer (NK) cells, have achieved unprecedented clinical outcomes in several lymphoid and myeloid neoplasms. Emerging approaches such as genetically engineered immune cells, including chimeric antigen receptor (CAR)-modified T and NK cells, are further expanding therapeutic opportunities. However, substantial heterogeneity in treatment response remains a major challenge, with a significant proportion of patients experiencing primary resistance, relapse, or severe immune-related toxicities. Accurate identification of predictive and prognostic biomarkers is therefore essential to optimize patient selection, improve therapeutic efficacy, and minimize treatment-related toxicity. Numerous biological parameters have been investigated, including clinical prognostic scores, systemic inflammatory indices, tumor burden markers, immune-cell subsets, cytokine profiles, genetic and molecular alterations, and features of the tumor microenvironment. Emerging evidence indicates that both host-related factors and tumor-intrinsic characteristics shape therapeutic responses to immunotherapy across hematologic cancers. Among the most promising biomarkers are inflammatory indices derived from peripheral blood counts, such as the neutrophil-to-lymphocyte ratio, platelet-to-lymphocyte ratio, monocyte-to-lymphocyte ratio, systemic immune-inflammation index, prognostic nutritional index, and Glasgow Prognostic Score. In parallel, immune-monitoring approaches assessing the functional competence, phenotype, and activation status of both T and NK cells, together with cytokine signatures, immune checkpoint expression, and other markers of immune competence, are increasingly recognized as valuable tools for predicting therapeutic response, resistance, and immune-related toxicity. This review summarizes the current evidence on prognostic scores and biomarkers associated with immunotherapy outcomes in hematologic malignancies. We discuss their biological rationale, clinical relevance, current limitations, and potential integration into contemporary treatment strategies. Finally, we highlight emerging perspectives, including multi-omics profiling, artificial intelligence-driven predictive models, and dynamic biomarker-guided approaches, which are expected to advance precision immuno-oncology and enable increasingly personalized immune-based treatment algorithms.",
       "doi": "10.1186/s40364-026-01033-8",
       "evidence_level": "metadata_or_abstract_only",
       "first_detected": "2026-10-31T17:25:54.745118+00:00",
       "journal": "Biomarker Research",
       "letter_eligibility": "unverified",
       "online_date": "2026-10-31",
+      "pmid": "42966861",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 50,
+      "priority_score": 74,
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
       "requires_oncology_context": false,
       "research_types": [
-        "other"
+        "machine_learning",
+        "mechanism"
       ],
       "source": "crossref",
       "specialty": "oncology",
@@ -567,18 +668,22 @@
       "url": "https://doi.org/10.1002/ctm2.70870"
     },
     {
-      "abstract": "",
+      "abstract": "Metastatic progression is a major cause of colorectal cancer (CRC)-related mortality, but the molecular mechanisms underlying this process remain incompletely understood. Here, we investigated the role of lysine-specific demethylase 1A (KDM1A) in CRC metastasis and angiogenesis-related phenotypes. Using transcriptomic profiling, chromatin immunoprecipitation, functional assays, and preclinical models, we found that KDM1A contributes to CRC cell migration, invasion, and epithelial-mesenchymal transition (EMT), with NRP2 upregulation serving as an important associated mechanism. Mechanistically, KDM1A was associated with reduced enrichment of H3K9me1/2 at the NRP2 regulatory region, supporting a chromatin-associated mechanism for NRP2 transcriptional regulation. TGF-β/Smad signaling may also provide an auxiliary input to NRP2 expression. In parallel, KDM1A increased hypoxia-inducible factor 1α (HIF-1α) protein stability and VEGFA expression, thereby contributing to angiogenesis-related activity. Our data further suggest that NRP2 and VEGFA-related signaling are linked to PI3K/AKT/mTOR pathway activation and metastatic phenotypes in CRC cells. Pharmacological inhibition of KDM1A with GSK-LSD1 reduced liver metastatic burden and vascularization within metastatic lesions in preclinical models. Together, these findings suggest that KDM1A contributes to CRC metastatic progression through related mechanisms involving NRP2 regulation, HIF-1α/VEGFA-associated angiogenesis, and AKT pathway modulation, providing a basis for further investigation of KDM1A as a potential therapeutic target in metastatic CRC.",
       "doi": "10.1038/s41388-026-04038-7",
       "evidence_level": "metadata_or_abstract_only",
       "first_detected": "2026-10-31T12:51:08.693268+00:00",
       "journal": "Oncogene",
       "letter_eligibility": "unverified",
       "online_date": "2026-10-31",
+      "pmid": "42966745",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 50,
+      "priority_score": 66,
+      "publication_types": [
+        "Journal Article"
+      ],
       "requires_oncology_context": false,
       "research_types": [
-        "other"
+        "mechanism"
       ],
       "source": "crossref",
       "specialty": "oncology",
@@ -594,8 +699,12 @@
       "journal": "Oncogene",
       "letter_eligibility": "unverified",
       "online_date": "2026-10-31",
+      "pmid": "42966744",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 58,
+      "publication_types": [
+        "Journal Article"
+      ],
       "requires_oncology_context": false,
       "research_types": [
         "other"
@@ -607,15 +716,20 @@
       "url": "https://doi.org/10.1038/s41388-026-04026-x"
     },
     {
-      "abstract": "",
+      "abstract": "Specific genetic mutations serve as clues to cancer emergence. However, non-genetic cell state shift mechanisms-such as the epithelial-to-mesenchymal transition (EMT)-drive swift, reversible drug tolerance and metastasis. Unlike the slow process of acquiring mutations, this plasticity allows rapid, drug-tolerant cells to revert to previous states upon withdrawal of the drug, thereby driving pharmacological resistance. Insight into the evolution of cell states in cancer is critical for optimizing drug regimens. Here we propose dynamic conformational heterogeneity as an untapped fundamental driver of adaptive resistance. Proteins do not function as simple binary switches; rather, they exist as dynamic ensembles. Cancer arises when their conformational distribution shifts permanently towards an active state. Drugs operate by selecting specific (oncogenic) 3D conformer shapes and reverse-shifting the population back to a stabilized inactive state. Epigenetic dysregulation in cancer cells amplifies expression levels of these proteins, shifting the ensemble toward the oncogenic state. The increased abundance of the active state saturates the networks, overcoming feedback controls. We propose that effectively countering cancer evolution requires drug combinations that target oncogenic conformations at both molecular and systems levels, including adaptive phenotypic plasticity factors, shifting focus from individual static targets to dynamic population states.",
       "doi": "10.1038/s41416-026-03649-x",
       "evidence_level": "metadata_or_abstract_only",
       "first_detected": "2026-10-31T12:51:08.693100+00:00",
       "journal": "British Journal of Cancer",
       "letter_eligibility": "unverified",
       "online_date": "2026-10-31",
+      "pmid": "42966755",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 58,
+      "priority_score": 66,
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
       "requires_oncology_context": false,
       "research_types": [
         "mechanism"
@@ -3471,6 +3585,30 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42957652/"
     },
     {
+      "abstract": "Hepatocellular carcinoma (HCC) is a leading cause of cancer-related mortality worldwide, highlighting the need to identify molecular mechanisms that support tumour cell survival and therapeutic resistance. Here, we identify FK506-binding protein-like (FKBPL) as a novel regulator of the DNA damage repair (DDRR) in HCC. Analysis of public datasets and an HCC tissue microarray demonstrated that FKBPL expression is significantly elevated in HCC tissues compared with normal liver and is associated with poor patient prognosis. Functional studies demonstrate that loss of FKBPL suppresses HCC cell viability and clonogenic survival in vitro and significantly impairs tumour growth in both subcutaneous and orthotopic HCC xenograft models. Transcriptomic analysis following FKBPL knockdown identified marked downregulation of pathways involved in DNA replication and DNA repair. FKBPL knockdown in HCC cell models resulted in increased DNA damage accumulation, activation of ATM/ATR-dependent DNA damage signalling, and enhanced DNA damage accumulation in response to chemotherapy-induced genotoxic stress, whereas FKBPL overexpression reduced DNA damage accumulation in response to genotoxic stress. Replication protein A1 (RPA1), a key regulator of DNA replication and DDRR, was identified as a novel interacting partner of FKBPL. FKBPL physically associated with RPA1 and maintained its protein stability by preventing ubiquitin-mediated proteasomal degradation, thereby supporting downstream BRCA1 signalling and DNA repair. Collectively, these findings establish FKBPL as a previously unrecognised regulator of the DDRR and identify the FKBPL-RPA1 axis as a key mediator of DNA repair and cellular survival in HCC.",
+      "doi": "10.1038/s41388-026-04016-z",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-01T16:30:02.518735+00:00",
+      "journal": "Oncogene",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-10-29",
+      "pmid": "42966747",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 66,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "The FKBPL-RPA1 axis regulates DNA damage repair and cellular survival in hepatocellular carcinoma.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42966747/"
+    },
+    {
       "abstract": "",
       "doi": "10.3389/fonc.2026.1996821",
       "evidence_level": "metadata_or_abstract_only",
@@ -3709,66 +3847,6 @@
       "tier": "oncology",
       "title": "Tumor immune organoids support preclinical evaluation of cancer immunotherapies through comparative modelling and translational investigation",
       "url": "https://doi.org/10.3389/fonc.2026.1988538"
-    },
-    {
-      "abstract": "Tumor metastasis is the leading cause of cancer-related deaths, and its occurrence is not only determined by the invasive capacity of tumor cells themselves but is also profoundly influenced by the dynamic remodeling of the immune system. Recent studies over the past decade have shown that the immune mechanisms in tumor metastasis have expanded from the classical failure of immune surveillance to a systemic process involving immune cell functional remodeling, the construction of the pre-metastatic niche (PMN), and tumor immune editing. This review systematically reviews the tumor promoting mechanisms of various immune cells such as T cells, tumor-associated macrophages (TAMs), myeloid-derived suppressor cells (MDSCs), tumor-associated neutrophils (TANs), regulatory B cells (Bregs), tumor-associated natural killer cells (TANKs) and dendritic cells (DCs) in each stage of metastasis, and critically discusses the limitations, conceptual controversies, and future directions of current research. This review seeks to establish a systematic framework to enhance the understanding of immune cell mechanisms involved in tumor metastasis.",
-      "doi": "10.3389/fonc.2026.2007187",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-31T20:37:41.820909+00:00",
-      "journal": "Frontiers in Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-29",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 66,
-      "requires_oncology_context": false,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "The pro-metastatic effect and mechanism of immune cells in tumor metastasis",
-      "url": "https://doi.org/10.3389/fonc.2026.2007187"
-    },
-    {
-      "abstract": "Background Radiation retinopathy is a dose- and time-dependent neurovascular complication of ocular radiotherapy. Radiation maculopathy denotes macular involvement and may present with early retinal thickening or edema, progressive nonperfusion, or late atrophy. Its biology is not a single linear sequence: endothelial, inflammatory, permeability, ischemic, and neuronal changes overlap. Objective To critically review terminology, classification, plaque-related dosimetry, multimodal imaging biomarkers, and preventive and therapeutic evidence for radiation maculopathy after plaque brachytherapy for uveal melanoma. Methods PubMed/MEDLINE was searched from January 2000 through 24 September 2026 using combinations of uveal melanoma, radiation retinopathy, radiation maculopathy, plaque brachytherapy, iodine-125, ruthenium-106, palladium-103, cesium-131, OCT, OCT angiography, fluorescein angiography, laser speckle flowgraphy, anti-VEGF, bevacizumab, ranibizumab, aflibercept, corticosteroid, and laser. Seminal pre-2000 studies and additional records identified from reference lists were retained when they defined classification, natural history, or treatment. Original clinical studies were prioritized for efficacy and imaging claims; reviews were used for context and evidence synthesis. Results Structural OCT can reveal macular edema before ophthalmoscopic radiation retinopathy, but thickness changes also reflect neuronal swelling and late atrophy. OCTA detects capillary-density loss and foveal avascular zone change, yet measurements depend on signal quality and segmentation and are especially vulnerable to cystoid edema. Fluorescein angiography remains important for leakage and wide-field ischemic burden, while laser speckle flowgraphy is an investigational perfusion measure. Anti-VEGF therapy is the best-supported treatment for established radiation-related macular edema and generally requires sustained dosing. Prophylactic anti-VEGF cohorts show lower rates of edema and some radiation complications, but long-term visual superiority is not consistently demonstrated and randomized plaque-specific evidence is lacking. Corticosteroids and laser have selective roles. Conclusions Surveillance should be multimodal and individualized according to tumor location, patient-specific dosimetry, visual potential, and serial structural and perfusion findings. OCTA complements rather than replaces structural OCT and angiography. No validated OCTA threshold currently justifies treatment in an otherwise unaffected eye; prospective studies must define reproducible biomarkers and treatment triggers.",
-      "doi": "10.3389/fonc.2026.1926816",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-31T20:37:41.820906+00:00",
-      "journal": "Frontiers in Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-29",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 66,
-      "requires_oncology_context": false,
-      "research_types": [
-        "clinical_trial"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Early detection and management of radiation maculopathy after plaque brachytherapy for uveal melanoma: a multimodal imaging narrative review",
-      "url": "https://doi.org/10.3389/fonc.2026.1926816"
-    },
-    {
-      "abstract": "Circulating cell-free DNA (cfDNA) and its tumor-derived fraction, circulating tumor DNA (ctDNA), enable non-invasive tumor genotyping, longitudinal disease monitoring, and molecular residual disease (MRD) assessment. Classical Hodgkin lymphoma (cHL) is particularly suitable for ctDNA-based analysis because malignant Hodgkin and Reed-Sternberg cells usually constitute only a small fraction of the tumor mass, whereas plasma may contain a strong tumor-derived DNA signal. This narrative review summarizes the potential applications of cfDNA-based ctDNA analysis in hematologic malignancies, with a focused emphasis on cHL. We discuss pre-analytical and analytical requirements, including plasma processing, tumor-informed and tumor-naive sequencing, error suppression, droplet digital PCR, and control for clonal hematopoiesis. We then synthesize evidence for ctDNA as a dual-readout biomarker: a baseline tool for non-invasive biological classification and a dynamic measure of molecular response. Published studies identify cHL genomic subtypes, associations with the tumor microenvironment, and prognostic information complementary to PET and conventional risk factors. Age-specific evidence is uneven, and most studies demonstrate analytical feasibility or prognosis rather than benefit from a ctDNA-triggered intervention. ctDNA-MRD should complement FDG-PET/CT; it cannot localize disease or currently replace established staging and response criteria. Routine implementation will require harmonized sample handling, validated assays and reporting thresholds, external quality assessment, and prospective trials demonstrating that ctDNA-guided treatment improves disease control, toxicity, or quality of life.",
-      "doi": "10.3389/fonc.2026.1982526",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-31T20:37:41.820903+00:00",
-      "journal": "Frontiers in Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-29",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 66,
-      "requires_oncology_context": false,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Circulating tumor DNA in Hodgkin lymphoma: biological classification, molecular residual disease, and integration with PET response",
-      "url": "https://doi.org/10.3389/fonc.2026.1982526"
     },
     {
       "abstract": "Background: Many clinicians monitor the abductor digiti minimi (ADM) muscle during surgery using electromyography (EMG) for ease and consistency of electrode placement, while practice guidelines recommend monitoring of responses at the adductor pollicis (AP) muscle. This study compared the onset time of rocuronium neuromuscular block and the sugammadex-induced recovery time recorded simultaneously from the AP and ADM muscles. Methods: In 44 consenting patients undergoing general anesthesia, simultaneous EMG recording of ADM and AP muscles was performed. Right- and left-hand selection of monitored muscle (AP vs . ADM) was randomized, and patients’ handedness was recorded. The primary outcomes were the onset time of neuromuscular block (administration of rocuronium until train-of-four [TOF] count equal to 0), recovery time (time from sugammadex administration until TOF ratio greater than or equal to 0.9), and time to maximal recovery (sugammadex administration until TOF ratio equal to 1.0). Results: There were no significant differences between ADM and AP measurements in onset time, recovery to TOF ratio greater than or equal to 0.9, or time to maximal recovery (TOF ratio equal to 1.0) between EMG responses recorded simultaneously from ADM and AP muscles. However, a difference in recovery times between ADM and AP existed, depending on which hand was monitored. When ADM was monitored on the right hand, the readings showed earlier recovery than AP, and the mean difference was 93 s (25% faster) and 105 s (20% faster) for time to TOF ratio greater than or equal to 0.9 and time to TOF ratio equal to 1.0, respectively. There was no difference between the AP and ADM muscles when monitoring was performed on the left hand. Conclusions: The current study underscores the equivalency between ADM and AP muscles for routine neuromuscular monitoring during surgery. When monitoring the nondominant arm, the ADM and AP muscles have similar recoveries. In the dominant arm, the ADM muscle recovery is significantly faster than that of the AP muscle.",
@@ -6481,26 +6559,6 @@
       "tier": "specialist",
       "title": "Socioeconomic position and preoperative characteristics in Perioperative Quality Improvement Programme participants: a UK national observational study.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42888145/"
-    },
-    {
-      "abstract": "Some women receiving epidural labour analgesia become hyperthermic. Assuming a causal mechanism, denser and more extensive sympathetic blocks might promote hyperthermia by inhibiting sweating. We therefore tested the hypothesis that hyperthermia is most common when epidural blocks are particularly effective, as indicated by excellent analgesia. In this multicentre prospective observational study, we enrolled nulliparous women with term cephalic singleton pregnancies who planned vaginal delivery with epidural analgesia. Pain intensity was assessed using an 11-point numerical rating scale (0-10) during uterine contractions before analgesia, at 10, 30, and 60 min after initiating analgesia, and then hourly until the end of the third stage, and calculated as time-weighted average, average, area under the curve, and peak scores. Our primary endpoint was intrapartum hyperthermia (≥38°C). Intrapartum hyperthermia occurred in 13% (124/952) of participants (median age 29 yr). After adjustment for confounding factors, lower pain intensity was associated with higher odds of intrapartum hyperthermia across all four measures: time-weighted average (odds ratio 1.64; 95% CI 1.40-1.91; P<0.001), average (1.56; 1.35-1.81; P<0.001), area under the curve (1.05; 1.03-1.07; P<0.001), and peak scores (1.19; 1.09-1.30; P<0.001). The identified inflection points were a time-weighted average score ≤3 points (odds ratio 8.67; 95% CI 4.19-17.9; P<0.001), average score ≤3 points (6.63; 3.56-12.3; P<0.001), area under the curve ≤30 point⋅h (13.0; 3.75-45.0; P<0.001), and peak score ≤4 points (2.53; 1.65-3.89; P<0.001), all of which were associated with increased intrapartum hyperthermia. Among nulliparous women receiving epidural analgesia for labour, lower pain scores were associated with higher odds of hyperthermia. Extensive sympathetic blockade may promote maternal hyperthermia. NCT04940091.",
-      "doi": "10.1016/j.bja.2026.08.059",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-17T05:06:33.265385+00:00",
-      "journal": "British journal of anaesthesia",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-16",
-      "pmid": "42888144",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 63,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "specialty": "anesthesiology",
-      "tier": "specialist",
-      "title": "The association between pain intensity during epidural labour analgesia and intrapartum hyperthermia: a multicentre prospective observational study.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42888144/"
     }
   ],
   "schema_version": "0.3",
