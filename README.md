@@ -10,7 +10,7 @@
 - Reading-priority heuristic; **not** a claim that papers are wrong or likely to be accepted as Letters.
 - Optional Gemini abstract-level JSON screening code remains available but is disabled in the default configuration because no usable zero-billing account has been verified for this deployment.
 - `data/feed.json` is the **public, read-only** interface consumed by the HarmonyOS development app. It includes specialty tags, source health, configured-journal counts and explicit AI/Push status.
-- A native ArkTS/ArkUI app compiles in DevEco Studio 26 and has run in the Huawei simulator. It supports specialty/journal onboarding, list/search/detail, local favorites and local settings. The Push Kit client obtains a token without logging it, requests notification consent after page load, and registers the single foreground message listener required by HarmonyOS.
+- A native ArkTS/ArkUI app compiles in DevEco Studio 26 and has run in the Huawei simulator. It supports specialty/journal onboarding, list/search/detail, local favorites and local settings. A dormant Push Kit listener remains in the app. This version does not request notification consent, obtain a Push Token or register a device for cloud notifications.
 - `SKILL.md` for agent analysis and `.opencode/skills/...` for OpenCode loading.
 
 ## What is NOT built yet
