@@ -2,15 +2,16 @@ import { common, OpenLinkOptions } from '@kit.AbilityKit';
 import { BusinessError } from '@kit.BasicServicesKit';
 import { http } from '@kit.NetworkKit';
 import { preferences } from '@kit.ArkData';
+import { BUILTIN_JOURNALS } from '../data/BuiltinJournals';
 
 const FEED_URL: string =
-  'https://raw.githubusercontent.com/JAK-SRC-TEC-ZAP-ABL/sci-letter-scout/main/data/feed.json';
+  'https://jak-src-tec-zap-abl.github.io/sci-letter-scout/data/feed.json';
 const JOURNALS_URL: string =
-  'https://raw.githubusercontent.com/JAK-SRC-TEC-ZAP-ABL/sci-letter-scout/main/config/journals.json';
+  'https://jak-src-tec-zap-abl.github.io/sci-letter-scout/config/journals.json';
 const BACKUP_FEED_URL: string =
-  'https://sci-letter-scout-push-test.zhangyujian2025.workers.dev/public/feed.json';
+  'https://raw.githubusercontent.com/JAK-SRC-TEC-ZAP-ABL/sci-letter-scout/main/data/feed.json';
 const BACKUP_JOURNALS_URL: string =
-  'https://sci-letter-scout-push-test.zhangyujian2025.workers.dev/public/journals.json';
+  'https://raw.githubusercontent.com/JAK-SRC-TEC-ZAP-ABL/sci-letter-scout/main/config/journals.json';
 const PRIVACY_URL: string =
   'https://github.com/JAK-SRC-TEC-ZAP-ABL/sci-letter-scout/blob/main/PRIVACY.md';
 
@@ -74,11 +75,12 @@ struct Index {
   @State private journalStatus: string = '正在读取期刊库…';
   @State private linkStatus: string = '';
   @State private policyStatus: string = '';
-  private catalogueJournals: Journal[] = [];
+  private catalogueJournals: Journal[] = BUILTIN_JOURNALS;
   private settingsStore: preferences.Preferences | null = null;
 
   aboutToAppear(): void {
     this.loadSettings();
+    this.updateAvailableJournals();
     this.loadJournals();
     this.refresh();
   }
@@ -122,24 +124,30 @@ struct Index {
     }
   }
 
-  private async readWithFallback(request: http.HttpRequest, primary: string, backup: string): Promise<http.HttpResponse> {
+  private async readPublicSource(url: string): Promise<http.HttpResponse> {
+    const request = http.createHttp();
     try {
-      const response = await request.request(primary, {
+      return await request.request(url, {
         method: http.RequestMethod.GET, connectTimeout: 8000, readTimeout: 10000
       });
+    } finally {
+      request.destroy();
+    }
+  }
+
+  private async readWithFallback(primary: string, backup: string): Promise<http.HttpResponse> {
+    try {
+      const response = await this.readPublicSource(primary);
       if (response.responseCode === 200) return response;
     } catch (error) {
       // A separate public endpoint may be reachable when GitHub is not.
     }
-    return await request.request(backup, {
-      method: http.RequestMethod.GET, connectTimeout: 8000, readTimeout: 10000
-    });
+    return await this.readPublicSource(backup);
   }
 
   private async loadJournals(): Promise<void> {
-    const request = http.createHttp();
     try {
-      const response = await this.readWithFallback(request, JOURNALS_URL, BACKUP_JOURNALS_URL);
+      const response = await this.readWithFallback(JOURNALS_URL, BACKUP_JOURNALS_URL);
       if (response.responseCode !== 200) {
         throw new Error(`HTTP ${response.responseCode}`);
       }
@@ -156,7 +164,7 @@ struct Index {
         // A cache failure must not prevent use of the freshly downloaded catalogue.
       }
     } catch (error) {
-      this.journalStatus = '无法读取期刊库，请检查网络后重试';
+      this.journalStatus = '正在使用应用内期刊目录，云端更新暂不可用';
       try {
         const saved = this.settingsStore?.getSync('cached_journals', '') as string;
         if (saved) {
@@ -170,8 +178,6 @@ struct Index {
       } catch (cacheError) {
         // Keep the network error visible when there is no usable cache.
       }
-    } finally {
-      request.destroy();
     }
   }
 
@@ -196,10 +202,9 @@ struct Index {
   private async refresh(): Promise<void> {
     this.loading = true;
     this.status = '正在读取论文数据…';
-    const request = http.createHttp();
     let failure: string = '无法连接论文数据源，请检查网络后重试';
     try {
-      const response = await this.readWithFallback(request, FEED_URL, BACKUP_FEED_URL);
+      const response = await this.readWithFallback(FEED_URL, BACKUP_FEED_URL);
       if (response.responseCode !== 200) {
         failure = `论文数据源返回 HTTP ${response.responseCode}，请稍后重试`;
         throw new Error(`HTTP ${response.responseCode}`);
@@ -243,7 +248,6 @@ struct Index {
         // Leave the failure visible if the saved data cannot be read.
       }
     } finally {
-      request.destroy();
       this.loading = false;
     }
   }
@@ -764,4 +768,3 @@ struct Index {
     .backgroundColor('#F7F9FC')
   }
 }
-
