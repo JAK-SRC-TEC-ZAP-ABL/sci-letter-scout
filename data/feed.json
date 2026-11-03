@@ -1,12 +1,158 @@
 {
   "ai_status": "disabled",
-  "generated_at": "2026-11-03T18:40:43.724337+00:00",
+  "generated_at": "2026-11-03T23:44:40.215103+00:00",
   "harmony_push_status": "not_configured",
   "journal_counts": {
     "anesthesiology": 13,
     "oncology": 100
   },
   "papers": [
+    {
+      "abstract": "Mantle cell lymphoma (MCL) is an incurable B-cell tumor, and new therapeutic targets are urgently needed. This study demonstrates that kringle-containing transmembrane protein 2 (KREMEN2) is a key oncogenic factor in MCL. Mechanistically, lactate accumulated by abnormal tumor metabolism directly enhances the transcriptional expression of KREMEN2 by driving histone H3K18 lactylation (H3K18la). High expression of KREMEN2 further activates the Janus kinase 2/signal transducer and activator of transcription 3/Glutathione Peroxidase 4 (JAK2/STAT3/GPX4) signaling pathway to inhibit ferroptosis, and ultimately promotes malignant progression. Functionally, KREMEN2 knockdown induced ferroptosis and inhibited proliferation, and Erastin could not further induce ferroptosis in this state, demonstrating that KREMEN2 drove the progression of MCL by inhibiting the core ferroptotic phenotype. In addition, overexpression of downstream STAT3 can effectively reverse the phenotype caused by KREMEN2 knockdown. In vivo and in vitro experiments consistently demonstrated that inhibiting lactate production or knocking down KREMEN2 could inhibit tumor growth, and the combination of the two had a better effect. This study identifies a regulatory axis in MCL linking histone H3K18 lactylation to KREMEN2-mediated JAK2/STAT3/GPX4 pathway activation, providing a potential basis for developing targeted therapies against this disease.",
+      "doi": "10.1002/hon.70285",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-03T23:44:40.091924+00:00",
+      "journal": "Hematological Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": null,
+      "pmid": "42975913",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 40,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "specialist",
+      "title": "The Histone Lactylation of KREMEN2 Inhibits Ferroptosis Through the JAK2/STAT3/GPX4 Axis and Promotes the Progression of Mantle Cell Lymphoma.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42975913/"
+    },
+    {
+      "abstract": "Data on the risk factors that increase the risk of brain metastases (BM) in breast cancer is lacking. Mining the prospectively collected data of adjuvant studies for BM at first recurrence may identify a population for prevention strategies. Data collected from 7 sequential adjuvant studies conducted by the Hellenic Cooperative Oncology Group was queried for recurrence in CNS. Parameters associated with the development of BMs at first recurrence were collected. 5,318 patients were included. After a median follow-up time of 137.0 months (range, 0-334.1), the iBCFS at 120 months was 73.2% (95% CI: 72.0%-74.4%) and OS 78.3% (95% CI: 77.2%-79.4%). 106 patients (2%) developed BM at first recurrence and of those 68 (64.2%) had BM only. In cause-specific Cox models fitted on the entire cohort, triple-negative subtype (HR 3.43, 95% CI: 2.05-5.75) and four or more positive axillary nodes (HR 2.52, 1.47-4.33) were independently associated with BM at first recurrence; AJCC stage III (HR 3.41, 1.56-7.44) and hormone receptor negativity (HR 2.08, 1.37-3.15) remained independently associated in alternative parameterizations. Triple negative breast cancer patients had a higher cumulative incidence of BM (3.86%, 95% CI: 2.74-5.42, at 120 months versus 1.27%, 0.90-1.79, in luminal A/B disease; Gray's test p < 0.0001) with a steep rise in the early years after adjuvant therapy. BM patients had significantly worse survival from first recurrence than patients with extracranial first recurrence (median 8.0 versus 31.2 months; HR 2.66, 95% CI: 2.15-3.29), with HER2-positive patients having significantly longer brain metastasis-specific survival (BMSS) than other subtypes (median 13.0 versus 5.4 months; HR 0.56, 95% CI: 0.36-0.86, p = 0.007). In this large, prospectively annotated database of early breast cancer (eBC) patients, BM seem to occur rarely at first recurrence but carry a poor prognosis. HER2-positive patients with BM had a significantly better prognosis than other subtypes. These estimates describe an era in which adjuvant trastuzumab was reimbursed only from 2006 and contemporary CNS-active regimens were not available and should be read accordingly. Not applicable.",
+      "doi": "10.1007/s10549-026-08085-2",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-03T23:44:40.091765+00:00",
+      "journal": "Breast Cancer Research and Treatment",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-03",
+      "pmid": "42975747",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 55,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "specialist",
+      "title": "Brain as a site of first recurrence after adjuvant therapy for early breast cancer: mining the hellenic cooperative oncology group database-The BRACE study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42975747/"
+    },
+    {
+      "abstract": "Endoscopic ultrasound-guided fine-needle aspiration (EUS-FNA) is widely used to obtain tissue for the diagnosis of solid pancreatic lesions, but indeterminate or inconclusive pathology remains challenging. This study evaluated low-coverage whole-genome sequencing (LC-WGS)-based chromosomal instability (CIN) analysis as a salvage diagnostic strategy for EUS-FNA specimens. Patients with solid pancreatic lesions undergoing EUS-FNA were prospectively enrolled. Genomic DNA from FNA specimens was analyzed by LC-WGS, and CIN results were classified as positive or negative using a prespecified threshold. Diagnostic performance was assessed against a composite reference standard. The analysis included 51 patients. Conventional pathology showed a sensitivity of 55.3% and an accuracy of 66.7%. The patients were classified into three groups: Salvage, defined as indeterminate, suspicious, or nondiagnostic initial pathology (n = 12); Malignant Control, defined as final malignant diagnosis with conclusive initial pathology (n = 26); and Benign Control, defined as final benign diagnosis with benign initial pathology (n = 13). The CIN analysis achieved a sensitivity of 81.6%, a specificity of 92.3%, an accuracy of 84.3%, a positive predictive value of 96.9%, and a negative predictive value of 63.2%. In the Salvage group, CIN correctly identified malignancy in 9 of 12 unresolved cases. Combining CIN with pathology increased sensitivity to 86.8% and accuracy to 88.2%. An LC-WGS-based CIN analysis may provide complementary molecular information for solid pancreatic lesions with nondefinitive EUS-FNA pathology.",
+      "doi": "10.1245/s10434-026-20849-0",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-03T23:44:40.091713+00:00",
+      "journal": "Annals of Surgical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-03",
+      "pmid": "42975825",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 58,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "LC-WGS-based Chromosomal Instability Analysis of EUS-FNA Specimens for Diagnosing Solid Pancreatic Lesions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42975825/"
+    },
+    {
+      "abstract": "Combining stereotactic radiosurgery (SRS) with systemic therapy is increasingly common for brain metastases, yet real-world evidence on immunotherapy timing relative to SRS remains limited. We evaluated the association of immunotherapy and its timing with survival, intracranial control and toxicity, with exploratory analyses of chemotherapy and targeted therapy. We retrospectively analyzed 155 patients with 556 brain metastases treated with SRS at a single tertiary center (January 2021-February 2025). Patient-level associations of systemic therapy, overall and by timing (before, concurrent with or after SRS), with overall survival, 1-year local, distant intracranial and systemic progression, toxicity and radionecrosis were assessed using Kaplan-Meier, Cox and logistic regression analyses, with false discovery rate correction for immunotherapy timing. Median follow-up was 18.8 months. Immunotherapy (n = 88) was not associated with overall survival (adjusted HR 0.79, 95% CI 0.46-1.35), intracranial progression or toxicity, and no timing window remained significant after correction (all q ≥ 0.53). In exploratory analyses, targeted therapy was associated with longer survival (adjusted HR 0.45, 95% CI 0.26-0.79) and with more frequent radionecrosis (13.2% vs. 3.5%; p = 0.034), the latter not robust to sensitivity analysis. A higher number of treated metastases was independently associated with local (aOR 1.15, 95% CI 1.02-1.30) and distant intracranial progression (aOR 1.45, 95% CI 1.24-1.71). In this single-institution real-world cohort, immunotherapy and its timing relative to SRS were not associated with survival, intracranial control or toxicity. Exploratory associations of targeted therapy with survival and radionecrosis are hypothesis-generating and warrant prospective, histology-specific validation.",
+      "doi": "10.1007/s11060-026-05857-0",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-03T23:44:40.091676+00:00",
+      "journal": "Journal of Neuro-Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-03",
+      "pmid": "42975754",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 63,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "specialist",
+      "title": "Timing of systemic therapy relative to stereotactic radiosurgery for brain metastases: a real-world cohort study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42975754/"
+    },
+    {
+      "abstract": "Glioblastoma (GBM) exhibits profound therapeutic resistance that is largely attributed to its remarkable cellular plasticity and capacity to adapt to therapeutic and environmental stress. Although suppression of mechanistic target of rapamycin (mTOR) signaling has been extensively investigated as a therapeutic strategy, the adaptive mechanisms that limit its efficacy remain incompletely understood. Human GBM cells were subjected to sphere-forming conditions or pharmacological inhibition of mTOR signaling to evaluate stress-induced cellular responses. Proteomic profiling following mTORC2 inhibition was performed to identify adaptive metabolic alterations. Functional analyses were conducted using NFS1 cysteine desulfurase (NFS1) knockdown, orthotopic xenograft models, and publicly available datasets. Sphere-forming conditions and pharmacological inhibition of mTOR signaling induced stemness-associated changes in GBM cells. Unbiased proteomic profiling identified NFS1 as a stress-responsive protein induced by mTOR suppression. NFS1 depletion attenuated selected stemness-associated responses and sensitized GBM cells to mTOR pathway inhibition. Increased NFS1 expression was further confirmed in highly tumorigenic orthotopic xenografts, whereas exploratory analyses suggested a potential modulatory role of iron availability in this adaptive phenotype. Our findings identify NFS1 as a stress-induced metabolic dependency that emerges during adaptation to mTOR suppression in GBM. Targeting adaptive vulnerabilities by therapeutic stress, rather than constitutive oncogenic pathways alone, may represent a promising strategy for overcoming treatment resistance in malignant gliomas.",
+      "doi": "10.1007/s11060-026-05856-1",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-03T23:44:40.091671+00:00",
+      "journal": "Journal of Neuro-Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-03",
+      "pmid": "42975782",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 63,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "specialist",
+      "title": "Adaptive induction of NFS1 links mTOR suppression to stemness-associated plasticity in glioblastoma.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42975782/"
+    },
+    {
+      "abstract": "Computed tomography (CT) is the clinical standard for staging of gastrointestinal cancer. Previous studies have highlighted the prognostic significance of coronary artery calcification (CAC) detected by CT in various types of cancer. However, the prognostic role of CAC scoring in gastrointestinal cancers is still unclear. The aim of this study was to investigate the impact of CT-defined CAC on overall survival (OS) in patients with advanced gastric or gastroesophageal junction cancer. CAC was semiquantitatively measured using the visual Weston method on baseline CT scans in 785 patients with unresectable locally advanced or metastatic gastric or gastroesophageal junction cancer from the phase III EXPAND trial. This present study is a secondary analysis of the base line CT images. In the original analysis patients were randomly assigned to first-line treatment with cisplatin/capecitabin ± cetuximab. The primary endpoint of the current subanalysis is the OS. For statistical analysis group differences were calculated using the Mann-Whitney-U test and ANOVA test. Kaplan-Meier curves and multivariable Cox regression analysis were used to test the effect of CAC on mortality. The median CAC score was 1 (IQR 0; 3). A total of 337 patients (42.9%) had no visible CAC (CAC score 0). Male patients had statistically significant higher CAC score compared to female patients (median 1 versus 0, p < 0.0001). In univariable Cox regression CAC showed no significant association with survival when analysed as a continuous value (HR: 0.99, 95% CI: 0.96-1.02, p = 0.74), and when dichotomized for absence and presence of calcification (HR:1.08, 95% CI: 0.92-1.26, p = 0.34). Similar results were identified in further subgroup analyses. CT-defined CAC scoring has no relevant prognostic impact in advanced gastric and gastroesophageal junction cancer undergoing first-line chemotherapy. The present study cannot confirm the promising results for CAC scoring in lung cancer patients.",
+      "doi": "10.1007/s00432-026-06654-y",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-03T23:44:40.091608+00:00",
+      "journal": "Journal of Cancer Research and Clinical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-03",
+      "pmid": "42975671",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 66,
+      "publication_types": [
+        "Journal Article",
+        "Randomized Controlled Trial",
+        "Clinical Trial, Phase III"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "clinical_trial"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Coronary artery calcification is not associated with survival in advanced gastric and gastroesophageal junction cancer: a secondary analysis of the EXPAND trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42975671/"
+    },
     {
       "abstract": "",
       "doi": "10.1002/cam4.72433",
@@ -1691,6 +1837,7 @@
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
       "priority_score": 55,
       "publication_types": [
+        "Clinical Trial",
         "Journal Article"
       ],
       "requires_oncology_context": false,
@@ -4137,30 +4284,6 @@
       "url": "https://doi.org/10.1038/s41416-026-03649-x"
     },
     {
-      "abstract": "ABSTRACT Seychelles, the smallest country in Africa but with the highest GDP per capita, has experienced rapid socioeconomic development. We analysed 20‐year cancer incidence trends (2005–2024) using data from the Seychelles National Cancer Registry (SNCR). Annual age‐standardised incidence rates (ASRs), average annual percentage changes (AAPCs), and stage at diagnosis (for the four major cancers) were calculated. Incidence rates for the most recent decade (2015–2024) were also compared with those in selected African countries and high Human Development Index (HDI) countries. Among men, prostate cancer had the highest incidence (ASR 73.9 per 100,000) and increased significantly over time (AAPC +6.7%), reaching an ASR of 90.3 per 100,000 in 2015–2024. Significant declines were observed for oesophageal (AAPC −4.3%) and laryngeal cancers (AAPC −5.6%). Among women, breast cancer was the most common cancer (ASR 54.7 per 100,000), increasing by 3.4% annually and reaching an ASR of 70.5 per 100,000 in the most recent decade, comparable to rates in Europe. Significant increases were also observed for colorectal, cervical, and corpus uteri cancers. The observed trends reflect Seychelles' epidemiological transition, with a shift from infection‐related cancers towards cancers associated with ageing and lifestyle factors, resembling the cancer profile of high‐income countries. Nevertheless, the major cancers—prostate, breast, colorectal, and cervical—continue to be diagnosed at relatively advanced stages, highlighting the need for improved early detection and timely diagnosis.",
-      "doi": "10.1002/ijc.70769",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-31T11:46:36.848286+00:00",
-      "journal": "International Journal of Cancer",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-31",
-      "pmid": "42963954",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 58,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Cancer in Seychelles: A Population-Based Study on Incidence, Trends and Stage at Diagnosis (2005-2024).",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42963954/"
-    },
-    {
       "abstract": "",
       "doi": "10.1016/j.bja.2026.08.063",
       "evidence_level": "metadata_or_abstract_only",
@@ -4183,106 +4306,6 @@
       "tier": "specialist",
       "title": "Experience in paediatric resuscitation of anaesthetists in training. Comment on Br J Anaesth 2025; 135: 1895-6.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42963272/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.3389/fonc.2026.2036098",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-31T20:37:41.821203+00:00",
-      "journal": "Frontiers in Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-30",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 50,
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Correction: A case report: axillary ALK-positive anaplastic large-cell lymphoma mimicking an infectious abscess in an adolescent",
-      "url": "https://doi.org/10.3389/fonc.2026.2036098"
-    },
-    {
-      "abstract": "",
-      "doi": "10.3389/fonc.2026.1929593",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-31T20:37:41.821200+00:00",
-      "journal": "Frontiers in Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-30",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 50,
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Neuron–tumor communication as a target for neuromodulatory drug delivery in cancer",
-      "url": "https://doi.org/10.3389/fonc.2026.1929593"
-    },
-    {
-      "abstract": "Abstract Early detection of cancer remains one of the most effective strategies to reduce cancer mortality. Artificial intelligence (AI) can enhance existing cancer screening across modalities by improving testing performance (e.g., accuracy, sensitivity, specificity), reducing false positives and negatives, automating workflows, and enabling risk-based care. However, accurate, robust, generalizable AI requires large, diverse, well-annotated datasets that are difficult to centralize because of privacy regulations, institutional governance, and heterogeneous infrastructure. Federated learning (FL) addresses this constraint by training models across institutions without transferring patient data. Through secure aggregation and differential privacy, FL preserves confidentiality while enabling collaboration. Early studies in breast, lung, and cervical screening report that FL can approach centralized performance and improve cross-site generalization; however, most rely on simulated clients, few participating sites, and limited external validation, so these findings should be regarded as preliminary rather than established. Critically, FL is not a shortcut to rigorous results, and heterogeneous, variably curated data demand intensive cleaning and quality control, which are central barriers to reliable implementation. In this review, we synthesize the state of FL for early cancer detection across imaging, digital pathology, multi-omics, and clinical data; outline core FL concepts and privacy technologies; and summarize applications by cancer type. We critically examine regulatory, operational, and translational barriers that currently limit clinical adoption. Finally, we propose a practical roadmap, which is centered on multimodal and longitudinal FL, foundation-model-enabled adaptation, prospective evaluation within clinical workflows, and equitable participation of community and low-resource sites, to advance privacy-preserving, generalizable AI for population-scale cancer screening.",
-      "doi": "10.1158/1940-6207.capr-25-0480",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-31T20:37:41.821104+00:00",
-      "journal": "Cancer Prevention Research",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-30",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 58,
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Federated Learning for Early Cancer Detection: Opportunities, Challenges, and Future Directions",
-      "url": "https://doi.org/10.1158/1940-6207.capr-25-0480"
-    },
-    {
-      "abstract": "Cyclin-dependent kinase inhibitor 3 (CDKN3), also known as kinase-associated phosphatase (KAP), dephosphorylates activating cyclin-dependent kinase 2 (CDK2) Thr160, yet high expression is associated with aggressive features in some cancers. This review distinguishes messenger RNA (mRNA) expression, protein abundance, phosphatase activity, functional dependency, prognostic association, and treatment-response prediction. Renal studies include selected perturbation evidence, whereas lung studies cited here primarily report prognostic or computational associations. Hepatocellular carcinoma (HCC) findings remain directionally discordant across analytes, etiologies, models, and endpoints. Recent triple-negative breast cancer (TNBC) studies include transcriptomic and cell-perturbation evidence, as well as a separate cell and murine mammary fat-pad graft study, while an ultraviolet (UV)-induced skin-cancer study identifies a sex- and context-specific protective axis. These results do not support a universal CDKN3 role. A CDKN3-specific connection to chromosomal instability (CIN) and cyclic GMP–AMP synthase (cGAS)–stimulator of interferon genes (STING) signaling remains unvalidated. Micronuclei and CIN do not invariably activate cGAS–STING. Bulk immune signatures and survival associations alone cannot establish direct immune regulation, functional dependency, or treatment sensitivity. This focused narrative review compares molecular measurements, genetic perturbations, clinical associations, and selected computational studies. We outline matched assays, genetic rescue, longitudinal CIN measurements, and pathway-specific tests needed to determine whether CDKN3 is a context-specific dependency, a biomarker, or a therapeutic target.",
-      "doi": "10.3389/fonc.2026.1991125",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-31T20:37:41.821098+00:00",
-      "journal": "Frontiers in Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-30",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 58,
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "CDKN3 in cancer: context-dependent cell-cycle control and implications for genome stability and therapy",
-      "url": "https://doi.org/10.3389/fonc.2026.1991125"
-    },
-    {
-      "abstract": "Background Deep tabular models, including self-supervised and pretrained foundation models, are increasingly proposed for clinical risk prediction, but their value over conventional learners is rarely tested against matched controls, and their role relative to clinician judgement is seldom examined. Methods In a retrospective single-centre cohort of 879 women referred for colposcopy (242 CIN2+, 27.5%), 15 routinely recorded variables, including a clinician image-based assessment documented before histopathology, were modelled with ten model families under one fixed protocol (single fold assignment and seed, no tuning). Discrimination was compared by paired DeLong tests and bootstrap. Two analyses were pre-specified: exact Shapley attribution of discrimination to five clinical groups of variables in every model family, and a complementarity analysis asking whether routine data identify CIN2+ among women judged negative by the clinician. Frozen models were evaluated in a 103-case two-centre external cohort. Results Out-of-fold AUROC ranged from 0.726 to 0.761. No model outperformed logistic regression (AUROC 0.757; CatBoost −0.002, p = 0.860; TabPFN +0.004, p = 0.554), and three matched ablations of a self-supervised tabular Transformer were null (all p ≥ 0.096). Removing the clinician assessment lowered AUROC in all ten families (by 0.041 to 0.072; all p ≤ 0.008). Shapley attribution ranked five variable groups identically in every family (Kendall’s W = 1.00; permutation p &lt; 0.001): the clinician assessment (39% to 50% of discrimination above chance), then cytology, HPV testing, colposcopic findings and demographic history. The clinician assessment alone had sensitivity 0.504 and specificity 0.882; 49.6% of CIN2+ occurred in clinician-negative women. Re-reviewing the 20% of clinician-negative women with the highest model risk identified 34.2% (95% CI 25.7–42.7%) of the missed CIN2+, against 20% expected at random, raising pathway sensitivity to 0.674 at specificity 0.733. External AUROC of logistic regression was 0.710. Conclusions On routine structured data from a colposcopy-referral population, and under a common protocol, model architecture did not determine performance; predictor information did. Retrospectively, routine data complemented the clinician modestly in clinician-negative women, rather than replacing clinical judgement. Claims that complex architectures improve clinical tabular prediction should be tested against logistic regression with paired uncertainty across repeated data splits.",
-      "doi": "10.3389/fonc.2026.1814215",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-31T20:37:41.821095+00:00",
-      "journal": "Frontiers in Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-30",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 58,
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Information rather than architecture: cross-learner attribution and clinician–model complementarity in CIN2+ risk prediction for women referred for colposcopy",
-      "url": "https://doi.org/10.3389/fonc.2026.1814215"
     },
     {
       "abstract": "",
