@@ -1,12 +1,206 @@
 {
   "ai_status": "disabled",
-  "generated_at": "2026-11-06T21:10:00.823474+00:00",
+  "generated_at": "2026-11-07T00:56:34.678822+00:00",
   "harmony_push_status": "not_configured",
   "journal_counts": {
     "anesthesiology": 13,
     "oncology": 100
   },
   "papers": [
+    {
+      "abstract": "",
+      "doi": "10.1001/jama.2026.20040",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-07T00:56:34.581890+00:00",
+      "journal": "JAMA",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-06",
+      "pmid": "42993542",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 53,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Bariatric Surgery Tied to Lower Obesity-Related Cancer Risk.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42993542/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1126/sciadv.aen4962",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-07T00:56:34.581887+00:00",
+      "journal": "Science Advances",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-06",
+      "pmid": "42993854",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 53,
+      "publication_types": [
+        "Journal Article",
+        "Published Erratum"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Erratum for the Research Article \"CD38-mediated metabolic reprogramming promotes the stability and suppressive function of regulatory T cells in tumor\".",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42993854/"
+    },
+    {
+      "abstract": "To assess the feasibility of using hypoxia-powered magnetic resonance imaging (MRI) to guide prospective sampling of high-response habitats beyond contrast enhancement in glioblastoma. Nine treatment-naive patients with histologically confirmed isocitrate dehydrogenase (IDH)-wildtype glioblastoma underwent blood oxygenation level-dependent (BOLD) MRI during a controlled transient hypoxic stimulus on the evening before surgery. Anatomical segmentation and voxel-wise temporal decomposition generated normalized hypoxia response maps. Otsu thresholding defined a high-response habitat outside contrast enhancement. Targets were confirmed with the surgeon according to anatomical accessibility and eloquence, transferred to neuronavigation, and sampled before major debulking. We divided the specimen for formalin-fixed, paraffin-embedded neuropathology and frozen-tissue storage. Neuronavigation transfer succeeded in all nine cases. Eight targets were accessible and sampled. Seven sampled targets contained tumor. One yielded reactive cortex and white matter without definite tumor. No target-sampling complications were observed among the eight sampled procedures. Hypoxia-powered MRI could be integrated into prospective neuronavigation-guided sampling beyond contrast enhancement. Tumor was identified in seven of eight sampled targets. By translating a tracer-free physiological response map into coordinate-matched tissue, the GLIOXY workflow enables prospective, targeted tissue sampling of non-enhancing glioblastoma regions.",
+      "doi": "10.1007/s11060-026-05864-1",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-07T00:56:34.581877+00:00",
+      "journal": "Journal of Neuro-Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-06",
+      "pmid": "42993356",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 55,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "specialist",
+      "title": "Hypoxia-powered MRI guides supramaximal biosurgical sampling of glioblastoma infiltration: the GLIOXY initiative.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42993356/"
+    },
+    {
+      "abstract": "Gene expression is regulated by the targeted degradation of transcription factors through the ubiquitin-proteasome system. Transcription factors destined for degradation are recognized by E3 ubiquitin-protein ligases through motifs termed degrons, embedded within the sequence. In this study, we systematically map degrons in all 1626 human transcription factors. We find thousands of both known and previously unidentified degrons and characterize their sequence properties. Active degrons placed within exposed and intrinsically disordered regions contribute to modulating the abundance of the transcription factors, while the most common somatic mutations that are linked to skin cutaneous melanoma lead to unfolding and exposure of a latent degron buried in the zinc finger structure. We present examples of compartment-specific degrons and demonstrate that variant effects in transcription factors correlate with degron potency. Last, we show that while >60% of all predicted transcriptional activation domains overlap with strong degrons, acidic residues within the remaining transactivating regions counter the degron potency, showing how degrons can shape the transcription factor sequence landscape.",
+      "doi": "10.1126/sciadv.aee1766",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-07T00:56:34.581809+00:00",
+      "journal": "Science Advances",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-06",
+      "pmid": "42993847",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 61,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Comprehensive degron mapping in human transcription factors.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42993847/"
+    },
+    {
+      "abstract": "Aging is a major risk factor for melanoma. However, it is unclear whether aging fuels tumor evolution by altering mutation rates, changing the microenvironmentally induced selection on drivers, or both. We analyzed 5472 melanomas, estimating how selection on individual variants changes with patient age while accounting for differing neutral mutation rates. Neutral mutation rates increased only modestly with age; ultraviolet damage remained predominant, but endogenous processes increasingly contributed to older tumors. In contrast, selection on major drivers was strongly age dependent: The advantage of BRAF V600E declined precipitously with age, whereas NRAS Q61 mutations gained advantage. TERT promoter mutations became more frequent, yet less advantageous. Aging therefore reshapes melanoma evolution primarily by altering selection, motivating age-conscious evaluation of clinical biomarkers and therapies.",
+      "doi": "10.1126/sciadv.aeh1407",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-07T00:56:34.581805+00:00",
+      "journal": "Science Advances",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-06",
+      "pmid": "42993853",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 61,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Age reshapes selection on melanoma driver mutations.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42993853/"
+    },
+    {
+      "abstract": "To identify the genes and pathways required for the survival of MYC-amplified cancers, we engineered an isogenic cell system in which transformation is driven by oncogenic MYC. Using a genome-scale CRISPR-Cas9 library, we identified the mitochondrial membrane translocase TIMM17A as uniquely essential for the survival of MYC-transformed cells. This dependency arises from MYC-driven suppression of TIMM17B, the paralog of TIMM17A. TIMM17A/B is an essential component of the TIM23 mitochondrial protein import complex, and the MYC-induced suppression of TIMM17B creates a strong dependency on TIMM17A. N-acetylaspartate supplementation rescued TIMM17A dependency in MYC-amplified cell lines, highlighting the unique and crucial role of this metabolite in the cell fitness of MYC-amplified cancers. These observations identify a paralog dependency required for the survival of a subset of MYC-driven cancers.",
+      "doi": "10.1126/sciadv.aej2662",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-07T00:56:34.581744+00:00",
+      "journal": "Science Advances",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-06",
+      "pmid": "42993843",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 69,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "MYC primes a paralog synthetic lethality involving the mitochondrial translocase subunits TIMM17A and TIMM17B and N-Acetylaspartate.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42993843/"
+    },
+    {
+      "abstract": "Genomic instability and dysregulated RNA processing are each recognized as core hallmarks of cancer, but accumulating evidence indicates that they are mechanistically intertwined rather than independent features. Chromosomal instability, mismatch-repair deficiency, and homologous recombination deficiency can reshape RNA splicing, 3' end formation, and RNA surveillance through changes in gene dosage, DNA damage signaling, and alterations in regulatory elements. Conversely, aberrant splicing, polyadenylation, and RNA modifications can impair DNA repair, perturb mitotic control, and promote replication stress, thereby reinforcing genomic instability. This bidirectional circuit drives clinically relevant phenotypes, including therapeutic resistance, immune modulation, and emergent vulnerabilities that are not captured by DNA-centric biomarkers alone. Here, we present a unified framework for the genome instability-RNA processing axis and its direct clinical implications for cancer diagnosis, treatment stratification, and therapeutic exploitation, highlighting the most actionable mechanistic interfaces and discussing how integrated DNA-RNA biomarkers and rational combination strategies could extend precision oncology beyond static genomic lesions.",
+      "doi": "10.1126/sciadv.aei7541",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-07T00:56:34.581739+00:00",
+      "journal": "Science Advances",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-06",
+      "pmid": "42993846",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 69,
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Reciprocal control of genome instability and RNA processing in cancer: Mechanisms and therapeutic opportunities.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42993846/"
+    },
+    {
+      "abstract": "FOXP3-expressing regulatory T cells (Tregs) are a specialized subset of T lymphocytes that are crucial for maintaining immune homeostasis and preventing autoimmunity. However, their pervasive presence and potent immunosuppressive functions within the tumor microenvironment (TME) are a barrier to anti-tumor immunity, presenting a major challenge for cancer immunotherapy. In this review, we discuss strategies for the therapeutic modulation of Tregs. Current and emerging promising technological approaches include antibody-based approaches, small molecule inhibitors, engineered Tregs, microbiome modulation, and Treg survival manipulations. Additionally, existing and promising combinatorial therapies integrate Treg cell targeting with complementary treatment strategies. The goal of this review is to spotlight how Treg-targeted interventions can overcome immune escape and ultimately enhance immunotherapy efficacy to improve clinical outcomes in cancer patients.",
+      "doi": "10.1158/0008-5472.CAN-26-0789",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-07T00:56:34.581689+00:00",
+      "journal": "Cancer Research",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-06",
+      "pmid": "42993877",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 74,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Regulatory T Cell Interventions to Boost Anti-tumor Immune Responses.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42993877/"
+    },
     {
       "abstract": "Long-term real-world data on Luspatercept (Luspa) in lower-risk myelodysplastic syndromes with ring sideroblasts (MDS-RS) and transfusion-dependent anemia (RBC-TD) who are refractory or ineligible to erythropoiesis-stimulating agents (ESAs) remain limited. Despite evidence of efficacy from clinical trials and real-world studies, long-term data in routine clinical practice are scarce, particularly regarding its effects on non-erythroid lineages. Furthermore, there is currently no consensus on the total duration of treatment, especially in non-responding cases. Thus, we analyzed 48 patients with low-risk MDS-RS treated with Luspa for ESA-refractory RBC-TD. Response was assessed at 6 months, 1 year, and 2 years according to International Working Group (IWG) 2018 criteria. At 6 months, 23/42 (54.8%) and 15/42 (35.7%) patients reached a response and transfusion independence, respectively. At 1 year, 16/30 (53.3%) patients showed a response, including 12 who already responded at 6 months. At 2 years, 10/20 (50%) patients maintained response and 2/20 (10%) were de novo responders. Treatment was well tolerated, with no significant adverse events reported; 21 (43.8%) patients discontinued Luspa, principally due to lack of response. After a median follow-up of 29.8 months (95% CI: 24.4-35.2), 6-month responders had longer overall survival in a landmark analysis. Exploratory analyses identified associations of 6-month response with additional somatic mutations and the SF3B1 hotspot mutation, the latter retained in the multivariable model; monocyte count was associated with 2-year response. Neutrophil counts significantly increased at 1 year compared with baseline, while platelet counts remained stable. Intriguingly, monocytes were increased at the three time points compared to baseline. Specifically, long-term responders presented higher levels of neutrophils and monocytes, as well decreased level of LDH, compared with non-responders. Responses were observed during long-term treatment, mainly in patients who had responded at earlier assessments. Decreasing evaluable sample sizes and the retrospective design limit interpretation. Associations with survival and non-erythroid blood counts require confirmation and should not be interpreted as causal effects.",
       "doi": "10.1002/hon.70281",
@@ -3932,199 +4126,6 @@
       "tier": "specialist",
       "title": "A rare neurological adverse event of palbociclib: a chronic inflammatory demyelinating polyneuropathy (CIDP) mimic.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42980868/"
-    },
-    {
-      "abstract": "Prescription co-payments are associated with adherence to endocrine therapy among Medicare- and commercially insured-women, but the impact among Medicaid beneficiaries-who typically have no or minimal co-payments-is not well understood. We identified women (age ≥ 18 years) diagnosed with breast cancer between January 1, 2016 and December 31, 2018 who filled a prescription for endocrine therapy after diagnosis, with follow-up through December 31, 2019. Co-payment was based on the first prescription and standardized to a 30-day supply. We used quantity dispensed, days' supply, and dispensing date to define adherence as a continuous measure of proportion of days covered and binary measure of +/- 80% days covered. We estimated associations with co-payment in linear and log binomial regression models limited to twenty states with observed within-state variation in co-payment. 10,307 Medicaid beneficiaries filled a prescription for endocrine therapy after breast cancer diagnosis. Mean (SD) co-payment amount was $1.85 ($1.28) and ranged from $0.17 to $8. Among 3,323 women living in states with variation in co-payment, there was no association between proportion of days covered and any co-payment (vs. none: β 0.70, p = 0.52) or co-payment amount (per dollar increase: β 0.03, p = 0.95), nor between adherence (≥ 80% days covered) and any co-payment (vs. none: PR 0.98, 95% CI 0.90, 1.08) or co-payment amount (per dollar increase: PR 0.99, 95% CI 0.96, 1.03). Most Medicaid-insured women with breast cancer had no or a nominal co-payment for endocrine therapy. Cost-sharing at these low levels was not associated with adherence.",
-      "doi": "10.1007/s10549-026-08125-x",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-04T23:59:07.482912+00:00",
-      "journal": "Breast Cancer Research and Treatment",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-04",
-      "pmid": "42980869",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 55,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "Co-payments and adherence to endocrine therapy among Medicaid beneficiaries with breast cancer.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42980869/"
-    },
-    {
-      "abstract": "To investigate the association of molecular breast cancer subtypes with the timing and organ-specific patterns of metastatic disease. We analyzed data from nine German regional cancer registries, including 172 512 women diagnosed with invasive breast cancer between January 2000 and March 2024. Patients were classified as having no metastases, synchronous metastases (within three months of diagnosis), or metachronous metastases. Factors associated with synchronous metastases were assessed using multivariable binary logistic regression adjusted for confounders. Time to first metachronous metastasis was analyzed using multivariable Cox regression. Timing and organ-specific metastatic patterns were compared across subtypes. Molecular subtypes were associated with both synchronous and metachronous metastatic disease. Compared with HR+/HER2- tumors, HR-/HER2+ tumors had the highest odds of synchronous metastasis (adjusted OR [aOR] 1.69, 95%CI 1.57 - 1.83), whereas HR-/HER2- tumors showed no increased odds (aOR 0.96, 95%CI 0.90 - 1.02). In contrast, HR-/HER2- tumors had the highest risk of metachronous metastases (adjusted HR [aHR] 1.48, 95%CI 1.41 - 1.55), while HR+/HER2+ tumors showed a lower risk than HR+/HER2- tumors (aHR 0.88, 95%CI 0.84-0.93). Cumulative incidence increased between 5 and 10 years after diagnosis, with late risk among HR-positive tumors. Metastatic patterns differed by subtype, with HR+/HER2- tumors showing predominantly bone metastases, and HR-/HER2- tumors exhibiting more frequent visceral and central nervous system (CNS) involvement. Molecular subtypes influence the timing and distribution of metastatic breast cancer. HER2-positive tumors are associated with synchronous metastatic presentation, whereas HR-/HER2- tumors showed the highest risk of metachronous metastasis. These findings support subtype-specific risk assessment and surveillance strategies.",
-      "doi": "10.1007/s00432-026-06631-5",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-04T23:59:07.482852+00:00",
-      "journal": "Journal of Cancer Research and Clinical Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-04",
-      "pmid": "42980852",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 58,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Determinants of synchronous and metachronous metastatic breast cancer (2000-2024)-an analysis based on data from German cancer registries.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42980852/"
-    },
-    {
-      "abstract": "Repeat transurethral resection of bladder tumor (TURBT) is recommended for selected patients with non-muscle-invasive bladder cancer (NMIBC), but clinicopathologic indications are broad and often identify no residual tumor. We tested whether postresection urinary tumor DNA (utDNA) adds value beyond guideline-derived repeat-TURBT selection and established recurrence risk models. This guideline-anchored cohort analysis included 161 patients with NMIBC who underwent repeat TURBT. Urine was collected 2 to 6 weeks after initial TURBT and before repeat TURBT. Tissue-naïve utDNA and cytology were compared with repeat-TURBT pathology and evaluated against repeat-TURBT indication sets, European Association of Urology (EAU) risk grouping, The European Organisation for Research and Treatment of Cancer (EORTC) models, and Club Urologico Espanol de Tratamiento Oncologico (CUETO) models. Residual tumor was found in 57 patients (35.4%). Core, expanded, and carcinoma in situ-augmented core indication sets selected 73.3%, 88.2%, and 80.7% of patients. Within these indication-positive groups, utDNA-negative status identified 66.9% to 67.7% as lower-yield, although 9.1% to 10.4% still had residual tumor. Adding utDNA increased residual tumor AUCs from 0.544 to 0.891, 0.537 to 0.892, and 0.513 to 0.890 for the three indication sets, respectively. For any recurrence, c-indices increased from 0.602 to 0.774 for EAU risk grouping, 0.717 to 0.837 for EORTC models, and 0.770 to 0.824 for CUETO models after adding utDNA. Postresection utDNA refined residual tumor detection beyond repeat-TURBT indication sets and improved recurrence risk stratification beyond EAU/EORTC models, with directionally consistent CUETO results. Positive utDNA after negative repeat TURBT suggested occult molecular risk and supports prospective testing of utDNA-informed resection and surveillance algorithms.",
-      "doi": "10.1200/PO-26-00676",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-04T23:59:07.482848+00:00",
-      "journal": "JCO Precision Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-04",
-      "pmid": "42981539",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 58,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Postresection Urinary Tumor DNA Refines Residual Disease Assessment and Recurrence Risk Stratification in Non-Muscle-Invasive Bladder Cancer.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42981539/"
-    },
-    {
-      "abstract": "T cell receptors (TCRs) can enable detection and elimination of cancer cells via recognition of cancer-specific peptides presented on human leukocyte antigen (HLA). We speculated that shared cancer antigens could be recognized by recurrent (\"public\") TCRs, which might be identifiable using statistical methods. Here, we identified public TCRs against therapeutically relevant targets via computational analysis of large-scale bulk RNA sequencing data obtained from routine clinical genomics testing. Using data from ∼150,000 patient tumor samples, we identified TCR chains that were associated with well-known cancer antigens, including human papillomavirus, mutated KRAS, and CT83. We devised methods for pairing enriched TCR-α and TCR-β chain sequences and validated 44 TCRs across nine peptide-HLA targets for antigen recognition, including potent cytotoxic TCRs. Our results suggest that public anticancer TCRs are common and may represent a new source for the development of cancer therapeutics.",
-      "doi": "10.1126/scitranslmed.aeh8192",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-04T23:59:07.482817+00:00",
-      "journal": "Science Translational Medicine",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-04",
-      "pmid": "42981429",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Cancer-specific T cell receptor discovery using 150,000 clinical genomics samples.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42981429/"
-    },
-    {
-      "abstract": "Enzalutamide (Enz)-resistant prostate cancer (PCa) is a lethal disease that affects a broad population of elderly men. Experimental and clinical evidence has demonstrated that androgen receptor variant 7 (ARv7) plays a critical role in Enz-resistant (EnzR) PCa by functioning as a constitutively active transcription factor driving disease progression. However, the predictive value of the ARv7 transcript has not been fully recognized due to its low frequency in castration-resistant PCa. In this study, we identified ARv7 mRNA as an N6-methyladenosine (m6A)-modified transcript. Enz treatment increases METTL3-dependent m6A methylation of ARv7 mRNA at the A1177 site, which is subsequently recognized by the reader protein YTHDC2, leading to enhanced translation efficiency of ARv7. Furthermore, EnzR PCa exhibited elevated lactate metabolism, which regulated AR transcription through promoter-mediated epigenetic modifications at H3K9 and H3K14. Reactivated AR exhibited enhanced phase separation to transcriptionally up-regulate YTHDC2 expression. In vivo experiments demonstrated that targeting the METTL3-YTHDC2-ARv7 axis represents a promising therapeutic strategy to suppress EnzR PCa progression. Moreover, the METTL3 inhibitor STM2457 synergized with Enz to inhibit tumor growth without observable toxicity. Collectively, our findings suggest that the clinical utility of ARv7 may need to be reconsidered in light of its m6A-dependent translational regulation.",
-      "doi": "10.1126/sciadv.aeg8317",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-04T23:59:07.482812+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-04",
-      "pmid": "42981394",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "N6-methyladenosine-dependent ARv7 translation couples lactate metabolism with enzalutamide resistance in prostate cancer.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42981394/"
-    },
-    {
-      "abstract": "High-grade serous ovarian carcinoma (HGSOC), the most lethal subtype of ovarian cancer, is often diagnosed at advanced stages and remains associated with poor clinical outcome. In this study, we identify a critical oncogenic role of the RNA methyltransferase METTL3 and the N6-methyladenosine (m6A) RNA modification pathway in HGSOC. Suppression of METTL3, either genetically or pharmacologically, and depletion of its binding partner METTL14 impair ovarian cancer proliferation and tumor progression. Mechanistically, we show that METTL3-mediated m6A deposition enhances the translation of DNA methyltransferase 1 (DNMT1), the primary maintenance DNA methyltransferase responsible for preserving genome-wide methylation patterns and silencing tumor suppressor genes. Pharmacological inhibition of DNMT1 induces widespread DNA hypomethylation and up-regulation of the tumor suppressors TNFAIP3 and FBXO32. Consistently, METTL3 suppression reduces DNMT1 abundance and derepresses TNFAIP3 and FBXO32 expression. Knockdown and rescue studies further reveal that DNMT1 primarily mediates METTL3-dependent regulation of cell migration, whereas the antiproliferative effects of METTL3 suppression are likely driven by additional downstream targets. Collectively, these findings identify the m6A-METTL3-DNMT1 axis as a mechanistic link between RNA and DNA methylation pathways and a potential therapeutic vulnerability in HGSOC.",
-      "doi": "10.1126/sciadv.aec2297",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-04T23:59:07.482808+00:00",
-      "journal": "Science Advances",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-04",
-      "pmid": "42981409",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "METTL3-mediated m6A modification of DNMT1 enhances ovarian cancer progression.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42981409/"
-    },
-    {
-      "abstract": "Digital stress-management tools show promise, but their long-term impact remains unclear. In the Coping After Breast Cancer (CABC) trial, the app-based stress-management program StressProffen, with either cognitive behavioral therapy intervention (CBI) or a mindfulness-based intervention (MBI), showed no advantage over usual care after six months of access. However, benefits may emerge gradually, as users need time not only to become familiar with the content and techniques, but also to internalize, apply and automatize their use in response to real-life stressors. The a priori defined aims of the current study were to examine; 1) whether extended (18 months) access to the digital stress-management interventions CBI and MBI were associated with changes in perceived stress (stress) (primary outcome), measures of health-related quality of life, mindfulness, fatigue, coping, anxiety, depression, and sleep (secondary outcomes), 2) association between app use and changes in stress level and investigate baseline characteristics as moderators of change in stress in the intervention groups, and 3) identify predictors of change in stress among patients with breast cancer. Of 430 patients randomized to MBI, CBI, or usual care, 76% (n = 327) completed the 18-month survey. Linear mixed-effects models were used to assess between-group differences in primary and secondary outcomes. Moderator analyses were performed to examine whether specific baseline characteristics modified the intervention effects on stress levels. Predictor analysis of change in stress was performed for the total sample. At 18 months, all three groups showed stable trends over time, with no significant difference between either intervention group and controls. A larger stress reduction was observed among younger participants (≤50 years) in both CBI and MBI compared to controls. Higher baseline stress levels predicted significantly larger stress reductions in the total sample, but the moderator analysis showed that the effects were only significant in the CBI group. Neither CBI nor MBI showed statistically significant improvements at 18 months compared to controls. The results however suggest that long-term access to stress management interventions may help young women with breast cancer and those with high initial stress to reduce their stress levels. ClinicalTrials.gov identifier NCT04480203.",
-      "doi": "10.1007/s10549-026-08117-x",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-04T23:59:07.482786+00:00",
-      "journal": "Breast Cancer Research and Treatment",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-04",
-      "pmid": "42980875",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 63,
-      "publication_types": [
-        "Journal Article",
-        "Randomized Controlled Trial"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "clinical_trial"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "Effects of digital stress-management interventions in breast cancer patients 18 months after intervention access.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42980875/"
-    },
-    {
-      "abstract": "Cytoreductive surgery with hyperthermic intraperitoneal chemotherapy (CRS/HIPEC) is an established treatment for peritoneal surface malignancies, but is associated with substantial morbidity, particularly when pelvic anastomoses are performed. Diverting ostomies are commonly used to mitigate complications related to anastomotic leak; however, ostomy formation carries its own morbidity, and its benefit in this setting remains controversial. PubMed and Embase were queried for studies of patients undergoing CRS/HIPEC with a pelvic anastomosis, documented use of diverting ostomy, and reported anastomotic leak rates. Eligible studies required combined CRS/HIPEC, explicit reporting of diversion status, and perioperative outcomes stratified by ostomy presence. Abstracts were independently screened by two reviewers, followed by full-text review for final inclusion. A binary odds ratio meta-analysis was performed comparing anastomotic leak between diverted and non-diverted patients. Of 506 studies identified, 10 met inclusion criteria and were combined with our institutional cohort, comprising 1506 patients. Overall, diversion was not associated with a statistically significant reduction in anastomotic leak (OR 0.67, 95% CI 0.32-1.39, p = 0.28). No differences were observed in grade ≥ 3 complications or length of stay. Diversion was associated with increased 60-day readmissions (OR 3.29, 95% CI 1.52-7.11, p < 0.01). Diverting ostomies were not associated with a statistically significant reduction in anastomotic leak in patients undergoing CRS/HIPEC with a pelvic anastomosis. These findings suggest consideration of a selective, rather than routine, diversion strategy in appropriately selected patients.",
-      "doi": "10.1245/s10434-026-20722-0",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-04T23:59:07.482756+00:00",
-      "journal": "Annals of Surgical Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-04",
-      "pmid": "42980923",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 66,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "meta_analysis"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Evaluating the Association of Fecal Diversion with Morbidity in Patients Undergoing CRS/HIPEC with Pelvic Anastomoses: A Systematic Review and Meta-analysis.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42980923/"
     },
     {
       "abstract": "",
