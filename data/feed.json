@@ -1,12 +1,543 @@
 {
   "ai_status": "disabled",
-  "generated_at": "2026-11-10T02:45:07.211804+00:00",
+  "generated_at": "2026-11-10T10:30:25.180815+00:00",
   "harmony_push_status": "not_configured",
   "journal_counts": {
     "anesthesiology": 13,
     "oncology": 100
   },
   "papers": [
+    {
+      "abstract": "In this issue of Cancer Cell, Xu et al. combine large-scale computational pathology, spatial omics, and functional experiments to examine neutrophil organization in triple-negative breast tumors. They identify two neutrophil niches with different clinical associations: tumor-proximal neutrophils are linked to favorable prognosis, whereas neutrophils near immune cells associate with immunotherapy response.",
+      "doi": "10.1016/j.ccell.2026.10.009",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-10T10:30:25.089941+00:00",
+      "journal": "Cancer Cell",
+      "letter_eligibility": "unverified",
+      "online_date": null,
+      "pmid": "43003076",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 44,
+      "publication_types": [
+        "Journal Article",
+        "Comment"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Neutrophils are known by their neighbors in breast cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43003076/"
+    },
+    {
+      "abstract": "Transforming growth factor β (TGF-β) accumulation in the tumor microenvironment (TME) is a major barrier to durable antitumor immunity. We developed fibronectin extra domain B (FN-EDB)-binding peptide (FEBP)-soluble TβRII-Fc (sTβRII), an engineered inhibitor targeting the FN-EDB-rich tumor matrix for localized TGF-β blockade. In fibrotic, immune-excluded tumors, FEBP-sTβRII suppresses TGF-β/SMAD signaling to unleash T cell activation and IFN-γ production, thereby driving feedforward cancer-associated fibroblast (CAF)-myeloid reprogramming toward an antigen-presenting state. This coordinated remodeling relieves immune exclusion and converts the fibrotic TME into an antigen-visible ecosystem that sustains robust T cell infiltration and activation. Consequently, FEBP-sTβRII induces T cell-dependent tumor regression, expands effector-memory populations, and elicits long-term, cross-protective antitumor immunity, while minimizing peripheral transcriptional disturbances compared with systemic sTβRII. Together, these findings show that spatially targeted TGF-β blockade overcomes fibrotic immune exclusion to establish durable local and systemic tumor immunity.",
+      "doi": "10.1016/j.ccell.2026.10.007",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-10T10:30:25.089884+00:00",
+      "journal": "Cancer Cell",
+      "letter_eligibility": "unverified",
+      "online_date": null,
+      "pmid": "43003077",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 59,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "A stroma-sensing TGF-β blockade reprograms CAF-myeloid niches to induce durable tumor immunity.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43003077/"
+    },
+    {
+      "abstract": "Neutrophils are heterogeneous and critical components of the tumor microenvironment, yet their spatial heterogeneity and clinical implications remain poorly understood. We establish large-scale breast cancer cohorts integrating AI-powered computational pathology (n = 1,113) and single-cell spatial omics (n = 104) to investigate the clinical relevance and biological mechanisms underlying neutrophil spatial patterns. Clinical implications were greatest in triple-negative breast cancer (TNBC): neutrophil-tumor cell proximity associated with favorable prognosis, while neutrophil-immune cell proximity predicted superior immunotherapy response. Combining these patterns with established biomarkers improved TNBC stratification for prognosis and immunotherapy efficacy. Spatial omics and experimental validation demonstrated that tumor-proximal neutrophils enhanced MHC I expression on tumor cells via inflammatory crosstalk, promoting immune-mediated tumor clearance and improved prognosis. Neutrophils adjacent to immune cells exhibited an antigen-presenting phenotype, augmentable by targeting polyamine metabolism. Our study highlights the functional diversity and spatial heterogeneity of neutrophils and provides a translational strategy with routine computational pathology.",
+      "doi": "10.1016/j.ccell.2026.10.005",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-10T10:30:25.089835+00:00",
+      "journal": "Cancer Cell",
+      "letter_eligibility": "unverified",
+      "online_date": null,
+      "pmid": "43003078",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 67,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "single_cell",
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Decoding neutrophil spatial heterogeneity and clinical implications in breast cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43003078/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1016/j.ctrv.2026.103238",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-10T10:30:25.089931+00:00",
+      "journal": "Cancer Treatment Reviews",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-09",
+      "pmid": "43002973",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 50,
+      "publication_types": [
+        "Published Erratum"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Corrigendum to \"Overcoming Resistance to CDK4/6 inhibitors in Hormone Receptor positive, HER2 negative breast cancer: Innovative Combinations and Emerging Strategies\" [Cancer Treat. Rev. 139 (2025) 102980].",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43002973/"
+    },
+    {
+      "abstract": "We report clinical outcomes, mutation testing patterns, and treatment patterns from a global, real-world, retrospective, observational study in patients with stage 1/2 epidermal growth factor receptor (EGFR)-mutated non-small cell lung cancer (NSCLC). Data were extracted from medical records of adults with stage 1/2 EGFR-mutated NSCLC (diagnosed January 2016-December 2019), who underwent stereotactic body radiation therapy (SBRT) as standard of care. The primary objective was assessment of real-world progression-free survival (rwPFS). Secondary objectives included assessment of mutation testing patterns, treatment sequencing post-SBRT, real-world time to next treatment or death (rwTTNTD), and real-world overall survival (rwOS). Data were extracted from medical records of 82 patients across six countries; 66% of patients had medically inoperable tumors; 43% had tumors harboring exon 19 deletion (Ex19del), 55% had L858R, 1% had both Ex19del and L858R, and 1% had L858R and an exon 20 insertion. Overall, 91% of patients had stage 1A/1B disease and 9% had stage 2A/2B. All patients underwent SBRT as standard of care; 31 patients (38%) progressed following SBRT. Of patients who received subsequent treatment (n = 25), most received EGFR-tyrosine kinase inhibitors (TKIs; 88%; n = 22/25); first-/second-generation EGFR-TKIs n=17, third-generation EGFR-TKIs n=5. Median (95% confidence interval [CI]) rwPFS, rwTTNTD, and rwOS were 47.1 (38.7-57.8), 49.8 (40.7-not estimable [NE]), and 62.9 (50.8-NE) months, respectively. The rwPFS rates at 12, 24, 36, 48, and 60 months (95% CI) were 90% (81-95), 76% (65-84), 65% (53-74), 48% (35-60), and 34% (19-48), respectively. In this global, real-world, retrospective study in patients with stage 1/2 EGFR-mutated NSCLC who underwent SBRT, the majority of whom had medically inoperable tumors, the 4-year rwPFS rate was <50%. Further studies are needed to confirm the potential role for EGFR-TKI therapy in this setting.",
+      "doi": "10.1016/j.ijrobp.2026.10.034",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-10T10:30:25.089912+00:00",
+      "journal": "International Journal of Radiation Oncology, Biology, Physics",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-09",
+      "pmid": "43003310",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 55,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "specialist",
+      "title": "Patterns of Treatment and Clinical Outcomes in Patients With Stage 1/2 EGFR-mutated Non-Small Cell Lung Cancer Treated With Stereotactic Body Radiation Therapy: A Global, Multicenter, Retrospective Study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43003310/"
+    },
+    {
+      "abstract": "Accurate segmentation of clinical target volumes (CTV) is critical for the success of radiotherapy in nasopharyngeal carcinoma (NPC). Manual contouring is time-consuming and prone to considerable inter-observer variability. Current auto-segmentation models rely exclusively on images, which may lead to sub-optimal accuracy. This study sought to substantially improve CTV auto-segmentation by incorporating tumor and clinical text information with multimodal deep learning. We retrospectively collected data from 184 NPC patients treated at our institution, with 144 cases allocated for model training and 40 for test. We propose a tumor- and text-aware multi-view UMamba (TTA-MVUM) model with text-image cross-attention modules to fuse visual and textual features. The model input comprised CT images, manually contoured primary gross tumor volume and metastatic lymph nodes, structured text contouring plan extracted by a large language model from electronic health records. Training was guided by a composite loss integrating Dice, cross-entropy and contrastive terms. Model performance was evaluated using Dice, 95% Hausdorff distance and averaged surface distance. The proposed TTA-MVUM model significantly outperformed state-of-the-art image-only and tumor-aware baselines, yielding mean Dice of 0.892 ± 0.035 for high-risk CTV, 0.738 ± 0.149 for low-risk CTV, and 0.889 ± 0.024 for the entire CTV, respectively, with similar improvements for other metrics. Using either tumor information or clinical text alone also surpassed baseline models, but performance remained inferior to the combined approach. Integrating tumor priors and text guidance can substantially improve the NPC CTV auto-segmentation accuracy and clinical applicability.",
+      "doi": "10.1016/j.ijrobp.2026.10.035",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-10T10:30:25.089878+00:00",
+      "journal": "International Journal of Radiation Oncology, Biology, Physics",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-09",
+      "pmid": "43003311",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 63,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "machine_learning"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "specialist",
+      "title": "TTA-MVUM: A Tumor and Text-Aware Multi-View Mamba Framework for Clinical Target Volume Auto-Segmentation in Nasopharyngeal Carcinoma Radiotherapy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43003311/"
+    },
+    {
+      "abstract": "Osimertinib is a third-generation EGFR tyrosine kinase inhibitor that has become a mainstay treatment for EGFR-mutant non-small cell lung cancer (NSCLC). However, acquired resistance develops in most patients and ultimately compromises durable clinical benefit. Therefore, effective combination strategies to enhance Osimertinib sensitivity and delay or overcome resistance remain an urgent unmet clinical need. The antitumor effects of pterostilbene in combination with Osimertinib were evaluated in EGFR-mutant and osimertinib-resistant NSCLC cell lines using CCK-8, colony formation, EdU incorporation, wound healing, and Transwell invasion assays. In vivo efficacy and safety were evaluated in nude mouse xenograft models. To investigate the underlying mechanisms, ferroptosis-related biochemical parameters, protein expression profiles, and transcriptomic profiles were analyzed. The involvement of ferroptosis and FGFR4 signaling was further validated using the ferroptosis inhibitor ferrostatin-1 (Fer-1) and FGFR4 siRNA-mediated knockdown. Pterostilbene markedly potentiated the antitumor efficacy of Osimertinib in vitro and in vivo and restored drug responsiveness in Osimertinib-resistant NSCLC cells. Mechanistically, the combination induced ferroptosis, as indicated by enhanced lipid peroxidation, intracellular Fe2+ accumulation, and reduced expression of key ferroptosis-protective proteins, including GPX4 and xCT. Consistently, pharmacological inhibition of ferroptosis attenuated the antitumor effects of the combination. Furthermore, combined treatment modulated FGFR4-associated ERK/AKT signaling and disrupted redox and iron homeostasis. FGFR4 depletion significantly attenuated ferroptosis induction and reduced the synergistic anticancer effects of the combination, whereas FGFR4 re-expression restored treatment responsiveness, supporting an FGFR4-dependent therapeutic response. This study demonstrates that pterostilbene enhances the antitumor efficacy of Osimertinib through the induction of FGFR4-dependent ferroptosis, providing mechanistic insights and suggesting a potential therapeutic strategy to overcome EGFR-TKI resistance in NSCLC.",
+      "doi": "10.1016/j.tranon.2026.103110",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-10T10:30:25.089871+00:00",
+      "journal": "Translational Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-09",
+      "pmid": "43002894",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 66,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Pterostilbene enhances Osimertinib sensitivity in non-small cell lung cancer through FGFR4-dependent ferroptosis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43002894/"
+    },
+    {
+      "abstract": "Previous reviews have described disparities in the treatment of patients diagnosed with gynecologic cancers; however, these reviews are not systematic in nature, and none have focused specifically on individuals diagnosed with cervical cancer, who disproportionately represent marginalized populations in the US. This systematic review synthesizes evidence on treatment-related outcomes and multilevel determinants of care among US patients with cervical cancer. The protocol was registered with PROSPERO (CRD42023413020). We searched PubMed, Scopus, and CINAHL for studies published through May 2026. Eligible studies examined treatment related outcomes among patients diagnosed with cervical cancer in the US. We identified 25 articles that met our inclusion criteria. Treatment-related outcomes were categorized and determinants (i.e., explanatory variables) were mapped on to the socioecological model. Across 25 studies, 26 treatment-related outcomes were identified. Receipt of surgery, chemotherapy, and brachytherapy were the most frequently assessed outcomes. Key patient-level determinants included race/ethnicity, age, comorbidities, insurance, rurality, and distance to care. Minoritized populations, particularly Black, Hispanic, Native American, Pacific Islander, often experienced worse treatment outcomes. Older age was also a frequent barrier to treatment. Distance to care was inconsistently associated with treatment outcomes. Clinic-level determinants, such as care outside of large-volume facilities and academic medical centers, and contextual determinants, such as residing in a county with lower levels of income and education, were associated with worse treatment outcomes. Cervical cancer treatment in the United States is driven by multilevel determinants at the patient-, clinic-, and community-level. Addressing barriers to treatment requires attention to the broader structural and modifiable factors that hinder treatment for marginalized cervical cancer patients in vulnerable communities. Future studies should more rigorously and thoughtfully measure community-level and individual-level variables.",
+      "doi": "10.1016/j.ygyno.2026.10.031",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-10T10:30:25.089867+00:00",
+      "journal": "Gynecologic Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-09",
+      "pmid": "43003063",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 66,
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "meta_analysis"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Barriers to treatment for patients diagnosed with cervical cancer: A systematic review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43003063/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1016/j.jclinane.2026.112372",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-10T10:30:25.089864+00:00",
+      "journal": "Journal of clinical anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-09",
+      "pmid": "43003016",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 32,
+      "publication_types": [
+        "Letter"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Trained immunity maybe a novel preoperative strategy to prevent perioperative neurocognitive disorders.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43003016/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1136/jitc-2025-014417",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-10T10:30:25.089861+00:00",
+      "journal": "Journal for ImmunoTherapy of Cancer",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-09",
+      "pmid": "43003652",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 66,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Multi-omics characterization of the tumor microenvironment in thyroid cancer with multi-organ metastasis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43003652/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1016/j.jclinane.2026.112366",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-10T10:30:25.089858+00:00",
+      "journal": "Journal of clinical anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-09",
+      "pmid": "43003017",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 32,
+      "publication_types": [
+        "Letter"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Interpreting the 30-min monitoring recommendation after external oblique intercostal plane block.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43003017/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1136/jitc-2026-015860",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-10T10:30:25.089856+00:00",
+      "journal": "Journal for ImmunoTherapy of Cancer",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-09",
+      "pmid": "43003653",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 66,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Immune cell atlas reveals mechanisms of immune evasion and LAG-3 as a novel target in mouse models of breast cancer metastasis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43003653/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1136/rapm-2026-108743",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-10T10:30:25.089853+00:00",
+      "journal": "Regional anesthesia and pain medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-09",
+      "pmid": "43003665",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 32,
+      "publication_types": [
+        "Letter"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Peak expectations: a question of power and timing.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43003665/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1016/j.jclinane.2026.112368",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-10T10:30:25.089849+00:00",
+      "journal": "Journal of clinical anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-09",
+      "pmid": "43003703",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 32,
+      "publication_types": [
+        "Editorial"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "From prediction to impact: The next frontier of perioperative artificial intelligence.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43003703/"
+    },
+    {
+      "abstract": "Cellular senescence acts as a core driver of chronic diseases and tissue degeneration. Conventional small-molecule senolytics face critical limitations including poor target specificity and off-target toxicity when eliminating heterogeneous senescent cell populations. This review systematically discusses senescence-targeted engineered chimeric antigen receptor (CAR)-T immunotherapy, which achieves targeted clearance of pathological senescent cells by recognising specific surface markers. It summarises target-antigen evaluation frameworks, analyzes aged immunosuppressive microenvironment barriers and corresponding engineering strategies, and outlines composite efficacy assessment systems and tiered biomarker-monitoring workflows. Key translational bottlenecks such as imperfect antigen specificity and immune escape are also addressed. Preclinical studies verify organ function restoration and healthspan extension, while clinical evidence remains limited. Future integration of CAR-T technology with smart nanocarriers, synthetic biology and artificial intelligence will promote its clinical translation for senescence-associated disorders.",
+      "doi": "10.1016/j.ebiom.2026.106540",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-10T10:30:25.089829+00:00",
+      "journal": "eBioMedicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-09",
+      "pmid": "43002794",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 69,
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Senescence-targeted engineered CAR-T immunotherapy: advances, challenges and perspectives for engineered senolytic immunotherapy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43002794/"
+    },
+    {
+      "abstract": "The intratumoral microbiota plays a crucial role in cancer pathogenesis; however, the specific members involved and their mechanisms remain incompletely defined. Here, we identify Bifidobacterium dentium (B. dentium ) as a tumor-associated bacterium enriched in fecal samples from patients with melanoma and colorectal cancer (CRC) and detectable in human melanoma and CRC tissues. High intratumoral B. dentium abundance correlates with poorer survival in CRC patients. In mouse models, subgingival administration of live B. dentium enables tumor homing and accelerated CT26 and B16F10 tumor growth, including in an orthotopic CT26 colorectal tumor model. Mechanistically, B. dentium invades tumor cells, promotes proliferation through Akt/ERK activation, enhances metastatic potential through MMP3 induction, and increases resistance to key chemotherapeutic agents. B. dentium-derived GABA activates FOXA2-dependent P-gp upregulation, contributing to chemotherapy resistance. These findings establish B. dentium as a niche-dependent pro-tumoral pathobiont and a potential target for improving cancer treatment response.",
+      "doi": "10.1016/j.xcrm.2026.103142",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-10T10:30:25.089824+00:00",
+      "journal": "Cell Reports Medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-09",
+      "pmid": "43003090",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 69,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Tumor-colonizing Bifidobacterium dentium promotes tumor progression and chemotherapy resistance via MMP3 and GABA-FOXA2-P-gp axis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43003090/"
+    },
+    {
+      "abstract": "Existing treatment options for colorectal and pancreatic cancers harboring mutant p53 (p53mut) are largely ineffective and lack selectivity. Our novel therapeutic strategy for p53mut cancers with a thymidine analogue (TAS102) and a PARP inhibitor (PARPi) showed promising efficacy in a clinical trial, although the mechanisms remain not fully understood. Here, we investigated the molecular mechanisms underlying therapeutic efficacy of our approach and explored new combinations to further enhance the response. To define the contribution of each drug into the therapeutic response, we conducted an unbiased transcriptomic analysis in p53-proficient and p53mut cancer models. The biological effects were investigated in comprehensive analyses of cell proliferation, cell death, and DNA damage. The drug interactions were explored in cytotoxicity assays and efficacy was tested in patient-derived colorectal and pancreatic cancer models. We found that TAS102-PARPi treatment induces DNA breaks and long G2-arrest in p53mut cells, whereas normal cells rapidly repair their DNA and re-enter the cell cycle. Transcriptomic analysis showed that TAS102 is the major driver of the response, whereas PARPi improves selectivity of the TAS102 effects. The treatment does not block replication in p53mut cells but induces post-replicative DNA repair and represses mitosis. Delayed blockade of G2-checkpoint results in massive cell death in p53mut cells selectively. Priming TAS102-PARPi treatment in combination with delayed G2-checkpoint blockade was highly effective against cancer models and was well-tolerated in mice. Broadly, a novel two-step therapeutic strategy showed high efficacy and selectivity for p53mut cancers and low toxicity to normal tissues, demonstrating potential for clinical translation.",
+      "doi": "10.1016/j.canlet.2026.218962",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-10T10:30:25.089815+00:00",
+      "journal": "Cancer Letters",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-09",
+      "pmid": "43003218",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 74,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "clinical_trial",
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Effective Targeting of p53-Mutant Colorectal and Pancreatic Cancers by Combinatorial Therapeutic Strategy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43003218/"
+    },
+    {
+      "abstract": "Summary Introduction Difficult tracheal intubation is associated with serious complications, including hypoxia, bradycardia and cardiac arrest. Neonates have increased physiologic vulnerability compared with older children, yet detailed data on management strategies and outcomes in neonates with difficult tracheal intubation remain limited. We hypothesised that clinicians have lower first‐attempt tracheal intubation success and higher complication rates for neonates compared with older children with difficult tracheal intubation. Methods We analysed the Pediatric Difficult Intubation Registry to determine tracheal intubation first attempt success and incidence of complications. We used logistic regression to identify variables associated with complications in neonates. Results During the study period, 6283 paediatric difficult tracheal intubations were recorded, including 420 neonates. First attempt success was lower for neonates (139/420, 33.1%) than older children (2394/4683, 51.1%). Complications occurred more frequently in neonates (123/420, 29.3%) than older children (637/4683, 13.6%). Hypoxia occurred in 92/420 (21.9%) neonates and 269/4683 (5.7%) older children. Severe complications were more frequent in neonates vs. older children (12/420, 2.9% vs. 30/4683, 0.6%, respectively), with cardiac arrests occurring in 4/420 (1.0%) neonates and 11/4683 (0.2%) older children. Difficult mask ventilation occurred more frequently in neonates (60/420, 14.3%) than older children (353/4681, 7.5%). In neonates, increased number of tracheal intubation attempts (aOR 1.61 per attempt, 95%CI 1.30–2.00, p < 0.001) and difficult facemask ventilation (aOR 3.17, 95%CI 1.38–7.30, p = 0.007) were associated with complications. Anticipated difficulty with airway management had a protective effect (aOR 0.37, 95%CI 0.16–0.88, p = 0.025). Discussion Neonates with difficult tracheal intubation experience a substantially higher rate of complications than older children. Early recognition of risk is critical in order to enable careful planning to minimise tracheal intubation attempts in this vulnerable population.",
+      "doi": "10.1111/anae.70448",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-10T10:30:25.089807+00:00",
+      "journal": "Anaesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-09",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 55,
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Complications in neonates with difficult tracheal intubation: an analysis of the Pediatric Difficult Intubation Registry",
+      "url": "https://doi.org/10.1111/anae.70448"
+    },
+    {
+      "abstract": "This phase III, randomized, double-blind study (daNIS-2) evaluated the efficacy and safety of NIS793, an anti-transforming growth factor-beta (TGF-β) monoclonal antibody, in combination with gemcitabine and nab-paclitaxel [standard of care (SOC)] versus placebo and SOC as first-line treatment in patients with metastatic pancreatic ductal adenocarcinoma (mPDAC). The study included a safety run-in (n = 21 patients enrolled) followed by a randomized part (n = 490 patients randomly assigned). Patients were assigned 1 : 1 to receive NIS793 or placebo with SOC. The primary endpoint was overall survival (OS), secondary endpoints included progression-free survival (PFS), overall response rate (ORR), safety, pharmacokinetics, and exploratory biomarker analyses. The study was terminated early following an interim analysis due to an unfavorable benefit-risk profile. Median OS was 9.2 months in the NIS793 arm versus 11.2 months in the placebo arm (hazard ratio 1.26, 95% confidence interval 1.01-1.59). The estimates of ORR and median PFS indicate a less favorable treatment effect with NIS793. Safety profiles were comparable between arms, although higher rates of anemia, epistaxis, and rash were observed with NIS793; serious adverse events were more frequent in the NIS793 arm, with most being grade ≥3. Pharmacodynamic markers such as Pro-C3 supported target engagement. However, such target engagement did not translate into clinical benefit and early circulating tumor DNA dynamics were associated with less favorable outcomes. Biomarker analyses suggested that unfavorable benefit-risk profile of NIS793 was most pronounced in patients with a low epithelial-to-mesenchymal transition signature and a classical molecular subtype. NIS793 in combination with SOC did not improve survival outcomes in first-line mPDAC and was associated with an unfavorable benefit-risk profile. Exploratory biomarker findings highlight the complexity of TGF-β signaling and underscore the need for refined patient selection strategies in future trials.",
+      "doi": "10.1016/j.esmoop.2026.108621",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-10T10:30:25.089805+00:00",
+      "journal": "ESMO Open",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-09",
+      "pmid": "43002828",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 74,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "clinical_trial"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "daNIS-2: a phase III, randomized, double-blind study of the anti-TGF-β monoclonal antibody NIS793 or placebo in combination with nab-paclitaxel/gemcitabine as first-line treatment in patients with metastatic pancreatic ductal adenocarcinoma.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43002828/"
+    },
+    {
+      "abstract": "Heart rate (HR) and arterial blood pressure (BP) monitoring is standard of care during paediatric anaesthesia, yet evidence-based reference values for anaesthetised children remain limited. Existing BP reference values do not account for the combined effects of age, sex, weight, and height, and HR reference values in this population are lacking. We conducted a retrospective multicentre study using data from the Multicenter Perioperative Outcomes Group anaesthesia registry (2016-22). Included patients were aged <18 yr, ASA physical status 1 or 2, and undergoing noncardiac procedures under general anaesthesia. We used quantile regression to model the 2.3rd, 16th, 50th, 84th, and 97.7th centiles for HR, mean arterial pressure (MAP), systolic BP, and diastolic BP at two time points: the preparation phase (end of induction) and surgical phase (15-35 min after procedure start). Model covariates included age, sex, weight, and height. We selected the best model for each outcome using cross-validation with pinball loss. A total of 284 385 patients from 57 institutions were analysed. Optimal model complexity varied by outcome: a two-way interaction model was selected as the best-performing model for preparation phase HR and surgical phase MAP. A three-way interaction model was selected as the best-performing model for the remaining outcomes. Comprehensive prediction tables and an interactive web-based tool were developed for all outcomes. This study provides integrated HR and BP reference values for healthy paediatric patients undergoing general anaesthesia, incorporating age, sex, weight, and height simultaneously. These reference values with an interactive website can support clinical decision-making and haemodynamic monitoring.",
+      "doi": "10.1016/j.bja.2026.09.024",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-10T10:30:25.089798+00:00",
+      "journal": "British journal of anaesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-09",
+      "pmid": "43003742",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 55,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Reference values and web-based tool for intraoperative heart rate and blood pressure in paediatric patients undergoing general anaesthesia for noncardiac procedures.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43003742/"
+    },
+    {
+      "abstract": "Recent clinical trials show prominent anti-tumor activity of CD73-blocking antibodies in combination with programmed death-ligand 1 (PD-L1) antagonists in a subset of patients with resectable non-small cell lung cancer (NSCLC), which highlights the need to understand the properties of the CD39/CD73 pathway in human lung malignancies and its modulation by other anti-cancer therapies. To address this, we study the distribution, biological context, spatial heterogeneity, clinical significance, and modulation of CD39/CD73 using multiplexed quantitative immunofluorescence and spatial transcriptomics analysis of multiple NSCLC patient cohorts, as well as in vitro experiments of cultured NSCLC cells. Our results reveal an asymmetric distribution of the CD39/CD73 pathway within the tumor microenvironment, preferential expression in lung adenocarcinomas with elevated PD-L1 and effector T cell infiltration or lacking STK11/KEAP1 mutations, limited intratumor spatial heterogeneity, and differential modulation of cancer cell CD73 by proinflammatory cytokines and systemic radio-chemotherapy. Collectively, our results can inform optimal design of therapeutic interventions and patient selection strategies.",
+      "doi": "10.1016/j.xcrm.2026.103139",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-10T10:30:25.089788+00:00",
+      "journal": "Cell Reports Medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-09",
+      "pmid": "43003091",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 81,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "single_cell",
+        "clinical_trial",
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "The CD39/CD73 adenosinergic pathway is increased by proinflammatory states and modified by chemo-radiation in human non-small cell lung cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43003091/"
+    },
+    {
+      "abstract": "Summary Introduction Videolaryngoscopy has been associated with improved glottic visualisation and higher first‐attempt tracheal intubation success compared with direct laryngoscopy. However, multicentre evidence evaluating its effectiveness when tracheal intubation is performed by anaesthesia resident doctors in routine practice is limited. Methods Adult patients undergoing surgery requiring tracheal intubation were assigned to videolaryngoscopy or direct laryngoscopy for the initial attempt. All tracheal intubations were performed by anaesthesia residents under consultant supervision. The primary outcome was successful tracheal intubation on the first attempt. Secondary outcomes included glottic visualisation; number of tracheal intubation attempts; need for adjunct airway devices; procedural difficulty; and procedural complications. Results We enrolled 1001 patients and assigned 501 to videolaryngoscopy and 500 patients to direct laryngoscopy. Successful first‐attempt tracheal intubation was achieved in 397 (79.2%) patients allocated to the videolaryngoscopy group and 351 (70.2%) patients allocated to the direct laryngoscopy group (absolute risk difference 9.0%, 95%CI 3.7–14.4%, p < 0.001). Videolaryngoscopy improved glottic visualisation, with more patients having a modified Cormack–Lehane grade 2 or 2a view (467/501 (93.3%) vs. 404/500 (80.8%); p < 0.001); decreased operator‐reported tracheal intubation difficulty (168/501 (33.5%) vs. 236/500 (47.2%); p < 0.001) and reduced procedural complications (39/501 (7.7%) vs. 91/500 (18.2%); p < 0.001), without a clinically meaningful difference in tracheal intubation time or the need for adjunct airway devices. Discussion In adult patients undergoing tracheal intubation by anaesthesia resident doctors, videolaryngoscopy increased first‐attempt success and improved overall procedural performance compared with direct laryngoscopy.",
+      "doi": "10.1111/anae.70456",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-10T10:30:25.089772+00:00",
+      "journal": "Anaesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-09",
+      "pmid": "43003764",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 63,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "clinical_trial"
+      ],
+      "source": "crossref",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Videolaryngoscopy vs. direct laryngoscopy for tracheal intubation by anaesthesia resident doctors ( VILARE ): a pragmatic multicentre randomised trial",
+      "url": "https://doi.org/10.1111/anae.70456"
+    },
     {
       "abstract": "",
       "doi": "10.1200/PO-26-00679",
@@ -3947,31 +4478,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42988899/"
     },
     {
-      "abstract": "Spatial omics enable the in situ characterization of tissue architecture by measuring molecular modalities. However, integrating these datasets remains challenging due to differences in spatial resolution, cross-modal alignment and molecular coverage. Here we show that Cross-scale spatial Omics Registration and Analysis via graph Learning (CORAL), a probabilistic deep generative model, leverages graph attention to integrate diverse spatial transcriptomic, proteomic, metabolomic and epigenomic data across spatial scales. CORAL jointly models high-resolution datasets with limited molecular coverage and low-resolution genome-wide datasets, generating unified representations with broad molecular coverage and high spatial resolution. Across synthetic and experimental datasets from diverse tissues and platforms, CORAL accurately identifies spatial domains, predicts high-resolution molecular profiles, detects spatially variable genes and infers cell-cell interactions. Applied to spatial transcriptomic and proteomic data from hepatocellular carcinoma patients before and after immunotherapy, CORAL identified organized immune-cell subsets and signaling pathways associated with therapeutic resistance. These results demonstrate CORAL's broad applicability for resolving tissue organization and clinically relevant multicellular interactions.",
-      "doi": "10.1038/s41588-026-02821-6",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-06T15:50:33.950389+00:00",
-      "journal": "Nature Genetics",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-05",
-      "pmid": "42988898",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 77,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Multiscale multimodal integration of spatial omics through a deep generative model with CORAL.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42988898/"
-    },
-    {
       "abstract": "We aimed to evaluate and report a protocol for video double-lumen tube (VDLT) intubation in a modified lateral position and evaluate whether it shortens in-room to cut time (IRCT; defined as the time from patient entry to incision) compared with conventional supine intubation in patients undergoing elective unilateral video-assisted thoracoscopic surgery (VATS). We conducted a single-centre, prospective, parallel-group, randomized controlled superiority trial at a tertiary university hospital in Xi'an, China. We enrolled adults aged 18-75 yr (American Society of Anesthesiologists Physical Status I-III) scheduled for elective unilateral VATS requiring VDLT intubation; exclusions included body mass index > 30 kg·m-2, mouth opening < 3 cm, Mallampati class 3-4, or anticipated difficult airway. Participants were randomized 1:1 to modified-lateral-position (Group L) or supine-position (Group S) VDLT intubation using a computer-generated sequence with sealed-envelope allocation concealment. Operators were unblinded; nonoperator staff collecting postoperative data and the outcome analyst were blinded to allocation. The primary outcome was IRCT. Sixty-two patients were randomized (Group L, N = 31; Group S, N = 31), and all were analyzed for the primary outcome. Mean (standard deviation [SD]) IRCT was shorter in Group L (18.1 [2.0] min) than in Group S (31.1 [3.3] min), with a mean difference (L-S) of -13.0 min (95% confidence interval [CI], -14.4 to -11.6; P < 0.001). Intubation time was similar (mean [SD], 103 [15] sec vs 97 [15] sec; P = 0.10). Video double-lumen tube malpositioning occurred in 1/31 (3%) cases in Group L vs 15/31 (48%) cases in Group S (relative risk [RR], 0.067; 95% CI, 0.009 to 0.474; P < 0.001). Sore throat within 48 h occurred in 9/31 (29%) patients in Group L vs 18/31 (58%) patients in Group S (RR, 0.50; 95% CI, 0.27 to 0.94; P = 0.02). In patients undergoing unilateral VATS, VDLT intubation in a modified lateral position shortened IRCT. In exploratory analyses, several secondary outcomes favoured this approach. Intubation in a modified lateral position may be a feasible alternative to conventional supine position intubation in these patients. ChiCTR.org.cn ( ChiCTR2500112254 ); first posted 21 October 2025.",
       "doi": "10.1007/s12630-026-03223-2",
       "evidence_level": "metadata_or_abstract_only",
@@ -3997,318 +4503,6 @@
     },
     {
       "abstract": "",
-      "doi": "10.1016/j.canlet.2026.218952",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-06T07:59:16.428577+00:00",
-      "journal": "Cancer Letters",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-05",
-      "pmid": "42988312",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 35,
-      "publication_types": [
-        "Letter"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Comment on the Chinese Guidelines for the Diagnosis and Treatment of Pediatric Craniopharyngioma (2025).",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42988312/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1053/j.gastro.2026.11.001",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-06T07:59:16.428332+00:00",
-      "journal": "Gastroenterology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-05",
-      "pmid": "42988340",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 47,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": true,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "Fatty acid oxidation of dietary lipids from ketogenic diets promotes intestinal tumorigenesis independently from ketone bodies.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42988340/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1016/j.euo.2026.10.011",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-06T07:59:16.428328+00:00",
-      "journal": "European Urology Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-05",
-      "pmid": "42988642",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 47,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "Re: Maximilian Pallauf, Stephan Bronimann, Stanley Rapiey, et al. Integrated Urine and Plasma DNA Analysis for Molecular Staging of Upper Tract Urothelial Carcinoma. Eur Urol Oncol. In press. https://doi.org/10.1016/j.euo.2026.08.008.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42988642/"
-    },
-    {
-      "abstract": "We report the results of a Phase I trial of intravenous (IV) vesicular stomatitis virus (VSV) engineered to express human interferon beta (hIFNβ) and thyroidal sodium iodide symporter (NIS) in patients with stage IV or recurrent endometrial cancer (EC). Eligible patients with stage IV or recurrent EC with largest tumor diameter ≤ 5 cm were enrolled and received a single IV infusion of VSV-hIFNβ-NIS in a standard '3 + 3' dose escalation. Five dose-levels were planned. Primary endpoint was determination of the maximum tolerated dose (MTD). Secondary endpoints included pharmacokinetics, pharmacodynamics, tumor response, and immune correlates. An exploratory post-hoc analysis evaluated clinical responses to subsequent immune checkpoint inhibitor (ICI)-based therapies. From 9/15/2017-1/10/23, 21 eligible patients were treated. One patient at DL2 experienced grade 3 dehydration associated with cytokine release syndrome (CRS) and one experienced transient grade 4 asymptomatic lymphopenia, prompting protocol modification of the DLT definition. One of six patients at DL4 experienced grade 3 delirium meeting DLT criteria. Dose escalation to DL5 was not feasible because of investigational agent production limitations; MTD was not reached. The most common treatment related AEs were transient hematologic toxicities, liver enzyme elevations, and CRS. At day 29, 8 patients had progressive disease (PD); 1 entered hospice due to PD before day 29. Two patients had stable disease for at least 6 months following VSV-hIFNβ-NIS. Of the 15 patients who received subsequent ICI-based therapy following VSV-hIFNβ-NIS, 4 had durable SD with a median follow up of 40.4 (95% CI 30.4-not reached) months. IV VSV-hIFNβ-NIS had an acceptable safety profile in patients with advanced or recurrent EC. Further investigation of VSV-hIFNβ-NIS, particularly in combination with immune checkpoint blockade, is warranted.",
-      "doi": "10.1016/j.ygyno.2026.10.027",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-06T07:59:16.428246+00:00",
-      "journal": "Gynecologic Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-05",
-      "pmid": "42987473",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 58,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "A phase I trial of intravenous vesicular stomatitis virus expressing thyroidal sodium iodide symporter (NIS) and human interferon beta (hIFNβ) in metastatic or recurrent endometrial cancer.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42987473/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1136/jitc-2026-016059",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-06T07:59:16.428217+00:00",
-      "journal": "Journal for ImmunoTherapy of Cancer",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-05",
-      "pmid": "42988572",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 58,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "core",
-      "title": "Integrated tumor and circulating immune profiling in the NEO-CESQ trial of perioperative cemiplimab for resectable cutaneous squamous cell carcinoma.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42988572/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1016/S1470-2045(26)00526-7",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-06T07:59:16.428179+00:00",
-      "journal": "The Lancet Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-05",
-      "pmid": "42987882",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 58,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "core",
-      "title": "Co-targeting angiogenesis and immune checkpoints in breast cancer.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42987882/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1016/S1470-2045(26)00602-9",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-06T07:59:16.428176+00:00",
-      "journal": "The Lancet Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-05",
-      "pmid": "42987883",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 58,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "core",
-      "title": "Kenya's new cancer treatment targets test health system capacity.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42987883/"
-    },
-    {
-      "abstract": "Somatic variant detection is technically challenging due to low variant allele fractions, the confounding presence of germline variation, and reference bias. Linear references, such as GRCh38, miss sample-specific variation, leading to misalignments and incorrect variant calls. Although telomere-to-telomere donor-specific assemblies (DSAs) accurately represent individual genomes, their application is limited by cost and technical barriers. Alternatively, the graph-based human pangenome provides a scalable framework to improve read alignment and perform genome inference. Here, we benchmarked somatic variant detection using GRCh38, graph-based pangenomes, and pangenome-inferred DSAs with a HapMap mixture dataset and the COLO829 melanoma cell line. Pangenome-guided alignment improves read mapping and somatic variant calling accuracy. Furthermore, personalized pangenomes partially reconstruct donor-specific genomic content, improving accuracy, reducing germline contamination, and enabling detection of events in loci absent or poorly represented in GRCh38. These findings demonstrate that graph-based and personalized pangenomes are effective strategies for enhancing somatic variant detection compared with GRCh38.",
-      "doi": "10.1016/j.xgen.2026.101419",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-06T07:59:16.428163+00:00",
-      "journal": "Cell Genomics",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-05",
-      "pmid": "42987832",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 61,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Leveraging human pangenome for improved somatic variant detection.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42987832/"
-    },
-    {
-      "abstract": "Uterine leiomyosarcoma (uLMS) maintains a poor prognosis due to its aggressive behavior and limited therapeutic response. Preclinical progress is severely hindered by traditional subcutaneous models that often fail to metastasize, despite one-third of uLMS patients displaying metastases at diagnosis. This study aimed to establish a reproducible, physiologically accurate orthotopic uLMS murine model that faithfully recapitulates disease progression and chemotherapeutic response. Primary subcutaneous tumors were established via SK-LMS-1 cell injections in NOD/SCID mice. Harvested xenografts were surgically implanted heterotopically (subcutaneous flank) or orthotopically (uterine myometrium). Eight days post-implantation, mice were randomized to receive intraperitoneal doxorubicin (1.2 mg/kg twice weekly) or vehicle control for 3 weeks. Tumor growth was tracked longitudinally via MRI (orthotopic) or caliper measurement (subcutaneous). Immunohistochemistry evaluated tumor vitality, microenvironment hypoxia, vascular density, and metastatic spread. Orthotopic tumors exhibited significantly accelerated growth kinetics compared to subcutaneous counterparts. This expansion was supported by co-option of host uterine vasculature, resulting in ample tumor perfusion, suppressed tissue hypoxia, and robust proliferation. Crucially, 37% of primary orthotopic tumors developed spontaneous, multi-organ metastases to pulmonary, omental, and intraperitoneal sites by 4 weeks. Orthotopic tumors demonstrated heightened sensitivity to doxorubicin, achieving a 55% volume reduction compared to 44% in subcutaneous controls, mediated by superior intratumoral drug delivery supported by increased cleaved caspase-3-dependent apoptosis. Surgical orthotopic xenografting recapitulates clinical uLMS, demonstrating site-dependent vascular co-option, spontaneous systemic metastasis, and enhanced chemosensitivity. By mimicking physiological characteristics of human uLMS, this orthotopic model offers significant potential for enhancing understanding of uLMS and evaluating novel therapies.",
-      "doi": "10.1016/j.ygyno.2026.10.023",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-06T07:59:16.428135+00:00",
-      "journal": "Gynecologic Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-05",
-      "pmid": "42987472",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 66,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "clinical_trial"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Novel orthotopic uterine leiomyosarcoma model demonstrated enhanced tumor growth, metastasis, and chemosensitivity compared to subcutaneous counterparts.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42987472/"
-    },
-    {
-      "abstract": "Platinum-based chemotherapy is a cornerstone of triple-negative breast cancer (TNBC) treatment, yet resistance remains a significant clinical challenge. Sarcoma antigen 1 (SAGE1), a cancer-testis antigen, has been implicated in various malignancies, but its specific role in TNBC drug response and underlying mechanisms remain largely elusive. Using tumor specimens from two prospective TNBC trials, we found that high SAGE1 expression significantly correlates with inferior invasive disease-free survival in patients receiving carboplatin-containing chemotherapy. SAGE1 reduces carboplatin sensitivity in vitro and in vivo by accelerating DNA damage repair. Mechanistically, SAGE1 enhances global chromatin accessibility and H3K27ac enrichment at Fanconi Anemia (FA) pathway gene loci, interacting with p300 and BRD4 to promote H3K27ac deposition. The BET bromodomain inhibitor JQ1 reversed FA protein upregulation and restored carboplatin sensitivity in SAGE1-enriched cells. Furthermore, SAGE1 interacts with PARP1, and this interaction is associated with the regulation of PARP1 activity and with limited PARP inhibitor sensitivity. Notably, the triple combination of JQ1, carboplatin, and olaparib enhanced DNA damage and suppressed tumor growth in preclinical models. Thus, SAGE1 may contribute to an epigenetic-repair axis by facilitating chromatin opening and bolstering the FA pathway, and targeting this axis via combined carboplatin, PARP, and BET inhibition represents a promising therapeutic strategy for SAGE1-enriched TNBC.",
-      "doi": "10.1016/j.canlet.2026.218955",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-06T07:59:16.428124+00:00",
-      "journal": "Cancer Letters",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-05",
-      "pmid": "42988310",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 66,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "SAGE1-Mediated H3K27ac Enrichment Promotes Chromatin Opening and Fanconi Anemia Repair to Induce Carboplatin Resistance in Triple-Negative Breast Cancer.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42988310/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1136/jitc-2026-017100",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-06T07:59:16.428107+00:00",
-      "journal": "Journal for ImmunoTherapy of Cancer",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-05",
-      "pmid": "42988573",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 66,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "core",
-      "title": "Steering the immune response: cancer vaccines and the next era of cancer immunotherapy.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42988573/"
-    },
-    {
-      "abstract": "Pumitamig, an investigational bispecific antibody targeting programmed death ligand-1 and vascular endothelial growth factor A, has shown preliminary efficacy across several tumour types. We aimed to evaluate the safety and activity of pumitamig plus nab-paclitaxel as first-line treatment in patients with advanced or metastatic triple-negative breast cancer. In this single-arm, phase 1b/2 trial conducted at ten sites (hospitals and cancer centres) in China, patients aged 18-75 years with histologically documented, unresectable, locally advanced or metastatic triple-negative breast cancer, an Eastern Cooperative Oncology Group performance status of 1 or less, and one or more measurable lesion (as per Response Evaluation Criteria in Solid Tumours, version 1.1) received first-line pumitamig (20 mg/kg intravenously once every 2 weeks) plus nab-paclitaxel (100 mg/m2 intravenously on days 1, 8, and 15 of each 28-day cycle) until disease progression or unacceptable toxicity. In phase 1b, six patients received pumitamig (20 mg/kg once every 2 weeks intravenously plus nab-paclitaxel 100 mg/m2 intravenously on days 1, 8, and 15 of each 28-day cycle) and were monitored for treatment-emergent adverse events, before subsequent enrolment in phase 2. The primary endpoints were confirmed objective response rate and safety, assessed in the efficacy-evaluable population, defined as all patients who received one or more doses of study drug and had measurable disease at baseline and at least one efficacy assessment. This trial is registered with chictr.org.cn (ChiCTR2200060400) and ClinicalTrials.gov (NCT05918133), and is closed to recruitment. Between June 27, 2022, and March 15, 2023, 42 patients were enrolled, received one or more doses of pumitamig plus nab-paclitaxel (median duration of exposure 9·0 months, 95% CI 6·9-11·7) and had one or more tumour assessments. All patients were Chinese and female; median age was 53 years (IQR 41-60). At a median follow-up of 35·2 months (95% CI 33·0-36·1), the confirmed objective response rate was 73·8% (95% CI 58·0-86·1; 31 of 42 patients), including one complete response and 30 partial responses. The most frequent treatment-related adverse events of grade 3 or worse were decreased neutrophil count (13 [31%] of 42 patients), decreased white blood cell count (11 [26%]), proteinuria (six [14%]), and febrile neutropenia (five [12%]). Nine (21%) patients reported 14 treatment-related serious adverse events (alanine aminotransferase increased n=2; febrile neutropenia n=2; pancreatitis n=2; and ascites, aspartate aminotransferase increased, abdominal distension, γ-glutamyltransferase increased, blood alkaline phosphatase increased, cataract, macular oedema, and retinal vein occlusion all n=1). Treatment-related adverse events led to discontinuation of both nab-paclitaxel and pumitamig in four (10%) patients, discontinuation of nab-paclitaxel only in three (7%) patients, and discontinuation of pumitamig only in two (5%) patients. There were no treatment-related deaths. Treatment with first-line pumitamig plus nab-paclitaxel showed encouraging antitumour activity in patients with advanced or metastatic triple-negative breast cancer and a safety profile consistent with the mode of actions of both agents. These findings warrant further clinical evaluation in global phase 2 and 3 trials. Biotheus (BioNTech group). For the Chinese translation of the abstract see Supplementary Materials section.",
-      "doi": "10.1016/S1470-2045(26)00378-5",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-06T07:59:16.428083+00:00",
-      "journal": "The Lancet Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-05",
-      "pmid": "42987884",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 66,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "core",
-      "title": "Activity and safety of first-line pumitamig plus nab-paclitaxel in triple-negative breast cancer: a single-arm, phase 1b/2 trial.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42987884/"
-    },
-    {
-      "abstract": "Digital health may extend cardiovascular care in communities with limited specialist access, but its effectiveness depends on whether communities have the infrastructure, devices, affordability, and capacity needed to use digital services. We linked national data on cardiometabolic disease burden, cardiology workforce, and digital readiness across 82,999 US census tracts. Among high-burden tracts in counties with no cardiologist or declining per-capita cardiologist supply, 4,765 (18.0%) tracts representing 19.9 million residents had higher digital readiness and were thus classified as deployment-priority tracts, whereas 21,752 (82.0%) tracts representing 74.1 million residents had lower readiness and were investment-priority tracts. Investment-priority tracts were spread across the urban-rural continuum and faced different barriers (adoption versus infrastructure). Contrasting classifications frequently occurred among neighboring census tracts within the same metropolitan area, highlighting geographic variation not captured by county-level targeting. Findings were broadly consistent across nine additional analyses with varying measures of readiness, workforce access, and classification thresholds. These findings provide a national framework for distinguishing communities where digital cardiovascular care may be deployed from those where infrastructure and adoption support may first be needed to enable equitable implementation.",
-      "doi": "10.1038/s41591-026-04800-0",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-06T07:59:16.428077+00:00",
-      "journal": "Nature Medicine",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-05",
-      "pmid": "42988365",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 66,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "core",
-      "title": "Digital readiness for cardiovascular care in high-burden US communities with cardiology workforce constraints.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42988365/"
-    },
-    {
-      "abstract": "",
       "doi": "10.1016/j.accpm.2026.101981",
       "evidence_level": "metadata_or_abstract_only",
       "first_detected": "2026-11-06T07:59:16.428063+00:00",
@@ -4330,30 +4524,6 @@
       "tier": "specialist",
       "title": "Reply to \"Confounding by indication beyond exposure misclassification in cesarean anesthesia and postpartum depression\".",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42988043/"
-    },
-    {
-      "abstract": "T cells engineered to express recombinant T cell receptors (TCRs) or chimeric antigen receptors (CARs) can induce durable clinical responses in solid and hematological malignancies. However, manufacturing is resource intensive and often yields highly differentiated, exhausted T cell products. To address this, we developed an antigen-scaffold (Ag-scaffold) technology that presents cognate antigen alongside stimulatory cytokines to preferentially expand genetically engineered T cells. We expanded CRISPR-Cas9- and lentivirally engineered TCR T cells with peptide MHC (pMHC)-presenting Ag-scaffolds and anti-CD19 CAR T cells with CD19-presenting Ag-scaffolds. By applying cognate pMHC Ag-scaffolds, we achieved on average 69% (±22%) antigen-specific T cells after 14 days of culture with a cytotoxic, proliferative profile. Ag-scaffold expansion enhanced initial TCR and CAR cytotoxicity; repeated rechallenges showed sustained control. In vivo, Ag-scaffold-expanded CRISPR-Cas9-engineered NY-ESO-1-specific TCR T cells and anti-CD19 CAR T cells also showed improved tumor control in lymphoma and solid tumor xenograft models compared to cells expanded with IL2/7/15.",
-      "doi": "10.1016/j.xcrm.2026.103128",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-06T07:59:16.428060+00:00",
-      "journal": "Cell Reports Medicine",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-05",
-      "pmid": "42987830",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 69,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Antigen scaffolds drive preferential expansion of functional genetically engineered CAR and TCR T cells.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42987830/"
     },
     {
       "abstract": "",
@@ -5998,15 +6168,20 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42969194/"
     },
     {
-      "abstract": "",
+      "abstract": "Expert clinical guidelines discourage routine benzodiazepine premedication in older adults because of associations with adverse postoperative outcomes, including delirium and prolonged length of stay. However, these recommendations primarily address acute administration, whereas chronic preoperative benzodiazepine use for non-surgical indications remains incompletely understood, and the relevant evidence has not been comprehensively synthesised. This scoping review characterised the literature on chronic preoperative benzodiazepine use and perioperative outcomes by mapping study characteristics, definitions of chronic use, and associated outcome domains and trends. Published and grey literature were searched across MEDLINE, Embase, PsycINFO, Scopus, and thesis databases. Screening and full-text review were performed independently in duplicate. Eligible studies included adults undergoing surgery with chronic preoperative benzodiazepine use and excluded studies in which benzodiazepines were administered exclusively within 24 h of surgery. This scoping review was preregistered with the Open Science Framework (10.17605/OSF.IO/573JG). A total of 130 studies were included. Most were observational cohorts (n=109, 83.8%) and examined benzodiazepines as a secondary variable (n=100, 77.0%). Definitions of chronic use were heterogeneous, ranging from 1 month to >1 yr before surgery; duration was not systematically defined in 62 studies (47.7%). Postoperative opioid use (n=53, 40.8%) and delirium or cognitive impairment (n=19, 14.6%) were the most frequently examined outcome domains, with most studies reporting adverse associations with chronic preoperative benzodiazepine use. Chronic preoperative benzodiazepine use is an inconsistently defined but clinically relevant perioperative exposure. As this scoping review did not include a risk-of-bias assessment, its findings map the evidence but cannot support causal inference. Standardised definitions and prospective studies are needed to inform perioperative medication optimisation.",
       "doi": "10.1016/j.bja.2026.10.001",
       "evidence_level": "metadata_or_abstract_only",
       "first_detected": "2026-11-10T02:45:07.120384+00:00",
       "journal": "British journal of anaesthesia",
       "letter_eligibility": "unverified",
       "online_date": "2026-11-01",
+      "pmid": "43003743",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 37,
+      "priority_score": 45,
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
       "requires_oncology_context": false,
       "research_types": [
         "other"
@@ -7051,168 +7226,6 @@
       "tier": "specialist",
       "title": "Procedure-specific bleeding risk assessment: a multidisciplinary expert consensus companion to the 2026 periprocedural anticoagulant management guidelines.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42951210/"
-    },
-    {
-      "abstract": "State Entropy (SE) and Surgical Pleth Index (SPI) parameters aim to optimise anaesthetic depth and intraoperative opioid administration, but their impact on postoperative complications remains unclear. Insufficient training and limited decision support may contribute to inconsistent findings. Thus, we evaluated whether tailored training to improve SE and SPI compliance reduced major postoperative complications. Adult inpatients undergoing intermediate- to high-risk noncardiac surgery were included in this prospective single-centre before-after study in France. The educational intervention and outcomes were based on the Kirkpatrick framework. All anaesthesia providers were invited to participate voluntarily in lectures and bedside training on SE and SPI monitoring. Training impact was assessed using a composite of major postoperative complications within 28 days as the primary outcome. Secondary outcomes included changes in monitoring practices. Among 1,623 eligible patients, 1,025 were included over a 13-month period (517 before and 508 after training). Of 202 eligible providers, 91 participated in the one-month training programme (45%). After training, simultaneous SE and SPI sensor use increased from 26% to 42% (P < 0.001), and combined SE-SPI compliance increased from 23% to 39% (P < 0.001). Major postoperative complications occurred in 66/517 patients (13%) before and 71/508 patients (14%) after training (P = 0.6). Multivariable and propensity score analyses showed no significant association between the intervention and the primary outcome. This training did not reduce the incidence of major postoperative complications, despite improvements in intraoperative monitoring practices. Future educational strategies should strengthen provider engagement and reinforcement to translate improved monitoring practices into clinical benefit. ClinicalTrials.gov: NCT06111248.",
-      "doi": "10.1016/j.accpm.2026.101964",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-29T07:16:21.110454+00:00",
-      "journal": "Anaesthesia, critical care & pain medicine",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-28",
-      "pmid": "42951211",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 55,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "anesthesiology",
-      "tier": "specialist",
-      "title": "Effect of a Tailored Educational Programme on Adequacy of Anaesthesia and Major Postoperative Complications: A Before-After Quality-Improvement Study in Intermediate- and High-Risk Surgery.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42951211/"
-    },
-    {
-      "abstract": "To compare ultrasound-guided infraorbital nerve block with transnasal sphenopalatine ganglion block on recovery quality 24 h after septorhinoplasty. Prospective, randomized, patient- and assessor-blinded, parallel-group trial. Tertiary training hospital; operating room and postoperative ward. Ninety adults aged 18 to 65 years, ASA physical status I or II, undergoing elective septorhinoplasty; 89 were analyzed. After induction of general anesthesia, patients received bilateral transnasal sphenopalatine ganglion block (SPG group) or bilateral ultrasound-guided infraorbital nerve block (IO group), 2 mL of 0.5% bupivacaine per side. Surgical infiltration and multimodal analgesia were identical in both groups. The primary outcome was the total Quality of Recovery-15 (QoR-15) score at 24 h. Secondary outcomes were QoR-15 domains, visual analog scale pain scores, rescue morphine, nausea and vomiting, anesthetic consumption, emergence agitation, edema, ecchymosis and recovery room stay. Total QoR-15 at 24 h was higher in the IO group (129.1 ± 9.4 versus 116.6 ± 11.7; mean difference 12.5 points, 95% CI 8.01 to 17.01; P = 0.001), above the prespecified minimal clinically important difference of 8. More IO patients crossed the acceptable symptom state threshold of 118 (86.4% versus 35.6%; P < 0.001). Pain scores were lower at every time point and fewer IO patients needed rescue analgesia (11.4% versus 53.3%; P = 0.001). Nausea and vomiting, anesthetic consumption and recovery room stay did not differ. Infraorbital nerve block gave better 24 h patient-reported recovery than sphenopalatine ganglion block after septorhinoplasty. Secondary findings are hypothesis-generating. ClinicalTrials.govNCT06929429.",
-      "doi": "10.1016/j.jclinane.2026.112354",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-29T07:16:21.110401+00:00",
-      "journal": "Journal of clinical anesthesia",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-28",
-      "pmid": "42950360",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 63,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "research_types": [
-        "clinical_trial"
-      ],
-      "source": "pubmed",
-      "specialty": "anesthesiology",
-      "tier": "specialist",
-      "title": "Infraorbital versus sphenopalatine ganglion block for patient-reported recovery after septorhinoplasty: A randomized controlled trial.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42950360/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1097/ALN.0000000000006391",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-28T21:47:32.922006+00:00",
-      "journal": "Anesthesiology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-28",
-      "pmid": "42949667",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 47,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "anesthesiology",
-      "tier": "specialist",
-      "title": "Optimal Gas Flow in Total Intravenous Anesthesia: Comment.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42949667/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1213/ANE.0000000000008314",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-28T21:47:32.922002+00:00",
-      "journal": "Anesthesia and analgesia",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-28",
-      "pmid": "42949997",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 47,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "anesthesiology",
-      "tier": "specialist",
-      "title": "Practice Patterns and Staffing Models for Nonoperating Room Anesthesia in the Intensive Care Unit: An Exploratory Survey of the Membership of the American Society of Anesthesiologists Committee on Critical Care Medicine.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42949997/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1007/s00540-026-03936-0",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-28T11:33:31.810754+00:00",
-      "journal": "Journal of anesthesia",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-27",
-      "pmid": "42946833",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 32,
-      "publication_types": [
-        "Letter"
-      ],
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "anesthesiology",
-      "tier": "specialist",
-      "title": "Reply to Comments on \"Nationwide trends in cardiac anesthesia requiring cardiopulmonary bypass and intraoperative transesophageal echocardiography use in Japan: a claims-based analysis, 2019-2023\".",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42946833/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1016/j.bja.2026.08.074",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-28T11:33:31.810703+00:00",
-      "journal": "British journal of anaesthesia",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-27",
-      "pmid": "42946572",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 32,
-      "publication_types": [
-        "Letter"
-      ],
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "anesthesiology",
-      "tier": "specialist",
-      "title": "Dexmedetomidine produces more sleep-like brain activity compared with propofol in human participants. Response to Br J Anaesth 2026; 137: 1217-8.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42946572/"
-    },
-    {
-      "abstract": "Indigenous Peoples in Canada are disproportionately burdened with a spectrum of health issues and consistently report lower satisfaction with their health care; nevertheless, little is known about their experiences with critical care and the support received during critical illness. We aimed to describe the current scope of critical-care-specific resources available to Indigenous patients and their families across Alberta to identify gaps and opportunities to implement actionable change to realize more equitable and culturally safe care. We conducted a two-phase environmental scan. Phase 1 entailed searching websites for information to support Indigenous patients, their families, and health care workers. Phase 2 facilitated 21 interviews with intensive care unit (ICU) stakeholders from across Alberta to further describe site-specific resources, services, tools, or initiatives to support Indigenous Peoples. Indigenous partners were engaged through all aspects of the project. Our environmental scan identified a paucity of ICU-specific resources, programs, or policies to support Indigenous patients and families' navigation with critical care. We identified two national resources aimed at clinicians, rather than patients or families. Interviews with ICU stakeholders confirmed the paucity of Indigenous-specific resources. Stakeholders cited numerous barriers, including inadequate culture training, staff time constraints and burnout, physical space limits, and insufficient personnel, such as Indigenous liaisons and social workers. Multiple gaps exist in the availability of critical-care-focused resources and supports for Indigenous Peoples experiencing critical illness in Alberta, Canada. Addressing these care gaps may improve health equity, access, and the experience for Indigenous patients and families during critical illness and further build trust and strengthen relationships with health care workers.",
-      "doi": "10.1007/s12630-026-03213-4",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-10-28T11:33:31.810696+00:00",
-      "journal": "Canadian journal of anesthesia",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-27",
-      "pmid": "42946875",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 55,
-      "publication_types": [
-        "Journal Article",
-        "Review"
-      ],
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "anesthesiology",
-      "tier": "specialist",
-      "title": "Environmental scan of Indigenous resources and culturally specific tools across intensive care units in Alberta, Canada.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42946875/"
     }
   ],
   "schema_version": "0.3",
