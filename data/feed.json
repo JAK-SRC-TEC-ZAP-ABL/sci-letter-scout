@@ -1,12 +1,157 @@
 {
   "ai_status": "disabled",
-  "generated_at": "2026-11-12T16:04:54.389360+00:00",
+  "generated_at": "2026-11-12T22:13:45.814501+00:00",
   "harmony_push_status": "not_configured",
   "journal_counts": {
     "anesthesiology": 13,
     "oncology": 100
   },
   "papers": [
+    {
+      "abstract": "",
+      "doi": "10.1093/neuonc/noag269",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-12T22:13:45.741271+00:00",
+      "journal": "Neuro-Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43017792",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 47,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "specialist",
+      "title": "Corrigendum to: IMGP-06. Radiomic Risk Stratification for Pediatric High-Grade Glioma.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43017792/"
+    },
+    {
+      "abstract": "This retrospective study aimed to identify molecular predictors of treatment response and survival in 207 newly diagnosed acute myeloid leukemia (AML) patients treated with Venetoclax combined with hypomethylating agents (VEN-HMAs). After one treatment course, the composite complete remission (CR/CRi) rate was 69.6% (144/207), with 70.5% (93/132) of responders achieving minimal residual disease (MRD) negativity. According to the 2017 ELN risk stratification, the CR/CRi rates in the favorable-, intermediate-, and high-risk groups were 77.2%, 64.0%, and 66.6%, respectively. For treatment response, RUNX1-RUNX1T1, FLT3-ITD, and TP53 mutations independently predicted unfavorable to VEN-HMAs therapy. Multivariable analysis identified NRAS and PTPN11 mutations as independent adverse prognostic factors for overall survival, while achievement of CR/CRi after the first treatment course and receiving hematopoietic stem cell transplantation (HSCT) were favorable predictors. Based on molecular status, patients were stratified into three prognostic groups. The median OS was 9.5 months in the TP53-mutant (low-benefit) group and 21 months in the medium-benefit group (TP53 wild-type with FLT3-ITD or K/NRAS mutations). The high-benefit group (wild-type TP53, no FLT3-ITD, and wild-type K/NRAS) had a significantly superior OS (not reached) compared to the others (p < 0.001), while OS between the medium- and low-benefit groups was comparable (p = 0.096). VEN-HMAs therapy is associated with high response rates in this real-world cohort, though treatment response varies substantially by molecular profile. A comprehensive understanding of these influencing factors and the development of refined risk stratification systems require further investigation.",
+      "doi": "10.1002/ijc.70722",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-12T22:13:45.741170+00:00",
+      "journal": "International Journal of Cancer",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43018266",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 58,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Exploring Efficacy and Predictors of Response to Venetoclax and Hypomethylating Agents in Newly Diagnosed Acute Myeloid Leukemia: A Real-World Study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43018266/"
+    },
+    {
+      "abstract": "Adult glioblastoma (GBM) is an aggressive brain tumor that has yet to benefit from advances in immunotherapy. Prior studies report contrasting leukocyte immunophenotypes between tumors and an association between myeloid macrophage infiltration and worse patient outcomes. IL-8, a cytokine with both inflammatory and suppressive roles, was recently associated with M2 macrophage phenotypes in GBM. These observations raise key questions: do GBM macrophages suppress or support other immune cells, is IL-8 in GBM a mechanistic driver of GBM macrophage function, and can IL-8 instruct macrophages in situ within tumors? Here, functional experiments with primary human GBM tumor cells from initial surgical resections showed that IL-8 from GBM contributes to and is sufficient to instruct monocyte-derived macrophages that suppress healthy T cells. Notably, IL-8 protein expression was enriched in aggressive tumors contacting the V-SVZ region and was not associated with increased infiltration of cells expressing the IL-8 receptors CXCR1/CXCR2. Suppressor cells instructed by GBM ex vivo phenotypically matched myeloid macrophages observed in vivo, and neutralizing IL-8 during instruction blocked this and restored T cell proliferation. Analysis of IL-8 RNA showed the cytokine is primarily produced by CD45- tumor cells. These results suggest a model where ongoing IL-8 production by GBM cells maintains an immunosuppressive microenvironment by signaling to myeloid macrophages within the tumor. Immunotherapies relying on T cells should now investigate whether IL-8 blockade prevents instruction of macrophages into tumor-protective suppressor cells.",
+      "doi": "10.1158/2326-6066.CIR-26-0415",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-12T22:13:45.741127+00:00",
+      "journal": "Cancer Immunology Research",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43018636",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 66,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "IL-8 in Human Glioblastoma Tumors Instructs Immunosuppressive Myeloid Cells.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43018636/"
+    },
+    {
+      "abstract": "Natural killer (NK) cells offer a promising off-the-shelf platform for cancer immunotherapy, yet their clinical efficacy is often limited by tumor-intrinsic resistance. Here, we show that loss of core microRNA (miRNA) machinery components, Argonaute‑2 (AGO2) or Ankyrin Repeat Domain 52 (ANKRD52), renders tumor cells hypersensitive to NK cell-mediated killing in both co-culture and xenograft models. Mechanistically, genetic ablation of Ago2 or Ankrd52 impairs miRNA-mediated silencing of critical mitochondrial apoptotic regulators and NK-cell-associated ligands in tumor cells, exemplified by the disrupted repression of pro-apoptotic Bim transcripts by miR-24 and miR-29b, thereby unleashing rapid TNF-α-driven apoptosis. Additionally, metabolic and ultrastructural analyses demonstrate collapsed membrane potential, diminished ATP levels, and fragmented mitochondria in Ago2- or Ankrd52-mutant tumor cells, accompanied by a lower apoptotic threshold upon TNF-α or NK cell challenge. Genome‑wide CRISPR library screen further revealed a selective fitness dependency on mitochondrial electron‑transport and ATP‑synthase genes in mutant tumor cells. Collectively, these findings define defective miRNA machinery as a tumor‑intrinsic vulnerability that couples mitochondrial fragility with increased NK-mediated cytotoxicity, nominate miRNA‑pathway status as a predictive biomarker, and propose that co‑targeting mitochondrial metabolism or apoptosis may potentiate NK‑cell therapies.",
+      "doi": "10.1158/2326-6066.CIR-26-0559",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-12T22:13:45.741124+00:00",
+      "journal": "Cancer Immunology Research",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43018642",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 66,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "MicroRNA core machinery maintains mitochondrial integrity to empower cancer escape from natural killer cell cytotoxicity.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43018642/"
+    },
+    {
+      "abstract": "Early detection of esophageal squamous cell carcinoma (ESCC) is hindered by a lack of noninvasive biomarkers for precancerous lesions. Here, we report a circulating cell-free DNA (cfDNA) methylation approach for early esophageal neoplasia detection. In prospective community screening, the assay achieved standardized sensitivity of 78% at 79% specificity for the clinically actionable endpoint of high-grade intraepithelial neoplasia (HGIN) or ESCC, with stage-specific sensitivities of 76% for HGIN and 86% for ESCC. Genome-wide methylation profiling reveals HGIN as an early epigenetic reprogramming stage. Integrative spatial and single-cell RNA sequencing reveals pronounced remodeling of the endothelial-proximal epithelial cell population, whose methylation signatures are detected in cfDNA. Guided by these findings, we develop an 11-gene cfDNA methylation panel that shows robust discrimination of early-stage ESCC across three retrospective case-control sets and an independent screening-derived case-control set. Together, these results demonstrate that our cfDNA methylation panel has promising utility for early ESCC detection.",
+      "doi": "10.1158/2159-8290.CD-26-0691",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-12T22:13:45.741057+00:00",
+      "journal": "Cancer Discovery",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43018467",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 74,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "single_cell"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Perivascular epithelial remodeling is reflected in circulating cfDNA methylation signals as detection markers for early esophageal tumorigenesis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43018467/"
+    },
+    {
+      "abstract": "Many tumors remain poorly responsive to immune checkpoint blockade. The metabolic microenvironment in tumors can mediate immunosuppression by failing to sustain productive cytotoxic lymphocyte function. Here, we showed that a coordinated ketogenic-fasting (KF) regimen sensitized immune-refractory tumors to PD-1 blockade by integrating distinct metabolic and microbial effects of ketogenic diet (KD) and intermittent fasting (IF). The KF combination established a distinct immunometabolic state that could not be fully recapitulated by either KD or IF intervention alone. KF induced systemic glucose restriction while preserving intratumoral glutamine availability and selectively upregulating the glutamine transporters SLC38A1 and SLC38A2 in tumor-infiltrating CD8+ T cells and NK cells, fueling interferon-STAT1 signaling and effector activity. Single-cell transcriptomic analysis identified KF-associated cytotoxic lymphocyte states characterized by enhanced nutrient access signatures, increased effector function, and reduced terminal dysfunction. Microbiota depletion attenuated KF-mediated tumor control without abolishing intratumoral glutamine enrichment. Fecal microbiota transfer and monocolonization identified Odoribacter splanchnicus as sufficient to restore tumor control and cytotoxic T-cell activity in microbiota-depleted hosts. Mechanistically, O. splanchnicus was linked to host polyamine remodeling and indole-3-lactic acid, which supported durable CD8+ T-cell functions distinct from the glutamine-driven effector arm. KF enhanced anti-PD-1 efficacy in immune-cold tumor models, and public human datasets showed concordant associations between glutamine context, Odoribacter abundance, and immunotherapy response. Together, these findings identify a diet-responsive host-microbiota metabolic mechanism that stimulates antitumor immunity and sensitizes immune-cold tumors to immunotherapy.",
+      "doi": "10.1158/0008-5472.CAN-26-1941",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-12T22:13:45.741015+00:00",
+      "journal": "Cancer Research",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43018440",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 82,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "single_cell",
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Ketogenic Fasting Suppresses Tumor Growth and Enhances PD-1 Blockade Efficacy Through Glutamine Partitioning and Microbial Metabolite Remodeling.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43018440/"
+    },
     {
       "abstract": "Accurate preoperative evaluation of tumor extension in olfactory neuroblastoma (ONB) is critical for optimizing surgical planning, particularly for predicting unexpected intracranial and contralateral invasion. However, discrepancies between preoperative imaging and postoperative pathology remain a challenge. This study compares preoperative imaging with detailed pathological evaluation of anatomically oriented specimens to assess ONB progression, characterize patterns associated with unexpected invasion, and improve surgical strategies. This retrospective study analyzed 58 ONB patients who underwent endoscopic transnasal resection at Jikei University Hospital between January 2018 and March 2024. Preoperative computed tomography and magnetic resonance imaging were reviewed by a radiology specialist and compared with postoperative pathological evaluation of anatomically oriented resected specimens. Tumors were classified using Kadish staging and Hyams grading. The cohort had a median age of 53 years (range, 29-85 years), with 67.2% male participants. Preoperative staging classified 37.9% of the cases as Kadish C. Among 36 cases preoperatively staged as Kadish A or B, eight (22.2%) exhibited occult intracranial involvement. Unexpected contralateral invasion was observed in five cases, all Kadish C, frequently associated with tumor progression through bony transition areas at the skull base and nasal septum junction. Tumor invasion into the crista galli was identified in six cases, with one case suggesting metastatic spread rather than direct invasion. Occult intracranial involvement in Kadish A and B cases may warrant consideration of skull base resection even in early stages. Contralateral invasion was limited to Kadish C and may support consideration of bilateral skull base resection in selected cases where preoperative imaging demonstrates intracranial extension and tumor proximity to key skull base transition areas. Preserving crista galli integrity during resection facilitates detailed pathological evaluation and may contribute to more accurate staging and prognostic assessment.",
       "doi": "10.1002/cam4.72328",
@@ -396,6 +541,30 @@
       "tier": "cross",
       "title": "Perioperative Apalutamide in High-Risk Localized Prostate Cancer. Reply.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/43013829/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/s41408-026-01641-5",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-12T22:13:45.741437+00:00",
+      "journal": "Blood Cancer Journal",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-11",
+      "pmid": "43015299",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 32,
+      "publication_types": [
+        "Letter"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "specialist",
+      "title": "Real-world treatment patterns and clinical outcomes in relapsed/refractory multiple myeloma across Asia: a multicenter Asian Myeloma Network study (AMN010).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43015299/"
     },
     {
       "abstract": "BCR::ABL1 is the oncogenic driver of chronic myeloid leukemia (CML) and Philadelphia chromosome-positive (Ph + ) acute lymphoblastic leukemia (ALL), with BCR::ABL1 p210 and p190 being the predominant isoforms. Asciminib, an inhibitor that specifically targets the ABL myristate pocket (STAMP), has demonstrated efficacy in both pre-clinical and clinical studies against p210-driven CML, including cases where resistance mediated by ATP-pocket mutations has developed during prior tyrosine kinase inhibitor (TKI) therapy. The resistant mutation profile of asciminib is currently considered largely distinct from that of ATP-competitive TKIs. In our study, we demonstrate that several ATP-pocket mutations, including the V299L, F311I, T315I, and F317C/L, confer high levels of resistance to asciminib in the p190 isoform (> 1000-fold increase in LD50asciminib values compared to non-mutated BCR::ABL1 p190), but remain sensitive when occurring in the p210 isoform. The T315A was the only tested mutation in BCR::ABL1 p190 sensitive to asciminib. Furthermore, cells expressing BCR::ABL1 p190 mutations exhibited decreased kinase inhibition following STAMP treatment, indicative of an active kinase. Analogous results were obtained for MK-4208 (formerly known as TERN-701), a clinically active investigational STAMP compound. In the BCR::ABL1 p190 setting, this work reveals an overlapping resistance profile between STAMP compounds and TKIs, with important considerations for STAMP-based therapy. It challenges two key assumptions: that asciminib dose escalation can overcome resistant ATP-pocket mutations and that targeted therapy sensitivity profiles are equivalent between the p190 and p210 isoforms.",
@@ -4111,174 +4280,6 @@
       "tier": "oncology",
       "title": "Multifocal intradural extramedullary myxopapillary ependymoma of the spine.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/43007444/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1245/s10434-026-20838-3",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-10T18:10:10.520314+00:00",
-      "journal": "Annals of Surgical Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-09",
-      "pmid": "43004093",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 50,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "ASO Visual Abstract: Recent National Trends in Time to Breast Cancer Surgery Before and After the COVID-19 Pandemic Onset and Predictors of Failure to Receive Timely Surgery.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43004093/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1245/s10434-026-20872-1",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-10T18:10:10.520310+00:00",
-      "journal": "Annals of Surgical Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-09",
-      "pmid": "43004094",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 50,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "ASO Visual Abstract: Social Deprivation, Not Rurality, is Associated with Receipt of Guideline Concordant Care for Pancreas Cancer in North Carolina.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43004094/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1245/s10434-026-20875-y",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-10T18:10:10.520307+00:00",
-      "journal": "Annals of Surgical Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-09",
-      "pmid": "43004095",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 50,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "ASO Visual Abstract: Limited Benefit of Adjuvant Chemotherapy in Pathological Stage II-III Non-small-cell Lung Cancer Lacking Lymphatic, Vascular, and Pleural Invasion.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43004095/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1245/s10434-026-20881-0",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-10T18:10:10.520303+00:00",
-      "journal": "Annals of Surgical Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-09",
-      "pmid": "43004096",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 50,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "ASO Visual Abstract: LC-WGS-based Chromosomal Instability Analysis of EUS-FNA Specimens for Diagnosing Solid Pancreatic Lesions.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43004096/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1245/s10434-026-20795-x",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-10T18:10:10.520300+00:00",
-      "journal": "Annals of Surgical Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-09",
-      "pmid": "43004098",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 50,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "ASO Visual Abstract: Recommendations for the Multimodal Management of Malignant Bowel Obstructions: Results of a North American Multidisciplinary Delphi Consensus.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43004098/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1245/s10434-026-20912-w",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-10T18:10:10.520296+00:00",
-      "journal": "Annals of Surgical Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-09",
-      "pmid": "43004104",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 50,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "ASO Author Reflections: Beyond the Final Grade-rethinking Pathological Discordance in Prostate Cancer Prognostication.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43004104/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1038/s41388-026-04045-8",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-10T18:10:10.520289+00:00",
-      "journal": "Oncogene",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-09",
-      "pmid": "43003877",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 50,
-      "publication_types": [
-        "Expression of Concern"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Editorial Expression of Concern: Identification of novel VHL targets that are associated with the development of renal cell carcinoma.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43003877/"
     },
     {
       "abstract": "",
