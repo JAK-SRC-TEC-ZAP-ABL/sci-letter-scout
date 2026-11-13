@@ -1,12 +1,57 @@
 {
   "ai_status": "disabled",
-  "generated_at": "2026-11-13T02:40:49.115650+00:00",
+  "generated_at": "2026-11-13T10:00:45.414267+00:00",
   "harmony_push_status": "not_configured",
   "journal_counts": {
     "anesthesiology": 13,
     "oncology": 100
   },
   "papers": [
+    {
+      "abstract": "Liquid biopsies are one of the few noninvasive procedures for probing disease at the molecular level. They represent a scalable solution to cancer detection and monitoring by capturing tumor-derived signals from circulating biomolecules such as proteins, DNA, RNA, and metabolites. However, these signals are often sparse, heterogeneous, and shaped by genetics, demographics, and comorbidities. Recent advances in artificial intelligence, especially with multimodal foundation models, have proven capable of extracting signals from noisy, high-dimensional data. Pretraining on large cohorts and integrating complementary modalities may improve sensitivity for tumor signals in blood, though significant clinical and infrastructural barriers remain. This review synthesizes advances in liquid biopsy technologies and artificial intelligence and examines how their convergence can enable enhanced cancer monitoring.",
+      "doi": "10.1016/j.cell.2026.10.024",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-13T10:00:45.345257+00:00",
+      "journal": "Cell",
+      "letter_eligibility": "unverified",
+      "online_date": null,
+      "pmid": "43020014",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 46,
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Deploying liquid intelligence in cancer: Finding answers in our blood.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43020014/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/s41388-026-04058-3",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-13T10:00:45.345241+00:00",
+      "journal": "Oncogene",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-13",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 50,
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Editorial Expression of Concern: Differential in vivo tumorigenicity of diverse KRAS mutations in vertebrate pancreas: A comprehensive survey",
+      "url": "https://doi.org/10.1038/s41388-026-04058-3"
+    },
     {
       "abstract": "",
       "doi": "10.1182/blood.2026035585",
@@ -55,6 +100,586 @@
       "tier": "specialist",
       "title": "Paravertebral extramedullary chronic myelomonocytic leukemia mimicking myeloid sarcoma.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/43018993/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1016/j.euo.2026.10.007",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-13T10:00:45.345375+00:00",
+      "journal": "European Urology Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43020718",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 32,
+      "publication_types": [
+        "Editorial"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "specialist",
+      "title": "Adjuvant Pembrolizumab in Patients with Clear Cell Renal Cell Carcinoma: From Eligibility to Individual Treatment Decision.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43020718/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1136/gutjnl-2026-339761",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-13T10:00:45.345251+00:00",
+      "journal": "Gut",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43020650",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 47,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": true,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "specialist",
+      "title": "Shigella flexneri activates the mature DC-Tfh axis to drive tertiary lymphoid structure neogenesis and maturation in colorectal tumour microenvironments.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43020650/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/s41698-026-01758-7",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-13T10:00:45.345243+00:00",
+      "journal": "npj Precision Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 50,
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "crossref",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Telomere maintaining germline and somatic variants in thyroid cancer and melanoma",
+      "url": "https://doi.org/10.1038/s41698-026-01758-7"
+    },
+    {
+      "abstract": "Enfortumab vedotin (EV), an anti-nectin-4 antibody-drug conjugate, alone and with pembrolizumab (EV plus pembrolizumab [EV/P]), has transformed the treatment of locally advanced/metastatic urothelial carcinoma (la/mUC), yet remains biomarker agnostic. We prospectively evaluated [68Ga]Ga-DOTA-N188 PET/CT ([68Ga]-N188 PET/CT) as a whole-body alternative for nectin-4 imaging, with [18F]-FDG PET/CT as an active comparator and conventional computed tomography as the reference standard for staging la/mUC in 25 patients planned for EV/P. [18F]-FDG PET/CT showed a higher maximum standardized uptake value and tumor-to-background ratio than [68Ga]-N188 PET/CT across most lesion types (primary tumor, visceral, and osseous), except for lymph nodes. The overall tracer correlation was weak (Spearman r = 0.196), strongest in lymph nodes (r = 0.657), and absent in primary tumors and bone lesions. For primary tumor detection, [68Ga]-N188 PET/CT had higher specificity (86% vs 57%) and positive predictive value (92% vs 83%) than FDG, which had higher sensitivity (88% vs 67%). Nodal staging performance was similar in the tracers. For distant metastases, both achieved 100% sensitivity and negative predictive value, with [68Ga]-N188 PET/CT showing marginally higher specificity. [68Ga]-N188 PET/CT is feasible for whole-body nectin-4 assessment in la/mUC and supports a distinct biodistribution from FDG, suggesting complementary rather than interchangeable roles. Further prospective evaluation with treatment-outcome correlation is warranted before its use as a biomarker to guide EV-based therapy selection.",
+      "doi": "10.1016/j.eururo.2026.10.018",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-13T10:00:45.345203+00:00",
+      "journal": "European Urology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43020696",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 55,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": true,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "specialist",
+      "title": "Diagnostic Performance of Nectin-4-targeted [68Ga]Ga-DOTA-N188 PET/CT versus [18F]-FDG PET/CT for Staging of Locally Advanced and Metastatic Urothelial Carcinoma: A Prospective, Single-center, Phase 2 Feasibility Trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43020696/"
+    },
+    {
+      "abstract": "To determine whether racial and ethnic differences in ovarian cancer survival exist across states, represented in National Cancer Institute's Surveillance, Epidemiology, and End Results (SEER) database, and assess whether racial and ethnic differences in ovarian cancer survival differed by factors associated with ovarian cancer prognosis. Using SEER 17 data (2000-2022), we constructed a cohort of 103,554 epithelial ovarian, fallopian tube, and primary peritoneal cancer cases. Self-reported race was cross-classified with the NAACCR Hispanic Identification Algorithm variable to create racial and ethnic groups. Multivariable adjusted Cox proportional hazards models estimated hazard ratios (HRs) and 95% confidence intervals (CIs) for ovarian cancer-specific survival by race and ethnicity, overall and stratified by registry state, histotype, stage, and treatment, adjusting for a priori covariates. Geographic heterogeneity was assessed using the I-statistic. Sensitivity analyses were restricted to high-grade serous tumors. Hispanic cases had similar ovarian cancer-specific survival, while Non-Hispanic (NH) Asian cases exhibited better ovarian cancer-specific survival than NH White cases across SEER registry states (I2 = 40.2%, p-het 0.08; I2 = 0.0%, p-het 0.52; respectively). NH Black cases generally had worse survival than NH White cases, except in Kentucky (HR: 1.01; 95%CI: 0.84-1.23) and Iowa (HR: 0.82; 95%CI: 0.55-1.22). NH Native Hawaiian/PI cases also had worse survival compared with NH White cases across SEER registry states (I2 = 0.0%; p-het 0.60). Racial and ethnic disparities in ovarian cancer-specific survival are persistent and geographically consistent, suggesting broad, multi-level determinants rather than state-specific factors underscoring the need for national efforts to ensure uniform access to high-quality healthcare.",
+      "doi": "10.1016/j.ygyno.2026.11.001",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-13T10:00:45.345190+00:00",
+      "journal": "Gynecologic Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43019613",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 58,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Racial and ethnic differences in ovarian cancer survival across SEER registry states.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43019613/"
+    },
+    {
+      "abstract": "Prostate cancer affects about 1 in 8 men, with incidence influenced by age and screening. Changes in prostate-specific antigen screening recommendations have coincided with changes in stage-specific prostate cancer incidence in the United States. However, contemporary stage-specific incidence trends among men aged 40-54 years remain incompletely characterized. We evaluated temporal trends in stage-specific prostate cancer incidence among men aged 40-54 years from 2004 to 2022. A non-concurrent, population-based cohort study used the Surveillance, Epidemiology, and End Results (SEER) database (2004-2022). Of 86,894 men aged 40-54 years with microscopically confirmed prostate cancer, 84,554 men remained after excluding missing stage, autopsy-only reports, and death certificate-only reports. The primary exposure was year of diagnosis (continuous and eras: 2004-2011, 2012-2022, 2004-2022). The primary outcome was stage at diagnosis (localized, regional, distant). Analyses included delay-adjusted incidence rates, log-linear regression for annual percent change (APC) with 95% confidence intervals (CI), era-based comparisons, and chi-square testing. Cohort characteristics were described by age group, race/ethnicity, urbanicity, and marital status. Localized incidence significantly declined across all groups, while regional incidence significantly increased in the 45-49 (APC 3.63%; 95% CI 0.91-6.42) and 50-54 (APC 4.99%; 95% CI 3.90-6.08) age groups, and distant-stage incidence significantly increased in the 45-49 (APC 2.70%; 95% CI 2.15-3.26) and 50-54 (APC 2.93%; 95% CI 2.33-3.53) age groups. Neither regional or distant-stage incidence changed significantly among men aged 40-44 years. From 2004-2011, localized incidence significantly increased in the 45-49 group (APC 2.53%; 95% CI 0.01-5.12). From 2012-2022, localized incidence declined in the 40-44 (APC -5.58%; 95% CI -8.22 to -2.87) and 45-49 (APC -2.98%; 95% CI -5.14 to - 0.78) groups. Localized prostate cancer incidence declined while regional and distant-stage incidence increased among men aged 40-54 years. Although multiple factors may contribute to these trends, the findings support further assessment of risk-adapted screening approaches in this population.",
+      "doi": "10.1016/j.canep.2026.103274",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-13T10:00:45.345188+00:00",
+      "journal": "Cancer Epidemiology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43019837",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 58,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "\"Stage specific trends in prostate cancer among men aged 40-54 years: A SEER analysis, 2004-2022\".",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43019837/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1016/S1470-2045(26)00619-4",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-13T10:00:45.345166+00:00",
+      "journal": "The Lancet Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43020109",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 58,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Türkiye Health Minister calls for stricter tobacco control measures.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43020109/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1016/S1470-2045(26)00620-0",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-13T10:00:45.345164+00:00",
+      "journal": "The Lancet Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43020110",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 58,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Latin America round-up: cancer care under pressure.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43020110/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1016/S1470-2045(26)00621-2",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-13T10:00:45.345162+00:00",
+      "journal": "The Lancet Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43020111",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 58,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Review recommends radical overhaul to multidisciplinary working in NHS cancer services.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43020111/"
+    },
+    {
+      "abstract": "The HARVEST trial is a phase III randomized controlled trial comparing hypofractionated with conventional fractionated radiotherapy (HF-RT vs. CF-RT) with regional nodal irradiation (RNI, including internal mammary nodes [IMNs]) in breast cancer patients. In this study, we report the early toxicity profile, cosmetic outcomes and dosimetric quality assurance results. Enrolled patients were randomized into the HF-RT group (40.05 Gy/15 Fx) or CF-RT group (50 Gy/25 Fx). Acute toxicity was assessed with the Common Terminology Criteria for Adverse Events (CTCAE) V.3.0 scale. Cosmetic outcome was assessed using the Harvard scale. There were 400 and 401 patients enrolled in HF-RT and CF-RT group from eight centers in China, respectively. Protocol compliances exceeded 90% for most targets coverage and organs at risk constraint parameters in both groups, although IMN coverage was less complete than that of the chest wall/whole breast and supra/infraclavicular nodes. There was no significant difference of grade ≥ 2 acute toxicities between groups (RR, 0.79; 95% CI, 0.52-1.22; p=0.29). Dermatitis was the most common acute toxicity, with a significantly lower rate of grade ≥ 2 events in the HF-RT group than in the CF-RT group (RR, 0.48; 95% CI, 0.25-0.92; p=0.03). No significant differences were observed in other acute toxicities (including fatigue, pneumonitis, breast pain, dysphagia and breast edema) or in the proportion of good or excellent cosmesis among breast-conserving patients between groups. We found comparable acute toxicity and cosmesis results in HF-RT with RNI compared to CF-RT. The technical protocol was highly feasible with good protocol compliance. Additional follow-up is needed to assess the long-term efficacy and safety.",
+      "doi": "10.1016/j.ijrobp.2026.10.050",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-13T10:00:45.345144+00:00",
+      "journal": "International Journal of Radiation Oncology, Biology, Physics",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43020386",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 63,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "clinical_trial"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "specialist",
+      "title": "Early toxicity and dosimetry compliance of hypofractionated vs. conventional fractionated comprehensive regional nodes irradiation in breast cancer (HARVEST).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43020386/"
+    },
+    {
+      "abstract": "While standard MRI imaging is known to underestimate glioblastoma tumor extent, advanced imaging techniques including 18-FDOPA PET, dynamic contrast enhanced (DCE) perfusion MRI, and diffusion weighted MRI (DWI) have been utilized on clinical trials to identify tumor within and beyond gadolinium enhancement for radiation targeting. This clinical trial analysis quantifies how DCE, DWI and 18-FDOPA PET identify tumor beyond standard imaging, and whether these techniques are complementary and feasible. Patients with newly diagnosed glioblastoma enrolled on a phase II clinical trial underwent pre-radiation 18-FDOPA PET/CT, DCE, DWI, and standard MRI sequences. Tumor volumes were separately delineated using each imaging modality and incorporated into radiation target volumes, and were compared for overlapping and non-overlapping segments. In 153 enrolled patients included in this analysis, tumor was identified beyond conventionally used radiation volume expansions of 5-, 10-, 15-, and 20 mm from standard MRI tumor volumes in 86%, 56%, 38% and 20% of patients, respectively. Advanced imaging techniques identified partially overlapping tumor volumes; PET identified tumor outside of the advanced MRI subvolumes in 88%, while DWI and DCE identified tumor outside of standard MRI and PET in 95% cases, indicating these imaging techniques are complementary. Advanced imaging techniques including DCE, DWI, and 18-FDOPA PET allow complementary delineation of glioblastoma beyond contrast-enhancing tumor from standard MRI, and may be most valuable when used in combination. These advanced imaging methods can potentially facilitate accurate tumor targeting with reduced CTV expansions to spare normal tissue and enable safe hypofractionated radiation therapy.",
+      "doi": "10.1016/j.ijrobp.2026.10.040",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-13T10:00:45.345142+00:00",
+      "journal": "International Journal of Radiation Oncology, Biology, Physics",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43020387",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 63,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "clinical_trial"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "specialist",
+      "title": "The Complementary Impact of Amino Acid PET with Diffusion and Perfusion MRI for Glioblastoma Tumor Delineation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43020387/"
+    },
+    {
+      "abstract": "To compare outcome of the segment-based and gross tumor volume (GTV)-based target volume definition concepts in fractionated SBRT for vertebral metastases. This is a post hoc secondary analysis of two prospective clinical trials conducted between 2012 and 2015 (XXX1 [segment-based concept]) and between 2016 and 2023 (XXX2 [GTV-based concept]). In both trials, fractionated SBRT for painful and non-painful mechanically stable or potentially unstable vertebral metastases delivered two dose levels using simultaneous integrated boost (SIB): 35-40 Gy/5 or 48.5 Gy/10 to the high-dose planning target volume (PTV) and 20 Gy/5 and 30 Gy/10 to the conventional-dose PTV, respectively. The high-dose PTV was defined either as segment-based (XXX1) following international guidelines or GTV-based (XXX2). The primary endpoints were freedom from local progression (FFLP) and vertebral compression fracture (VCF) assessed using the Kaplan-Meier method. Patient characteristics showed several imbalances, in general more favorable for patients in the XXX2 group. The high-dose PTV in the XXX2 group (177 patients with 197 metastases) was significantly smaller than in the XXX1 group (57 patients with 63 metastases) (median 11 cm3 vs median 58 cm3, P<.001). At median follow-up of survivors of 24 months, 2-year FFLP and progressive and de novo VCF rates in the XXX2 and XXX1 groups were 95.3% vs. 86.4% (P<.001) and 10.1% vs. 34.6% (P<.001), respectively. No myelopathy or plexopathy were observed in either group. On univariable analysis the segment-based concept (Hazard ratio [HR] 5.21, 95% CI 2.53-10.72; P<.001) and lumbar spine location (HR 2.44, 95% CI 1.24-4.82, P=.01) were associated with higher rates of progressive and de novo VCF. In fractionated SBRT for vertebral metastases, reduction of the high-dose PTV to the GTV combined with focal dose escalation and low-dose elective vertebral coverage did not compromise local control and lowered the rates of VCF.",
+      "doi": "10.1016/j.ijrobp.2026.10.049",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-13T10:00:45.345139+00:00",
+      "journal": "International Journal of Radiation Oncology, Biology, Physics",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43020388",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 63,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "clinical_trial"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "specialist",
+      "title": "Comparison of segment- and GTV-based target volume concepts in SBRT for vertebral metastases: a post hoc secondary analysis of two prospective clinical trials Target volume concepts in dose-escalation SBRT.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43020388/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1136/jitc-2026-016637",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-13T10:00:45.345120+00:00",
+      "journal": "Journal for ImmunoTherapy of Cancer",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43020585",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 66,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "single_cell"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Spatial transcriptomics reveals divergent interferon and tissue remodeling programs in immune checkpoint inhibitor-induced subacute cutaneous lupus erythematosus.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43020585/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1136/rapm-2026-108741",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-13T10:00:45.345102+00:00",
+      "journal": "Regional anesthesia and pain medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43020657",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 32,
+      "publication_types": [
+        "Letter"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Timing of intravenous dexamethasone and duration of analgesia: in reply.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43020657/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1136/rapm-2026-108631",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-13T10:00:45.345099+00:00",
+      "journal": "Regional anesthesia and pain medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43020658",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 32,
+      "publication_types": [
+        "Letter"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Censoring, missing outcomes, and interpretation of similarity in a trial of intravenous dexamethasone timing.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43020658/"
+    },
+    {
+      "abstract": "Translational science is integral in deciding who would benefit the most from novel therapeutics in gynecologic oncology, yet the specimens, assays, and the data behind them are often handled inconsistently as the translational endpoints are planned late. Clinical trials involving PARP-inhibitors, immune checkpoint inhibitors (ICIs), and antibody-drug conjugates in ovarian, endometrial, and cervical cancer show that a biomarker can serve as an eligibility criterion, a stratification factor, a pharmacodynamic measure, or an exploratory tool. This review presents an operational framework for integrating translational science into the trial designs from the outset. We define exploratory, integrated, and integral biomarker tiers and tie each to analytical validation, clinical validation, and level of evidence. It proposes minimum standards for tissue and blood biospecimen collection, adequacy, sampling schedule depending on specimen type, pre-analytical variables, clinical annotation, and reporting with BRISQ, SPREC, and the BloodPAC technical data elements. We also cover newer techniques like ctDNA, addressing their intended use, tumor-informed versus tumor-naive assays, and sampling for minimal residual disease. We then review genomic, transcriptomic, spatial, single-cell, proteomic, metabolomic, and functional platforms, and why discovery should not be treated as validation for modern gynecologic oncology trials. Additionally, maintaining standards for data integration, reproducibility, NIH data sharing in NCI-sponsored, industry-sponsored, and institutional trials is crucial. Ultimately, adaptive master protocols and ctDNA-guided trial designs are discussed as future directions as translational endpoints deserve the same prospective planning as the primary clinical endpoint.",
+      "doi": "10.1016/j.ygyno.2026.10.032",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-13T10:00:45.345084+00:00",
+      "journal": "Gynecologic Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43019614",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 74,
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "single_cell",
+        "clinical_trial"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Translational science in modern gynecologic oncology trials.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43019614/"
+    },
+    {
+      "abstract": "Perineural invasion (PNI) is a prominent feature of pancreatic cancer (PDAC) and is closely associated with tumor progression and poor prognosis. However, its spatial cellular architecture and underlying mechanisms remain incompletely understood. Here, we applied high-resolution spatial transcriptomics to construct a comprehensive atlas of the PNI microenvironment across distinct anatomical regions of intra and extra-pancreas. We observed that the Basal-like tumor subtype exhibited a higher propensity for PNI compared with the Classical subtype, a finding further supported by multiplex imaging on whole-mount histopathology. Comparative spatial analysis revealed distinct immune and stromal organization between tumor subtypes, with enrichment of M2-like macrophage potentially promoting epithelial cell migration in the vicinity of Basal-like tumors. In addition, we identified myofibroblast subset may promote Schwann cell activation and PNI-associated nerve injury was further accompanied by a shift toward inflammatory fibroblast polarization and features of CD8+ T cell exhaustion within the local microenvironment. Finally, spatial profiling indicated functional heterogeneity among tumor-associated Schwann cells, which may contribute to the tumor progression. Collectively, this study provides a spatially resolved view of the cellular and molecular landscape of PNI in PDAC and offers insights into Basal-specific neurotropic behavior and microenvironmental reorganization.",
+      "doi": "10.1016/j.canlet.2026.218974",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-13T10:00:45.345078+00:00",
+      "journal": "Cancer Letters",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43020313",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 74,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "single_cell",
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "A Spatial Multi-omics Atlas of Intra- and Extrapancreatic Perineural Invasion Reveals Basal-like Neurotropism and Stromal Remodeling in Pancreatic Cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43020313/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1136/rapm-2026-108594",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-13T10:00:45.345063+00:00",
+      "journal": "Regional anesthesia and pain medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43020655",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 47,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Things pain takes.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43020655/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1136/rapm-2026-108364",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-13T10:00:45.345060+00:00",
+      "journal": "Regional anesthesia and pain medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43020656",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 47,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Trends in medications for opioid use disorder before surgery by payer type, 2016-2021.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43020656/"
+    },
+    {
+      "abstract": "Spatial omics enables the integration of high-dimensional molecular organization with clinical outcomes, yet incorporating spatial single-cell information into predictive models at the population scale remains challenging. We introduce SPIN (spatial predictive integration network), which integrates subject-specific, cell-type level, spatially informed co-expression or co-abundance networks for population-scale clinical prediction. Current implementation of SPIN includes three key modules: network construction, molecular-to-clinical prediction by Bayesian scalar-on-network regression with manifold learning (BSNMani), and visualization & interpretation module. In the Seattle Alzheimer's Disease Brain Cell Atlas (SEA-AD) multiplexed error-robust fluorescence in situ hybridization (MERFISH) transcriptomics cohort, SPIN achieved an accuracy of 0.81 for dementia-status prediction and revealed co-expression subnetworks with clear biological relevance. SPIN also achieved robust survival prediction in a breast cancer single-cell proteomics cohort (C-index = 0.78), identifying two survival-associated spatial proteomic subnetworks. In summary, SPIN is an interpretable tool for spatial-omics-based clinical outcome prediction at the population scale.",
+      "doi": "10.1016/j.xgen.2026.101420",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-13T10:00:45.345046+00:00",
+      "journal": "Cell Genomics",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43020055",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 77,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "single_cell",
+        "machine_learning"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Population-scale integration of spatial omics networks for clinical prediction and biological discovery by SPIN.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43020055/"
+    },
+    {
+      "abstract": "Single-cell RNA sequencing, bulk RNA sequencing, and retrospective analyses of patient specimens identify exportin 5 (XPO5), a nuclear export receptor, as a key contributor to advanced prostate cancer (PCa) progression. Microphthalmia-associated transcription factor (MITF) activates transcription of acyl-CoA synthetase long-chain family member 4 (ACSL4). XPO5 promotes MITF nuclear export, suppresses ACSL4 transcription, and confers resistance to ferroptosis. Differential-scanning-fluorimetry-based high-throughput screening identifies 2-B8 as a molecular glue degrader of XPO5. 2-B8 covalently binds XPO5 at Cys1157 and recruits the TMEM33-RNF5 E3 ubiquitin ligase complex, promoting XPO5 ubiquitination and degradation. In cellular, cell-derived xenograft, and patient-derived xenograft models, 2-B8 induces ferroptosis, suppresses tumor growth, and enhances chemosensitivity. These findings establish the XPO5-MITF-ACSL4 axis as a mechanism of ferroptosis resistance and support targeting XPO5 for the treatment of advanced PCa.",
+      "doi": "10.1016/j.xcrm.2026.103169",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-13T10:00:45.345043+00:00",
+      "journal": "Cell Reports Medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43020072",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 77,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "single_cell",
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "XPO5 regulates ferroptosis via MITF-ACSL4 signaling to drive CRPC progression and serves as a druggable target.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43020072/"
+    },
+    {
+      "abstract": "Adoptive cell therapy (ACT) of tumor-specific T cells can improve survival in a subset of cancer patients. Current ACT approaches may be limited by using highly differentiated T cells, which can be inhibited by an immunosuppressive tumor microenvironment (TME). Here, we developed an approach to optimize ACT and used spatial transcriptomics to show how stem-like and effector CD8+ T cells differentially mediate tumor control following vaccination. Spatial transcriptomic profiling of the TME showed that ACT with stem-like T cells followed by intravenous vaccination prevented immune exclusion, increased infiltration of pro-inflammatory macrophages, and reprogrammed tumor cells to upregulate type I and type II IFN signaling gene programs, which were shown to be required for tumor control. The protective transcriptomic signature of the TME in this ACT model contained overlapping biomarkers with patients who responded to ACT therapy. This approach demonstrates synergy between transferred stem-like T cells and intravenous vaccination to transcriptionally remodel the TME and enhance tumor control.",
+      "doi": "10.1016/j.xcrm.2026.103167",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-13T10:00:45.345039+00:00",
+      "journal": "Cell Reports Medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43020073",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 77,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "single_cell",
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Spatiotemporal dynamics of adoptively transferred stem-like CD8+ T cells in the tumor microenvironment following vaccination.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43020073/"
+    },
+    {
+      "abstract": "Intravenous lipid emulsion (ILE) is the recommended first-line treatment for local anesthetic systemic toxicity (LAST), particularly when cardiovascular compromise occurs. However, uncertainty persists regarding the optimal lipid formulation, specifically the comparative efficacy of ILEs containing 100% long-chain triglycerides (LCT) versus ILEs containing a 50/50 mixture of medium- and long-chain triglycerides (MCT/LCT), as well as ILEs with a 20% versus 30% lipid concentration. The primary aim of this narrative review was to compare the efficacy of 100% LCT-containing ILEs versus 50% MCT/LCT-containing ILEs by analyzing their respective mechanisms of action in experimental models of local anesthetic-induced cardiovascular toxicity, whereas the secondary objective was to compare ILEs with a 20% versus a 30% lipid concentration. The review also integrates the physiological rationale underlying lipid resuscitation and explores a mechanistically informed framework for interpreting formulation-specific effects of ILEs. A literature search of PubMed, Embase, and Google Scholar was conducted from January 1998 through January 2026. Twenty experimental studies were identified-nine in vitro, one ex vivo, and ten in vivo-and qualitatively synthesized according to their principal mechanisms of action, including lipid shuttle, cardiotonic, vascular, and metabolic effects. The available experimental evidence suggests that 100% LCT-containing ILEs provide greater overall cardiovascular recovery than 50% MCT/LCT-containing ILEs, particularly through more effective lipid-shuttle activity and sustained myocardial protection. Conversely, 50% MCT/LCT-containing ILEs demonstrated greater vascular effects in several experimental models. Evidence comparing lipid concentrations was limited to 100% LCT-containing formulations and generally showed greater pharmacokinetic, hemodynamic, and survival effects with a 30% versus a 20% lipid concentration when administered at the same volume. The available evidence is derived exclusively from heterogeneous preclinical experimental models and should be interpreted as hypothesis-generating rather than practice-informing. Triglyceride composition and lipid concentration may influence distinct mechanisms contributing to cardiovascular recovery during LAST. These findings provide a mechanistic basis for exploring formulation-phenotype associations but do not establish formulation-specific treatment recommendations. Further experimental and translational studies are needed to determine whether these mechanistic findings translate into clinically meaningful benefits in patients with LAST.",
+      "doi": "10.1016/j.jclinane.2026.112371",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-13T10:00:45.345028+00:00",
+      "journal": "Journal of clinical anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43019873",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 63,
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Long- versus medium-chain triglycerides in lipid resuscitation therapy for local anesthetic systemic toxicity: Does the length matter? A narrative review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43019873/"
+    },
+    {
+      "abstract": "Severe neurologic injury after uncomplicated general anesthesia in previously healthy patients is rare. Since 2021, reports from South America and later from North America and Europe have described catastrophic neurologic deterioration and death after routine general anesthesia in children and adults with Venezuelan maternal ancestry. A homoplasmic mitochondrial DNA variant, MT-ND4 m.11232 T > C (p.Leu158Pro), affecting complex I of the electron transport chain, has emerged as the leading candidate susceptibility factor. This systematic review identified, appraised, and synthesized available evidence linking inhaled anesthetics, in particular sevoflurane, with severe perioperative neurologic complications in carriers of this variant and in individuals with Venezuelan maternal ancestry. The protocol was registered in PROSPERO (CRD420261471143), with searches of major biomedical databases, gray literature, and variant databases. The evidence describes a consistent but incompletely characterized syndrome defined by maternal Venezuelan ancestry, apparent preoperative health, predominant sevoflurane exposure, delayed emergence, and severe basal ganglia injury with frequent death. In patient-derived fibroblasts and cybrids, sevoflurane markedly suppressed complex I-dependent respiration, whereas propofol did not. Incidence, penetrance, and agent-specific risk remain uncertain. Cautious perioperative strategies that avoid volatile anesthetics appear justified.",
+      "doi": "10.1016/j.jclinane.2026.112375",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-13T10:00:45.345009+00:00",
+      "journal": "Journal of clinical anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-12",
+      "pmid": "43019874",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 63,
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "meta_analysis"
+      ],
+      "source": "pubmed",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Inhaled anesthetics and severe neurologic complications in individuals with Venezuelan maternal ancestry carrying the mitochondrial MT-ND4 m.11232 T > C variant: a systematic review.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43019874/"
     },
     {
       "abstract": "",
@@ -443,7 +1068,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/43018266/"
     },
     {
-      "abstract": "Adult glioblastoma (GBM) is an aggressive brain tumor that has yet to benefit from advances in immunotherapy. Prior studies report contrasting leukocyte immunophenotypes between tumors and an association between myeloid macrophage infiltration and worse patient outcomes. IL-8, a cytokine with both inflammatory and suppressive roles, was recently associated with M2 macrophage phenotypes in GBM. These observations raise key questions: do GBM macrophages suppress or support other immune cells, is IL-8 in GBM a mechanistic driver of GBM macrophage function, and can IL-8 instruct macrophages in situ within tumors? Here, functional experiments with primary human GBM tumor cells from initial surgical resections showed that IL-8 from GBM contributes to and is sufficient to instruct monocyte-derived macrophages that suppress healthy T cells. Notably, IL-8 protein expression was enriched in aggressive tumors contacting the V-SVZ region and was not associated with increased infiltration of cells expressing the IL-8 receptors CXCR1/CXCR2. Suppressor cells instructed by GBM ex vivo phenotypically matched myeloid macrophages observed in vivo, and neutralizing IL-8 during instruction blocked this and restored T cell proliferation. Analysis of IL-8 RNA showed the cytokine is primarily produced by CD45- tumor cells. These results suggest a model where ongoing IL-8 production by GBM cells maintains an immunosuppressive microenvironment by signaling to myeloid macrophages within the tumor. Immunotherapies relying on T cells should now investigate whether IL-8 blockade prevents instruction of macrophages into tumor-protective suppressor cells.",
+      "abstract": "Abstract Adult glioblastoma (GBM) is an aggressive brain tumor that has yet to benefit from advances in immunotherapy. Prior studies report contrasting leukocyte immunophenotypes between tumors and an association between myeloid macrophage infiltration and worse patient outcomes. IL-8, a cytokine with both inflammatory and suppressive roles, was recently associated with M2 macrophage phenotypes in GBM. These observations raise key questions: do GBM macrophages suppress or support other immune cells, is IL-8 in GBM a mechanistic driver of GBM macrophage function, and can IL-8 instruct macrophages in situ within tumors? Here, functional experiments with primary human GBM tumor cells from initial surgical resections showed that IL-8 from GBM contributes to and is sufficient to instruct monocyte-derived macrophages that suppress healthy T cells. Notably, IL-8 protein expression was enriched in aggressive tumors contacting the V-SVZ region and was not associated with increased infiltration of cells expressing the IL-8 receptors CXCR1/CXCR2. Suppressor cells instructed by GBM ex vivo phenotypically matched myeloid macrophages observed in vivo, and neutralizing IL-8 during instruction blocked this and restored T cell proliferation. Analysis of IL-8 RNA showed the cytokine is primarily produced by CD45- tumor cells. These results suggest a model where ongoing IL-8 production by GBM cells maintains an immunosuppressive microenvironment by signaling to myeloid macrophages within the tumor. Immunotherapies relying on T cells should now investigate whether IL-8 blockade prevents instruction of macrophages into tumor-protective suppressor cells.",
       "doi": "10.1158/2326-6066.CIR-26-0415",
       "evidence_level": "metadata_or_abstract_only",
       "first_detected": "2026-11-12T22:13:45.741127+00:00",
@@ -467,7 +1092,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/43018636/"
     },
     {
-      "abstract": "Natural killer (NK) cells offer a promising off-the-shelf platform for cancer immunotherapy, yet their clinical efficacy is often limited by tumor-intrinsic resistance. Here, we show that loss of core microRNA (miRNA) machinery components, Argonaute‑2 (AGO2) or Ankyrin Repeat Domain 52 (ANKRD52), renders tumor cells hypersensitive to NK cell-mediated killing in both co-culture and xenograft models. Mechanistically, genetic ablation of Ago2 or Ankrd52 impairs miRNA-mediated silencing of critical mitochondrial apoptotic regulators and NK-cell-associated ligands in tumor cells, exemplified by the disrupted repression of pro-apoptotic Bim transcripts by miR-24 and miR-29b, thereby unleashing rapid TNF-α-driven apoptosis. Additionally, metabolic and ultrastructural analyses demonstrate collapsed membrane potential, diminished ATP levels, and fragmented mitochondria in Ago2- or Ankrd52-mutant tumor cells, accompanied by a lower apoptotic threshold upon TNF-α or NK cell challenge. Genome‑wide CRISPR library screen further revealed a selective fitness dependency on mitochondrial electron‑transport and ATP‑synthase genes in mutant tumor cells. Collectively, these findings define defective miRNA machinery as a tumor‑intrinsic vulnerability that couples mitochondrial fragility with increased NK-mediated cytotoxicity, nominate miRNA‑pathway status as a predictive biomarker, and propose that co‑targeting mitochondrial metabolism or apoptosis may potentiate NK‑cell therapies.",
+      "abstract": "Abstract Natural killer (NK) cells offer a promising off-the-shelf platform for cancer immunotherapy, yet their clinical efficacy is often limited by tumor-intrinsic resistance. Here, we show that loss of core microRNA (miRNA) machinery components, Argonaute‑2 (AGO2) or Ankyrin Repeat Domain 52 (ANKRD52), renders tumor cells hypersensitive to NK cell-mediated killing in both co-culture and xenograft models. Mechanistically, genetic ablation of Ago2 or Ankrd52 impairs miRNA-mediated silencing of critical mitochondrial apoptotic regulators and NK-cell-associated ligands in tumor cells, exemplified by the disrupted repression of pro-apoptotic Bim transcripts by miR-24 and miR-29b, thereby unleashing rapid TNF-α-driven apoptosis. Additionally, metabolic and ultrastructural analyses demonstrate collapsed membrane potential, diminished ATP levels, and fragmented mitochondria in Ago2- or Ankrd52-mutant tumor cells, accompanied by a lower apoptotic threshold upon TNF-α or NK cell challenge. Genome‑wide CRISPR library screen further revealed a selective fitness dependency on mitochondrial electron‑transport and ATP‑synthase genes in mutant tumor cells. Collectively, these findings define defective miRNA machinery as a tumor‑intrinsic vulnerability that couples mitochondrial fragility with increased NK-mediated cytotoxicity, nominate miRNA‑pathway status as a predictive biomarker, and propose that co‑targeting mitochondrial metabolism or apoptosis may potentiate NK‑cell therapies.",
       "doi": "10.1158/2326-6066.CIR-26-0559",
       "evidence_level": "metadata_or_abstract_only",
       "first_detected": "2026-11-12T22:13:45.741124+00:00",
@@ -928,6 +1553,31 @@
       "tier": "cross",
       "title": "Perioperative Apalutamide in High-Risk Localized Prostate Cancer. Reply.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/43013829/"
+    },
+    {
+      "abstract": "The APOBEC3 family of cytidine deaminases, originally evolved for antiviral defense, functions as a potent source of somatic mutations in human malignancies. Although the genomic footprints of APOBEC3 were deciphered over a decade ago with characteristic mutational signatures (single-base substitution [SBS]2 and SBS13), their clinical significance is only now becoming apparent, shifting from a descriptive hallmark of mutagenesis to a potential predictor of therapy outcomes. Emerging evidence from landmark studies reveals that apolipoprotein B mRNA editing enzyme, catalytic polypeptide-like (APOBEC)-associated mutational signatures are associated with acquired resistance to targeted therapies and are an emerging biomarker of response to immune checkpoint inhibitors (ICIs). Mechanistically, therapy-induced activation of APOBEC3A and APOBEC3B drives the evolution of drug-tolerant persister cells and generates genomic diversity from which resistant clones emerge-a phenomenon demonstrated across epidermal growth factor receptor inhibitor resistance in lung cancer, endocrine therapy resistance in breast cancer, and androgen receptor blockade resistance in prostate cancer. Concurrently, studies have shown that APOBEC mutational signatures are associated with ICI benefit, including in tumor mutational burden-adjusted analyses, most notably in urothelial carcinoma and non-small-cell lung cancer. In this study, we review this emerging paradigm, focusing on the newly established mechanisms and clinical findings. We further address the translational hurdles of detecting APOBEC mutational signatures in clinical practice and emerging therapeutic strategies, including oligonucleotide-based inhibitors and synthetic lethality. Finally, we discuss standardizing APOBEC mutational signature detection for clinical use, including developing liquid biopsy-based dynamic monitoring, and designing prospective trials with APOBEC mutational signature-based stratification.",
+      "doi": "10.1016/j.esmoop.2026.108620",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-13T10:00:45.345067+00:00",
+      "journal": "ESMO Open",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-11",
+      "pmid": "43019806",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 74,
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "APOBEC3-mediated therapy resistance and immunogenicity in solid tumors: from genomic scars to therapeutic vulnerabilities.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43019806/"
     },
     {
       "abstract": "",
@@ -1605,7 +2255,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/43014540/"
     },
     {
-      "abstract": "",
+      "abstract": "Immune-related hepatitis (IRH) and pneumonitis (IRP) occur more frequently in East Asian versus European patients receiving immune checkpoint inhibitors (ICIs). Human leukocyte antigen (HLA) allelic variations, which differ substantially between ancestries, have been associated with immune-related adverse events (irAEs) risk and ICI efficacy in European cohorts, but large-scale validation in Asian populations is lacking. Clarifying these ancestry-specific biomarkers is critical for advancing precision immunotherapy. We conducted a single-center retrospective study of 3261 East Asian patients with lung cancer treated with ICIs (2018–2023). Of these, 380 patients developed IRH and 248 developed IRP. Each case group was randomly matched 1:3 with controls without that irAE (IRH: 1,140; IRP: 744), resulting in 1793 patients for HLA genotyping. Time-varying Cox models and landmark analyses assessed irAE-overall survival (OS) associations, adjusting for immortal time bias and clinical covariates. Sample weighted Cox-proportional hazard models were conducted to estimate the associations of HLA alleles with the occurrence of irAE and survival. With a median follow-up of 24.9 months (range 0.2–90 months), we identified two independent predictive factors: (1) Mild IRH (grade 1–2) was significantly associated with prolonged OS (p=0.004), with a median onset time of 2.17 months. This association remained consistent across landmark analyses at 3, 6, 9, 12 months and median onset time, supporting its predictive value. (2) HLA-DQB1*06:01 was independently associated with poorer OS (p=0.0004, false discovery rate: 0.03), an effect observed regardless of IRH occurrence. Notably, HLA-DQB1*06:01 frequency in our cohort (8.5%) was substantially higher than reported in European ancestry (0.7%), consistent with known ethnic differences in HLA architecture. In contrast, we found no significant associations between HLA variants and the risk of developing IRH or IRP, suggesting that HLA’s predictive impact operates through mechanisms distinct from irAE susceptibility. This study provides the first large-scale evidence that mild IRH is an early favorable predictive indicator and HLA-DQB1*06:01 identifies a high-risk subgroup, collectively enabling actionable risk stratification in ICI-treated East Asian patients. The observed ethnic differences in HLA allele frequencies and their distinct associations with survival outcomes underscore the critical need for ancestry-informed precision oncology approaches in cancer immunotherapy.",
       "doi": "10.1136/jitc-2026-015197",
       "evidence_level": "metadata_or_abstract_only",
       "first_detected": "2026-11-12T07:18:50.937302+00:00",
@@ -1614,13 +2264,13 @@
       "online_date": "2026-11-11",
       "pmid": "43014827",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 58,
+      "priority_score": 74,
       "publication_types": [
         "Journal Article"
       ],
       "requires_oncology_context": false,
       "research_types": [
-        "other"
+        "mechanism"
       ],
       "source": "pubmed",
       "specialty": "oncology",
@@ -1629,7 +2279,7 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/43014827/"
     },
     {
-      "abstract": "",
+      "abstract": "Regulatory T cells (Tregs) are critical mediators of immunosuppression in clear cell renal cell carcinoma (ccRCC), yet the tumor-intrinsic signals that drive Tregs activation and immune escape remain poorly understood. This study aimed to identify key drivers of epithelial-Tregs communication and elucidate their clinical and therapeutic relevance. We analyzed single-cell RNA sequencing data using CellChat to map epithelial-Treg interactions. Candidate genes were prioritized through survival analyses and subsequently validated across bulk transcriptomic datasets, immunotherapy cohorts, and a prospective institutional ccRCC cohort. Immune infiltration, pathway enrichment, and genomic alterations were systematically characterized. Spatial associations were examined by multiplex immunofluorescence, while functional roles were evaluated using in vitro assays and an in vivo syngeneic mouse model treated with anti-programmed cell death protein 1 (PD-1). Among epithelia-Tregs signaling candidates, midkine (MDK) emerged as a core ligand with strong prognostic relevance. MDK was markedly upregulated in ccRCC and associated with advanced tumor stage, aggressive histologic features, and unfavorable survival. High MDK expression defined a distinct immunogenomic phenotype characterized by increased Treg infiltration and altered mutation patterns. Elevated MDK expression was associated with poorer outcomes with PD-1 monotherapy and tyrosine kinase inhibitor monotherapy and showed a similar adverse trend with immune checkpoint inhibitor-based anti-angiogenic combination therapy. Spatial analyses confirmed co-localization of MDK-expressing tumor cells with forkhead box P3+ Tregs. Functionally, MDK promoted tumor cell proliferation and migration and was associated with poorer tumor control during PD-1 blockade in vivo. High MDK expression defines a Treg-enriched, immune-evasive ccRCC phenotype associated with aggressive tumor biology and unfavorable outcomes across both immunotherapy and targeted therapy settings. MDK may serve as a biomarker of adverse disease biology and a potential therapeutic target, although its predictive value for treatment selection requires further validation.",
       "doi": "10.1136/jitc-2026-015961",
       "evidence_level": "metadata_or_abstract_only",
       "first_detected": "2026-11-12T07:18:50.937299+00:00",
@@ -1638,13 +2288,14 @@
       "online_date": "2026-11-11",
       "pmid": "43014828",
       "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 58,
+      "priority_score": 82,
       "publication_types": [
         "Journal Article"
       ],
       "requires_oncology_context": false,
       "research_types": [
-        "other"
+        "single_cell",
+        "mechanism"
       ],
       "source": "pubmed",
       "specialty": "oncology",
@@ -3366,151 +4017,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/43008831/"
     },
     {
-      "abstract": "The CNS tumor classification of the WHO currently subsumes subependymomas (SE) of the supratentorial, infratentorial, and spinal compartment as one tumor type. Molecular data on SE are generally sparse, but SE are known to exhibit distinct global DNA methylation profiles according to their anatomical location. Previous studies indicate that a fraction of posterior fossa tumors exhibiting DNA methylation profiles of SE morphologically appear as ependymomas and may be prone to relapse. We assembled a cohort of ependymal tumors that best match supratentorial (n = 89), infratentorial (n = 146), or spinal (n = 45) SE DNA methylation profiles. Infratentorial tumors with an SE DNA methylation profile occurred at significantly higher ages with a male to female ratio of 4:1 and displayed two distinct subtypes. One of them (n = 49) was enriched for tumors that morphologically appear as ependymomas, carrying a loss of chromosome 6 as well as TERT promoter mutations. Respective patients showed a significantly shorter progression-free survival (p = 0.00014). Supratentorial SE frequently showed chromosome 8 loss while a small subset of tumors with a distinct DNA methylation profile and a segmentation of chromosome 6 was detected. Such chromosomal abnormalities were similarly observed in spinal SE. Based on clustering analysis and clinical features of tumors best matching a subependymoma methylation class, we postulate four subtypes of subependymomas. A fifth, previously undefined type of infratentorial ependymomas was provisionally named PFC. It showed frequent relapses but was distinct from PFA and PFB ependymomas.",
-      "doi": "10.1093/neuonc/noag279",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-11T10:15:39.532001+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-10",
-      "pmid": "43009211",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 55,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "Deciphering the molecular granularity of subependymomas and its distinction from posterior fossa ependymoma.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43009211/"
-    },
-    {
-      "abstract": "Emerging evidence positions natural killer (NK) cells as key initiators of the inflammatory programs required for effective tumor immunity. Beyond direct tumor killing, NK cells trigger early immune responses by recruiting and activating dendritic cells (DCs), thereby enabling downstream T cell activation. However, in established tumors, NK cell-DC communication is often disrupted by metabolic stress and immunosuppressive pathways, leading to immune evasion. Here, we review advances in NK cell-DC cross-talk, cytokine-driven amplification loops and metabolic control of NK cell fitness. We propose that restoring these integrated immune 'circuits' may be key in converting immune-excluded tumors into immunotherapy-responsive states.",
-      "doi": "10.1038/s43018-026-01276-2",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-11T10:15:39.531997+00:00",
-      "journal": "Nature Cancer",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-10",
-      "pmid": "43009620",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 74,
-      "publication_types": [
-        "Journal Article",
-        "Review"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "core",
-      "title": "Natural killer cell inflammatory circuits in antitumor immunity",
-      "url": "https://doi.org/10.1038/s43018-026-01276-2"
-    },
-    {
-      "abstract": "Uterine carcinosarcoma is a rare, aggressive malignancy with high rates of distant failure, and the optimal sequencing of adjuvant chemotherapy and radiation in locally advanced disease is undefined. We evaluated whether the sequencing of adjuvant therapies is associated with overall survival (OS) in surgically managed FIGO stage III-IVA uterine carcinosarcoma. We identified 4593 patients with surgically treated FIGO stage III-IVA uterine carcinosarcoma in the National Cancer Database (2004-2020). Patients were categorized as chemotherapy only (CO), radiation only (RO), sequential chemoradiation (SCRT), concurrent chemoradiation (CRT), or no adjuvant therapy. CRT was defined as chemotherapy and radiation start dates within 14 days, with SCRT separated by more than 14 days. OS was estimated by Kaplan-Meier and compared using Cox regression, with inverse probability of treatment weighting, propensity-score matching, and landmark analyses as sensitivity analyses. SCRT had the highest 2-year OS (67.3%) versus CO (51.4%), CRT (52.8%), and RO (34.6%). On MVA, SCRT was associated with improved OS versus CO (adjusted HR 0.70, 95% CI 0.60-0.82; univariable HR 0.67, 95% CI 0.61-0.74), whereas CRT was not (HR 1.12, 95% CI 0.80-1.57). SCRT benefit persisted across weighted, matched, and landmark analyses and after exclusion of stage IVA patients (HR 0.69, 95% CI 0.59-0.80). Age and lymphovascular space invasion were independently prognostic. In locally advanced uterine carcinosarcoma, SCRT was associated with superior OS compared with CO, while CRT was not. These data support prospective evaluation of adjuvant treatment sequencing in this histology.",
-      "doi": "10.1016/j.ygyno.2026.10.022",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-11T10:15:39.531986+00:00",
-      "journal": "Gynecologic Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-10",
-      "pmid": "43008587",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 58,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "National cancer database analysis of uterine carcinosarcoma: An updated series in locally advanced stage patients.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43008587/"
-    },
-    {
-      "abstract": "To evaluate national trends in time to treatment initiation (TTI) for cervical cancer from 2004 to 2022, and to identify factors associated with treatment delay. We conducted a retrospective cohort study using the National Cancer Database. Adult women with cervical cancer diagnosed between 2004 and 2022 were included and categorized by initial treatment as radiation-based, surgery, or chemotherapy. TTI was defined as the interval from diagnosis to first treatment. Multivariable quantile regression models evaluated temporal trends and factors associated with longer TTI. Covariates included patient sociodemographic and treating facility characteristics. Among patients receiving radiation-based treatment, secondary analyses evaluated the association between TTI and completion of radiation within 56 days. A total of 73,233 patients were included: 43,995 in the radiation-based group, 26,735 in the surgery group, and 2503 in the chemotherapy-only group. Median TTI increased over time across all three modalities, from 29 to 45 days in the radiation-based group, 39 to 57 days in the surgery group, and 23.5 to 39 days in the chemotherapy-only group, corresponding to relative increases of 55.2%, 46.2%, and 66.0%, respectively. Longer TTI was consistently associated with treatment at high uninsured/Medicaid burden facilities, Medicaid insurance, Hispanic ethnicity, lower neighborhood educational attainment, and diagnosis-treatment facility discordance. Longer TTI was not associated with prolonged radiation duration beyond 56 days. TTI for cervical cancer has lengthened nationally across treatment pathways. Delays reflect structural inequities and care fragmentation. Further work is needed to benchmark TTI cutoff and quantify harm.",
-      "doi": "10.1016/j.ygyno.2026.10.035",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-11T10:15:39.531983+00:00",
-      "journal": "Gynecologic Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-10",
-      "pmid": "43008588",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 58,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Time to treatment initiation in cervical cancer in the United States: Trends by treatment modality and factors associated with delay.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43008588/"
-    },
-    {
-      "abstract": "Early-onset pancreatic neuroendocrine tumors (EO-PanNETs) exhibit distinct clinical features, but their metabolic profiles and age-related associations remain poorly understood. This study included 641 patients with PanNETs from four tertiary centers in China. EO-PanNETs were defined as PanNETs diagnosed before 50 years. 1,282 hospital-based nonmalignant controls were matched 1:2 by age and sex. Conditional logistic regression and Cox models were used to assess associations with PanNET occurrence and survival outcomes, respectively. Age-related effect modification was assessed using exposure-by-age interaction terms, with age modeled continuously using restricted cubic splines (RCS) in sensitivity analyses. Compared with late-onset cases, EO-PanNETs exhibited a higher prevalence of reduced high-density lipoprotein cholesterol (29.2% vs 17.8%, P < 0.001). Although the overall prevalence of diabetes was similar between EO-PanNETs and LO-PanNETs, the proportion of new-onset cases among patients with diabetes was higher in EO-PanNETs(71.4% vs. 44.8%, P = 0.018). In case-control analyses using matched nonmalignant controls as reference, alcohol intake (OR, 1.77 vs. 0.79; P interaction = 0.008), diabetes mellitus (OR, 9.72 vs. 3.34; P interaction = 0.048) and elevated triglycerides (OR, 1.75 vs. 1.01; P interaction = 0.023) showed stronger associations with PanNET occurrence in younger individuals. EO-PanNETs also exhibited better overall survival and progression-free survival than LO-PanNETs. RCS analyses further identified age-related differences in the associations of alcohol intake and overweight with PanNET occurrence. These findings highlight age-related differences in the associations of metabolic factors with PanNETs, providing new insights into age-related metabolic heterogeneity in this rare disease.",
-      "doi": "10.1016/j.canlet.2026.218959",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-11T10:15:39.531974+00:00",
-      "journal": "Cancer Letters",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-10",
-      "pmid": "43009087",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 58,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Early-onset Pancreatic Neuroendocrine Tumors: Distinct and Age-Related Metabolic Profiles.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43009087/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1016/S1470-2045(26)00404-3",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-11T10:15:39.531950+00:00",
-      "journal": "The Lancet Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-10",
-      "pmid": "43008752",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 58,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "core",
-      "title": "Genomically matched targeted therapy for ovarian clear cell carcinoma.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43008752/"
-    },
-    {
       "abstract": "",
       "doi": "10.1016/j.bja.2026.08.087",
       "evidence_level": "metadata_or_abstract_only",
@@ -3583,128 +4089,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/43009371/"
     },
     {
-      "abstract": "This study reports on analytical and clinical validation of the highly automated Ion Torrent™ Oncomine™ Dx Express Test (ODxET) for detecting PIK3CA/AKT1/PTEN-altered tumors in patients with hormone receptor-positive/human epidermal growth factor receptor 2-negative advanced or metastatic breast cancer that may benefit from treatment with capivasertib plus fulvestrant. Analytical validation studies were completed using commercially sourced breast cancer tissue specimens to establish the ODxET assay detection capability (limit of detection, limit of blank), precision (repeatability, reproducibility), and effect of endogenous interfering substances for detecting PIK3CA/AKT1/PTEN alterations. Clinical validation was performed using 429 residual breast cancer tissue samples from the Phase 3 CAPItello-291 trial and progression-free survival (PFS) was analyzed for patients with PIK3CA/AKT1/PTEN-altered tumors, as detected by ODxET, and compared to efficacy outcomes from the CAPItello-291 study. Comparison of assay agreement between ODxET and FoundationOne®CDx (F1CDx) gave an overall, positive and negative percent agreement of 89.2%, 82.0%, and 96.6%, respectively. The 18% false negative rate observed with ODxET was largely attributable to limited detection of complex PTEN variants. PFS benefit was observed with capivasertib plus fulvestrant versus placebo plus fulvestrant in patients with PIK3CA/AKT1/PTEN-altered tumors detected by ODxET (n=162; hazard ratio 0.55, 95% confidence interval [CI]: 0.38-0.78). This is similar to the observed PFS benefit in the population with PIK3CA/AKT1/PTEN-altered tumors identified by F1CDx in the CAPItello-291 trial (hazard ratio 0.49, 95% CI: 0.38-0.64). This study demonstrates the clinical utility of ODxET to identify patients with PIK3CA/AKT1/PTEN-altered tumors that may benefit from treatment with capivasertib plus fulvestrant.",
-      "doi": "10.1016/j.tranon.2026.103099",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-11T10:15:39.531907+00:00",
-      "journal": "Translational Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-10",
-      "pmid": "43008349",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 66,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "clinical_trial"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Analytical and clinical validation of Ion Torrent™ Oncomine™ Dx Express Test for identifying PIK3CA/AKT1/PTEN-altered tumors in patients with hormone receptor-positive advanced breast cancer for treatment with capivasertib.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43008349/"
-    },
-    {
-      "abstract": "Surgical management of cervical cancer has changed substantially over the past decade as randomized and prospective data have refined the extent of resection, the role of fertility-sparing surgery, nodal assessment strategies, and the choice of surgical approach. This Society of Gynecologic Oncology evidence-based review addresses the upfront surgical management of cervical cancer. Surgery for recurrent disease, including pelvic exenteration and resection of oligometastatic recurrence, is outside its scope. A panel of gynecologic oncologists and subject matter experts identified twelve clinical questions spanning extent of resection, fertility-sparing surgery, lymph node assessment, surgical approach, and the integration of surgery with chemoradiation. Relevant literature was systematically collected and synthesized, and each recommendation was assigned a strength of recommendation and quality of evidence using a two-part rating system adapted from the ASCCP guidelines. Recommendations were approved by the SGO Clinical Practice Committee, Document Review Panel, and Board of Directors. Simple hysterectomy with nodal assessment is preferred for low-risk FIGO 2018 stage IA through IB1 disease. Fertility-sparing surgery is acceptable for appropriately selected patients with low-risk stage IA1 through IB1 tumors, with conization or simple trachelectomy preferred over radical trachelectomy. Sentinel lymph node biopsy may replace complete pelvic lymphadenectomy when an accepted algorithm is applied, with indocyanine green and near-infrared imaging the preferred mapping technique. When radical hysterectomy is indicated, the open approach is preferred outside of a clinical trial. Neoadjuvant chemotherapy followed by surgery is not recommended in place of chemoradiation, and hysterectomy after completion of definitive chemoradiation is not recommended in the absence of documented residual disease. Evidence quality varies considerably across questions, and several recommendations rest on observational data or expert consensus.",
-      "doi": "10.1016/j.ygyno.2026.10.034",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-11T10:15:39.531902+00:00",
-      "journal": "Gynecologic Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-10",
-      "pmid": "43008586",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 66,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "clinical_trial"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Surgical management of cervical cancer: A Society of Gynecologic Oncology evidence-based review.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43008586/"
-    },
-    {
-      "abstract": "To develop and validate an artificial intelligence-enabled platform that combines efficient screening with explicit eligibility logic by converting unstructured cancer trial criteria into reusable structured queries, and illustrates potential eligibility using synthetic patients. We downloaded actively recruiting US interventional treatment trials for advanced/metastatic breast cancer, colon cancer, and non-small cell lung cancer from ClinicalTrials.gov. Medical oncologists created 24 synthetic patient vignettes. A large language model converted trial eligibility criteria into Structured Query Language (SQL) code and patient information into structured records, enabling rule-based matching without further LLM inference. Cancer details and treatment history were considered, but not laboratory results or comorbidities. Validation included physician editing of generated eligibility code for 30 trials and independent assessments by two physicians, followed by consensus adjudication, for eligibility across ten trials. We descriptively summarized potential eligibility by trial characteristics and when varying age, ECOG performance status, sex, and ZIP code. Of 833 candidate trials, 746 met inclusion criteria. Performing matching for all 746 trials took a median of 0.459 seconds per patient, excluding patient-data preparation. Against physician consensus, automated matching agreed on 230/240 patient-trial pairs (95.8%; sensitivity 83.3%, specificity 100%). Across synthetic patients, potentially eligible trials ranged from 10 to 258 without geographic restrictions. Counts decreased with worse performance status and geographic restriction and were relatively stable across ages 30-90. Later-phase, randomized, and molecularly selective trials generally matched fewer vignettes. LLM-generated SQL enables rapid, explicit rule-based screening for potential trial eligibility. Evaluation in synthetic vignettes supports feasibility, while missed matches underscore the need for further validation.",
-      "doi": "10.1093/jncics/pkag120",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-11T10:15:39.531893+00:00",
-      "journal": "JNCI Cancer Spectrum",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-10",
-      "pmid": "43009212",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 66,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "clinical_trial"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Quantifying cancer clinical trial eligibility using artificial Intelligence-Based matching.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43009212/"
-    },
-    {
-      "abstract": "Ovarian clear cell carcinoma is a rare but aggressive and biologically distinct subtype of ovarian cancer, in which PIK3CA mutations are common. Advanced ovarian clear cell carcinoma is very difficult to treat, and after failure of platinum-based chemotherapy, therapeutic options are limited. We aimed to evaluate the anti-tumour activity and safety of the PI3Kα inhibitor, risovalisib, for treatment of patients with recurrent or persistent PIK3CA-mutated ovarian clear cell carcinoma. We conducted a single-arm, phase 2 trial of the PI3Kα inhibitor, risovalisib, in 27 centres in China and 12 centres in Japan. Eligible participants were adult patients (aged 18 years or older, with an Eastern Cooperative Oncology Group performance status of 0 or 1) with recurrent or persistent PIK3CA-mutated ovarian clear cell carcinoma and one to three lines of previous systemic anti-tumour treatment. Risovalisib was given orally at 40 mg daily in 21-day cycles until disease progression, unacceptable toxicity, or other protocol-defined reasons for discontinuation. The primary endpoint was objective response rate assessed by blinded independent review committee (BIRC) using Response Evaluation Criteria in Solid Tumours (version 1.1), among all treated patients with a confirmed PIK3CA hotspot mutation and baseline tumour assessments with measurable lesions per BIRC (efficacy analysis set). The primary endpoint was considered met if the lower 95% CI was greater than 8%. Safety analyses were performed in all patients who received at least one dose of risovalisib (safety analysis set). The trial is registered with ClinicalTrials.gov (NCT05043922) and is ongoing but no longer recruiting patients. Between Oct 6, 2021, and Jan 31, 2024, 93 patients were enrolled and received risovalisib. The median age was 49 years (IQR 43-58), all patients were female, 52 (56%) were from Japan, 41 (44%) were from China, and 63 (68%) had two or more previous lines of therapy. The median duration of follow-up was 14·5 months (IQR 8·6-18·3). The objective response rate was 29 (35% [95% CI 25-46]) of 84 patients in the efficacy analysis set. The most commonly reported grade 3 or worse treatment-related adverse events in 93 patients were rash (30 [32%]), hyperglycaemia (28 [30%]), and decreased weight (7 [8%]). Treatment-related serious adverse events occurred in 36 (39%) patients, the most common being rash (eight [9%]), pneumonitis (six [6%]), and decreased appetite (four [4%]). There were no treatment-related deaths. These results support risovalisib as a potential novel treatment option for PIK3CA-mutated ovarian clear cell carcinoma, a rare yet lethal cancer in dire need of additional treatment options. Combination strategies including risovalisib could also be explored to further increase efficacy observed in this study. Haihe Biopharma.",
-      "doi": "10.1016/S1470-2045(26)00337-2",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-11T10:15:39.531867+00:00",
-      "journal": "The Lancet Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-10",
-      "pmid": "43008753",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 66,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "core",
-      "title": "Risovalisib for PIK3CA-mutated recurrent or persistent ovarian clear cell carcinoma: a single-arm, multicentre, phase 2 trial.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43008753/"
-    },
-    {
-      "abstract": "Sjögren's syndrome creates a lymphoma-prone inflammatory niche and confers one of the highest autoimmune risks of B-cell non-Hodgkin lymphoma. Yet the genetic and cellular mechanisms that remodel this pre-neoplastic niche into a tumor-supportive immune microenvironment remain unclear. We integrated human genetics, single-cell transcriptomics and functional cell biology to identify an actionable mediator of this transition. We combined bidirectional Mendelian randomization, directionality filtering, MHC-exclusion sensitivity analyses (chromosome 6: 25-35 Mb), colocalization and summary-based HLA fine-mapping. Single-cell RNA sequencing of salivary gland and splenic marginal-zone lymphoma was used to localize genetic risk, reconstruct cross-disease B-cell states and infer intercellular signaling. Mechanistic dependence was tested in IFN-γ-stimulated Raji B-lymphoma cells, and clinical relevance was evaluated in a public chronic lymphocytic leukemia cohort. Genetic liability to Sjögren's syndrome increased marginal-zone/MALT, diffuse large B-cell and overall non-Hodgkin lymphoma risk, and effects collapsed after MHC exclusion and resolved to the class II 8.1 ancestral haplotype. Single-cell analysis localized risk to salivary B cells and revealed disease-associated remodeling toward a lymphoid, MIF-rich, CD74-receiving microenvironment, with plasma cells as the largest MIF source. HLA-class-II/CD74 programs increased along the Sjögren-to-lymphoma B-cell trajectory. In Raji cells, MIF activated AKT/NF-κB/BCL-xL signaling and viability. ISO-1 or CD74 knockdown suppressed the pathway and increased cleaved PARP, whereas AKT activation partially rescued signaling and viability. Higher CD74 expression marked adverse outcome in an external B-cell malignancy cohort. Convergent genetic, single-cell and perturbation evidence positions CD74 as a candidate organizer of a lymphoma-supportive immune microenvironment linking inherited MHC class II risk to B-cell survival. The MIF-CD74 axis provides a translational tumor-microenvironment target that requires tissue-level and prospective validation.",
-      "doi": "10.1016/j.tranon.2026.103103",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-11T10:15:39.531800+00:00",
-      "journal": "Translational Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-10",
-      "pmid": "43008348",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 78,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "mendelian_randomization",
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "CD74 links MHC class II risk to tumor immune microenvironment remodeling across the Sjögren-to-lymphoma axis.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43008348/"
-    },
-    {
       "abstract": "Post-ICU care often misses patients unable to attend in-person clinic visits. Remote assessments of physical function might increase access to ICU aftercare. We investigated whether patient-reported disability predicts handgrip strength (HGS) and the 2-Minute Walk Test (2MWT) distance with sufficient clinical accuracy. This secondary analysis of the stepped-wedge cluster-randomised Enhanced Recovery after Intensive Care trial included patients from 10 German ICU clusters who completed the WHO Disability Assessment Schedule (WHODAS) 2.0 plus either HGS, the 2MWT, or both, 6 months after ICU discharge. Relationships between WHODAS 2.0, HGS, and 2MWT were analysed using scatter plots, correlation coefficients, linear regressions, and Bland-Altman plots. Predictions of HGS and the 2MWT were compared with the minimal clinically important difference (MCID) for both measures. Of 1463 enrolled patients, 620 were analysed. The median WHODAS 2.0 sum score was 11 (Q1, Q3: 3, 22). The median HGS, expressed as a percentage of the expected value (%exp), was 70.6%exp (Q1, Q3: 54.4, 85.6), and the median 2MWT distance was 73.7%exp (Q1, Q3: 61.5, 85.8). The 2MWT was not completed by 59% of patients. Higher disability was moderately correlated with lower HGS (Spearman %exp: -0.41) and shorter 2MWT distance (Spearman %exp: -0.47). In multivariable regression models, the WHODAS 2.0 sum score predicted HGS in kg (β: -0.27 [95% CI: -0.33 to -0.22]; P<0.001) and 2MWT distance in m (β: -1.94 [95% CI: -2.37 to -1.51]; P<0.001), but the limits of agreement exceeded the MCIDs. With increasing disability, HGS and 2MWT performance declined, although correlations were moderate and uncertainty of predictions exceeded MCIDs of both instruments. Remote WHODAS 2.0 assessments cannot replace in-person physical function testing. NCT03671447.",
       "doi": "10.1016/j.bja.2026.10.002",
       "evidence_level": "metadata_or_abstract_only",
@@ -3727,246 +4111,6 @@
       "tier": "specialist",
       "title": "Patient-reported disability has insufficient clinical accuracy for predicting physical function in survivors of critical illness: a secondary analysis of a cluster-randomised trial.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/43009368/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1245/s10434-026-20883-y",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-10T23:21:55.680312+00:00",
-      "journal": "Annals of Surgical Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-10",
-      "pmid": "43007630",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 35,
-      "publication_types": [
-        "Letter"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Biologic Heterogeneity May Further Refine Axillary Risk After Neoadjuvant Therapy.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43007630/"
-    },
-    {
-      "abstract": "Melanoma Cell Adhesion Molecule (MCAM) is an attractive therapeutic target for several cutting-edge treatment modalities currently in development. To better understand patient subsets with the potential to benefit from MCAM targeting, MCAM protein levels were evaluated in 451 primary and metastatic cutaneous melanoma specimens. Expression was observed in the tumor cells of 35% of specimens and was associated with metastasis and with survival in metastatic cutaneous melanoma.",
-      "doi": "10.1002/cam4.72494",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-10T23:21:55.680249+00:00",
-      "journal": "Cancer Medicine",
-      "letter_eligibility": "unverified",
-      "online_date": null,
-      "pmid": "43007853",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 43,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "MCAM is Expressed in a Subset of Advanced Cutaneous Melanomas.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43007853/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1038/s41392-026-03049-w",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-10T23:21:55.680247+00:00",
-      "journal": "Signal Transduction and Targeted Therapy",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-10",
-      "pmid": "43003838",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 43,
-      "publication_types": [
-        "Letter"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "core",
-      "title": "Targeting CD44v3 rescues Entrectinib response in brain metastasis of triple negative breast cancer overexpressing TrkA.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43003838/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1245/s10434-026-20914-8",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-10T23:21:55.680197+00:00",
-      "journal": "Annals of Surgical Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-10",
-      "pmid": "43007629",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 50,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "ASO Author Reflections: Tailoring Robotic Pancreatoduodenectomy for Portal Vein Involvement with a Replaced Right Hepatic Artery.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43007629/"
-    },
-    {
-      "abstract": "In IDH-wildtype glioblastoma, prognostic biomarkers beyond MGMT promoter methylation remain limited. Chromosome 14q contains candidate tumor suppressors, yet the significance of arm-level 14q loss in molecularly defined glioblastoma is unclear. Arm-level 14q status was inferred from coordinated 14q expression (Gaussian-mixture model) in bulk RNA sequencing of 215 Japanese IDH-wildtype glioblastomas and validated against methylation-array copy number (n = 42). Associations with outcome and transcriptional programs were evaluated and assessed in CGGA (n = 74) and TCGA (n = 139) using the discovery-cohort threshold. RNA-seq-based calls agreed with array copy number in 40/42 cases (κ = 0.90). 14q loss (87/215, 40.5%) was associated with shorter overall (p = 0.0053) and progression-free survival (p = 0.0175), remaining prognostic in the prespecified multivariable model (hazard ratio 1.44, 95% confidence interval 1.02-2.01; p = 0.036). 14q loss and MGMT promoter hypomethylation were prognostically complementary (four-group p < 0.0001). Chromosome 14-excluded, purity-adjusted gene set enrichment analysis showed increased E2F-target and G2M-checkpoint and reduced oxidative-phosphorylation and lipid-metabolism programs in 14q-loss tumors. The survival association was reproduced in CGGA (p = 0.0012) but not in TCGA (p = 0.55), with significant heterogeneity (interaction p = 0.005). RNA-seq-inferable 14q loss identifies a clinically adverse subgroup of Japanese IDH-wildtype glioblastoma, is complementary to MGMT promoter methylation, and is associated with a proliferation-high, oxidative-phosphorylation-low transcriptional state. The absence of this association in TCGA underscores the need for validation in additional population-diverse cohorts before clinical implementation.",
-      "doi": "10.1007/s11060-026-05855-2",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-10T23:21:55.680168+00:00",
-      "journal": "Journal of Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-10",
-      "pmid": "43007519",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 55,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "Chromosome 14q loss is associated with adverse survival and a distinct transcriptional phenotype in IDH-wildtype glioblastoma.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43007519/"
-    },
-    {
-      "abstract": "Measurable residual disease (MRD) assessment is central to risk stratification, response evaluation, and relapse detection in acute lymphoblastic leukemia (ALL). However, substantial global variability in its methodology and implementation persists. Differences in sampling strategies, detection methods, reporting thresholds, and interpretation criteria hinder cross-trial comparability and clinical standardization. To address this, an international expert panel representing major pediatric and adult study groups and reference laboratories developed consensus recommendations, using a structured current-practices survey followed by a multi-round Delphi process. Consensus was achieved on 38 of 41 statements. Recommendations span three domains: pre-analytical requirements, technical and nomenclature standards, and MRD-based remission and relapse definitions. Bone marrow was endorsed as the reference specimen for MRD assessment, and MRD was prioritized over cytomorphology in cases of discordance. Principles for risk- and actionability-guided late MRD monitoring, confirmation of MRD reappearance, and MRD-informed relapse assessment were also defined. Among the key technical consensus statements, a standardized MRD assay nomenclature was adopted. Areas without consensus-namely, anticoagulant choice for PCR-based MRD, interpretation of isolated BCR::ABL1 reconversion, and the exclusive use of MRD to define remission-highlight ongoing biological and clinical complexity. This guideline, applicable across all ages, provides a practical framework to standardize MRD assessment in ALL and support MRD-guided clinical decision-making.",
-      "doi": "10.1182/blood.2026035088",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-10T23:21:55.680162+00:00",
-      "journal": "Blood",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-10",
-      "pmid": "43008231",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 55,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": true,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "International Cross-Age Consensus Guideline on Measurable Residual Disease Assessment in Acute Lymphoblastic Leukemia.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43008231/"
-    },
-    {
-      "abstract": "Response assessment after frontline therapy for large B-cell lymphoma risk-stratifies patients into those at low risk for relapse and those with residual disease. Positron emission tomography scans form the cornerstone of the response criteria but cannot detect molecular-only disease. Circulating tumor DNA detects measurable residual disease (MRD) after therapy which is emerging as an adjunct tool for complex clinical decision-making. We discuss how MRD after therapy can be clinically implemented and additional data needed to unlock its full potential.",
-      "doi": "10.1182/blood.2026033073",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-10T23:21:55.680160+00:00",
-      "journal": "Blood",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-10",
-      "pmid": "43008236",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 55,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": true,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "Is Circulating Tumor DNA Ready for Clinical Use in Large B-cell Lymphoma?",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43008236/"
-    },
-    {
-      "abstract": "Kirsten rat sarcoma (KRAS), the most frequently altered oncogene, is a key target for T cell-based therapies. Mutant KRAS (mKRAS)-specific T cell receptors (TCRs) enable targeted treatment for patients with matching mKRAS/HLA allele pairs. We generated a TCR warehouse library covering approximately one-quarter of pancreatic ductal adenocarcinoma patients and 10% of colorectal cancer patients. Warehouse TCRs exhibit strong avidities and cytotoxicity, comparable to existing benchmark TCRs. Detailed characterization of each TCR revealed unique biology for specific KRAS neoantigens. TCRs with high sensitivity for KRAS G12V/HLA-C*01:02 also recognize the wild-type epitope. However, the wild-type epitope abundance appears to be significantly lower, potentially creating a therapeutic window, albeit necessitating deeper evaluation. Additionally, we show that TCRs recognize KRAS G12V on HLA-C*03:03 and HLA-C*03:04 interchangeably, thereby resulting in a single neoantigen with one of the highest frequencies. In summary, this mKRAS-targeted TCR library comprises candidates for further preclinical and clinical development.",
-      "doi": "10.1158/2326-6066.CIR-26-0724",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-10T23:21:55.680146+00:00",
-      "journal": "Cancer Immunology Research",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-10",
-      "pmid": "43008135",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 58,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "A Library of Potent TCRs Derived from Healthy Donors Targeting Kras G12d and G12v Neoantigens.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43008135/"
-    },
-    {
-      "abstract": "To develop an explainable artificial intelligence (XAI) model to predict the complete/partial response of oligometastatic brain lesions from melanoma (MBMs) two months after from radiosurgical or fractionated stereotactic treatments. 50 consecutive patients with a total 102 MBMs treated with CyberKnife® SBRT from December 2012 to December 2018 were selected within the Rabbit study. Local response was evaluated on brain MRI performed during follow-up using response evaluation criteria in solid tumors (RECIST) and revised using response criteria for brain metastases from the response assessment in neuro-oncology criteria (RANO) group. For each treated lesion, the following variables were considered: number of treated lesions, the LDH pre-treatment level, previous treatments (surgery or whole brain RT), BRAF status, time from primary diagnosis to brain lesions discovery (Time_diag), lesion dimensions and site, SBRT dose and fractionation, type of concomitant treatment with ipilimumab (IPI). Six different supervised machine learning models, including logistic regression (LR), k-nearest neighbors (KNN), support vector machine (SVM), random forest (RF), decision tree (DT) and light gradient boosting (LGBM), were trained and internally validated with 5-fold cross validation. Model performances were assessed using receiving operator curves (ROC) and area under the curve (AUC). An explainable approach based on SHapley Additive exPlanations (SHAP) method was deployed to generate individual explanations of the model decisions. Lastly, a decision tree was created to better understand and interpret the complex relationships between the covariates and the target variable. 23.5% of lesions had a complete or partial response and were used as ground truth for the ML models. The best performing model was the LGBM, reporting a mean AUCs in the 5-fold cross validation of 0.87 (0.85-0.91). SHAP analysis strongly associated complete/partial response with four variables, namely in order of importance: the BRAF status, the total dose, the type of treatment with ipilimumab, and the lesion dimension. In particular, the DT classified patients with BRAF \"wild-type\" status having only 10.7% probability to reach complete/partial response. Among these lesions, those treated with doses < 24 Gy had 0% probability of complete/partial response. By contrast, lesions with a BRAF \"mutated\" status reported a probability of complete/partial response of 39.1%. Among these lesions, those treated with concomitant ipilimumab reached 100% probability of complete/partial response. Machine-learning models enable a reliable prediction of the treatment response of oligometastatic lesions receiving SBRT. This approach may assist radiation oncologists to tailor more individualized treatment plans in this clinical setting. An external validation of the results is mandatory.",
-      "doi": "10.1007/s11060-026-05836-5",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-10T23:21:55.680114+00:00",
-      "journal": "Journal of Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-10",
-      "pmid": "43007513",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 63,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "machine_learning"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "Explainable machine learning predictive models for treatment response after SBRT in melanoma brain metastases.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43007513/"
-    },
-    {
-      "abstract": "Blastic plasmacytoid dendritic cell neoplasm (BPDCN) is a rare hematologic malignancy characterized by leukemic blasts with frequent cutaneous involvement and high CD123 expression. Pivekimab sunirine, an anti-CD123 antibody-drug conjugate with a DNA-alkylating payload, was approved by the United States Food and Drug Administration on May 27, 2026, for adults with BPDCN based on the CADENZA study. We review its mechanism, clinical efficacy, toxicity, and role in the evolving treatment landscape for BPDCN and AML.",
-      "doi": "10.1182/blood.2026035185",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-10T23:21:55.680110+00:00",
-      "journal": "Blood",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-10",
-      "pmid": "43008230",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 63,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": true,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "Pivekimab sunirine and the evolving treatment of blastic plasmacytoid dendritic cell neoplasm.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43008230/"
     },
     {
       "abstract": "",
@@ -7041,150 +7185,6 @@
       "tier": "specialist",
       "title": "Reply to \"Clarification of age-term coding in a pediatric tracheal tube prediction model\".",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42967253/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1016/j.bja.2026.08.072",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-01T16:30:02.518693+00:00",
-      "journal": "British journal of anaesthesia",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-31",
-      "pmid": "42966683",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 40,
-      "publication_types": [
-        "Letter"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "clinical_trial"
-      ],
-      "source": "pubmed",
-      "specialty": "anesthesiology",
-      "tier": "specialist",
-      "title": "Perioperative intravenous fluid and chronic kidney disease: long-term follow-up of the restrictive versus liberal fluid therapy in major abdominal surgery randomised trial. Comment on Br J Anaesth 2026; 137: 479-89.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42966683/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1016/j.accpm.2026.101972",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-01T09:47:37.961699+00:00",
-      "journal": "Anaesthesia, critical care & pain medicine",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-31",
-      "pmid": "42966560",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 32,
-      "publication_types": [
-        "Editorial"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "anesthesiology",
-      "tier": "specialist",
-      "title": "Postoperative Delirium in the ICU: Not One Syndrome, but Many?",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42966560/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1016/j.accpm.2026.101969",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-01T09:47:37.961695+00:00",
-      "journal": "Anaesthesia, critical care & pain medicine",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-31",
-      "pmid": "42966561",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 32,
-      "publication_types": [
-        "Editorial"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "anesthesiology",
-      "tier": "specialist",
-      "title": "Better aligning perioperative care with evidence in liver surgery.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42966561/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1016/j.accpm.2026.101973",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-01T09:47:37.961691+00:00",
-      "journal": "Anaesthesia, critical care & pain medicine",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-31",
-      "pmid": "42966562",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 32,
-      "publication_types": [
-        "Editorial"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "anesthesiology",
-      "tier": "specialist",
-      "title": "Completing surgery after a grade III perioperative hypersensitivity reaction: counting a cost we cannot see yet.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42966562/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1002/pan.70337",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-01T09:47:37.961669+00:00",
-      "journal": "Paediatric anaesthesia",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-31",
-      "pmid": "42965490",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 32,
-      "publication_types": [
-        "Letter"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "anesthesiology",
-      "tier": "specialist",
-      "title": "From Ethical Framework to Bedside Practice: The Need for Structured Reassessment After Pediatric Refusal of Anesthesia Induction.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42965490/"
-    },
-    {
-      "abstract": "Intraoperative cell salvage (CS) reduces allogeneic transfusion in cardiac surgery, but the washing process removes coagulation factors and platelets, raising hemostatic concerns. The dose-response relationship between CS volume and perioperative hemostatic changes remains poorly characterized. In this retrospective study of adult patients undergoing cardiac surgery with CS use, two cohorts with paired hemostatic measurements were identified: a routine coagulation cohort (primary analysis) and a viscoelastic cohort (exploratory analysis). Both cohorts were restricted to patients without coagulation-affecting blood products between measurements. Multivariable linear regression examined CS volume and absolute changes in each parameter, adjusted for surgical and patient characteristics and baseline values. In the routine coagulation cohort (N = 677; median CS 0.5 L, range 0.1-1.6 L), CS volume was not significantly associated with absolute changes in any parameter (all p ≥ 0.144). In the viscoelastic cohort (N = 50; median CS 0.8 L, range 0.2-3.7 L), CS volume was significantly associated with decreased functional fibrinogen clot strength (CFF MA: β = -3.31 mm/L; 95% CI: -5.53, -1.08; p = 0.004) and overall clot strength (CK MA: β = -2.93 mm/L; 95% CI: -5.73, -0.13; p = 0.041); after Holm correction for multiple testing, the CFF MA association remained significant (adjusted p = 0.031), whereas the CK MA association did not (adjusted p = 0.244). At observed reinfusion volumes, CS was not associated with changes in routine coagulation parameters, but in the exploratory viscoelastic cohort, higher CS volume was associated with lower functional fibrinogen clot strength. These findings highlight the potential value of viscoelastic monitoring when higher volumes are anticipated.",
-      "doi": "10.1016/j.jclinane.2026.112362",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-01T09:47:37.961616+00:00",
-      "journal": "Journal of clinical anesthesia",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-10-31",
-      "pmid": "42966303",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 55,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "anesthesiology",
-      "tier": "specialist",
-      "title": "Cell salvage volume and hemostatic changes in cardiac surgery: A retrospective cohort study using routine coagulation and viscoelastic assessment.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42966303/"
     }
   ],
   "schema_version": "0.3",
