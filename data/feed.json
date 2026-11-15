@@ -1,12 +1,36 @@
 {
   "ai_status": "disabled",
-  "generated_at": "2026-11-15T19:57:59.255186+00:00",
+  "generated_at": "2026-11-15T23:52:18.677043+00:00",
   "harmony_push_status": "not_configured",
   "journal_counts": {
     "anesthesiology": 13,
     "oncology": 100
   },
   "papers": [
+    {
+      "abstract": "Necrosis is a defining feature and an active hypoxic niche implicated in immune escape and treatment resistance in glioblastoma (GBM). We asked whether MRI-defined necrosis morphology is associated with circulating immune profiles and overall survival (OS). We retrospectively studied 111 patients with newly diagnosed IDH-wildtype GBM resected in 2018-2024. Preoperative necrosis was classified visually as classic confluent or multiloculated. Two blinded readers reclassified all cases independently. Immune subsets were assessed by flow cytometry (n = 59, 48/11 classic/multiloculated) and plasma cytokines by multiplex immunoassay (n = 54, 45/9). All 28 immune analytes were exploratory, corrected across the panel. OS from surgery was analyzed with Kaplan-Meier and Cox models, including treatment and small-sample sensitivity analyses. Inter-reader agreement was kappa = 0.883. Multiloculated morphology was associated with longer OS (median, 17.4 vs. 14.4 months; HR, 0.55, 95% CI, 0.31-0.98, p = 0.041), including after multivariable adjustment (n = 94; HR, 0.42, 0.22-0.81, p = 0.010; Firth-penalized, 0.44, p = 0.007), exclusion of untreated patients and early deaths, and restriction to completed chemoradiation (HR, 0.37, 0.16-0.84, p = 0.018). Classic morphology was associated with fewer conventional dendritic cells (cDCs) (0.15% vs. 0.41%, p = 0.006), more mature natural killer cells (p = 0.022), and lower granzyme B, IL-2, IL-4, IL-6, and IL-10, but no difference survived correction (lowest q = 0.088). Multiloculated patients were younger (57.2 vs. 64.3 years, p = 0.032). The cDC association did not persist after adjustment for deep-seated location (p = 0.124). Multiloculated necrosis was associated with longer OS after adjustment for established prognostic factors, which requires external validation. Circulating immune differences were exploratory and could not be separated from tumor location. Not applicable.",
+      "doi": "10.1007/s11060-026-05872-1",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-15T23:52:18.551670+00:00",
+      "journal": "Journal of Neuro-Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-15",
+      "pmid": "43034977",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 55,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "specialist",
+      "title": "MRI-defined necrosis morphology, circulating immune profiles and survival in glioblastoma.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43034977/"
+    },
     {
       "abstract": "",
       "doi": "10.1002/ctm2.70900",
@@ -3610,26 +3634,6 @@
       "tier": "oncology",
       "title": "Simultaneous Use of Radar and Magnetic Navigation in Breast Cancer Surgery",
       "url": "https://doi.org/10.3390/cancers18223636"
-    },
-    {
-      "abstract": "Primary cultures and organoids from lung cancer patients preserve tumor heterogeneity and enable patient-specific functional testing. Their generation has relied largely on surgical resection, which most patients never undergo because their disease is diagnosed too late. This review examines whether minimally invasive sources, namely cryobiopsy, endobronchial ultrasound-guided transbronchial needle aspiration, bronchoscopic biopsy, computed tomography (CT)-guided transthoracic needle biopsy, and malignant pleural effusion, can serve as alternatives. To compare outcomes across studies, we distinguish four endpoints: tissue adequacy, initial formation, long-term validated establishment, and molecular fidelity to the source tumor. Reported establishment rates from these sources range from 10% to over 80%. In the one study that applied a single protocol and a single stringent endpoint across sources, validated establishment was 3/9 for bronchoscopic and EBUS-TBNA sampling of primary tumors, 12/52 for resection and 10/100 for EBUS-TBNA of metastatic lymph nodes, and these within-study numbers are too sparse to show whether minimally invasive sources perform better or worse than resection. Yet these figures depend on how success is defined. In one cohort, organoids formed from 41% of specimens, but only 17% yielded verified tumor organoids. In another, cancer-associated fibroblasts dominated 46 of 51 cultures. Anatomical site, medium composition, and overgrowth by stromal or normal airway cells therefore explain outcomes better than acquisition route alone. Ex vivo drug responses have been linked to clinical outcomes, but prospective validation is lacking. Standardized multi-endpoint reporting and routine confirmation of molecular fidelity are needed before these models can guide therapy.",
-      "doi": "10.3390/cancers18223634",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-14T02:53:40.013099+00:00",
-      "journal": "Cancers",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 58,
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Primary Lung Cancer in Vitro Models and Patient-Derived Organoids from Minimally Invasive Procedures: A Review of Methods and Translational Potential",
-      "url": "https://doi.org/10.3390/cancers18223634"
     },
     {
       "abstract": "Malignant hyperthermia (MH) is a rare pharmacogenetic condition with substantial morbidity and mortality. The current gold standard for diagnosis, caffeine-halothane contracture testing (CHCT), is invasive, costly, and available only at a single centre in Canada. Genetic testing offers a less invasive alternative, but access remains inconsistent across Canadian provinces. We sought to evaluate the cost-consequences and diagnostic wait times of a genetics-first vs biopsy-first strategy for MH susceptibility. We conducted a retrospective cost-consequence analysis of 1,208 patients referred to the Canadian Malignant Hyperthermia Investigation Unit (2015-2024) with a personal or family history suggestive of MH, and their first-degree relatives. We compared the direct, indirect, and societal costs of the Ontario genetics-first approach with those of a hypothetical biopsy-first approach used in other provinces. We analyzed diagnostic timelines using Kaplan-Meier survival analyses. In the genetics-first strategy, 7.2% of probands (88/1,208) had a diagnostic variant and did not require biopsy for contracture testing, resulting in modest societal cost reduction for probands compared with the biopsy-first strategy (CAD 23.5M vs CAD 24.3M, respectively; CAD 700 saved per proband tested). The costs of cascade testing of their first-degree relatives were three-fold lower for the genetics-first strategy (CAD 3.6M vs CAD 11.3M). The median [interquartile range] time to diagnosis was 2 [1-5] months for patients with diagnostic variants, compared with 39 [22-51] months for those requiring biopsy (log-rank P < 0.001). Compared with a hypothetical biopsy-first approach, offering genetics testing as initial step to all individuals with clinical suspicion of MH susceptibility did not increase societal costs, and resulted in substantial cost savings for cascade testing of their relatives, markedly shortening time to diagnosis for individuals who harbour a diagnostic variant.",
