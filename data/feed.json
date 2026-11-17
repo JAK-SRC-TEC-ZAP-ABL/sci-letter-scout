@@ -1,12 +1,812 @@
 {
   "ai_status": "disabled",
-  "generated_at": "2026-11-17T04:45:43.267837+00:00",
+  "generated_at": "2026-11-17T13:59:29.767006+00:00",
   "harmony_push_status": "not_configured",
   "journal_counts": {
     "anesthesiology": 13,
     "oncology": 100
   },
   "papers": [
+    {
+      "abstract": "The phase 3 ATTLAS study demonstrated that atezolizumab plus bevacizumab, carboplatin, and paclitaxel (ABCP) improved progression-free survival compared with pemetrexed-carboplatin/cisplatin (PC) in EGFR/ALK-mutated non-small-cell lung cancer after tyrosine kinase inhibitor failure. We report patient-reported quality of life (QoL) outcomes. Patients received ABCP (atezolizumab 1200 mg, bevacizumab 15 mg/kg, carboplatin AUC 5-5.5, paclitaxel 175 mg/m2) or PC (pemetrexed 500 mg/m2, carboplatin AUC 5.0, or cisplatin 70 mg/m2) every 3 weeks. QoL was assessed using EORTC QLQ-C30 and QLQ-LC13. Primary endpoints were changes in global health status/QoL (GHS/QoL) from baseline at weeks 9 and 24, and median time to deterioration (TTD; ≥ 10-point decline). Of 228 randomized patients (2:1), 146 (ABCP) and 68 (PC) completed ≥ 1 QoL assessment. Baseline GHS/QoL was comparable between arms. Early GHS and physical functioning scores were numerically lower with ABCP but stabilized by week 24, with no significant differences at week 9 (-4.66; p = 0.247) or week 24 (-7.39; p = 0.305). Toxicity-related symptoms (neuropathy, alopecia, and pain) were more frequent with ABCP, whereas cancer-related symptom improvements (cough, dyspnea, and hemoptysis) occurred in both arms without significant differences. Median TTD was 3.48 months (ABCP) versus 6.90 months (PC; p = 0.160). Despite impairment in symptoms commonly associated with chemotherapy, no significant between-group difference in overall QoL was detected between ABCP and PC. Stable GHS/QoL and improvement in cancer-related symptoms were observed alongside appropriate toxicity management. The protocol was approved by the institutional review board of Samsung Medical Center (IRB no. 2019-03-027) and participating centers (ClinicalTrials.gov identifier: NCT03991403).",
+      "doi": "10.1002/cam4.72405",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671606+00:00",
+      "journal": "Cancer Medicine",
+      "letter_eligibility": "unverified",
+      "online_date": null,
+      "pmid": "43040603",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 51,
+      "publication_types": [
+        "Journal Article",
+        "Clinical Trial, Phase III",
+        "Randomized Controlled Trial",
+        "Multicenter Study"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "clinical_trial"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Quality of Life Outcomes From the Phase 3 Study of Atezolizumab + Bevacizumab and Chemotherapy (ATTLAS, KCSG-LU19-04) in EGFR/ALK-Mutated Non-Small-Cell Lung Cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43040603/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/s41392-026-03060-1",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671473+00:00",
+      "journal": "Signal Transduction and Targeted Therapy",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-17",
+      "pmid": "43039890",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 58,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Intrinsic cardiac neural circuits: supporting basal cardiac function and stress resilience.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43039890/"
+    },
+    {
+      "abstract": "Chronic diseases are still treated largely with interventions that are constitutive, intermittently administered and poorly aligned with real-time physiology. Synthetic biology is changing this paradigm by treating gene circuits as programmable genetic software that can be deployed across cellular therapeutic hardware spanning from prokaryotic to eukaryotic systems, including probiotic cells, designer cells, immune cells and stem‑cell‑derived platforms. In this framework, engineered systems can sense disease-associated signals, compute them through synthetic or repurposed transduction pathways and adjust therapeutic output to maintain physiological variables within a desired range. Closed-loop therapeutics therefore begin to merge diagnosis, treatment and prevention within the same living platform. Across metabolism, inflammation, infection, cardiovascular regulation and cancer, early mammalian systems show that endogenous sensing, intracellular computation and therapeutic actuation can be combined in clinically relevant architectures. The emerging concept of setpoint medicine captures the clinical ambition of these systems: not simply to deliver a dose, but to keep physiology within an interpretable and therapeutically desirable range. Realizing this vision will require durable and modular control circuits, hardware-aware delivery strategies, interpretable safety frameworks, controller-style performance metrics and increasingly AI-assisted design, calibration and oversight. If these challenges can be met, the future of therapy may be defined less by intermittent dosing than by the continuous control of physiology.",
+      "doi": "10.1038/s41392-026-03122-4",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671389+00:00",
+      "journal": "Signal Transduction and Targeted Therapy",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-17",
+      "pmid": "43039898",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 66,
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Engineering signal transduction for closed-loop gene and cell therapies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43039898/"
+    },
+    {
+      "abstract": "Early surgical intervention, including debridement and grafting, is crucial in acute burn injury management. Although early extubation in operating rooms (ORs) reduces intensive care unit length of stay and ventilator-associated complications, extubation feasibility following initial burn surgery remains uncertain. We investigated perioperative factors associated with postoperative continuation of mechanical ventilation (MV) after initial burn surgery. This retrospective study analyzed patients with burns who underwent acute-phase debridement between 2018 and 2024. Patients requiring postoperative MV were compared with those extubated in ORs. Factors independently associated with postoperative MV were identified using multivariate logistic regression analysis. Among 418 patients, 75 required postoperative MV. Age (adjusted odds ratio [aOR] = 1.03, 95% confidence interval [CI]: 1.00-1.06), percentage of total body surface area (%TBSA) burned (aOR = 1.08, 95% CI 1.03-1.12), preoperative intubation (aOR = 11.8, 95% CI 3.02-46.4), intraoperative fluid administration volume (ml/kg) (aOR = 1.04, 95% CI 1.01-1.06), and intraoperative maximum vasoactive-inotropic score (VIS) (aOR = 1.18, 95% CI 1.10-1.26) were independently associated with postoperative MV continuation. This association between the intraoperative maximum VIS and postoperative MV continuation was maintained in the sensitivity analysis excluding preoperatively intubated patients (aOR = 1.16, 95% CI 1.08-1.25). Age, %TBSA burned, preoperative intubation, intraoperative fluid administration volume, and maximum intraoperative VIS were independently associated with postoperative continuation of MV after initial burn surgery. Maximum intraoperative VIS may provide additional information regarding the hemodynamic component of perioperative severity by quantifying the intensity of vasoactive and inotropic support required during surgery.",
+      "doi": "10.1007/s00540-026-03960-0",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671353+00:00",
+      "journal": "Journal of anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-17",
+      "pmid": "43040000",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 55,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Perioperative factors associated with postoperative continuation of mechanical ventilation after initial burn surgery: a retrospective cohort study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43040000/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1097/EJA.0000000000002537",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671334+00:00",
+      "journal": "European journal of anaesthesiology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-17",
+      "pmid": "43041112",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 55,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "clinical_trial"
+      ],
+      "source": "pubmed",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Postoperative pulmonary function after video-assisted thoracic surgery using epidural analgesia or oral morphine for pain management: A secondary analysis of the SEAVATS randomised trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43041112/"
+    },
+    {
+      "abstract": "Previous studies showed that administration of inhaled 2-MAC sevoflurane induces gasping in mice by activating a persistent sodium current in the brainstem, an effect blocked by riluzole. However, whether other commonly used volatile anesthetics elicit a similar gasping response in mice has not previously been investigated. This study compared respiratory responses to high doses of three volatile anesthetics. Seven spontaneously breathing adult mice each inhaled one of three anesthetics (sevoflurane, isoflurane, and desflurane) on separate days, and eventually inhaled all three anesthetics. Each anesthetic concentration was increased from 1 MAC to inhaled 2-MAC, while breathing patterns and suprahyoid muscle electromyographic activity (EMGSH) were measured. The effects of riluzole (18 mg/kg, i.p.) on gasping were also tested in five additional mice anesthetized with desflurane and/or isoflurane. All three inhaled anesthetics altered the respiratory pattern from eupnea in 1 MAC to gasping in inhaled 2-MAC in seven mice. However, the time course of ventilation and EMGSH responses to volatile anesthetics at inhaled 2-MAC differed significantly among the three agents: desflurane had the strongest inhibitory effect on inspiratory and EMGSH activities, isoflurane had the weakest inhibitory effects and promoted stable gasping, and sevoflurane showed an intermediate effect. In addition, riluzole administration eliminated isoflurane- and desflurane-induced gasping in five mice. All three anesthetics produced a similar gasping response at inhaled 2-MAC; however, the response's time course and the mechanism by which stable gasping was maintained depend heavily on the volatile anesthetic used.",
+      "doi": "10.1007/s00540-026-03957-9",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671324+00:00",
+      "journal": "Journal of anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-17",
+      "pmid": "43040001",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 63,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Comparison of gasping breaths induced by three commonly used volatile anesthetics in mice.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43040001/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1245/s10434-026-20934-4",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671942+00:00",
+      "journal": "Annals of Surgical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-16",
+      "pmid": "43040166",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 35,
+      "publication_types": [
+        "Editorial"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Editorial: How Grave Is the Impact of Myasthenia on Long-Term Survival After Resection of Thymoma?",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43040166/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/s41408-026-01674-w",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671807+00:00",
+      "journal": "Blood Cancer Journal",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-16",
+      "pmid": "43039885",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 40,
+      "publication_types": [
+        "Letter"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "clinical_trial"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "specialist",
+      "title": "Solitary plasmacytoma of bone (SPB): observations from a randomized phase III trial that evaluated the additional of adjuvant systemic treatment to zoledronic acid (ZA) after definitive radiation (alliance A061402).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43039885/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1245/s10434-026-20834-7",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671630+00:00",
+      "journal": "Annals of Surgical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-16",
+      "pmid": "43037852",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 50,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "ASO Visual Abstract: Prognostic Impact of the Combined Use of CA19-9 and DUPAN-2 in Initially Unresectable Locally Advanced Pancreatic Adenocarcinoma.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43037852/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1245/s10434-026-20876-x",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671627+00:00",
+      "journal": "Annals of Surgical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-16",
+      "pmid": "43037854",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 50,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "ASO Visual Abstract: An In-depth Bibliometric Study of Complex General Surgical Oncology (CGSO) Fellowship Graduates Within the First 5-Year Period of Independent Practice.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43037854/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1245/s10434-026-20800-3",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671624+00:00",
+      "journal": "Annals of Surgical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-16",
+      "pmid": "43037857",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 50,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "ASO Author Reflections: Supine MRI Guided Breast Cancer Surgery: Advancing Partial Mastectomy from Point Localization to Mapping a Targeted Resection Volume.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43037857/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1245/s10434-026-20920-w",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671621+00:00",
+      "journal": "Annals of Surgical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-16",
+      "pmid": "43040159",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 50,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "ASO Author Reflections: Can Pathological Invasion Status Help Select Patients for Adjuvant Chemotherapy in Stage II-III Non-small Cell Lung Cancer?",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43040159/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1245/s10434-026-20858-z",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671618+00:00",
+      "journal": "Annals of Surgical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-16",
+      "pmid": "43040162",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 50,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "ASO Visual Abstract: Cytoreductive Surgery with or Without Hyperthermic Intrathoracic Chemotherapy for Thymic Epithelial Malignancies with Pleural Dissemination.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43040162/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1245/s10434-026-20897-6",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671616+00:00",
+      "journal": "Annals of Surgical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-16",
+      "pmid": "43040164",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 50,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "ASO Visual Abstract: CARG Score Predicts Perioperative Chemotherapy Completion in Pancreatic Cancer: Association of Completion with Overall Survival.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43040164/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1245/s10434-026-20896-7",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671613+00:00",
+      "journal": "Annals of Surgical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-16",
+      "pmid": "43040165",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 50,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "ASO Visual Abstract: Predictors of Response to Neoadjuvant Systemic Therapy and Survival in Patients with cN1 Breast Cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43040165/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1245/s10434-026-20935-3",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671610+00:00",
+      "journal": "Annals of Surgical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-16",
+      "pmid": "43040171",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 50,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "ASO Visual Abstract Peritumoral CT Features Improve the Prediction of Nuclear Grade in Small (2-4 cm) Solid Clear Cell Renal Cell Carcinoma: A Multicenter Study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43040171/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/s41592-026-03291-8",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671578+00:00",
+      "journal": "Nature Methods",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-16",
+      "pmid": "43040034",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 53,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Tracing the genetic roots of cellular identity in tumors.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43040034/"
+    },
+    {
+      "abstract": "To evaluate differences in breast cancer-specific survival (BCSS) overall and across molecular subtypes defined by hormone receptor and HER2 status, and by racial/ethnic groups. The population-based analysis included 99,919 breast cancer cases diagnosed during 2011-2017 in the Florida Cancer Data System. BCSS was estimated using Kaplan-Meier methods and multivariable Cox regression, adjusting for demographic, clinical, socioeconomic, and behavioral factors such as smoking status and disaggregated Asian/Pacific Islander (API) data. Black women had the highest prevalence of triple-negative breast cancer (TNBC) (22.7%). Compared with White women, mortality risk was higher for Black (HR = 1.36; 95% CI: 1.28-1.44), API (HR = 1.20; 95% CI: 1.04-1.39), and Hispanic women (HR = 1.10; 95% CI: 1.03-1.17). Elevated risks were observed for current smokers, unmarried women, and patients with TNBC (HR = 3.13; 95% CI: 2.96-3.30) compared with HR+/HER2- cases. Disparities were greatest in HR+/HER2- disease, where API and Black women faced 34-46% higher mortality. In TNBC, excess risk persisted for Black women. Once disaggregated, API women no longer had increased risk for breast cancer mortality compared to White women. Receptor-level data revealed disparities for Hispanic and API women, who previously showed survival comparable or better than White women. Florida's size and diversity make these results uniquely informative and may provide insight in BCSS in a heterogenous population. Most concerning is that these disparities are greatest in subtypes with better prognosis and effective therapies. This underscores the need for equitable access to therapies and mitigation of systemic barriers.",
+      "doi": "10.1007/s10549-026-08127-9",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671567+00:00",
+      "journal": "Breast Cancer Research and Treatment",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-16",
+      "pmid": "43037699",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 55,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "specialist",
+      "title": "Updated insights into breast cancer survival disparities by race/ethnicity and HR/HER2 molecular subtypes: a Florida population-based analysis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43037699/"
+    },
+    {
+      "abstract": "Multicentric IDH-mutant lower-grade gliomas (McLGGs) are rare, and relationships between spatially distinct lesions and long-term oncofunctional management remain poorly characterized. We examined inter-lesional molecular profiles, progression trajectories, and outcomes in patients managed with awake functional-based resection (AFBR). We retrospectively analyzed 9 patients with 18 IDH-mutated glioma sites treated with multimodal therapy including AFBR. Molecular profiles were classified as concordant or discordant based on IDH mutation and 1p/19q-codeletion status, and progression synchrony as synchronous or asynchronous based on imaging, growth kinetics, progression timing, and anaplastic transformation. Surgical sequencing, treatment response, and functional outcomes were assessed longitudinally. Nine patients underwent 17 AFBR during a median 7.8-year follow-up. Defining molecular markers were concordant in 5 patients, discordant in 3, and unresolved in 1, while progression trajectories were asynchronous in 6 and synchronous in 3. Multisite and staged resections were tailored to anatomical and functional considerations. An extent of resection ≥ 90% was achieved in 18 of 22 site-level resections (81.8%), with a median extent of resection of 100%. Six patients received temozolomide, with discordant inter-lesional responses in 3. Among the 8 survivors, median KPS at last follow-up was 90 (range: 80-100). Eight patients maintained or resumed professional or academic activity during at least part of their follow-up, while the remaining patient preserved autonomy and social activities. Neuropsychological findings were descriptive and heterogeneous. McLGGs displayed heterogenous inter-lesional molecular and progression profiles, with molecular concordance not necessarily translating into parallel growth, histopathological evolution, or treatment response. These findings support a longitudinal approach integrating relative inter-lesional behavior with the evolving oncofunctional context. In this selected series, repeated or multisite AFBR was feasible within individualized multimodal treatment trajectories, with generally preserved long-term functional status. N/A.",
+      "doi": "10.1007/s11060-026-05877-w",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671564+00:00",
+      "journal": "Journal of Neuro-Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-16",
+      "pmid": "43037742",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 55,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "specialist",
+      "title": "Inter-lesional heterogeneity and long-term oncofunctional outcomes in multicentric IDH-mutant gliomas treated with single- or multi-stage multisite awake surgery.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43037742/"
+    },
+    {
+      "abstract": "For patients with acral melanoma and inguinal nodal metastasis, the optimal extent of groin dissection remains controversial. Whether extending inguinal lymph node dissection (ILND) to ilioinguinal lymph node dissection (IILND) improves survival or alters recurrence patterns in patients without definite pelvic nodal involvement is unclear. Data from all patients with acral melanoma and imaging-suggested isolated inguinal nodal positivity who underwent therapeutic lymph node dissection at Fujian Cancer Hospital (October 2011 to May 2025) were retrieved retrospectively. Overall survival (OS) and relapse-free survival (RFS) were compared using Kaplan-Meier analysis, Cox regression, and overlap weighting. Recurrence patterns were assessed descriptively and by competing-risk analysis. Among 52 eligible patients, 31 underwent ILND and 21 underwent IILND. Median follow-up was 38.6 months. Unadjusted analyses showed no statistically significant differences between IILND and ILND in OS (hazard ratio (HR), 1.16; 95% confidence interval (CI), 0.41-3.24; P = 0.783) or RFS (HR, 0.82; 95% CI, 0.42-1.61; P = 0.569). Secondary overlap-weighted estimates were directionally consistent. Any recurrence occurred in 27/31 patients (87.1%) after ILND and 13/21 patients (61.9%) after IILND. Pelvic nodal recurrence was 29.0% versus 4.8%, respectively, while initial distant metastasis was comparable. Competing-risk analyses showed no significant difference for these recurrence endpoints. IILND did not improve OS or RFS compared with ILND. Crude recurrence patterns suggested fewer pelvic nodal failures after IILND, but this signal was not confirmed in competing-risk analyses or accompanied by survival benefit, supporting selective rather than routine pelvic extension.",
+      "doi": "10.1245/s10434-026-20903-x",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671513+00:00",
+      "journal": "Annals of Surgical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-16",
+      "pmid": "43040160",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 58,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Survival Outcomes and Recurrence Patterns After Ilioinguinal versus Inguinal Lymph Node Dissection in Acral Melanoma: A Retrospective Cohort Study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43040160/"
+    },
+    {
+      "abstract": "This study aimed to evaluate the incremental value of adding perirenal fat radiomics to intratumoral computed tomography (CT) radiomics for predicting postoperative progression-free survival (PFS) in renal cell carcinoma (RCC) and to develop a combined radiomics-clinical nomogram for preoperative risk stratification. The study retrospectively enrolled 207 patients with pathologically confirmed RCC who underwent surgery at a single center and randomly divided them into training and validation cohorts at a ratio of 7:3. Radiomics features were extracted from intratumoral and perirenal fat regions on preoperative corticomedullary-phase contrast-enhanced CT images. After feature selection using correlation analysis, univariable Cox regression, and least absolute shrinkage and selection operator (LASSO) Cox regression, an intratumoral radiomics model and an intratumoral-perirenal fat radiomics model were constructed. Clinical predictors were identified by uni- and multivariable Cox regression. A combined radiomics-clinical nomogram then was developed. Model performance was assessed using the area under the receiver operating characteristic curve (AUC), Kaplan-Meier analysis, calibration curves, and decision curve analysis (DCA). Maximum tumor diameter and fibrinogen were independent clinical predictors of PFS. The intratumoral-perirenal fat model showed better predictive performance than the intratumoral model alone. In the validation cohort, the combined nomogram had AUCs of 0.728, 0.821, and 0.858 for 1-, 2-, and 3-year PFS, respectively, and a concordance index (C-index) of 0.815, outperforming the clinical and radiomics-only models. The nomogram also showed good calibration and clinical utility. Perirenal fat radiomics adds prognostic value beyond intratumoral CT radiomics and, when integrated with clinical factors, enables accurate and noninvasive prediction of postoperative PFS in RCC.",
+      "doi": "10.1245/s10434-026-20814-x",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671510+00:00",
+      "journal": "Annals of Surgical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-16",
+      "pmid": "43040161",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 58,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Incremental Value of Perirenal Fat Radiomics for Predicting Postoperative Progression-free Survival in Renal Cell Carcinoma.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43040161/"
+    },
+    {
+      "abstract": "Neuroendocrine tumors frequently metastasize to the liver. The size and number of neuroendocrine liver metastases (NELM) are prognostic. Studies have often dichotomized these variables, limiting nuanced risk assessment. We aimed to determine whether continuous-variable prognostic models stratified by primary tumor site refine survival prediction after hepatic cytoreduction. We analyzed 329 patients who underwent hepatic cytoreduction for NELM at three international centers during 1995-2024. NELM characteristics, including largest diameter and number of metastases, were modeled as continuous variables. Overall survival (OS) and recurrence-free survival (RFS) were estimated using Kaplan-Meier analysis. Prognostic contour plots of 10-year OS estimates as a function of largest NELM diameter, plotted on the x-axis, and NELM number, plotted on the y-axis, were generated separately for small intestinal neuroendocrine tumors (SINET) and pancreatic neuroendocrine tumors (PNET). Median follow-up was 11.0 years (95% confidence interval 10.4-15.6). The 10-year OS rate was 71.0% for SINET and 44.4% for PNET (p < 0.001). The 10-year RFS rate was 18.2% for SINET and 4.9% for PNET (p < 0.001). The SINET contour plot had vertical contour lines, indicating that largest tumor diameter was the predominant prognostic factor, whereas the PNET contour plot had diagonal contour lines, indicating that both diameter and number contributed substantially. The prognostic impacts of NELM largest diameter and number differ by tumor origin, with largest diameter predominating in SINET and both diameter and number being important in PNET. Clinicians should not exclude patients from SINET resection solely because of high tumor number.",
+      "doi": "10.1245/s10434-026-20887-8",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671507+00:00",
+      "journal": "Annals of Surgical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-16",
+      "pmid": "43040167",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 58,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Contour-Based Prognostic Modeling of Neuroendocrine Liver Metastases by Primary Tumor Site.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43040167/"
+    },
+    {
+      "abstract": "This study aimed to compare intraoperative metrics and short-term outcomes between robot-assisted radical proximal gastrectomy (RAPG) and laparoscopic radical proximal gastrectomy (LAPG) for proximal gastric cancer. We retrospectively identified 542 consecutive patients who underwent robot-assisted or laparoscopic radical proximal gastrectomy between December 2018 and December 2024. After exclusions and 1:1 propensity score matching, the final matched cohort included 286 patients, with 143 in each group. Complete surgical videos were reviewed to quantify predefined intraoperative technical events using a modified observational clinical human reliability analysis framework. The primary outcome was Clavien-Dindo grade II or higher complications within 30 days after surgery. Matched statistical methods were used for the propensity score-matched cohort. Compared with LAPG, RAPG was associated with fewer predefined intraoperative technical events, shorter operative time and postoperative length of stay, lower estimated intraoperative blood loss, a greater number of retrieved lymph nodes, and higher inpatient medical costs. Clavien-Dindo grade II or higher complications occurred less frequently after RAPG than after LAPG (14.7% vs. 25.9%; matched odds ratio 0.52; 95% confidence interval 0.29-0.93; exact McNemar P = 0.033). Reflux-related symptoms and eating restriction at 3 months did not differ significantly between groups. In this propensity score-matched cohort study, RAPG was associated with fewer predefined intraoperative technical events and favorable differences in selected short-term perioperative outcomes compared with LAPG, although inpatient medical costs were higher. Early postoperative symptom outcomes were not worse after RAPG.",
+      "doi": "10.1245/s10434-026-20926-4",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671504+00:00",
+      "journal": "Annals of Surgical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-16",
+      "pmid": "43040168",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 58,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Intraoperative Metrics and Short-term Outcomes of Robot-assisted versus Laparoscopic Radical Proximal Gastrectomy: A Propensity Score-matched Single-center Retrospective Cohort Study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43040168/"
+    },
+    {
+      "abstract": "Surgery for locally advanced pancreatic ductal adenocarcinoma (LA-PDAC) remains technically demanding, particularly in presence of extensive venous involvement. A temporary mesenterico-portal shunt (TMPS) facilitates long venous resection and enables safe arterial resection, but evidence is limited to small series. We report technique and outcomes from the largest cohort of TMPS, an approach described at our center. All pancreatic resections performed with TMPS between January 2007 and December 2024 were retrospectively reviewed. Operative and survival outcomes were analyzed. 155 LA-PDAC patients underwent TMPS placement. Most had LA-PDAC (92%) and received preoperative chemotherapy (89%), mainly FOLFIRINOX-based (86.9%). Complete venous obstruction (Nakao D) was present in 48.1%. Procedures included pancreatoduodenectomy (62%), total (24.5%), and distal pancreatectomy (13.5%). All patients underwent venous resection; 75% also required arterial resection, most commonly of the superior mesenteric artery (61%). Mean operative time was 610 min (range 180-1145 min). Postoperative mortality was 6.4%, and R0 resection was achieved in 56%. The median OS from diagnosis was 32.7 months (95% confidence interval [CI] 23.5-42.00 months).The median OS from surgery was 17.46 months (95% CI 13.2-21.6 months), with 1-, 3, and 5-year survival rates of 70%, 29%, and 21%, respectively. TMPS is a standardized and reproducible technique that facilitates management of complex venous resection and may enhance the feasibility of arterial resection in selected patients with LA-PDAC.",
+      "doi": "10.1245/s10434-026-20910-y",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671501+00:00",
+      "journal": "Annals of Surgical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-16",
+      "pmid": "43040170",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 58,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Mesentericoportal Venous Shunting in Surgery for Locally Advanced Pancreatic Tumors: Results of a Standardized Approach for Oncovascular Pancreatic Surgery.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43040170/"
+    },
+    {
+      "abstract": "Intrahepatic cholangiocarcinoma (ICC) often recurs after resection and has a poor prognosis. Here, we examined the clinicopathological, prognostic, and immune significance of claudin-18 (CLDN18) expression in resected ICC and its relationship with histological duct type. We retrospectively analyzed 120 patients who underwent hepatic resection for ICC and defined CLDN18 positivity as moderate-to-strong membranous staining in at least 75% of tumor cells. We evaluated associations between pathological features, postoperative outcomes, tumor immune microenvironment and public gene expression data. CLDN18 positivity was observed in 25 (20.8%) patients. CLDN18-positive tumors were more frequently located in the perihilar region and more often classified as large duct type, with periductal infiltration, biliary intraepithelial neoplasia, mucin production, perineural invasion, and lymphatic invasion also being more frequent. Patients with CLDN18-positive tumors had poorer overall and recurrence-free survival, and CLDN18 positivity was independently associated with overall (hazard ratio [HR], 2.21; 95% confidence interval [CI], 1.20-4.08; P = 0.011) and recurrence-free (HR, 2.00; 95% CI, 1.12-3.55; P = 0.018) survival after adjustment for histological duct type, resection margin status, tumor size, and year of surgery. None of the immune markers differed significantly between the groups after correction for multiple testing. Public database showed higher CLDN18 expression in ICC than that in normal tissues and a significant difference according to American Joint Committee on Cancer stage. CLDN18-positive ICC was frequently associated with the large duct type and its characteristic pathological features, and CLDN18 expression was associated with poor postoperative outcomes after adjustment for histological duct type.",
+      "doi": "10.1245/s10434-026-20943-3",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671498+00:00",
+      "journal": "Annals of Surgical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-16",
+      "pmid": "43040172",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 58,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Claudin-18 Expression and Postoperative Prognosis in Intrahepatic Cholangiocarcinoma: Relationship with Histological Duct Type.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43040172/"
+    },
+    {
+      "abstract": "Population-based evidence on high-risk human papillomavirus (hrHPV) and cervical screening outcomes in Uzbekistan is limited. We assessed hrHPV prevalence, district variation, associated factors, and cytological findings in Tashkent. A cross-sectional study was conducted among 52,995 women aged 18-70 years attending routine cervical screening across Tashkent city during 2024-2025. HR-HPV testing was performed using real-time PCR; reflex liquid-based cytology was performed for all HPV-positive women. Multivariable logistic regression was used to identify independent determinants of HPV positivity (n = 52,995) and cytological abnormality (n = 2,255 HPV-positive women with adequate cytology). Overall HR-HPV positivity was 4.43% (95% CI: 4.26-4.61%), with significant heterogeneity across districts (p < 0.01); Bektemir district recorded the highest prevalence. Independent predictors of HPV positivity included older age (aOR 2.41, 95% CI 1.24-4.83, for 56-70 years), irregular menstruation (aOR 1.39, 95% CI 1.23-1.57), and early sexual debut, while barrier contraception (aOR 0.70, 95% CI 0.60-0.81) and grand multiparity (aOR 0.80, 95% CI 0.65-0.98) were protective. Among HPV-positive women, any cytological abnormality was detected in 24.6% and high-grade lesions in 17.3%. Keratosis was the strongest predictor of cytological abnormality (aOR 4.09-5.16, both p < 0.01). This large population-based study establishes a comprehensive HPV epidemiological baseline for Tashkent and demonstrates the clinical yield of HPV-primary screening with reflexive cytology triage. District-level heterogeneity and identified risk profiles provide evidence for geographically targeted program optimization in support of Uzbekistan's progress toward WHO 90-70-90 cervical cancer elimination targets.",
+      "doi": "10.1093/jncics/pkag121",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671491+00:00",
+      "journal": "JNCI Cancer Spectrum",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-16",
+      "pmid": "43040636",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 58,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "HPV prevalence and risk factors in a population-based cervical cancer screening program in Tashkent, Uzbekistan.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43040636/"
+    },
+    {
+      "abstract": "The use of histone deacetylase inhibitors (HDACis) to reverse epigenetic silencing of immune-associated genes has shown clinical efficacy in hematologic malignancies but not solid tumors. Here we explored the transcriptional and phenotypic effects of in vitro exposures of Zabadinostat, a second-generation class I HDACi, on human peripheral blood mononuclear cells and solid tumor cells to support its combination with immunotherapy. Zabadinostat induced activation of CD8+ and CD4+ T cells and natural killer cells, while reducing the frequency and suppressive function of regulatory T cells. Increases in stem-like memory T cells, a rare subset of multipotent, self-renewing cells important for anti-tumor control, were also observed, and these immune effects coincided with increased expression of transcriptional activation marks H3K9ac and H3K27ac. Zabadinostat increased PD-L1, FAS, ICAM-1, and HLA expression in tumor cells and reverted epithelial-mesenchymal transition-related proteins. These data show that Zabadinostat is a novel immunomodulatory agent with multifaceted effects, capable of enhancing immune effector function, reducing immunosuppression, and improving the visibility of tumor cells to immune-mediated attack. These findings support the use of Zabadinostat in combination with immunotherapeutic agents.",
+      "doi": "10.1002/1878-0261.70358",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671385+00:00",
+      "journal": "Molecular Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-16",
+      "pmid": "43040962",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 66,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Immune potentiating effects of the HDAC inhibitor Zabadinostat on human immune and tumor cells.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43040962/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1038/s41591-026-04798-5",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671378+00:00",
+      "journal": "Nature Medicine",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-16",
+      "pmid": "43040107",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 66,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "meta_analysis"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "core",
+      "title": "Addendum: A meta-analysis of GFR slope as a surrogate endpoint for kidney failure.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43040107/"
+    },
+    {
+      "abstract": "Extracellular vesicles (EVs) have shown great potential for disease detection from liquid biopsies. However, the lack of optimized isolation and detection methods limited their clinical application. Here we engineer a bioinspired, reconfigurable, self-powered bubble motor (Butor) microswarm to streamline intelligent isolation and ultrasensitive profiling of circulating EVs for cancer liquid biopsies. Butor microswarm shows jellyfish-like, self-propelled lifting locomotion along lumen-like vertical or inclined tubular path in parallel, allowing rapid isolation (10 min, near 90%) of EV subtypes via three-dimensional directional scanning capture even in high-viscosity biofluids. Furthermore, the buoyancy-activated Butors achieve ultrasensitive EV profiling near a single-particle level, enable early diagnosis of non-small cell lung cancer with an accuracy of up to 94% (95% sensitivity) in a pilot cohort and improve the outcome in cancer staging (I-IV) discrimination, response monitoring of surgical treatment and efficacy prediction of immunotherapy in patients with non-small cell lung cancer. Our self-powered motor represents an intelligent, fast, inexpensive, sensitive and multiplexed liquid biopsy tool for accurate cancer diagnostics and treatment monitoring in clinical settings.",
+      "doi": "10.1038/s41551-026-01834-0",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671372+00:00",
+      "journal": "Nature Biomedical Engineering",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-16",
+      "pmid": "43039978",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 69,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Self-powered bubble motor microswarms for ultrasensitive detection, monitoring and prediction in cancer liquid biopsies.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43039978/"
+    },
+    {
+      "abstract": "Adeno-associated virus (AAV) vectors have been applied for precise genome engineering in human T cells but poor tropism restricts their efficiency and translational potential. Here, through directed evolution of the AAV6 capsid in primary human T cells, we identified a family of variants containing an APR motif at residues 455-457. The lead candidate, AAV.APR31, enabled robust transduction of primary T and NK cells at nearly 100-1,000-fold lower doses than AAV6 and outperformed the human T cell-tropic capsid AAV-hT7. CRISPR screening identified CD7 as a lineage-specific entry enhancer alongside the canonical AAVR pathway and structural analysis suggested that the APR motif facilitates CD7 engagement. Unlike existing delivery systems confined to one engineering mode, AAV.APR31 enabled transient transgene delivery, site-specific knock-in and transposon integration in human T and NK cells, generating CAR-T cells functionally equivalent to lentiviral vector-manufactured products. Systemic administration of AAV.APR31-generated CAR-T cells in vivo resulted in potent tumor control in hematologic and solid tumor mouse models.",
+      "doi": "10.1038/s41587-026-03344-5",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671368+00:00",
+      "journal": "Nature Biotechnology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-16",
+      "pmid": "43040071",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 69,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "A CD7-targeted AAV variant enables efficient T and NK cell engineering in vivo.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43040071/"
+    },
+    {
+      "abstract": "The optimal discharge strategy after mastectomy, with or without reconstruction, remains debated. Same-day discharge has emerged as a potential paradigm shift in postoperative care, driven by Enhanced Recovery After Surgery protocols and value-based, patient-centered care. This study systematically reviews same-day discharge versus inpatient admission after mastectomy and compares outcomes in a meta-analysis. MEDLINE, EMBASE, Cochrane Library, and CINAHL were searched for studies comparing same-day discharge versus inpatient admission after mastectomy, with or without reconstruction. Primary outcomes were 30-day readmission and reoperation. Secondary outcomes included postoperative bleeding, wound infection, unplanned ED or clinic visits, and 30-day mortality. Risk of bias was assessed using the Newcastle-Ottawa scale and evidence certainty via GRADE. The protocol was registered on PROSPERO (CRD42024520256). Of 6,377 studies, 18 non-randomized cohort studies encompassing 182,743 patients were included. Same-day discharge was associated with lower odds of reoperation (OR 0.49; 95% CI, 0.41-0.58), postoperative bleeding (OR 0.30; 95% CI, 0.14-0.64), wound infection (OR 0.65; 95% CI, 0.49-0.87), and 30-day mortality (OR 0.07; 95% CI, 0.03-0.19). No significant differences were observed in 30-day readmission (OR 0.96; 95% CI, 0.51-1.81) or unplanned ED or clinic visits (OR 0.62; 95% CI, 0.33-1.16). Certainty of evidence ranged from very low to moderate. This meta-analysis supports the feasibility of same-day discharge after mastectomy, but underscores the need for high-quality randomized trials to validate these findings.",
+      "doi": "10.1245/s10434-026-20937-1",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671347+00:00",
+      "journal": "Annals of Surgical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-16",
+      "pmid": "43040163",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 74,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "clinical_trial",
+        "meta_analysis"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Outcomes of Same-day Discharge Versus Inpatient Admission with Monitoring After Mastectomy ± Immediate Reconstruction: A Systematic Review and Meta-analysis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43040163/"
+    },
+    {
+      "abstract": "Esophageal cancer is a highly lethal malignant tumor of the digestive system. Patients with early esophageal cancer often undergo endoscopic resection, but postoperative non-curative resection is frequently undertaken because of the presence of high-risk pathological features. Controversy over subsequent management strategies remains. A systematic search of PubMed, Web of Science, Embase, and Cochrane databases through September 29, 2026, yielded seven studies involving 493 patients. A meta-analysis was performed using random-effects or fixed-effects models, and study quality was assessed using the Newcastle-Ottawa Scale and the Risk of Bias in Non-randomized Studies of Interventions-I tool. This meta-analysis included seven studies. Compared with surveillance, additional surgery was associated with significantly improved 5-year survival: 5-year overall survival (risk ratio 1.40; 95% confidence [CI] 1.24-1.58), and 5-year recurrence-free survival (risk ratio 1.34; 95% CI 1.08-1.67), all favoring surgery. The pooled hazard ratio for cancer-specific survival also favored surgery (4.64; 95% CI 1.09-19.76). By contrast, the 3-year endpoints and the time-to-event hazard ratios for overall and recurrence-free survival did not reach statistical significance. Additional surgery offers significant long-term survival benefits for eligible patients with early-stage esophageal cancer. Clinical decision-making should be individualized, and future high-quality studies are needed to further validate its efficacy across diverse populations.",
+      "doi": "10.1245/s10434-026-20902-y",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671343+00:00",
+      "journal": "Annals of Surgical Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-16",
+      "pmid": "43040169",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 74,
+      "publication_types": [
+        "Journal Article",
+        "Review"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "clinical_trial",
+        "meta_analysis"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Comparison of Additional Surgical Resection Versus Surveillance Only in Patients with Early Esophageal Cancer After Non-curative Endoscopic Resection: A Meta-analysis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43040169/"
+    },
+    {
+      "abstract": "The ability of cells to adapt their behavior in response to genetic or environmental changes is a fundamental biological process that drives cellular diversity in both normal and pathological contexts, including in tumor evolution. Copy number alterations (CNAs), which can include large-scale changes in genomic ploidy, play a key role in creating adaptive advantages in evolving cell populations. However, tracing these populations across experiments and disentangling the role of CNAs from other sources of transcriptional variability remains challenging and expensive. Here we present Echidna, a Bayesian hierarchical model that integrates single-cell RNA sequencing and bulk whole-genome sequencing data to enable robust integrative inference of CNAs, jointly across samples and treatment time points, to better understand the impact of genomic events on cellular phenotype. Applying Echidna to patient tumor specimens, we demonstrate its superior performance in clonal reconstruction and derive insights into therapy resistance mechanisms.",
+      "doi": "10.1038/s41592-026-03279-4",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-17T13:59:29.671303+00:00",
+      "journal": "Nature Methods",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-16",
+      "pmid": "43040036",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 77,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "single_cell",
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Echidna: a Bayesian framework for integrative inference of copy number alterations impacting phenotypic plasticity.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43040036/"
+    },
     {
       "abstract": "To describe acute diencephalic syndrome (ADS) after superior transventricular surgery for giant pituitary adenomas with true third-ventricular extension, and to explore the association of ADS with extent of resection in a selected cohort. We retrospectively analyzed 40 adults operated on in 2015-2025 (23 total, 17 subtotal resections; 22 anterior transcallosal and 18 transcortical transventricular approaches). Postoperative AVP-D was distinguished from multidomain ADS, graded retrospectively according to the previously published four-stage framework. Final-stage agreement was reassessed independently in all 40 patients. Postoperative AVP-D occurred in all 40 patients; four had isolated AVP-D without ADS. ADS occurred in 36/40 (90.0%): 23/23 after total and 13/17 after subtotal resection (risk difference 23.5 percentage points; 95% Newcombe CI 3.5-47.3; two-sided Fisher exact p = 0.026). Stage III-IV ADS occurred in 9/23 versus 3/17 (p = 0.179). Independent final-stage agreement was 36/40 (90.0%; linear-weighted κ = 0.926). Five patients required mechanical ventilation, and two died. ADS was frequent in this anatomically selected transventricular cohort, but the operational definition is not specific for hypothalamic injury and the observational comparison is vulnerable to confounding by indication. The observed lower ADS frequency after subtotal resection is hypothesis-generating. Prospective multicenter validation is necessary.",
       "doi": "10.1007/s11060-026-05879-8",
@@ -3675,637 +4475,6 @@
       "url": "https://doi.org/10.1093/neuonc/noag189.184"
     },
     {
-      "abstract": "Abstract Glioblastoma (GB), the most aggressive primary brain tumor in adults, is characterized by striking intratumoral heterogeneity and diffuse invasion of the brain parenchyma. The subcellular mechanisms underlying this invasive behavior have remained largely elusive. However, whole-brain colonization is driven in part by so-called tumor microtubes (TMs), neurite-like protrusions formed by a distinct subpopulation of GB cells. Our work identifies local protein translation within these TMs as a previously underappreciated driver of glioblastoma invasion. By combining subcellular organelle organization and spatial transcriptomics with functional readouts, we demonstrate that TM gene expression is a key determinant of invasive cell identity. Strikingly, these invasive cells show significantly enhanced local translation within TMs, mirroring translation dynamics known from axonal growth cones during neurodevelopment. Functional perturbation of TM-localized translation using photoswitchable puromycin, alongside targeted knockdowns of the TM-enriched proteins GPM6A and GAP43, demonstrates that local translation is an active driver of TM dynamics, invasion, and tumor growth. These findings define local translation as a key determinant of glioblastoma invasion and tumor heterogeneity, and open new avenues for therapeutic targeting.",
-      "doi": "10.1093/neuonc/noag189.183",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491130+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "CNSC-42 Local translation in neurite-like protrusions of glioblastoma drives tumor biology",
-      "url": "https://doi.org/10.1093/neuonc/noag189.183"
-    },
-    {
-      "abstract": "Abstract Diffuse midline glioma (DMG) is a devastating pediatric cancer that hijacks surrounding neurons to promote tumor proliferation via neuron–glioma synapses. Emerging evidence indicates that neural circuits influence DMG growth through glutamatergic, GABAergic, cholinergic, and serotonergic signaling. Here, we report that adrenergic signaling, specifically through the β2-adrenergic receptor (ADRB2), strongly influences the immune compartment of the tumor microenvironment (TME) in an allograft mouse model of DMG. Wildtype (wt) mice, or mice lacking Adrb2 (Adrb2KO), were orthotopically implanted with H3K27M-mutant, IUE-derived DMG cells into the pons, followed by bulk and single-cell RNA sequencing (scRNA-seq). Although the absence of ADRB2 did not alter DMG growth, bulk RNA sequencing of endpoint tumors (5–6 weeks) revealed 489 differentially expressed genes (p value and FDR &lt; 0.05 and FC &gt; 2) in tumors grafted in Adrb2KO mice compared to wt. Interestingly, we saw increased expression of neuronal signaling genes and decreased expression of immunosuppressive genes in Adrb2KO group . To investigate cell type–specific effects when ADRB2 is lost from host animals, we performed scRNA-seq of mid-stage (3 weeks) and late-stage (5-weeks post-engraftment) tumors. Pseudobulk RNA analysis of all cells showed increased expression of inflammatory and T cell exhaustion–associated genes, including Cxcl13 and Timd4, alongside downregulation of immunosuppressive genes such as CD5L and Arg1. Furthermore, consensus non-negative matrix factorization (cNMF) of myeloid populations revealed a marked reduction in Arg1+ immunoregulatory programs in tumors from Adrb2KO mice. Together, these findings suggest that loss of ADRB2 enhances inflammation and reduces immunosuppression in DMG, a tumor type typically considered immunologically “cold.” Efforts are now focused on assessing whether pharmacological blockade of ADRB2 could improve the efficacy of existing immunotherapy strategies by shifting DMG tumors from an immunosuppressive to an inflammatory state.",
-      "doi": "10.1093/neuonc/noag189.181",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491127+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "CNSC-40 β2-Adrenergic Receptor Modulates the Tumor Microenvironment in a Mouse Model of Diffuse Midline Glioma",
-      "url": "https://doi.org/10.1093/neuonc/noag189.181"
-    },
-    {
-      "abstract": "Abstract Background H3 G34-mutant diffuse hemispheric glioma (DHG) is an aggressive brain tumor with no curative therapy. Younger age is a poor prognostic factor, but the underlying biological mechanism is unknown. We hypothesize that tumor cell states and tumor microenvironment (TME) composition differ across the age spectrum and that these differences correlate with treatment response and patient outcomes. Methods Paired transcriptome and DNA methylome of diagnostic samples from 31 newly diagnosed DHG patients in a multi-institutional cohort were deconvoluted using a scRNA-seq reference cohort (N = 19). Cox regression assessed progression-free survival (PFS) and overall survival (OS) in age-stratified analyses (&lt;16 vs. ≥16 years) and in temozolomide (TMZ)-adjusted models with age×cell type interaction term; statistical significance p &lt; 0.05 by both platforms was required. Results The median age at diagnosis was 15 years (10-28 years). The median PFS was 0.90 years (95%CI:0.59-1.54), and the median OS was 1.95 years (95%CI:1.24-4.34). Substantial inter-tumoral heterogeneity was observed in malignant cell states and TME populations, while radial glia-like tumor cells and myeloid cells predominated. Higher astrocyte (AC)-like abundance correlated with inferior PFS in patients &lt;16 years but with superior OS in patients ≥16 years. Conversely, oligodendrocyte abundance correlated with superior PFS in patients &lt;16 years but with inferior OS in patients ≥16 years. Higher early interneuron (eIN)-like and AC+mesenchymal (MES)-like abundance were associated with superior OS in patients ≥16. Crucially, TMZ treatment provided consistent PFS benefit despite heterogeneous effects of specific TME elements and tumor cell states. Conclusions Our findings provide evidence of the age-dependent biological differences in DHG. We demonstrate that the prognostic impact of specific tumor cell states and TME elements reverses across the age spectrum. These results suggest a cellular basis for age-specific DHG prognosis. Elucidating the roles of the identified cell types and their interactions can help identify cell-specific vulnerabilities as therapeutic targets.",
-      "doi": "10.1093/neuonc/noag189.178",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491123+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "CNSC-37 Age-dependent roles of specific tumor cell states and microenvironment elements in patient outcomes in H3 G34-mutant diffuse hemispheric glioma",
-      "url": "https://doi.org/10.1093/neuonc/noag189.178"
-    },
-    {
-      "abstract": "Abstract Glioblastoma (GBM) is the most common and lethal primary brain tumor in adults, with a five-year survival rate of only 7%. Its aggressive progression is driven by both intrinsic tumor properties and dynamic interactions within the tumor microenvironment, where astrocytes are a major cellular component. Despite their critical roles in regulating synaptic function and maintaining brain homeostasis, how astrocytes functionally contribute to GBM progression remains a fundamental knowledge gap. Using an in utero electroporation-based mouse model (IUE-GBM), single-cell RNA sequencing (scRNA-seq) identified a distinct cluster of tumor-associated astrocytes (TAAs) with downregulated calcium signaling-associated genes in late-stage compared to early-stage GBM. Analysis of human GBM scRNA-seq data confirmed significant dysregulation of astrocyte calcium signaling pathways in TAAs relative to astrocytes in healthy controls, and two-photon imaging of awake tumor-bearing mice validated that tumor-associated astrocytes exhibit reduced calcium activity in vivo, suggesting astrocyte calcium activity decreases during tumor progression. Chemogenetic stimulation of astrocyte calcium (As-GqDREADD) significantly reduced tumor size and proliferation and extended median survival in IUE-GBM mice, with similar effects observed in a patient-derived xenograft model using IDH-wildtype GBM cells (PDX-GBM). Conversely, attenuation of astrocyte calcium using the CalEx system significantly increased tumor size and proliferation, demonstrating that astrocyte calcium bidirectionally regulates GBM growth. To identify the underlying mechanism, conditioned media from GqDREADD-stimulated primary astrocytes inhibited glioma cell proliferation and migration in vitro, implicating astrocyte-secreted factors as mediators. Mass spectrometry identified Serping1 as a top candidate, which was elevated in As-GqDREADD stimulated tumors in vivo and was sufficient to inhibit GBM proliferation in vitro. These findings demonstrate that astrocyte calcium signaling plays a central role in regulating GBM growth and identify astrocyte-secreted factors as novel therapeutic targets for this devastating and incurable cancer.",
-      "doi": "10.1093/neuonc/noag189.173",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491119+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "CNSC-32 The Role of Astrocyte Calcium Signaling in Glioblastoma Progression",
-      "url": "https://doi.org/10.1093/neuonc/noag189.173"
-    },
-    {
-      "abstract": "Abstract Glioblastoma (GBM) remains an intractable malignancy with modest therapeutic improvements and dismal patient prognosis. It is increasingly recognized that GBM cells do not grow in isolation but actively engage the brain’s neuronal circuitry. While neuron-to-glioma synaptic-like communication promotes tumor progression, whether glioma cells hijack neuronal proteins for tumor–tumor or neuron–tumor pseudo-synaptic interactions remains largely unresolved. In the normal brain, TSPAN13 is expressed predominantly in neurons and implicated in synapse adhesion and organization. In contrast, we demonstrate robust TSPAN13 overexpression in glioblastoma, where elevated TSPAN13 levels correlate significantly with reduced patient survival. We overexpressed TSPAN13 in GL261 and U87 glioma cells, which significantly accelerated proliferation and migration, whereas CRISPR/Cas9-mediated knockout produced the opposite effect. Co-culture with primary mouse neurons showed that TSPAN13 overexpression significantly increased synapse formation and calcium transients, while knockout decreased both, indicating TSPAN13 promotes neuron–tumor functional connectivity. Bulk RNA-seq of TSPAN13-overexpressing glioma cells revealed enrichment of genes for synapse assembly, synaptic transmission, and glutamatergic signaling. These findings support that TSPAN13 facilitates both neuron–tumor and tumor–tumor synaptic-like communication. Single-cell RNA sequencing and spatial transcriptomics pinpointed TSPAN13 to a neural-progenitor-cell (NPC)-like glioma subpopulation that co-expresses synaptic signatures, with spatial mapping confirming co‑localization with glutamatergic synapse markers. GCaMP6s calcium imaging showed TSPAN13-overexpressing U87 cells exhibit significantly enhanced KCl-evoked calcium transients, mimicking neuronal excitability. This aberrant electrical activity was effectively suppressed by the AMPA receptor antagonist Perampanel, confirming AMPA receptor involvement. In a syngeneic GL261-C57BL/6 orthotopic model, TSPAN13-overexpressing tumors grew faster and shortened survival, effects significantly attenuated by systemic Perampanel. Collectively, our results support a model in which glioma cells co-opt TSPAN13 to facilitate AMPA receptor-dependent pseudo-synaptic communication among tumor cells and with neurons, thereby contributing to a self-reinforcing loop that drives GBM progression. Pharmacological blockade with Perampanel validated this dependence on AMPA receptor-mediated transmission and provides a preclinical basis for disrupting oncogenic synaptic mimicry in GBM.",
-      "doi": "10.1093/neuonc/noag189.170",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491115+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "CNSC-29 A neuronal tetraspanin hijacked by glioblastoma: TSPAN13-mediated synaptic-like crosstalk drives malignant progression",
-      "url": "https://doi.org/10.1093/neuonc/noag189.170"
-    },
-    {
-      "abstract": "Abstract Recent studies identified bi-directional communication between neurons and glioma tumors as a key driver of hyperexcitability and tumor growth. While much of this work has focused on the activity of excitatory neurons, roles for inhibitory neurons remain poorly defined. We analyzed publicly available human glioma datasets along with internal single-cell RNA sequencing of glioma samples to influence studies in an autochthonous murine glioma model. We utilized this model to complete an in-vivo screen, alter specific gene expression, conduct electroencephalogram (EEG) recordings, record tonic GABA levels, visualize GABA activity with a fluorescent reporter, assess proliferation with BrdU pulse, and deploy a chemogenetic system to modulate activity of inhibitory neurons. Through an in-vivo screen, we found that loss of a GABA transporter (Slc6a1LOF) enhanced glioma progression (85 vs.102 days, p-val=0.0004), while simultaneously increasing network hyperactivity detected on EEG. Furthermore, Slc6a1LOF reduced tonic GABA release by tumors and reduced GABA fluorescent reporter activity (p-val=0.00044 and p-val=0.0126). Tumoral GABA production was found to be dependent on Maob, where Maob overexpression enhanced GABA fluorescent reporter activity (p-val=0.0038). Ipsilateral inhibitory neuronal activity induced proliferative changes in glioma with chemogenetic activation suppressing (p-val=0.0148) and inhibition enhancing glioma proliferation (p-val=0.0041). Gliomas overexpress Diazepam Binding Inhibitory (DBI), a secreted negative allosteric modulator of GABA-A. DBI overexpression (DBIOE) enhanced tumor growth (84 vs. 102 days, p-val=0.0141) and exacerbated tumor-related hyperexcitability on EEG, serving as a link between glioma related modulation of inhibitory neurons and proliferation. The proliferative effect of DBIOE was abrogated by activation of ipsilateral inhibitory neurons (p-val=0.9917). Additionally, overexpression of just the GABA binding residues of DBI recapitulated the same enhanced growth as DBIOE (87 vs. 84 days, p-val=0.2802). Collectively, our findings indicate that glioma tumors utilize multiple mechanisms to manipulate the activity of inhibitory neurons as a means to drive network hyperactivity, which ultimately facilitates malignant expansion.",
-      "doi": "10.1093/neuonc/noag189.161",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491112+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "CNSC-20 Glioma regulates GABAergic signaling to drive hyperactivity and tumor progression",
-      "url": "https://doi.org/10.1093/neuonc/noag189.161"
-    },
-    {
-      "abstract": "Abstract Over 2,000 adults are diagnosed annually with isocitrate dehydrogenase-mutant (IDHm) glioma. These tumors recur despite treatment, driven by extensive cellular heterogeneity. However, most molecular studies rely on single biopsies, failing to capture spatial diversity. We applied spatially informed 3D whole tumor sampling to profile 324 samples from 32 IDHm gliomas using exome (n = 323), RNA (n = 318), ATAC (n = 92), and Hi-C (n = 14) sequencing. Integrating 3D spatial coordinates with multi-omic analysis revealed that tumor purity decreased with distance from the tumor centroid (R=-0.32, p = 2.8 × 10-8), while inter-sample genomic (R = 0.24, p = 8.1x10-15), transcriptomic (R = 0.12, p = 1.0x10-5), and epigenetic (R = 0.13, p = 5.0x10-13) similarity increased with spatial proximity. This radial organization was unique to IDHm tumors compared to IDH-wildtype glioblastoma. Covariation network analysis identified groups of coordinated transcriptomic and epigenomic features. We annotated these networks using single-cell RNA and ATAC-sequencing cell atlases, motif enrichment, and correlations with tumor purity and spatial localization. This analysis recovered and significantly extended known tumor-intrinsic and microenvironmental states, including glial-progenitor-like tumor cells, astrocytoma-specific inflammation, and oligodendroglioma-associated neuronal hijacking, and revealed their spatial organization. Notably, in contrast to glioblastoma and astrocytoma, neuronal hijacking networks in oligodendroglioma were enriched towards the tumor core (R=-0.33, p = 2.5 × 10-2) instead of the periphery, suggesting distinct mechanisms of neurite recruitment. Projection of these programs onto IDHm tumors from TCGA (n = 415) revealed an astrocytoma-specific survival association driven by mature oligodendrocyte-related signatures identified independently by expression (HR = 10.21, p = 4.5x10-3) and open chromatin programs (HR = 5.43, p = 3.3 x10-3). Higher expression was associated with worse survival across multiple oligodendrocyte networks, implicating increased oligodendrocyte content—rather than a specific functional cell phenotype—in poor clinical outcome for astrocytoma patients. We conclude that multi-omic profiling across whole tumors reveals clinically relevant tumor architecture and new microenvironmental features with prognostic significance.",
-      "doi": "10.1093/neuonc/noag189.156",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491108+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "CNSC-15 A 3D whole tumor multi-omic atlas of intratumoral heterogeneity in IDH mutant glioma",
-      "url": "https://doi.org/10.1093/neuonc/noag189.156"
-    },
-    {
-      "abstract": "Abstract Recurrent glioblastoma (GBM) emerges after surgery, radiotherapy, and temozolomide within a tissue environment shaped by treatment effects, injury, hypoxia and inflammation. Although recent spatial studies have defined the architecture of GBM, how this architecture is remodeled during therapy-shaped recurrence remains poorly understood. To address this, 10x Visium HD spatial transcriptomic profiling was applied to paired GBM cohort from GLASS consortium including 28 patients, with 27 matched primary-recurrent pairs and one patient with primary samples only. To resolve tumor-intrinsic, microenvironmental, and mixed/interface signals, we developed a layered consensus annotation framework integrating copy number derived malignancy calls, celltype deconvolution, lineage marker gene scoring and tumor functional state scores to classify malignant, non-malignant, and tumor microenvironment interface compartments. Neighborhood enrichment scores were then used to determine which tumor and microenvironmental compartments became spatially associated or separated at recurrence, while non-negative matrix factorization was used to identify malignant and interface-associated transcriptional programs enriched in primary versus recurrent disease. Neighborhood enrichment showed recurrence-associated rewiring between tumor compartments and myeloid, vascular/stromal, and glial regions. Preliminary NES patterns suggested that some recurrent tumors acquire increased AC-MES tumor-state admixture and enhanced proximity between tumor compartments and SPP1 or C3 associated myeloid programs, although these patterns varied across matched pairs, supporting patient-specific spatial trajectories of recurrence. NMF of pure malignant bins identified recurrent enriched stress and remodeling programs, including MES-like hypoxia, inflammatory myeloid-associated, and vascular/ECM-like signatures, while primary-enriched programs showed more developmental, neural, and astrocytic-like features. NMF including interface bins further highlighted boundary-associated programs linking malignant adaptation to remodeled microenvironmental niches. Together, these findings extend recent spatial GBM studies by measuring how tumor architecture changes from primary to recurrent disease within the same patients, supporting a model in which recurrent GBM evolves through patient-specific malignant adaptation within a post-treatment spatial microenvironment.",
-      "doi": "10.1093/neuonc/noag189.152",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491105+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "CNSC-11 Paired spatial transcriptomics reveals recurrence-associated remodeling of malignant and myeloid niches in glioblastoma",
-      "url": "https://doi.org/10.1093/neuonc/noag189.152"
-    },
-    {
-      "abstract": "Abstract Glioblastoma (GBM) is an aggressive brain tumor characterized by extensive invasion, therapeutic resistance, and a highly dynamic tumor microenvironment. Rap1b, a small GTPase, has been implicated in cancer progression; however, its functional role in GBM remains incompletely defined. In this study, we performed RNA sequencing in U87MG glioblastoma cells following Rap1b knockdown to systematically investigate its regulatory functions. Differential expression analysis revealed widespread transcriptomic alterations, with over 5,000 genes significantly dysregulated. Functional enrichment analyses demonstrated that Rap1b regulates gene programs associated with innate immune-like responses, vesicle-mediated secretion, and cell adhesion dynamics, including neutrophil activation, leukocyte degranulation, and focal adhesion pathways. Gene set enrichment analysis further identified Rap1b-dependent modulation of key oncogenic pathways, including VEGF signaling, TGF-β signaling, focal adhesion, and chemokine signaling, indicating a role in tumor-microenvironment interactions and invasion. To extend these findings, we analyzed publicly available single-cell RNA-seq data and found that RAP1B expression is positively correlated with tumor invasion and interferon response signatures in neoplastic cells, supporting its functional relevance in GBM progression. Importantly, several Rap1b-associated genes exhibited significant correlations with patient survival and showed differential expression across glioma grades, highlighting their clinical significance. Collectively, our findings demonstrate that Rap1b drives GBM progression through coordinated regulation of immune-associated transcriptional programs, adhesion signaling, and tumor invasiveness, suggesting that Rap1b may represent a potential therapeutic target in glioblastoma.",
-      "doi": "10.1093/neuonc/noag189.148",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491101+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "CNSC-06 Rap1b drives glioblastoma progression through coordinated regulation of immune programs, adhesion signaling, and tumor microenvironment Interactions",
-      "url": "https://doi.org/10.1093/neuonc/noag189.148"
-    },
-    {
-      "abstract": "Abstract Brain metastases are a common and devastating complication of cancer and remain largely incurable, with limited understanding of the timing of metastatic spread and the mechanisms enabling adaptation to the brain microenvironment. We assembled a large-scale single-cell atlas comprising 558 tumor samples from 539 patients, including 287 intracranial and 271 extracranial tumors across 14 cancer types, integrating 141 newly generated samples with 417 curated samples from 16 studies, including matched longitudinal primary–metastasis pairs. Phylogenetic reconstruction revealed two major metastatic trajectories: most brain metastases were consistent with early dissemination followed by independent evolution, while a minority reflected late dissemination from advanced primary clones. These trajectories were associated with distinct genomic features, including enrichment of MYC gain in early dissemination and EGFR gain in late dissemination, and correlated with time to metastatic progression. Transcriptionally, we identified a spectrum of malignant cell states, including a previously unrecognized neuronal-like program enriched in intracranial metastases, characterized by glutamatergic signaling and increased proliferative activity, consistent with adaptation to the neural niche. The brain metastatic microenvironment was distinct, with a myeloid-dominant immune composition, coordinated hypoxia programs across malignant and immune compartments, and reduced antigen presentation signatures. Notably, neuronal-like malignant states were inversely correlated with MHC class II expression in antigen-presenting cells, suggesting a coordinated tumor–immune axis of immune evasion. Integrative analysis supports a brain-specific ecosystem linking neuronal-like malignant programs, immunosuppressive myeloid states, hypoxia, and neurotrophin-associated stromal features. These findings indicate that brain metastases frequently arise from early dissemination and adopt neuro-adaptive and immune-evasive programs that may support growth in the brain, providing a framework for therapeutic targeting.",
-      "doi": "10.1093/neuonc/noag189.145",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491097+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "CNSC-03 Evolutionary trajectories and neuro-adaptive states in brain metastasis biology",
-      "url": "https://doi.org/10.1093/neuonc/noag189.145"
-    },
-    {
-      "abstract": "Abstract Diffuse midline gliomas (DMGs) are among the most lethal pediatric brain tumors and exhibit substantial intratumoral heterogeneity. Malignant cell hierarchy spans from stalled stem-like oligodendrocyte progenitor (OPC-like) to more differentiated astrocyte (AC-like) and oligodendrocyte (OC-like) programs, in addition to mesenchymal (MES-like) features. The dynamic coexistence of these cellular states contributes to therapeutic resistance in other high-grade gliomas, yet their clinical impact in DMG remains understudied. Here, we spatially profiled a unique cohort of histone 3 lysine 27-to-methionine (H3K27M)-mutant DMG patients enrolled in PNOC022 DMG-ACT (DMG-Adaptive Combination Trial) to assess how cellular composition and spatial architecture relate to clinical outcome and response to dordaviprone (ONC201) and paxalisib (PI3K inhibitor). A total of 48 biopsy sections obtained prior to radiotherapy, including 10 H3K27M-mutant DMG patients post-treatment (6 post-dordaviprone, 4 post-paxalisib) and 8 pre-treatment cores, were profiled using imaging-based spatial transcriptomics (Xenium 5K, 10x Genomics). This approach enabled the capture of ∼1 million spatially resolved cells and identification of malignant states (OPC-like, AC-like, OC-like, MES-like, and cycling) alongside non-malignant populations in situ. Spatial analysis revealed non-random organization of malignant states, with OPC-like cells preferentially co-localizing with cycling populations, while AC-like and OC-like states were spatially anticorrelated. Importantly, the relative abundance of specific cellular states at diagnosis was associated with patient outcomes. In this cohort, AC-like cells (GFAP+) were significantly enriched in short-term survivors (OR = 2.64, 95% CI: [2.58–2.69], Fisher’s exact p &lt; 0.001), while OC-like cells (CNP/GPR17+) were significantly overrepresented in intermediate- and long-term survivors (OR = 2.86, 95% CI: [2.79–2.93], Fisher’s exact p &lt; 0.001). Validation of these findings at the protein level is ongoing using multiplex imaging (MACSima). Together, this study suggests that the spatial architecture and tumor cell state composition of H3K27M-mutant DMG may inform patient outcomes and treatment response following combination therapy with dordaviprone and paxalisib.",
-      "doi": "10.1093/neuonc/noag189.128",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491094+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "clinical_trial"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "BIOM-72 Spatial Architecture of H3K27M-mutant Diffuse Midline Glioma Reveals Prognostic Niches in Patients from the PNOC022 Clinical Trial",
-      "url": "https://doi.org/10.1093/neuonc/noag189.128"
-    },
-    {
-      "abstract": "Abstract Liquid biopsies hold promise to improve the diagnosis, assessment of response to therapy, and ultimately guide the management of cancer patients. However implementation of this approach in brain tumors has proven challenging due to the limited passage of molecules across the blood-brain barrier (BBB). In a Phase I clinical trial (NCT04528680), we transiently opened the BBB of 17 glioblastoma (GBM) patients using skull-implantable low-intensity pulsed ultrasound combined with microbubbles (LIPU/MB). Treatment and BBB opening was performed every 3 weeks with paclitaxel administration until disease progression. As an exploratory endpoint of this trial, here we investigate circulating extracellular vesicles and particles (EVPs) that get released into the circulation in the context of tumor cell death, as a potential biomarker for response to treatment. We developed and validated a microfluidic device designed to capture tumor-derived EVPs in glioblastoma patients (GlioExoChip), which leverages GBM-based expression on phosphatidylserine and Annexin-V chemistry, allowing greater than 90% capture efficiency of GBM EVPs. Proteomic analysis of circulating EVPs isolated from GBM patients revealed distinct expression patterns of SERPINA3 and APOC1 compared to healthy individuals, with tumoral origin supported by scRNA-seq analysis. A longitudinal analysis revealed concordance between EVP concentrations in plasma during LIPU/MB-based BBB disruption and MRI enhancement of tumors. Furthermore, we found changes in EVP release following the initiation of paclitaxel with LIPU/MB correlated with overall survival in GBM patients. We confirm through mechanistic in vitro experiments that paclitaxel-susceptible glioma cells exhibited apoptosis and dose-dependent EVP release. Overall, our work introduces an efficient microfluidic platform for the capture of circulating GBM EVPs that are released by glioma cells into circulation upon BBB opening following treatment-related tumor cell apoptosis. This approach represents a real-time surrogate biomarker for treatment response for a disease where imaging-based assessment of response has not been shown to be reliable.",
-      "doi": "10.1093/neuonc/noag189.123",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491090+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "clinical_trial"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "BIOM-67 Dynamic release of extracellular vesicles and particles after opening of the blood-brain barrier predicts glioblastoma susceptibility to paclitaxel",
-      "url": "https://doi.org/10.1093/neuonc/noag189.123"
-    },
-    {
-      "abstract": "Abstract IDH-inhibitors (IDHi) mark the first targeted therapy for IDH-mutant (IDHm) low grade gliomas (LGG). IDHis have demonstrated progression-free survival benefit, but the specific mechanisms by which patients progress while on prolonged treatment with IDHis, indicating the development of resistance, remains unknown. Our study utilizes a prospective lineage tracing technology, Cas9D10A and paired-gRNA targetable unique reporter (CAPTURE) single-cell barcoding, in five IDHm patient-derived cell line models, three oligodendroglioma and two astrocytoma, to investigate clonal dynamic responses to prolonged IDHi treatment and identify specific clonal genetic and epigenetic alterations that confer resistance to IDHi therapies in human IDHm gliomas. We observe the clonal barcode diversity between treatment and control groups to differentiate between clonal selection and individual cell plasticity. Upon identification of expanded clonal populations of interest, we proceed with live cell isolation through dual-gRNA-directed Cas9 nickase activity and subsequent Fluorescence-Activated Cell Sorting (FACS). These clonal populations are harvested for downstream applications, including bulk RNA sequencing and methylation profiling. Results thus far from GSEA analysis of bulk RNA-sequencing data indicate that short-term IDHi-treated samples with a high baseline level of the glioma’s neomorphic oncometabolite, D-2-hydroxyglutarate (D-2HG), are associated with a more mesenchymal-like phenotype over a proneural-like phenotype. More interestingly, samples with high baseline D-2HG levels develop differential upregulation of fundamental regulatory transcription factor networks when treated with an IDH-inhibitor, which correlates with the demethylation of their respective transcription factor promoters. Results from lineage tracing are validated against human IDHm glioma tissue samples that have exhibited progression while on treatment with IDHis. Our study furthers the understanding of IDHi resistance in patients with IDHm glioma, with the ultimate goals of developing combinatorial therapies to combat resistance, identifying methods to prevent resistance before it arises, and clarifying patient stratification paradigms to determine ideal candidates for IDHis.",
-      "doi": "10.1093/neuonc/noag189.119",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491086+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "BIOM-63 Baseline metabolic characteristics, including D-2-hydroxyglutarate levels, confer differential responses to prolonged IDH-inhibitor treatment in IDH-mutant glioma",
-      "url": "https://doi.org/10.1093/neuonc/noag189.119"
-    },
-    {
-      "abstract": "Abstract Effective therapy selection in glioblastoma (GBM) remains limited by the lack of reliable predictive biomarkers, despite advances in genomic and molecular profiling. Functional approaches that directly measure tumor drug sensitivity directly in patients and within the native tumor microenvironment may overcome these limitations. We conducted a prospective, multi-institutional Phase 1 clinical study in 12 patients with gliomas using an intratumoral drug-releasing microdevice platform adapted for prolonged implantation, which enables sustained and concomitant intratumoral exposure to diverse anticancer agents simultaneously in each patient. Drug responses were assessed in situ using multiplex immunohistochemistry as well as spatial transcriptomic profiling. Patients were followed clinically to assess progression-free survival and overall survival metrics while on systemic therapy. Prolonged intratumoral drug exposure was safe and feasible. In patients who were treated systemically with a drug which was also tested in the IMD, we observed high concordance between IMD tissue responses and clinical-radiological responses, superior to the current gold standard MGMT promoter methylation in the case of TMZ. Spatial transcriptomic analysis revealed that effective responses were associated with activation of specific pathways, including p53 signaling, apoptosis, and unfolded protein response. In contrast, resistance was associated with enrichment of broader inflammatory and survival signaling pathways, including IL6–JAK–STAT3, NF-κB, and WNT pathways. Notably, interferon-γ response was distinguished from these inflammatory programs and was enriched in regions with higher apoptotic response, suggesting a role in productive immune engagement or damage-associated signaling. Multiplex imaging demonstrated treatment-specific remodeling of the tumor immune microenvironment, including differential activation of T cell and macrophage populations. This platform offers a scalable and clinically integrable approach for elucidating intratumor mechanisms of treatment response and resistance in GBM, and to guide effective therapeutic selection.",
-      "doi": "10.1093/neuonc/noag189.095",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491082+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "BIOM-36 In situ, multiplexed drug challenge in patients with glioma predicts responses to systemic therapies and defines common molecular mechanisms mediating tumor sensitivity or resistance",
-      "url": "https://doi.org/10.1093/neuonc/noag189.095"
-    },
-    {
-      "abstract": "Abstract Glioblastoma (GBM) is characterized by extensive tumor heterogeneity and an immunosuppressive tumor microenvironment dominated by tumor-associated macrophages. This study investigated the prognostic and immunological significance of N-acetylneuraminate synthase (NANS), focusing on NANS-high bone marrow-derived macrophages (BMDMs). Bulk transcriptomic datasets from TCGA-GBM and CGGA cohorts were used to evaluate the prognostic relevance of NANS. Single-cell RNA-seq analysis was performed to characterize major GBM cell populations, define macrophage compartments, and examine NANS expression in microglia-derived TAMs and BMDMs. Differential expression, GO enrichment, CellChat analysis, and TCGA validation were used to define the biological and communication features of NANS-high macrophages. NANS was identified as a prognosis-associated gene, and higher NANS expression was associated with worse overall survival in TCGA-GBM. Single-cell analysis showed that NANS-positive cells were enriched in BMDMs compared with MG-TAMs. GO enrichment indicated that NANS-positive macrophages were characterized by protein folding, endoplasmic reticulum stress response, proteasome-mediated catabolism, and chaperone-related processes, suggesting enhanced proteostatic and stress-response activity. CellChat analysis revealed that NANS-high BMDMs exhibited stronger outgoing communication programs, particularly involving PLAU, GALECTIN/LGALS9, CCL, CHEMERIN, VISFATIN, GAS, ncWNT, and LIGHT signaling. Key ligand–receptor interactions included PLAU–PLAUR, LGALS9–HAVCR2/CD44/PTPRC/P4HB, and CCL3/CCL4/CCL5–CCR1/CCR5. TCGA validation further supported increased immune infiltration and elevated LGALS9, PLAU, and CCL axis activity in NANS-BMDM-high tumors. These findings suggest that NANS-high BMDMs define a prognosis-associated, immune-interactive macrophage state in GBM characterized by enhanced proteostatic activation and immunoregulatory/pro-invasive communication programs.",
-      "doi": "10.1093/neuonc/noag189.088",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491079+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "BIOM-29 NANS-High BMDMs Define an Immune-Interactive Macrophage State Associated With Poor Prognosis in Glioblastoma",
-      "url": "https://doi.org/10.1093/neuonc/noag189.088"
-    },
-    {
-      "abstract": "Abstract Background Coherent Raman spectroscopy enables label-free biochemical fingerprinting of live cells with subcellular resolution. We previously developed a machine learning framework capable of classifying glioma FFPE tissues using Raman spectral signatures. We hypothesized that intrinsic biochemical composition alone is sufficient to distinguish cellular identity and tumor subtype. To test this, we generated metabolic maps of diverse brain brain-derived cell types—including astrocytoma, oligodendroglioma, and glioblastoma cells—using coherent Raman spectroscopy at single-cell resolution. Methods Patient-derived brain tumor cell lines representing genetically heterogeneous backgrounds were analyzed. Raman spectral data were acquired from 286 live single cells across the two principal molecular classes, with further subdivision into two histologic subtypes within the IDH1-mutant group, astrocytoma and oligodendroglioma. Classification was performed using an XGBoost model with shallow tree depth (1–3), a 20% held-out test set, and grouped, stratified 5-fold cross-validation to control for sample-level bias. Results and Conclusions To accelerate live cell acquisition, we first developed RADAR (Raman Spectral Analysis Using Deep Learning for Artifact Removal), a method that increases imaging speed by an order of magnitude while preserving spectral integrity. The machine learning framework distinguished IDH1-mutant from IDH1–wild-type cells with a ROC–AUC of 0.78 and further discriminated IDH1-mutant astrocytoma from oligodendroglioma cells with a ROC–AUC of 0.81. Feature importance analysis demonstrated that separation between IDH1-mutant and IDH1–wild-type cells was driven primarily by Raman peaks associated with protein amide bands, total NADH, unsaturated fatty acids, and heme-related vibrational modes. Within the IDH1-mutant class, discrimination between oligodendroglioma and astrocytoma was driven by lipid-rich vesicle signatures and protein/polyamide amide bands. These findings support the feasibility of label-free, machine learning–assisted Raman profiling to resolve clinically relevant glioma subtypes at single-cell resolution. This scalable analytical framework provides a platform for investigating metabolic heterogeneity, therapeutic response, co-culture systems, and organoid models.",
-      "doi": "10.1093/neuonc/noag189.077",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491075+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "machine_learning"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "BIOM-18 Raman-Based Molecular Fingerprinting of Live Cells Using Machine Learning",
-      "url": "https://doi.org/10.1093/neuonc/noag189.077"
-    },
-    {
-      "abstract": "Abstract Glioblastoma (GBM) exhibits a complex regulatory landscape that drives its cellular heterogeneity, plasticity, and therapeutic resistance—features not fully explained by genetic alterations alone. Chromatin profiling is therefore essential to uncover the epigenetic mechanisms that encode tumor cell identity, enable state transitions, and reveal potential therapeutic vulnerabilities. Here, we implement Droplet Paired-Tag (DpT) to perform simultaneous single-cell CUT&Tag and transcriptomic profiling in GBM samples with the objective to establish a multimodal framework to define epigenetic heterogeneity and its relationship to malignant cell states in GBM. IDH-wildtype tumors from primary resections were profiled using DpT alongside complementary single-cell and spatial modalities including scRNA-seq, 10X Multiome (RNA+ATAC), and whole-transcriptome Stereo-seq. We profiled over 20,000 cells and integrated transcriptional programs with five key histone modifications marking active (H3K27ac, H3K4me1, H3K4me3) and repressive (H3K27me3, H3K9me3) chromatin. Using RNA-anchored and unbiased approaches, we explored combinatorial chromatin states underlying canonical GBM cell identities and assessed coordinated regulatory programs across modalities. Active chromatin landscapes were broadly conserved across malignant cell states, and repressive chromatin—particularly Polycomb-associated domains—showed evidence of dynamic remodeling, suggesting a role for repression in shaping cell identity and plasticity. Integration with spatial transcriptomics further enabled mapping of these regulatory states within the tumor microenvironment. Together, these results establish a spatially resolved, multimodal framework of chromatin regulation in GBM and demonstrate that malignant cell states are encoded by layered chromatin architecture rather than transcription alone.",
-      "doi": "10.1093/neuonc/noag189.048",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491071+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "EPCO-48 Epigenomic regulation of glioblastoma cell state identity revealed by single-cell multimodal profiling",
-      "url": "https://doi.org/10.1093/neuonc/noag189.048"
-    },
-    {
-      "abstract": "Abstract Background Spatial transcriptomics maps where cells reside but cannot tell us how a cell's transcriptome would change in a different neighborhood, a question essential for understanding niche-driven biology. This is critical in glioblastoma (GBM): immune checkpoint inhibition failed in CheckMate 143 and CheckMate 498, yet focal responses within individual tumors hint that niche architecture, not tumor identity, determines immunogenicity. Methods We built MoveSTer, a graph-attention spatial model that learns how each cell's transcriptional state depends on its spatial neighborhood, and supports counterfactual in-silico transplantation of cells across microenvironments. The model was pretrained on the Allen Brain Cell Atlas MERFISH dataset (∼7 × 106 cells) and fine-tuned on a held-out cohort of 682,813 cells from 14 IDH-wildtype human GBM Xenium samples (5,001 genes). Results MoveSTer predicted single-cell expression from spatial context with per-cell-type Spearman r = 0.66–0.94 (global per-cell zero-corrected r = 0.535) while preserving cellular identity (balanced accuracy=0.73). Counterfactual transplantation across the learned niche manifold recovered two reproducible context classes governing immune signaling. Perivascular myeloid–endothelial neighborhoods showed interferon-stimulated programs and antigen-presentation machinery (HLA-A/B/C, B2M, TAP1/2, STAT1, IRF1) co-expressed with CD274/PD-L1, consistent with an inflamed but checkpoint-suppressed state. Perineuronal neighborhoods were dominated by neural-communication signaling with low inflammatory tone. Attention analyses pointed to myeloid–endothelial versus neuronal neighbors as the main contextual correlates. In-silico transplantation of the same malignant cells across niches predicted opposing induction of interferon, stress, and mesenchymal programs, suggesting that niche identity outweighs cell identity in shaping transcriptional output. In-silico CD274 upregulation in myeloid neighbors produced dose-dependent GZMB suppression in adjacent T cells (−38% at 10×; Wilcoxon p &lt; 0.001, n = 30 neighborhoods), consistent with known checkpoint biology. Niche assignments reproduced GBM organization previously reported by Ravi et al. (Cancer Cell 2022) and Greenwald et al. (Cell 2024). Conclusions MoveSTer predicts how single cells respond transcriptionally to their spatial context, opening counterfactual interrogation of niche-driven biology and generating testable stratification hypotheses for GBM immunotherapy trials. *Co-senior authors.",
-      "doi": "10.1093/neuonc/noag189.047",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491068+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "EPCO-47 A graph-attention spatial model predicts single-cell transcriptomic responses to microenvironmental context, revealing niche-conditional immune signaling in glioblastoma",
-      "url": "https://doi.org/10.1093/neuonc/noag189.047"
-    },
-    {
-      "abstract": "Abstract Background Glioblastoma is characterized by profound spatial heterogeneity and an immunosuppressive tumor microenvironment that limits effective antitumor immunity. We and others previously showed that STING is epigenetically silenced in neoplastic glioblastoma cells, suggesting that tumor-intrinsic defects in innate immune sensing may contribute to immune evasion. However, whether STING suppression also occurs within non-neoplastic immune compartments, and how this relates to spatially organized immunosuppression, remains unclear. Methods We integrated spatial transcriptomic profiling of human glioblastoma specimens with single-cell reference mapping, bulk transcriptomic deconvolution, and CellChat-based ligand–receptor inference. Using deconvoluted bulk transcriptomes, we defined two distinct immune ecotypes – a myeloid-dominant immunosuppressive ecotype and a relatively lymphoid-enriched ecotype – and projected these signatures onto spatial transcriptomic data. Spatial neighborhoods were analyzed for STING pathway activity, hypoxia, necrosis-associated programs, VEGF signaling, interferon response, and antigen presentation. Primary and post-treatment recurrent specimens were compared to identify recurrent microenvironmental states. Results Spatial analysis identified a recurrent perinecrotic immunosuppressive niche enriched for myeloid cells, hypoxia-associated programs, and dysregulated VEGF signaling. This niche was associated with the myeloid-dominant ecotype and showed relative depletion of lymphoid ecotype features. Myeloid cells within the perinecrotic niche demonstrated suppression of STING-associated innate immune programs relative to myeloid cells in other tumor regions. CellChat analysis inferred dysregulated VEGF-associated communication, while antigen-presentation/MHC-II programs were attenuated within the niche. The STING-suppressed perinecrotic niche was observed both at diagnosis and at recurrence, suggesting that it represents a persistent feature of glioblastoma spatial organization. Conclusions These results define a treatment-persistent perinecrotic immunosuppressive niche in glioblastoma characterized by hypoxia, dysregulated VEGF-associated communication, myeloid STING suppression, and enrichment of a myeloid-dominant TME ecotype. Together with neoplastic-cell STING silencing, these findings suggest that impaired innate immune activation in glioblastoma is both tumor-cell intrinsic and spatially localized within myeloid cells of the perinecrotic tumor microenvironment.",
-      "doi": "10.1093/neuonc/noag189.042",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491064+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "EPCO-42 A perinecrotic immunosuppressive niche is characterized by hypoxia, dysregulated VEGF signaling, and STING suppression in glioblastoma",
-      "url": "https://doi.org/10.1093/neuonc/noag189.042"
-    },
-    {
-      "abstract": "Abstract Background Large quantities of clinically meaningful neuro-oncology data remain inaccessible within unstructured electronic health records (EHRs). We investigated whether large language model (LLM)-based extraction of archived clinical records could generate biologically and clinically actionable insights. Methods We assembled one of the largest deeply annotated single-centre neuro-oncology cohorts, comprising &gt;12,000 patients treated over eight years. Following de-identification, a Claude-based LLM pipeline converted free-text radiology, operative, histopathology, and clinical records into structured longitudinal variables. These data were integrated with treatment histories, imaging, histology and for a molecularly annotated subset of 325 patients, matched bulk genomic and transcriptomic profiling with single-cell multiomics for a smaller cohort. Multimodal survival models were developed across glioblastoma and brain metastases cohorts, and treatment-associated transcriptomic effects were evaluated. Results LLMs extracted histolopathological and radiology features and treatment intent and side effects and background health with high accuracy. Based on EHRs alone, glioblastoma one-year survival was predicted with an AUC of 0.84 overall, with robust performance across surgery plus chemoradiotherapy (AUC=0.88), surgery-only (AUC=0.82), and biopsy-only cohorts (AUC=0.80). In brain metastases, two-year survival was predicted with an AUC of 0.72, with robust performance across lung, breast and melanoma primaries. Integration of transcriptomic data identified biologically relevant treatment-associated effects. Common medications are associated with glioma transcriptional states, including suppression of neuronal/synaptic programs for ACE inhibitors (p = 0.0353) and downregulation of semaphorins, associated with invasiveness, for statins (p = 0.00680). Oestrogen replacement was associated with improved survival independent of age and sex (HR = 0.68). These findings suggest routine co-medications may influence tumour biology and should be considered in interpretation of molecular datasets and therapeutic stratification. Conclusions Routine clinical variables spanning medications, treatment, radiology, and histolopathology contain latent biological signals that systematically influence molecular interpretation and can be extracted at scale using LLMs. These variables should be considered as potential biological covariates to enable improved prognostication, surveillance optimisation, and automated identification of eligible patients for future clinical trials.",
-      "doi": "10.1093/neuonc/noag189.041",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491060+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "clinical_trial"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "EPCO-41 Large Language Model (LLM) extraction of a large deeply annotated neuro-oncology cohort reveals clinically and biologically relevant treatment associations",
-      "url": "https://doi.org/10.1093/neuonc/noag189.041"
-    },
-    {
-      "abstract": "Abstract Pediatric high-grade glioma (pHGG) is a lethal pediatric cancer frequently driven by histone H3.3 mutations, including H3K27M and H3G34R/V. Notably, H3G34-mutant gliomas exhibit a near-universal co-occurrence with loss of ATRX, a chromatin remodeler involved in regulation of DNA secondary structures called G-quadruplexes (G4s), though the biological basis for this coupling remains unclear. To define how histone mutation and ATRX deficiency cooperatively shape glioma biology, we generated a novel panel of six isogenic murine glioma models with controlled histone mutation status (WT, G34R, or K27M) and ATRX status (WT or deficient). We integrated RNA-, ATAC-, CUT&Tag-, and single-cell RNA-sequencing to define the epigenetic and transcriptional consequences of ATRX loss in histone-mutant glioma. Bulk RNA- and ATAC-seq demonstrated that ATRX loss promotes migratory transcriptional programs while suppressing neural differentiation pathways in ATRX-deficient H3G34R murine glioma cells. CUT&Tag profiling of bivalent histone marks H3K4me3 and H3K27me3 identified ATRX-induced promoter H3K4me3 gain and H3K27me3 loss at loci linked to invasiveness and neural stemness, including FN1 and SOX1, accompanied by increased gene expression. Approximately two-thirds of genes with concordant promoter H3K4me3 gain and transcriptional upregulation contained promoter G4s, including FN1. G4 formation is enriched at H3K4me3-bound promoters, supporting a model in which unresolved G4s in an ATRX-deficient setting facilitate H3K4 methyltransferase recruitment and stemness-associated transcription. Pharmacologic stabilization of G4 structures in ATRX-intact G34R cells phenocopied ATRX loss, increasing promoter H3K4me3 binding at migratory and neural stemness genes. Single-cell RNA sequencing of isogenic G34R models suggest that H3G34R ATRX-deficient tumors suppress mature interneuronal gene programs, including GABA import and secretion, consistent with the interneuronal precursor cell-of-origin previously described in G34R glioma. Altogether, these findings reveal a mechanism by which ATRX loss cooperates with H3G34R mutation, promoting G-quadruplex–dependent dysregulation of H3K4 methyltransferase recruitment at bivalent promoters to reinforce neural stemness and migration-associated programs.",
-      "doi": "10.1093/neuonc/noag189.035",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491056+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "EPCO-35 ATRX loss enforces neural stemness and migratory pathways in H3G34R-mutant pediatric high-grade glioma (pHGG) through G-quadruplex–mediated bivalent promoter disruption",
-      "url": "https://doi.org/10.1093/neuonc/noag189.035"
-    },
-    {
-      "abstract": "Abstract Glioblastoma IDH-wildtype (GBM) tumors exhibit substantial genetic and transcriptional intra-tumoral heterogeneity. GBM transcriptional cell states are highly plastic, as they can be either stably inherited or transition between different states across cell divisions. However, cell intrinsic and extrinsic features that determine the spatial architecture, heritability and encoding of GBM cell states remains poorly understood. Existing technologies allow for profiling of transcriptionally-defined cell states along space or time, but not both, precluding analysis of how cell ancestry and cell location relate to each other in primary human tumors. Here, we develop single-cell frameworks for the analysis of primary human tumors at scale that combine (i) high-throughput lineage tracing from single cell Whole-Genome Sequencing (scWGS), (ii) cell phenotyping from matched transcriptome and (iii) macroscopic multi-regional and microscopic spatial genomics analysis that records cells’ spatial localization prior to downstream single-cell analysis. Applied to 28 multi-region samples from nine GBM patients, this multi-omics integration allowed us to construct high-resolution, phenotypically annotated single-cell phylogenies to simultaneously analyze cell ancestry, GBM cell state and spatial localization of 2106 single cells. This analysis determined the heritability and plasticity of cell states in relation to genetic events, including extrachromosomal DNA (ecDNA) presence, and tumor microenvironment (TME) features. High-resolution phylogenetic analysis tracked ecDNA evolution, uncovering dynamic remodeling of ecDNA architecture across subclones and quantifying how oncogene dosage drives transitions between differentiated and stem-like cellular states. Phylodynamic analysis of tumor regions, including the infiltrating edge, enhancing edge and necrotic core obtained from multi-regional sampling, and TME features, including immune and neuronal cell presence obtained from single nucleus barcoding, revealed cell-extrinsic features impacting GBM cell states. Collectively, this work provides a high-resolution window into GBM evolution at the genetic, cell state and spatial levels, unifying analysis across these modalities to provide insights into GBM heterogeneity, directly from patient tumors.",
-      "doi": "10.1093/neuonc/noag189.033",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491052+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "EPCO-33 Defining glioblastoma evolution and plasticity through spatially informed phylodynamics",
-      "url": "https://doi.org/10.1093/neuonc/noag189.033"
-    },
-    {
-      "abstract": "Abstract Digital twins (DT) are emerging as a promising framework for predictive oncology; however, most current models remain largely static and poorly suited to capture the dynamic nature of tumor biology. Here, we introduce a perturbation-driven-DT framework based on the concept of a Minimum Viable Digital Twin (MV-DT): the smallest biologically meaningful and experimentally tractable system capable of iterative learning and refinement. Using oligodendroglioma as a model of highly heterogeneous gliomas, we developed a multiscale MV-DT integrating transcriptomics, tumor ecosystem modelling, molecular network analysis, and PhysiCell-based agent simulations to reconstruct tumor microenvironment (TME) dynamics. Cellular composition was reconstructed from bulk and single-cell transcriptomic datasets using MuSiC-based deconvolution, enabling quantitative estimation of TME cell populations for initialization of the agent-based glioma model. To move beyond descriptive molecular profiling, we implemented the ClauNab (Smart-Scoring-System (3S)), integrating gene expression, network topology, and functional modularity to identify biologically relevant regulatory programs associated with tumor progression. This systems-level approach identified pathological modules linked to proliferation, epigenetic regulation (UHRF1-EZH2), extracellular matrix remodeling (FN1-CD44), immune signaling, and inflammatory pathways such as CXCL12–CXCR4 and JAK-STAT. Intercellular communication networks reconstructed using CellChat revealed ECM-centered signaling hubs and immune-modulatory axes coordinating tumor spatial organization and progression. These molecular and cellular layers were integrated into a unified PhysiCell-based DT capable of reproducing key neuropathological features of glioma biology, including spatial heterogeneity and TME gradients. In parallel, AI-driven drug discovery using the BIOVIA platform identified promising FDA-approved compounds targeting UHRF1 and EZH2 with predicted target specificity, blood–brain-barrier permeability, and low toxicity profiles. These candidates provided a rational basis for PhysiCell inhibition simulations to investigate the inhibition impact on cancer stem cell survival and TME dynamics. Together, this work redefines glioma DT as adaptive learning systems providing a scalable framework for biomarker discovery, therapeutic response prediction, and precision neuro-oncology.",
-      "doi": "10.1093/neuonc/noag189.025",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491049+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "EPCO-25 From static models to learning systems: Building adaptive digital twins of glioma microenvironments with PhysiCell",
-      "url": "https://doi.org/10.1093/neuonc/noag189.025"
-    },
-    {
-      "abstract": "Abstract Medulloblastoma (MB) is a highly malignant pediatric cerebellar tumor comprising molecularly and clinically distinct subgroups. Group 3 and Group 4 MBs are believed to arise from overlapping progenitor populations within the developing rhombic lip (RL), when neuronal differentiation is stalled secondary to somatic driver events. Genetic alterations predicted to perturb transcription factor (TF) activity are pervasive in Groups 3 and 4 MB, suggesting that dysregulated gene regulatory programs drive MB pathogenesis. However, tumor-specific transcriptional signatures provoking and sustaining tumorigenesis remain poorly understood. Herein, we leveraged single-cell multiome datasets of MB and the developing human cerebellum to resolve gene expression programs and associated TF activity underlying malignancy in Groups 3 and 4 MB. Comparative analysis of MB transcriptomes and accessible chromatin landscapes with their cerebellar counterparts in the developing RL revealed profound disruption of neurogenic transcriptional networks, including master TFs such as OTX2 and NFIB. Genome-wide in vitro CRISPR screens further indicated that many of these TFs represent MB-selective growth dependencies. CRISPR-mediated inhibition and targeted protein degradation validated prioritized TFs as strong dependencies in Group 3 MB cell lines in vitro. Ongoing studies are focused on evaluating dysregulated transcriptional circuitry as a tumor-maintenance vulnerability in physiologically relevant contexts through in vivo CRISPR screens in Group 3 and Group 4 MB patient-derived xenograft models and investigating the molecular mechanisms governing TF dysregulation and dependency. Together, these studies aim to uncover actionable transcriptional vulnerabilities and provide a foundation for the development of mechanism-driven targeted therapies for high-risk MB subgroups.",
-      "doi": "10.1093/neuonc/noag189.024",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491045+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "EPCO-24 Interrogating transcriptional dysregulation and dependency in medulloblastoma",
-      "url": "https://doi.org/10.1093/neuonc/noag189.024"
-    },
-    {
-      "abstract": "Abstract Pediatric-type diffuse high-grade gliomas (pHGGs) are aggressive central nervous system tumors that are the leading cause of cancer-related death in children. pHGGs comprise histologically, genetically, and molecularly distinct subtypes with characteristic driver mutations, anatomical localizations, and ages of onset. Although pHGGs share many features with adult gliomas, they represent clinically and biologically distinct tumor entities. Despite growing insights into the cellular architectures of pHGGs, the evolution of malignant cell states and tumor microenvironments during tumor progression remains largely unexplored. In this study, we generated an extensive longitudinal single-nucleus and spatial transcriptomic atlas of pediatric high-grade gliomas (pHGG) from children, adolescents and young adults using single-nucleus RNA sequencing and Xenium In Situ spatial transcriptomics. Our cohort includes 49 paired HGG samples across tumor subtypes, spanning diffuse midline glioma (DMG), IDH-mutant (IDH-HGG) and H3-and IDH-wildtype high-grade glioma (HGG), representing the most comprehensive longitudinal pediatric glioma cohort profiled to date. Single-nucleus profiling uncovered shared and distinct cellular subpopulations in different pHGG subtypes. Despite notable similarities in transcriptional profiles of primary and recurrent pHGGs, recurrent HGGs showed increased proportions of malignant cells with a hypoxia-associated program, coupled with a reduction in malignant glial-like cell populations. Spatial transcriptomic analysis of 71 tumor sections from 31 pHGGs revealed subtype-specific global spatial organizations and localized cellular niches. Upon analyzing the density of tissue regions, we found that the normal cells occur in less dense regions than malignant cells; within the malignant compartments, we found OPC-like cells consistently existed in denser regions than AC-like cells. Overall, our study characterizes the cellular landscape and spatial architecture across pHGG subtypes and provides a detailed delineation of the spatiotemporal dynamics during progression, paving the way for the identification of novel therapeutic targets.",
-      "doi": "10.1093/neuonc/noag189.023",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491041+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "EPCO-23 Project HOPE: a longitudinal multidimensional profiling of high-grade gliomas in children, adolescents and young adults",
-      "url": "https://doi.org/10.1093/neuonc/noag189.023"
-    },
-    {
-      "abstract": "Abstract Gliomas are aggressive brain tumors with poor prognosis and limited response to immunotherapy, largely due to an immunologically inert tumor microenvironment. Oncolytic virotherapy, such as the engineered herpesvirus G207, has shown promise in early phase clinical trials in recurrent high-grade gliomas by turning “cold” tumors to “hot”, yet the spatial and cellular mechanisms underlying these effects remain poorly understood. Here, we combine spatially resolved transcriptomics and single-nucleus RNA sequencing of nearly 5 million cells from 34 patient samples to profile tumors before and after G207 treatment, revealing the emergence of a unique immune-vascular niche, which we term Naïve T cell Organizing Vascular Assembly (NOVA). These NOVAs are enriched for naive CD8+ T cells, supported by a vascular-immune mixed compartment, and exhibit reduced apoptotic and cytotoxic signaling. Ligand-receptor and transcriptional analyses highlight crosstalk between vascular and immune cells, promoting T cell persistence and stem-like traits. Comparative analyses with other virotherapies, immunotherapy and standard of care treatments confirm that NOVAs are a distinct oHSV post-treatment phenomenon. These structures differ from previously described tertiary lymphoid structures or perivascular niches, representing a novel lymphoid-like niche associated with long-term survival. Our findings delineate the molecular and cellular architecture of NOVAs, offering mechanistic insight into anti-tumor immunity and providing a framework to guide rational design of immunovirotherapy strategies in malignant brain tumors.",
-      "doi": "10.1093/neuonc/noag189.021",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491037+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "clinical_trial",
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "EPCO-21 Naive T cell organizing vascular assemblies emerge after glioma-directed G207 oncolytic immunovirotherapy",
-      "url": "https://doi.org/10.1093/neuonc/noag189.021"
-    },
-    {
-      "abstract": "Abstract Background Atypical teratoid rhabdoid tumors (ATRT) are aggressive central nervous system malignancies that typically occur before three years of age. Current multi-modal therapies lead to severe treatment-related toxicities, necessitating improved therapeutic strategies. Here we propose Heat Shock Protein 90 (HSP90) as a target in ATRT. HSP90 stabilizes client oncoproteins in cancer cells, and HSP90 inhibitors (HSP90i) are well-tolerated in clinical trials. Heat Shock Protein 90 Alpha Family Class A Member 1 (HSP90AA1) encodes the stress-inducible isoform of HSP90. Methods We utilized publicly available data from patient-derived ATRT cells to identify potential vulnerabilities in vitro. Comparisons were performed between 20 ATRT and 39 non-malignant cell lines across RNA-sequencing and pharmacologic screens to identify selective dependencies in ATRT. Genome-wide CRISPR-Cas9 depletion screens across five ATRT cell lines were further analyzed to detect vulnerabilities. Candidate validation is underway, harnessing CRISPR-Cas9 genetic knockout coupled with drug, cell viability, and neurosphere formation assays. Results Out of 1,807 drugs tested, 24 yielded significantly lower Z-scores (FDR &lt; 0.05) in ATRT cells relative to non-malignant cells. Despite HSP90i constituting &lt; 0.01% of the drug panel, 20% of these 24 compounds were HSP90i. The average Z-score across all six HSP90i was -2.62 for ATRT and -0.83 for non-malignant cells. Additionally, HSP90AA1 was a genetic dependency (FDR &lt; 0.05, Z &lt; -3) in ATRT. HSP90AA1 was also significantly overexpressed (FDR &lt; 0.05) in ATRT relative to non-malignant cells and highly expressed in ATRT compared to other pediatric cancers. Using CellTiter-Glo to assess cell viability, we determined the half maximal inhibitory concentrations (IC50) of the blood-brain-barrier-penetrant HSP90i onalespib to be 39.50, 104.1, and 27.91 nM in CHLA-05-ATRT, CHLA-06-ATRT, and BT-16, respectively. Ongoing experiments will evaluate HSP90i in combination with cytotoxic chemotherapy and identify client proteins in ATRT using mass spectrometry. Conclusion HSP90 inhibition is a promising therapeutic strategy in ATRT.",
-      "doi": "10.1093/neuonc/noag189.010",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491033+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "clinical_trial",
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "EPCO-10 Integrative analysis reveals HSP90 inhibition as a novel therapeutic strategy in atypical teratoid rhabdoid tumors",
-      "url": "https://doi.org/10.1093/neuonc/noag189.010"
-    },
-    {
-      "abstract": "Abstract Leptomeningeal dissemination of high-grade glioma is a rare but devastating complication with no established standard of care. The intrathecal compartment is anatomically suited to locoregional therapy, yet no agent has been rationally matched to glioma biology in this setting. Here, we used functional genomic screening and drug-target network integration in patient-derived glioma models to identify and validate a genetically stratified vulnerability. Analysis of a proprietary large-scale CRISPRi screen in primary patient-derived glioma tumour spheres identified DNA replication and polymerase-linked pathways as dominant liabilities. Network-based integration of these dependencies with pathway annotations, molecular interaction networks, and drug-target relationships nominated cytarabine as a clinically available agent targeting this vulnerability. Cytarabine is a nucleoside analogue with established intrathecal clinical use, including in leptomeningeal disease, but its rational deployment in glioma has remained largely empirical. We profiled cytarabine dose-response across molecularly diverse patient-derived glioma tumour sphere models and observed a &gt; 200-fold range in (IC50 » 0.04–9.8 µM). Machine-learning analysis of whole-genome sequencing-derived features identified TP53, RB1 and no chromosome 10q (chr10q) loss as dominant predictors of response. Patient samples with TP53/RB1 wild-type genotype and no chr10q loss showed markedly increased cytarabine sensitivity compared with TP53- and/or RB1-altered models or chr10q loss genotype. Ongoing single-cell profiling of cytarabine-treated mixed GBM tumour spheres (n = 51) is testing whether this genotype-response relationship is preserved within heterogeneous tumour groups and is designed to resolve clonal and transcriptional features associated with cytarabine sensitivity. Together, these findings identify cytarabine as a mechanistically anchored, biomarker-stratified repurposing opportunity in glioma, with TP53/RB1 wild-type and chr10q copy number neutral status nominating a molecular subgroup with enhanced sensitivity. Given cytarabine’s existing clinical use in the intrathecal setting, these data support further evaluation of genetic biomarker-guided administration of cytarabine for leptomeningeal glioma, extending bulk viability biomarkers into single-cell, heterogeneity-aware therapeutic stratification.",
-      "doi": "10.1093/neuonc/noag189.012",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491029+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "EPCO-12 Functional genomics nominates cytarabine as a biomarker-guided therapy for leptomeningeal glioma",
-      "url": "https://doi.org/10.1093/neuonc/noag189.012"
-    },
-    {
-      "abstract": "Abstract Alternative splicing derived neoantigens can be served as promising immunotherapeutic targets for tumor. However, little is known about the AS milieu in Pediatric brain tumor, including diffuse midline glioma (DMG), ependymoma (EPN), atypical teratoid/rhabdoid tumor (ATRT), meningioma (MG), dysembryoplastic neuroepithelial tumor (DNET), craniopharyngioma (CPG), choroid plexus papilloma (CPP), neurofibromatosis (NF), primitive neuroectodermal tumours (PNET), Schwannomas(SCH), pediatric low-grade glioma(pLGG), pediatric high grade glioma (pHGG) and medulloblastoma (MB). We performed integrated analysis of alternative splicing using bulk RNA-seq and single cell RNA-seq datasets of 1,000 pediatric brain tumor specimens across 15 cancer types, including 90 DMG, 25 EPN, 90 ATRT, 73 CPG, 23 CPP, 38 DNET, 40 MG, 29 NF, 24 PNET, 30 SCH, 30 MG, 409 pLGG, 45 pHGG, 50 MB and 190 EPN cases. We also re-analyzed RNA-sequencing data from non-malignant human brain tissues. We reconstructed the landscape of AS in Pediatric glioma and contrasted that to observed isoforms in non-malignant brain. We found that AS score can be used to stratify the MB patients samples, and high AS score was significantly associated with worse survival in MB. We identified novel splicing events in cell-surface proteins that are suitable targets for engineered T-cell therapies in these 15 cancer types. We also identified novel splicing events derived neoantigens in DMG, EPN, ATRT, CPG, CPP, DNET, MG, NF, PNET, SCH, MG, pLGG, pHGG, MB and EPN respectively, which are potential immunotherapy targets. We found MB specific isoforms of transforming growth factor beta (TGFβ) signaling pathway genes which are expressed exclusively by MB tumor cells. Our studies shed light on the effect of immunotherapy on AS and identify novel targets for emerging immunotherapies in pediatric brain tumor.",
-      "doi": "10.1093/neuonc/noag189.005",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.491025+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 71,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "EPCO-05 The functional landscape of alternative splicing in 1,000 pediatric brain tumors",
-      "url": "https://doi.org/10.1093/neuonc/noag189.005"
-    },
-    {
-      "abstract": "Abstract Glioblastoma recurrence timing and mechanisms remain difficult to predict, limiting risk-adapted surveillance and therapy. We developed a scalable, biologically interpretable framework to predict continuous time to recurrence (TTR) from H&E histopathology, using spatial molecular profiling to define recurrence-associated biology underlying model predictions without requiring advanced assays for deployment. Tumors from 40 patients (n = 80 specimens) with documented TTR and multimodal profiling underwent Xenium spatial transcriptomics, CODEX multiplexed proteomic imaging, H&E analysis, preoperative MRI analysis, and clinical annotation. Xenium data were processed in Seurat and annotated into astrocyte-like, oligodendrocyte progenitor-like, neural progenitor-like, mesenchymal-like, and proliferative malignant programs. Spatial architecture was quantified by k-means clustering of local cell-type composition, defining 12 niches. CODEX was integrated with Xenium using MaxFuse to refine immune subtype resolution. H&E slides were annotated for necrosis, infiltrating tumor, and tumor core; whole-slide images were tiled with SlideFlow, and UNI-derived tile embeddings were used to fine-tune a model identifying TTR-associated regions. High-attention regions were mapped to spatial gene-expression programs and histopathologic annotations. Preoperative MRI features were analyzed with PyRadiomics and integrated where available. Spatial analyses identified architectures varying along the TTR continuum. Shorter-TTR tumors showed malignant-cell infiltration across niches, disrupting immune and stromal organization. Longer-TTR tumors retained compartmentalized vascular-, immune-, and endothelial-rich regions, supported by H&E review. Shorter-TTR tumors were enriched for undifferentiated neural progenitor-like cells, up to ∼52% of malignant cells, and proliferative states, up to ∼14%. Longer-TTR tumors showed higher differentiated astrocyte-like, mesenchymal-like, and oligodendrocyte progenitor-like programs, often &gt;60% combined, with lower proliferation, &lt;10%. An oligodendrocyte-enriched niche showed greater lymphoid localization in longer-TTR tumors (Wilcoxon adjusted P = 0.0037), supporting association between TTR and spatial immune compartmentalization. These findings suggest that routine H&E contains recurrence-relevant morphologic information. Linking deployable histopathology to differentiation state, proliferative burden, radiographic features, and tumor–immune–vascular organization supports recurrence-risk modeling and biologically grounded patient stratification.",
-      "doi": "10.1093/neuonc/noag189.1329",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-15T14:37:01.490984+00:00",
-      "journal": "Neuro-Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 75,
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "machine_learning",
-        "mechanism"
-      ],
-      "source": "crossref",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "TMOD-16 Spatially informed machine learning predicts glioblastoma recurrence timing from routine histopathology",
-      "url": "https://doi.org/10.1093/neuonc/noag189.1329"
-    },
-    {
       "abstract": "",
       "doi": "10.1136/rapm-2026-108757",
       "evidence_level": "metadata_or_abstract_only",
@@ -7067,79 +7236,6 @@
       "tier": "specialist",
       "title": "Pain management after hallux valgus repair surgery: an updated systematic review and procedure-specific postoperative pain management (PROSPECT) recommendations.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42968679/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1097/EJA.0000000000002506",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-04T03:23:57.360118+00:00",
-      "journal": "European journal of anaesthesiology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-04",
-      "pmid": "42968686",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 55,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "clinical_trial"
-      ],
-      "source": "pubmed",
-      "specialty": "anesthesiology",
-      "tier": "specialist",
-      "title": "Prophylactic esketamine to reduce postpartum depression in primiparous women: A multicentre, double-blind, randomised clinical trial.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42968686/"
-    },
-    {
-      "abstract": "Protein-energy malnutrition remains frequently unrecognised, under-reported, and undertreated in surgical populations despite being associated with a higher risk of postoperative complications. This systematic review evaluated the diagnostic agreement between the Global Leadership Initiative on Malnutrition (GLIM) operational criteria and the Subjective Global Assessment for identifying adults at risk of preoperative protein-energy malnutrition undergoing elective surgery. MEDLINE, Embase, CINAHL, and Web of Science were searched from inception to 5 May 2025. Substantial heterogeneity was observed across eight included studies (n=5834) in the definitions, cut-offs, and measurement methods for GLIM phenotypic and aetiologic criteria. In six noncardiac surgical studies (n=3999), pooled sensitivity and specificity were 76% (95% confidence interval [CI] 69-81%) and 88% (95% CI 77-94%), respectively, using a random-effects bivariate model (very low certainty of evidence). Overall diagnostic agreement was fair; thus, the GLIM criteria alone may be insufficient to make the diagnosis of malnutrition and to guide nutritional interventions without additional clinical or dietetic assessment.",
-      "doi": "10.1016/j.bjao.2026.100893",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-13T17:39:06.935094+00:00",
-      "journal": "BJA open",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-03",
-      "pmid": "43022870",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "publication_types": [
-        "Journal Article",
-        "Review"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "meta_analysis"
-      ],
-      "source": "pubmed",
-      "specialty": "anesthesiology",
-      "tier": "specialist",
-      "title": "Diagnostic agreement between the Global Leadership Initiative on Malnutrition criteria and Subjective Global Assessment for preoperative malnutrition in adults undergoing elective surgery: a systematic review and meta-analysis.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43022870/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1213/ANE.0000000000008134",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-05T13:33:39.600785+00:00",
-      "journal": "Anesthesia and analgesia",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-03",
-      "pmid": "42981594",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 47,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "anesthesiology",
-      "tier": "specialist",
-      "title": "The Wretched Gift of Life.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42981594/"
     }
   ],
   "schema_version": "0.3",
