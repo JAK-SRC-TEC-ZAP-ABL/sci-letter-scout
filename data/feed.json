@@ -1,12 +1,231 @@
 {
   "ai_status": "disabled",
-  "generated_at": "2026-11-20T17:17:17.430066+00:00",
+  "generated_at": "2026-11-20T23:11:59.181051+00:00",
   "harmony_push_status": "not_configured",
   "journal_counts": {
     "anesthesiology": 13,
     "oncology": 100
   },
   "papers": [
+    {
+      "abstract": "Locoregional leptomeningeal metastasis, particularly discrete nodular recurrence after treatment of brain metastases, presents a therapeutic challenge distinct from diffuse leptomeningeal dissemination. Stereotactic radiosurgery (SRS) may provide focal control of symptomatic or progressive nodules while limiting irradiation of uninvolved tissue. Available retrospective evidence supports feasibility and local radiographic response, but does not establish a survival benefit or protection against distant meningeal progression. Careful distinction among leptomeningeal nodules, dural seeding, and cavity recurrence is essential, as is assessment of the entire neuraxis and cerebrospinal fluid when appropriate. Patient selection should consider lesion distribution, neurologic function, prior irradiation, systemic disease control, and access to central nervous system-active therapies. Focal SRS should complement, rather than replace, comprehensive management of leptomeningeal disease. Prospective multicenter studies should prioritize neurologic function, distant meningeal progression, treatment burden, and patient-centered outcomes to define when local control yields meaningful clinical benefit. A multidisciplinary approach remains central to selecting treatment consistent with each patient's clinical goals.",
+      "doi": "10.1007/s11060-026-05875-y",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-20T23:11:59.084414+00:00",
+      "journal": "Journal of Neuro-Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-20",
+      "pmid": "43062569",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 40,
+      "publication_types": [
+        "Journal Article",
+        "Review",
+        "Editorial"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "specialist",
+      "title": "Stereotactic radiosurgery for locoregional leptomeningeal metastasis: defining a role for focal treatment.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43062569/"
+    },
+    {
+      "abstract": "Ultrasonic surgical aspirators, including Sonopet®, are widely used during skull base meningioma resection to enable safe tumor debulking in constrained corridors, but aspirated tumor fragments are often discarded. Whether this tissue supports genomic and epigenomic profiling comparable to standard resection tissue is unknown. The aim of this study was to determine whether Sonopet® aspirate is a viable substrate for long-read genomic and epigenomic profiling in skull base meningioma. We prospectively collected paired standard resection (R) and Sonopet® aspirate (S) specimens from seven patients with skull base meningioma and performed Oxford Nanopore Technologies (ONT) long-read whole-genome sequencing using PromethION R10 flow cells. We compared sequencing yield, read quality, tumor purity, copy-number profiles, somatic single-nucleotide variant (SNV) burden, variant allele frequency, and CpG methylation between matched samples, then projected methylation profiles onto a reference framework of 121 EPIC array-profiled samples for molecular group classification. Aspirates generated sequencing yields, read lengths, and tumor purity comparable to matched specimens. Copy-number profiles were largely concordant and recovered canonical meningioma alterations, with close agreement in total and loss burden (Lin's CCC = 0.99, 95% CI 0.76 to 1.00). SNV burden showed moderate agreement (CCC = 0.53, 95% CI - 0.28 to 0.99), with two discordant patients possibly reflecting intratumoral heterogeneity. Promoter methylation was closely correlated between pairs (Pearson r > 0.99 across ~ 177,000 promoters), and molecular group classification was concordant in all pairs except P1, where tumor purity was uncertain. Sonopet® aspirate provides tissue comparable to standard resection specimens for long-read genomic and epigenomic profiling, supporting its use as a substrate for molecular diagnosis and translational research, particularly for subtotally resected tumors with limited tissue.",
+      "doi": "10.1007/s11060-026-05846-3",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-20T23:11:59.084269+00:00",
+      "journal": "Journal of Neuro-Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-20",
+      "pmid": "43062499",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 55,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "specialist",
+      "title": "Single-molecule whole-genome sequencing reveals genomic and epigenomic concordance between ultrasonic aspiration and surgical resection in meningioma: prospective feasibility series.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43062499/"
+    },
+    {
+      "abstract": "Frame-based stereotactic biopsy (STB) lacks intraoperative visual control. Augmented reality (AR) via Microsoft HoloLens 2 offers real-time visualization of the biopsy needle. This study evaluates the technical feasibility and preliminary clinical results of AR navigation during standard frame-based STB. This prospective single-center pilot study included 10 adults undergoing STB for intracranial lesions. Standard trajectory planning utilized the Cosman-Roberts-Wells (CRW®) stereotactic frame, intraoperative computed tomography (CT), and preoperative magnetic resonance imaging (MRI) in NeuroSight Arc®. Concurrently, Medgital software and HoloLens 2 displayed a hologram of the patient's head, lesion, and trajectory. A passive tracker on the biopsy needle enabled real-time holographic visualization. Endpoints included technical feasibility, registration time, navigation error, diagnostic yield, and complications. AR navigation feasibility was confirmed in all 10 patients (100%). Mean registration time was 79 ± 27 s, and mean AR trajectory error relative to standard planning was 2.21 ± 0.67 mm. A definitive histological diagnosis was obtained in all 10 cases (mean passes: 2.4). No hemorrhagic complications or mortality occurred. Integrating AR navigation (HoloLens 2 and Medgital) with conventional frame-based STB is potentially technically feasible, safe, fast, and provides acceptable accuracy. AR complements the standard workflow by offering direct intraoperative visualization of the needle trajectory.",
+      "doi": "10.1007/s11060-026-05886-9",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-20T23:11:59.084266+00:00",
+      "journal": "Journal of Neuro-Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-20",
+      "pmid": "43062733",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 55,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "specialist",
+      "title": "Application of augmented reality in frame-based stereotactic brain biopsy: a case series feasibility study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43062733/"
+    },
+    {
+      "abstract": "Cancer chromosomal instability (CIN) drives tumor evolution through generating structural and numerical chromosome aberrations. However, its molecular determinants remain poorly characterized. Here, we uncover a yet unrecognized role for the tumor suppressor SMAD4 as a key regulator of chromosomal stability. Mechanistically, loss of SMAD4 causes replication stress by promoting transcription-replication conflicts (TRCs) and induces subsequent mitotic errors, leading to the concomitant emergence of structural and numerical CIN. While the tumor suppressor function of SMAD4 has been predominantly attributed to transforming growth factor-β signaling, we find that its role in genome maintenance operates via bone morphogenetic protein (BMP) signaling and its transcriptional target gene ID3. Consequently, inhibition of BMP signaling mimics the loss of SMAD4, while reexpression of SMAD4 or ID3 in SMAD4-deficient colorectal or pancreatic cancer cells suppresses TRCs, replication stress, and mitotic errors. Our findings reveal a TRC- and replication stress-driven mechanism by which loss of BMP-SMAD4 signaling causes cancer CIN.",
+      "doi": "10.1126/sciadv.aeh2783",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-20T23:11:59.084121+00:00",
+      "journal": "Science Advances",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-20",
+      "pmid": "43063248",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 69,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "SMAD4 loss drives cancer chromosomal instability through transcription-replication conflict-associated replication stress.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43063248/"
+    },
+    {
+      "abstract": "Gasdermins (GSDMs) execute pyroptosis by forming lytic pores in the plasma membrane that release IL-1 cytokines and promote cell swelling and membrane rupture. Their key roles in infection, inflammation and cancer make GSDMs attractive therapeutic targets. Here we systematically investigate how disulfiram, an approved drug for treating alcoholism, inhibits pyroptosis and identify multiple complementary mechanisms. First, disulfiram inhibits processing of procaspase-1 to caspase-1. Second, disulfiram inhibits caspases from processing human GSDMD to release the lytic N-terminal domain (GSDMDNterm). Third, disulfiram structurally modifies GSDMDNterm. Fourth, disulfiram partitions into membranes, where it remains embedded, changes membrane properties and prevents GSDMDNterm insertion. Similarly, disulfiram blocks intrinsic apoptosis by inhibiting procaspase-3 activation, caspase-3 cleavage of human GSDME, and GSDMENterm pore formation. Furthermore, we show that two other GSDMD inhibitors, necrosulfonamide and dimethyl fumarate also inhibit GSDM-induced cell death through multiple complementary mechanisms. These multilevel inhibitory mechanisms deepen our understanding of strategies to target GSDM-mediated cell death pathways.",
+      "doi": "10.1126/sciadv.aee9169",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-20T23:11:59.084117+00:00",
+      "journal": "Science Advances",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-20",
+      "pmid": "43063249",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 69,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Disulfiram inhibits pyroptosis and apoptosis through multiple complementary mechanisms.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43063249/"
+    },
+    {
+      "abstract": "A better understanding of intratumor heterogeneity in pleural mesothelioma (PM) is crucial to implementing precision medicine for this deadly cancer. Using single-cell RNA sequencing approaches on tumor samples and derived primary cell lines, we defined four phenotypic cell types, related to overall survival in larger bulk cohorts: epithelioid, sarcomatoid, intermediate, and nondifferentiated. Some tumor samples showed intratumor phenotypic heterogeneity, associated with subclonal evolution, in which sarcomatoid cells can emerge from parental cells with an intermediate phenotype following the acquisition of copy number variations. Subclones were conserved in cell lines and retained their specific phenotypes, suggesting high phenotypic heritability. Spatial transcriptomics illustrated the link between phenotypic and subclonal evolution, showing that subclonal cells were colocalized and exhibited specific morphologies within the tumor tissue. Our study provides a comprehensive single-cell profiling of PM tumor cells and reveals a link between phenotypic evolution, clonal architecture, and tumor spatial organization.",
+      "doi": "10.1126/sciadv.aee4872",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-20T23:11:59.084113+00:00",
+      "journal": "Science Advances",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-20",
+      "pmid": "43063279",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 69,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "single_cell"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Subclonal evolution can shape the transition toward a sarcomatoid phenotype in pleural mesothelioma.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43063279/"
+    },
+    {
+      "abstract": "The American Society of Anesthesiologists Physical Status (ASA-PS) classification is widely used, but subjective interpretations cause evaluation variability. Although specific clinical examples were added in 2014 and 2020 to reduce ambiguity, their clinical adoption remains unclear. We evaluated awareness of these examples and whether a multifaceted educational intervention was associated with scoring consistency. This two-phase study evaluated ASA-PS scoring consistency. In Study 1, 45 anesthesiologists at two institutions evaluated 20 simulated adult, pediatric, and obstetric cases to assess understanding of official ASA-PS examples. In Study 2, a pre- and post-intervention study in clinical practice included 414 cases. The intervention included survey feedback, re-dissemination of official examples, and implementation of a reference system in the electronic medical record. The primary outcome was the exact agreement rate between clinician-assigned and consensus scores based on official examples. In Study 1, the overall correct rate with the official reference classifications was 47.6% (Cohen's kappa = 0.321). Correct rate was particularly low in pediatric cases (kappa = 0.243). Highly experienced anesthesiologists demonstrated lower correct rates and a tendency toward underestimation. In Study 2, the exact agreement rate increased from 73.5% before the intervention to 82.4% (OR 1.68, 95% CI 1.01-2.78) after the intervention. Cohen's kappa improved from 0.553 to 0.712, and underestimation decreased from 21.1% - 14.8%. Publishing clinical examples alone may be insufficient to standardize ASA-PS classification. A multifaceted intervention incorporating educational feedback and an electronic reference system was associated with improved scoring consistency.",
+      "doi": "10.1007/s00540-026-03955-x",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-20T23:11:59.084068+00:00",
+      "journal": "Journal of anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-20",
+      "pmid": "43062472",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 55,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Clinical implementation of official ASA physical status examples: a questionnaire survey and multifaceted educational pre-post intervention study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43062472/"
+    },
+    {
+      "abstract": "While immune-checkpoint blockade (ICB) has revolutionized treatment of metastatic melanoma, the identification of robust biomarkers to predict the relative efficacy of single versus combination ICB has been challenging. We performed a meta-analysis of eight cohorts of patients treated with anti-PD-1 (n = 290), anti-CTLA-4 (n = 175), and combination anti-PD-1/anti-CTLA-4 (n = 51) with pretreatment tumor sequencing and clinical annotations. Surprisingly, the increased response rate to combination anti-PD-1/anti-CTLA-4 compared to anti-PD-1 monotherapy was observed only in highly immune infiltrated tumors, and not in immune-low tumors. Stratifying tumors by high or low frequency of immune cells also distinguished context-dependent programs of primary resistance to single and combination ICB. Notably, hypoxia-related pathways were enriched in nonresponders to anti-PD-1 ICB in immune-high, but not immune-low, tumors. Using an independent cohort of patients with scRNA-seq data, we observed that correlates of hypoxia were associated with increased stromal tumor receptor-ligand interactions. As proof of concept, selective inhibition of HIF-2α, a component of the hypoxia pathway and highly expressed in endothelial cells and fibroblasts, in combination with anti-PD-1, controlled tumor growth in mouse models of highly immune-infiltrated tumors but not poorly immune-infiltrated tumors. Our work demonstrates how stratification by tumor immune characteristics and clinical features can lead to the rational discovery of novel therapeutic targets.",
+      "doi": "10.1126/sciadv.aed0035",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-20T23:11:59.084046+00:00",
+      "journal": "Science Advances",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-20",
+      "pmid": "43063269",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 77,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "single_cell",
+        "meta_analysis"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Immune infiltrate predicts response to αPD1/αCTLA4 but not αPD1 and distinguishes programs of primary resistance in metastatic melanoma.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43063269/"
+    },
+    {
+      "abstract": "Palmitoylethanolamide (PEA), an endogenous lipid mediator, exhibits anti-inflammatory and analgesic properties, its efficacy as a stand-alone treatment for acute postoperative pain remains uncertain. This study compared oral micronized PEA with ibuprofen in managing pain following extracorporeal shock wave lithotripsy (ESWL). In this prospective, randomized, double-blind investigation, 120 patients classified as ASA I-II undergoing elective ESWL were evaluated. They were randomly divided to take either 600 mg of oral micronized PEA or 600 mg of ibuprofen two hours prior to the procedure, continuing every 12 h for 72 h. The primary endpoint was postoperative pain intensity quantified by visual analogue scale (VAS) 2 h post-ESWL. Secondary endpoints included VAS scores at predefined intervals, rescue analgesia, adverse events, and patient satisfaction. VAS scores were comparable between groups during the early postoperative period, including at 2 h (PEA: 1 [0-2] vs. ibuprofen: 1 [0-2], P = 0.091). However, pain was significantly higher with PEA at 12 h, 24 h, and 48 h (P < 0.001). Rescue analgesia was required more frequently with PEA (76.7% vs. 58.3%, P = 0.032), with greater cumulative opioid consumption (10.7 ± 2.2 vs. 9.4 ± 1.8 mg, P = 0.003). Gastrointestinal discomfort was more frequent with ibuprofen (21.7% vs. 1.7%, P < 0.001). In this active-comparator trial, oral micronized PEA was inferior to ibuprofen at 12-48 h after ESWL, with more rescue analgesia, but early pain scores were similar. The analgesic effect of PEA itself cannot be established. Fewer gastrointestinal adverse events warrant further study.",
+      "doi": "10.1007/s00540-026-03945-z",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-20T23:11:59.084028+00:00",
+      "journal": "Journal of anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-20",
+      "pmid": "43062473",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 63,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "clinical_trial"
+      ],
+      "source": "pubmed",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Palmitoylethanolamide versus ibuprofen for acute postoperative pain after extracorporeal shock wave lithotripsy: a randomized trial.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43062473/"
+    },
     {
       "abstract": "",
       "doi": "10.1002/hon.70291",
@@ -4055,126 +4274,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/43044645/"
     },
     {
-      "abstract": "CD19-directed chimeric antigen receptor T-cell therapy (CART) is a life-saving regimen for children with relapsed/refractory (r/r) B-cell acute lymphoblastic leukemia (B-ALL), yet children from lower socioeconomic and historically marginalized backgrounds are less likely to receive it. Understanding the provider experience of CART referral and post-CART clinical management is critical for designing effective interventions to improve access. To explore physicians' experiences identifying and referring pediatric patients with r/r B-ALL for CART across diverse hospital settings, and to identify physician-perceived facilitators and barriers to CART treatment. Focus groups using a semi-structured guide were conducted with pediatric oncology physicians, recruited via email and at a national conference, with targeted recruitment of National Cancer Institute Community Oncology Research Program (NCORP) site providers. Questions explored identifying pediatric patients with r/r B-ALL as CART candidates, referring them for CART, and accessing institutional infrastructure to support referral. Analysis revealed six domains spanning referral to CART and subsequent CART treatment: identification of potentially eligible patients; complexity of CART referral; barriers to insurance approval; physician perception of patients' social/financial circumstances; and variability in pre- and post-CART management guidelines. Health system-level facilitators and barriers included patient identification and referral processes to tertiary care centers, guidelines for bridging therapy and post-CART toxicity management, and navigation support for patient care and insurance approval. Findings highlight challenges in community-based settings where resources, infrastructure and geographic availability for CART are variable. Standardizing referral pathways, centralizing trial information, and streamlining CART-center intake process and communication are of immediate importance.",
-      "doi": "10.1093/jncics/pkag123",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-18T20:42:20.009760+00:00",
-      "journal": "JNCI Cancer Spectrum",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-18",
-      "pmid": "43049054",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 58,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "\"Time is of the essence\": physician challenges impact patient access to chimeric antigen receptor T-cell therapy.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43049054/"
-    },
-    {
-      "abstract": "This multicenter case-control study assessed (2019-2023) the association of oral and anogenital human papillomavirus (HPV) genotypes with head and neck cancers in Brazil. Eligible cases were adults (≥ 18 years) with newly diagnosed, histologically confirmed squamous cell carcinoma of the oral cavity, oropharynx, hypopharynx, or larynx. Controls (cancer-free individuals) were matched a posteriori by region, sex, and age. Oral, genital, and anal samples were collected and processed at a central laboratory for HPV genotyping. Associations were estimated using conditional regression. Analyses included 314 participants (157 cases, 157 controls), mostly males (79%) aged 50-65 years (51%). Oral HPV prevalence was similar between cases and controls (14% vs. 12%), predominantly involving high-risk genotypes (35 out of 40); HPV-16/18 was more prevalent among cases (7.3% vs. 1.9%; p = 0.024), with most HPV-16/18-positive cancers located in the oropharynx (10 out of 11). Genital HPV prevalence was 39% with no case-control differences, while anal HPV prevalence was 17%. Cases were more frequently positive for any high-risk anal HPV type than controls (16% vs. 9%; p = 0.049). Minimal genotype concordance was observed between oral and anogenital sites. Current smokers had ten-fold higher odds of being cases (adjustedOR 10.0; 95% CI 2.92-34.6). Oral HPV-16/18 infection was independently associated with head and neck cancer (adjustedOR 6.30; 95% CI 1.52-26.1). Multisite HPV genotyping revealed site-specific colonization patterns, with genital infections being most prevalent among both men and women. After multivariable adjustment, only oral HPV-16/18 infection was strongly associated with head and neck cancer, especially oropharyngeal carcinoma.",
-      "doi": "10.1002/ijc.70838",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-18T20:42:20.009746+00:00",
-      "journal": "International Journal of Cancer",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-18",
-      "pmid": "43049727",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 58,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "The Association of Oral and Anogenital Human Papillomavirus Genotypes With Head and Neck Cancers in Brazil: A Nationwide Case-Control Study.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43049727/"
-    },
-    {
-      "abstract": "Breast stroma may play an important role in carcinogenesis. We examined the associations of stromal markers alpha-smooth muscle actin (αSMA), tenascin-C (TNC), fibroblast activation protein (FAP), calcyclin (s100a6), and matrix metallo-proteinase (MMP14) in benign breast biopsy samples with subsequent breast cancer (BCa) risk. This study included women with biopsy-confirmed benign breast disease (BBD) from a nested case-control study within the Nurses' Health Study (NHS) and NHSII cohorts. The data on BCa risk factors were obtained from questionnaires updated biennially. Multiplex immunofluorescence (IF) of stromal markers was completed on tissue microarrays. For each core, the percent (%) positivity was quantified using inForm v2.6.0. Multivariate logistic regression was used to examine the associations of each marker's expression (continuous and binary with 1% cutoff) with BCa risk, while adjusting for BCa risk factors. Among the 370 women (82 cases/288 controls), 106 (28.7%) had non-proliferative BBD, 205 (55.4%) had proliferative BBD without atypia, and 59 (16.0%) had proliferative BBD with atypia. We found suggestive evidence of positive associations of FAP expression with BCa cancer risk (OR per 10% change in expression = 1.15, 95% CI: 0.98-1.35). The expression of αSMA, s100a6, TNC, and MMP14 was not associated with subsequent BCa risk. In secondary models adjusting for BBD subtype and % mammographic breast density, these results remained similar. Our findings suggest that increased stromal fibroblast activation (as captured by FAP expression) may be associated with greater subsequent BCa risk. Further studies are needed to confirm these findings.",
-      "doi": "10.1002/ijc.70826",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-18T20:42:20.009744+00:00",
-      "journal": "International Journal of Cancer",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-18",
-      "pmid": "43049729",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 58,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Associations of Stromal Markers' Expression in Benign Breast Tissue With Subsequent Breast Cancer Risk.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43049729/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1158/2159-8290.CD-RW2026-103",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-18T20:42:20.009736+00:00",
-      "journal": "Cancer Discovery",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-18",
-      "pmid": "43049351",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 58,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "core",
-      "title": "p53 Loss Drives Clonal Expansion by Triggering a Signaling Gradient.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43049351/"
-    },
-    {
-      "abstract": "Malignant pleural effusion (MPE) is a frequent complication of advanced cancers and is associated with poor prognosis, including in patients receiving immune checkpoint inhibitors (ICIs). We characterized T-cell populations in pleural effusion samples from patients with malignant (n = 34) and benign (n = 11) conditions using multiparametric flow cytometry and cytokine analysis, complemented by reanalysis of publicly available single-cell RNA sequencing datasets. MPE was characterized by enrichment of CD8⁺ effector memory (EM) T cells, including a distinct EOMEShighPD-1highCD103+ population. This subset exhibited increased expression of tissue residency-associated markers, including CD69 and CXCR6, together with increased granzyme B and Ki-67 expression and enhanced IFN-γ production following CD3/CD28 stimulation. Despite high PD-1 expression, it did not exhibit a coordinated increase in exhaustion-associated markers. Single-cell transcriptomic analyzes of breast cancer- and lung adenocarcinoma-associated MPE datasets identified related HLA-II⁺ CD8⁺ T-cell states with effector-associated features, and increased HLA-DR protein expression was confirmed by flow cytometry. Among patients receiving ICIs, this population was more abundant in those showing improvement in malignant pleural effusion, whose overall responses ranged from stable disease to partial response, whereas patients without pleural effusion improvement had progressive disease. These findings identify a tissue residency-associated, HLA-II-expressing CD8⁺ EM T-cell population with effector-associated features in MPE and suggest its potential clinical relevance during ICI therapy.",
-      "doi": "10.1080/2162402X.2026.2764481",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-18T20:42:20.009693+00:00",
-      "journal": "OncoImmunology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-18",
-      "pmid": "43049732",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 66,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "EOMES high PD-1 high CD103 + effector memory CD8 T cells in malignant pleural effusion: a distinct subset implicated in anti-tumor immunity and immunotherapeutic response.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43049732/"
-    },
-    {
       "abstract": "",
       "doi": "10.1002/pan.70351",
       "evidence_level": "metadata_or_abstract_only",
@@ -4197,54 +4296,6 @@
       "tier": "specialist",
       "title": "Pulsed Radiofrequency Neuromodulation for Acute Postoperative Pain After Amputation in a 3-Year-Old.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/43049248/"
-    },
-    {
-      "abstract": "AMP-410 achieves potent antitumor efficacy with high therapeutic index and favorable tolerability in murine tumor models. It is a conditional bifunctional VEGF-4-1BB biologic designed to simultaneously neutralize VEGF and activate 4-1BB signaling, delivering a localized and dual-action approach to immunotherapy. By leveraging VEGF-dependent activation of 4-1BB, AMP-410 preferentially enhances immune responses within the tumor microenvironment, minimizing systemic toxicity while amplifying innate and adaptive immunity. In human 4-1BB transgenic mice bearing syngeneic tumors (MC38 colorectal carcinoma and B16F10 melanoma), AMP-410 promoted rapid M1 macrophage differentiation and enhanced progenitor-exhausted (Pex) T-cell signatures, suggesting coordinated activation of innate and adaptive compartments. At later stages, AMP-410 sustained macrophage antitumor activity and a continued expansion of Pex cells, consistent with long-term immune engagement. Localized activity was indicated by clonal T-cell expansion within tumors with minimal draining lymph node exchange. Compared with the systemic 4-1BB agonist urelumab in syngeneic tumor models, AMP-410 provided superior long-term protection with reduced exhaustion and improved hepatic tolerability. In head-to-head testing against a VEGF-PD-1 bispecific, AMP-410 achieved robust tumor suppression and survival benefits without systemic IFNγ surges. To establish translational relevance, VEGF concentrations were measured in tumor interstitial fluid from patients with cancer. VEGF levels were consistently two to four orders of magnitude higher in tumors than in matched serum, supporting the clinical opportunity of VEGF-restricted 4-1BB activation. Together, these studies position AMP-410 as a promising next-generation immunotherapy for both monotherapy and combination settings, with the potential to overcome key limitations of existing checkpoint- and 4-1BB-based approaches. Localizing 4-1BB activity to VEGF-rich tumor microenvironments may expand the therapeutic window of 4-1BB costimulation, promoting strong antitumor immunity while limiting systemic immune activation and liver inflammation.",
-      "doi": "10.1158/2326-6066.CIR-25-1380",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-18T20:42:20.009663+00:00",
-      "journal": "Cancer Immunology Research",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-18",
-      "pmid": "43049446",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 66,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "VEGF-4-1BB Conditional Bifunctional Antibody Drives Tumor-Localized Immunity through Sustained Macrophage and T-cell Activation.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43049446/"
-    },
-    {
-      "abstract": "The rapid expansion of antibody therapeutics is shifting the clinical bottleneck from drug availability to precise patient selection. We systematically characterize 87 clinically actionable tumor-associated antigens across solid tumors by integrating transcriptomic, proteomic, spatial, and single-cell profiles from more than 32,000 specimens to define expression prevalence, intratumoral heterogeneity, immune contexture, internalization and payload-sensitivity pathways, and translational relevance. We establish ANCHOR, a coordinate reference framework for standardizing patient RNA-seq data, and develop ReSort, a two-tiered scoring system for scalable target prioritization. ReSort enables virtual basket and umbrella trial matching, demonstrates concordance with clinical assays, predicts therapeutic response in patient-derived models, and identifies repurposing opportunities in rare malignancies. We develop an AI-based decision-support agent for antibody trial matching and construct a multimodal feature space integrating tumor- and protein-intrinsic attributes to guide systematic target discovery and prioritization. This work provides a scalable, clinically actionable approach for precision antibody-based therapies and next-generation target development.",
-      "doi": "10.1158/2159-8290.CD-26-1021",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-18T20:42:20.009574+00:00",
-      "journal": "Cancer Discovery",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-18",
-      "pmid": "43049344",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 74,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "core",
-      "title": "Systematic Characterization of Clinically Actionable Antibody-Drug Targets Across Solid Tumors to Advance Precision Oncology.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43049344/"
     },
     {
       "abstract": "",
@@ -7208,54 +7259,6 @@
       "tier": "specialist",
       "title": "Comment on: \"Enhanced Recovery after Distal Radius Fracture Surgery using Combined Short- and Long-Acting Nerve Blocks: A Randomized Controlled Trial\".",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42994623/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1136/rapm-2026-108320",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-07T06:50:09.473490+00:00",
-      "journal": "Regional anesthesia and pain medicine",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-06",
-      "pmid": "42994956",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 47,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "anesthesiology",
-      "tier": "specialist",
-      "title": "Social determinants of health and outcomes after spinal cord stimulation: a retrospective cohort study.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42994956/"
-    },
-    {
-      "abstract": "Postoperative pain management remains a critical issue in peri-operative medicine, but contemporary national data are lacking. AlgoSFAR 2 was a prospective, multicentre and observational study, conducted in randomly selected French surgical centres. Adult patients undergoing elective surgery were included. Pain was assessed at rest and during mobilization over the first three postoperative days. Secondary outcomes included postoperative opioid consumption and multimodal analgesia strategies defined as the use of at least two non-opioid strategies such as analgesics and/or regional anaesthesia. A total of 3879 patients from 80 centres were analysed. While pre-operative and immediate postoperative pain levels at rest were low, pain peaked on day 1, with high interindividual variability, and 6% of patients reported severe pain. Two thirds (66%) did not need any rescue opioids postoperatively. Overall, 95% received multimodal analgesia. These results highlight a major change in postoperative pain management in France, with broad adoption of multimodal opioid-sparing strategies. Nonetheless, a minority of patients still experience severe pain, highlighting the need for personalized management. ClinicalTrials.gov NCT06487442.",
-      "doi": "10.1016/j.accpm.2026.101977",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-07T06:50:09.473476+00:00",
-      "journal": "Anaesthesia, critical care & pain medicine",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-06",
-      "pmid": "42994618",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 55,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "anesthesiology",
-      "tier": "specialist",
-      "title": "Postoperative pain management: a national prospective study including 3879 patients.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42994618/"
     }
   ],
   "schema_version": "0.3",
