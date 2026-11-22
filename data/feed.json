@@ -1,12 +1,62 @@
 {
   "ai_status": "disabled",
-  "generated_at": "2026-11-22T13:37:36.340049+00:00",
+  "generated_at": "2026-11-22T20:30:17.780489+00:00",
   "harmony_push_status": "not_configured",
   "journal_counts": {
     "anesthesiology": 13,
     "oncology": 100
   },
   "papers": [
+    {
+      "abstract": "Primary mediastinal B-cell lymphoma (PMBL) is a rare and biologically distinct subtype of aggressive B-cell lymphoma that predominantly affects young adults. Despite substantial therapeutic advances, several aspects of its management remain controversial, including frontline treatment selection, the role of radiotherapy, PET-based response assessment, and the optimal sequencing of immunotherapies in relapsed disease. Drawing on prospective and retrospective studies, cooperative group data, expert consensus and our own real-world experience, we present a practical case-based approach across the disease course, built around four clinical cases followed to their resolution and covering diagnosis, frontline treatment, PET-guided response assessment, pregnancy-associated disease, adolescents and young adults, relapsed or refractory disease, and long-term follow-up. We focus on decision-making where evidence remains limited, including the integration of immune checkpoint inhibitors (ICIs), CAR-T cell therapy, radiotherapy and transplantation, and the emerging role of circulating tumor DNA (ctDNA) and radiomics. Management increasingly relies on individualized, multidisciplinary decision-making that integrates disease biology, functional imaging and patient characteristics to maximize cure while minimizing long-term toxicity. In our practice this translates into dose-intensified frontline chemoimmunotherapy rather than R-CHOP21, omission of radiotherapy after a complete metabolic response and, where these treatments are accessible, a second-line strategy built on checkpoint inhibitors and anti-CD19 CAR-T cells, with early referral for cellular therapy in refractory or early relapse.",
+      "doi": "10.1002/hon.70296",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-22T20:30:17.647463+00:00",
+      "journal": "Hematological Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": null,
+      "pmid": "43068390",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 48,
+      "publication_types": [
+        "Journal Article",
+        "Case Reports",
+        "Review"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "specialist",
+      "title": "Primary Mediastinal B-Cell Lymphoma in Clinical Practice: A Case-Based Approach to Unresolved Diagnostic and Therapeutic Dilemmas.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43068390/"
+    },
+    {
+      "abstract": "Vestibular schwannoma (VS) is a common benign intracranial tumor for which Gamma Knife radiosurgery (GKRS) is an important treatment option. However, post-treatment changes in tumor volume vary considerably and can complicate follow-up and response assessment. This study developed a framework that uses deep learning-based segmentation and MRI radiomics to predict long-term treatment response to GKRS for VS. We developed an nnU-Net model to automate VS segmentation on contrast-enhanced T1-weighted MRI. Patients with long-term follow-up after GKRS were classified into four response patterns: direct regression, delayed regression, stable disease, and growth. A two-stage machine-learning framework was then constructed. Stage 1 distinguishes regression from non-regression, while Stage 2 differentiates direct from delayed regression. Pretreatment MRI radiomics features were combined with clinical and dose-related variables and used to train multiple machine-learning models. The models were evaluated using five-fold cross-validation, and SHAP analysis was used to interpret the results. The nnU-Net model achieved a mean Dice similarity coefficient of 91.16 ± 0.47% on the external test dataset. Among the 155 patients, 53 showed direct regression, 83 delayed regression, 9 stable disease, and 10 tumor growths. In Stage 1, the Balanced Random Forest algorithm achieved accuracy of 74.19 ± 7.21%, an AUROC of 72.43 ± 10.18%, and AUPRC of 93.08 ± 4.27%. In Stage 2, the Support Vector Machine achieved accuracy of 64.05 ± 4.16%, an AUROC of 66.70 ± 6.21%, and AUPRC of 57.10 ± 7.30%. SHAP analysis identified radiomics and dose-related features as important predictors. Deep learning-based segmentation combined with pretreatment MRI radiomics, clinical variables, and dose-related parameters may provide useful information for predicting long-term response after GKRS for VS. This framework could support more individualized follow-up planning and help clinicians distinguish delayed regression from treatment failure.",
+      "doi": "10.1007/s11060-026-05859-y",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-22T20:30:17.647310+00:00",
+      "journal": "Journal of Neuro-Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-22",
+      "pmid": "43068404",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 63,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "machine_learning"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "specialist",
+      "title": "Predicting long-term tumor response to Gamma Knife radiosurgery in vestibular schwannoma: an integrated model of auto-segmentation, MRI radiomics, and dosimetric parameters.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43068404/"
+    },
     {
       "abstract": "Tumor metabolic reprogramming is a dynamic and context-dependent process that supports malignant progression, adaptation to microenvironmental stress, immune evasion, and therapeutic resistance. Understanding the interplay between tumor-intrinsic metabolic alterations and the tumor microenvironment (TME) is essential for identifying actionable metabolic vulnerabilities and developing more effective therapeutic strategies. This review examines the reprogramming of glucose, lipid, amino acid, and mitochondrial metabolism, together with the oncogenic, tumor-suppressive, epigenetic, and post-transcriptional mechanisms that regulate these processes. It highlights the bidirectional metabolic interactions between cancer cells, stromal cells, and immune populations, focusing on nutrient competition, metabolite exchange, hypoxia, and acidosis as drivers of immune suppression and tumor progression. The diagnostic and prognostic applications of metabolic imaging and metabolite-derived biomarkers are also discussed. Furthermore, current therapeutic strategies targeting metabolic enzymes, transporters, and tumor-specific metabolic dependencies are evaluated, with particular attention to combination approaches involving chemotherapy, molecularly targeted agents, and immunotherapy. Key translational challenges, including intratumoral metabolic heterogeneity, compensatory pathway adaptation, toxicity to normal tissues, and insufficient biomarker validation, are considered alongside emerging opportunities for precision metabolic therapy. Tumor metabolic reprogramming represents an interconnected and adaptive network rather than a collection of isolated pathway alterations. Therapeutic efficacy will depend on identifying context-specific metabolic dependencies while accounting for tumor heterogeneity, microenvironmental influences, and adaptive resistance. Integrating metabolic profiling and validated biomarkers with rational combination therapies may facilitate patient stratification and support the development of more selective and durable anticancer treatments. Tumor metabolic reprogramming integrates glucose, lipid, amino acid, and mitochondrial metabolism to support malignant progression and stress adaptation. Bidirectional metabolic crosstalk between tumor, stromal, and immune cells reshapes the tumor microenvironment, promoting immune evasion and therapeutic resistance. Integrating metabolic imaging, biomarker profiling, and context-specific metabolic targeting may enable rational combination therapies and more precise cancer treatment.",
       "doi": "10.1002/ctm2.70891",
@@ -4262,55 +4312,6 @@
       "tier": "cross",
       "title": "Conservation of the tumour microenvironment across organs and species.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/43052431/"
-    },
-    {
-      "abstract": "Ferroptosis, a form of cell death induced by overwhelming membrane lipid peroxidation, is a vulnerability of many cancers, including cancers resistant to current molecular and immune-based therapies1-7. Triggering of ferroptosis therefore provides an opportunity to achieve elimination of difficult-to-treat cancers1-4,8,9. Studies in mouse cancer models have demonstrated that anticancer immunity, mediated by dendritic cells (DCs) and CD8+ T cells, is essential for effective tumour eradication by ferroptosis-inducing strategies10-13. However, ferroptotic cells limit this response8-10,14, resulting in immune escape and tumour growth through mechanisms that remain unclear. Here we demonstrate that ferroptotic cancer cells activate a molecular program resulting in aberrant production of prostaglandin E2 (PGE2), which limits the stimulation of anticancer CD8+ T cell responses by type 1 conventional DCs (cDC1s), thereby promoting immune escape. In ferroptotic cancer cells, lipid peroxidation-mediated membrane permeabilization enables Ca2+ influx, which activates p38 MAPK signalling and thereby drives PGE2 production. This signalling axis is uncoupled from cancer cell death and can be targeted to selectively interfere with immune-inhibitory PGE2 production while preserving ferroptotic cancer cell elimination. In the context of cancer cell ferroptosis, ablation of PGE2 production or disrupting PGE2 signalling restores cDC1-mediated anticancer CD8+ T cell responses and leads to effective tumour elimination. Our findings identify a key mechanism that limits antitumour immunity and prevents tumour elimination upon ferroptosis induction in cancer cells, which could be exploited for cancer therapy.",
-      "doi": "10.1038/s41586-026-11333-6",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-19T19:01:42.878906+00:00",
-      "journal": "Nature",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-18",
-      "pmid": "43052444",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 69,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Ferroptosis in cancer cells triggers PGE2 production for tumour immune escape.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43052444/"
-    },
-    {
-      "abstract": "Lymph node metastasis (LNM) is central to breast cancer staging and treatment decisions. Clinical observations indicate that luminal or hormone receptor-positive breast cancer may show a distinct clinical pattern of regional lymph node involvement, but the stromal and intracellular mechanisms remain unclear. We integrated Surveillance, Epidemiology, and End Results (SEER) data, a multicenter institutional cohort, public single-cell RNA sequencing data, spatial transcriptomics, and multiplex immunofluorescence. Fibroblast states and candidate cell-cell communication pathways were examined using CytoTRACE, pseudotime, and ligand-receptor analyses. Functional and mechanistic validation included co-culture and Transwell assays, a mouse footpad-popliteal lymph node metastasis model, immunoprecipitation-mass spectrometry, co-immunoprecipitation, protein stability assays, and ubiquitination assays. Group comparisons used parametric or nonparametric tests, as appropriate. The SEER and multicenter cohorts showed a higher proportion of lymph node involvement in HR-positive/HER2-negative breast cancer than in the HER2-positive and triple-negative groups. Single-cell analysis identified a TINAGL1 + CAF population enriched in lymph node metastases, and spatial analysis demonstrated its proximity to epithelial tumor cells. Ligand-receptor analysis and tissue imaging supported MDK-SDC4 as a candidate stromal-tumor communication axis. Fibroblast-derived MDK promoted tumor-cell migration and invasion, and these responses were attenuated by SDC4 knockdown. Mechanistically, SDC4 associated with RELB and regulated its ubiquitination and proteasomal stability. USP9X associated with SDC4 and RELB, and USP9X perturbation altered RELB ubiquitination and protein stability. In vivo, SDC4 knockdown and overexpression produced opposite changes in imaging signals and popliteal lymph node volume, while RELB or USP9X knockdown attenuated the phenotype associated with SDC4 overexpression. Histological and immunohistochemical examination provided additional tissue-level characterization of the lymph node lesions. Fibroblast-derived MDK promotes breast cancer cell migration and invasion through tumor-cell SDC4. In vitro and in vivo findings support an SDC4-USP9X-RELB regulatory axis involving RELB ubiquitination and stability, providing mechanistic insight into stromal-tumor communication in regional lymph node metastasis.",
-      "doi": "10.1186/s40164-026-00865-2",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-19T19:01:42.878877+00:00",
-      "journal": "Experimental Hematology & Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-18",
-      "pmid": "43053226",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 74,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Fibroblast-derived MDK promotes Lymph node metastasis in Luminal Breast Cancer through an SDC4-USP9X-RELB deubiquitination axis.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43053226/"
     },
     {
       "abstract": "Ultrasound-guided radial artery cannulation is common in pediatrics but technically challenging. While the ulnar artery is a potential alternative, its sonoanatomy relative to the radial artery is not well defined. This study aimed to compare the sonoanatomic characteristics of the radial and ulnar arteries in children, evaluating how age, weight, and wrist position (0°, 30°, and 45°) influence arterial dimensions and depth to identify the most favorable profile for cannulation. Ultrasound evaluation of the radial and ulnar arteries was performed at 0°, 30°, and 45° wrist extension in 180 anesthetized children aged 0-120 months using custom-made wooden blocks. Arterial dimensions and skin-to-artery distance were evaluated overall and across age (≤ 24 vs. > 24 months) and weight (≤ 12 vs. > 12 kg) subgroups to identify optimal access conditions. Wrist extension angle did not significantly affect anteroposterior diameter (1.4 ± 0.3 mm, p = 0.078), but significantly influenced transverse arterial diameter (1.5-1.6 mm, p = 0.003) and skin-to-artery distance (2.4-2.8 mm at 30°, p < 0.001). The radial artery was widest at 0° (1.6 ± 1.0 mm), while the ulnar artery peaked at 30° (1.6 ± 0.4 mm). Skin-to-artery distance was minimized at 30° for both vessels. In children ≤ 12 kg, radial transverse diameter decreased paradoxically from 0° to 45° (1.6 ± 0.4 to 1.4 ± 0.3 mm, p = 0.013), while the ulnar artery was widest at 30° (1.5 ± 0.3 mm, p = 0.007). In infants ≤ 24 months, wrist angle did not significantly influence radial artery depth (p = 0.631, mean overall depth between 2.5-2.6 mm). A 30° wrist extension angle provides the most favorable sonoanatomic profile for both arteries. Although a larger vessel caliber may potentially facilitate cannulation, its clinical benefit remains uncertain as cannulation outcomes were not assessed. These findings support individualized ultrasound-guided assessment rather than a fixed positioning strategy.",
