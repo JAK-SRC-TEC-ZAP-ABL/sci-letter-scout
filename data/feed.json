@@ -1,12 +1,157 @@
 {
   "ai_status": "disabled",
-  "generated_at": "2026-11-23T01:07:16.395028+00:00",
+  "generated_at": "2026-11-23T09:00:16.822887+00:00",
   "harmony_push_status": "not_configured",
   "journal_counts": {
     "anesthesiology": 13,
     "oncology": 100
   },
   "papers": [
+    {
+      "abstract": "",
+      "doi": "10.1016/j.canlet.2026.218956",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-23T09:00:16.741526+00:00",
+      "journal": "Cancer Letters",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-23",
+      "pmid": "43068932",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 50,
+      "publication_types": [
+        "Published Erratum"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Corrigendum to \"Anti-proliferation of breast cancer cells with itraconazole: Hedgehog pathway inhibition induces apoptosis and autophagic cell death\" [Cancer Lett. (2017) 385 128-136].",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43068932/"
+    },
+    {
+      "abstract": "Additional biomarkers are needed to improve prognostic assessment and support individualized clinical management in colorectal cancer (CRC). This study aimed to identify exosomal proteins enriched in specimen-derived blood and explore their prognostic relevance in CRC. Specimen-derived blood (sdBlood) was collected immediately after removal of colorectal cancer specimens during radical resection. Exosomes were isolated using a commercial extraction kit, and exosomal proteins were quantified by liquid chromatography-tandem mass spectrometry. Functional enrichment analyses were performed for significantly upregulated proteins. Prognostic associations were explored using tumor-tissue gene expression and survival data from a publicly available CRC dataset. Larger volumes of sdBlood were obtained from ascending and transverse colon cancer specimens than from descending colon cancer specimens (12.77 ± 2.72 mL and 11.10 ± 2.59 mL vs. 5.28 ± 1.96 mL, respectively; P < 0.001). CEA levels and the abundance of eight exosomal proteins (H2AC20, TXN, SERPINF2, HSPB1, SERPINB3, DSP, H2BC21, and S100A7) were significantly higher in sdBlood than in peripheral venous blood. Functional enrichment analyses identified vesicle-related components, including the vesicle lumen and secretory granule lumen, as well as focal adhesion and amoebiasis-associated pathways. In the public tumor-tissue dataset, higher expression of H2AC18 (HIST2H2AA3), H2BC21 (HIST2H2BE), and SERPINB3 was associated with poorer overall survival; the other genes showed no significant survival associations. sdBlood-derived exosomes contain proteins at higher levels than those found in peripheral venous blood and may provide a useful source of candidate CRC biomarkers. Their prognostic value at the exosomal protein level requires further validation.",
+      "doi": "10.1016/j.tranon.2026.103129",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-23T09:00:16.741497+00:00",
+      "journal": "Translational Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-22",
+      "pmid": "43068536",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 58,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Exosomal proteomic profiling from specimen-derived blood reveals enriched prognostic biomarkers in colorectal cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43068536/"
+    },
+    {
+      "abstract": "Cutaneous melanoma is a highly malignant skin cancer with high incidence and mortality rates. Matrine, a traditional Chinese medicine component, has been shown to possess antitumor activity, but its specific mechanisms in cutaneous melanoma remain unclear. We first evaluated the effects of matrine on proliferation, migration, invasion, and apoptosis of human cutaneous melanoma cells in vitro using EDU staining, MTT, Transwell, and TUNEL staining. Subsequently, we established a subcutaneous xenograft tumor model in immunodeficient nude mice to assess the in vivo antitumor efficacy of matrine treatment. Then, we identified AKT1 as a target gene of matrine through network pharmacology. Subsequently, we used Western blot, immunofluorescence, and flow cytometry to analyze the effects of matrine on the AKT1 signaling pathway, mitochondrial function, and apoptosis. Our study found that matrine significantly inhibits the proliferation of cutaneous melanoma cells and induces apoptosis. Mechanistic studies revealed that matrine decreases the activity of AKT1, reducing the interaction between AKT1 and SQSTM1, thereby promoting the binding of KEAP1 and SQSTM1 and the ubiquitination of SQSTM1, leading to a decrease in SQSTM1 protein levels. This ultimately inhibits mitophagy and promotes apoptosis. These changes result in the apoptosis of cutaneous melanoma cells and the inhibition of tumor growth. This study uncovers a novel mechanism by which matrine inhibits cutaneous melanoma cell autophagy and promotes apoptosis through the regulation of the SQSTM1-KEAP1-AKT1 signaling pathway, providing new targets and strategies for the treatment of cutaneous melanoma.",
+      "doi": "10.1016/j.tranon.2026.103109",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-23T09:00:16.741463+00:00",
+      "journal": "Translational Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-22",
+      "pmid": "43068535",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 66,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "Matrine regulates mitophagy to promote cutaneous melanoma cell apoptosis via the AKT1-SQSTM1 axis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43068535/"
+    },
+    {
+      "abstract": "Pyroptosis has been implicated in tumor progression, but its involvement in tongue squamous cell carcinoma (TSCC) remains unclear. This study aimed to identify pyroptosis-related prognostic genes and investigate the function and mechanism of CLEC3B in TSCC. Differentially expressed genes (DEGs) were screened from TCGA and GSE78060 datasets, and intersected with pyroptosis-related genes (PRGs). A prognostic risk model was constructed using LASSO and Cox regression analyses, and validated in the GSE41613 cohort. CLEC3B expression and prognosis were analyzed. CCK-8, EdU, wound healing, Transwell, TEM, PI/Hoechst 33342 staining, ATP, LDH, ELISA, and Western blot assays were performed in CAL-27 and SCC-9 cells. A pyroptosis-related prognostic model was established, among the model genes, CLEC3B showed the strongest association with patient survival and was markedly downregulated in TSCC samples. In TSCC cell lines, CLEC3B overexpression inhibited cell proliferation, migration and invasion, whereas knockdown promoted these phenotypes; these motility readouts may partly reflect changes in cell viability. CLEC3B overexpression induced pyroptosis-like morphological changes, increased PI-positive cells, ATP depletion, LDH release and IL-1β/IL-18 secretion, and was accompanied by activation of the NLRP3/caspase-1/GSDMD axis; these effects were attenuated by the caspase-1 inhibitor VX-765. CLEC3B is downregulated in TSCC and its low expression is associated with poor prognosis. In TSCC cell lines, CLEC3B overexpression suppresses malignant phenotypes and induces caspase-1/GSDMD-associated pyroptotic features. These in vitro findings suggest CLEC3B as a candidate prognostic biomarker and a potential target for further investigation, which requires in vivo and clinical validation.",
+      "doi": "10.1016/j.tranon.2026.103124",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-23T09:00:16.741459+00:00",
+      "journal": "Translational Oncology",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-22",
+      "pmid": "43068537",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 66,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "oncology",
+      "title": "CLEC3B overexpression suppresses malignant phenotypes of tongue squamous cell carcinoma cells via caspase-1/GSDMD-associated pyroptosis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43068537/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1111/anae.70468",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-23T09:00:16.741446+00:00",
+      "journal": "Anaesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-22",
+      "pmid": "43068886",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 47,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Gender-related differences in attitudes to and self-reported practice of awake tracheal intubation: a secondary analysis of an international survey.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43068886/"
+    },
+    {
+      "abstract": "For patients with locally advanced non-small cell lung cancer (LA-NSCLC), NRG-RTOG 0617 found that non-adaptive radiation therapy (naRT) dose escalation to 74 Gy worsened overall survival (OS) vs. 60 Gy, while NRG-RTOG 1106 showed PET-adapted RT (aRT) dose escalation was safe. This study compares aRT vs. naRT in LA-NSCLC. Patients from RTOG 0617 and 1106 randomized to dose-escalation arms with PET-based staging were included. All received thoracic radiotherapy with concurrent and consolidation carboplatin/paclitaxel without immunotherapy. Outcomes were OS, progression-free survival (PFS), cumulative incidence of local-regional progression (CILRP), and grade 3+ toxicity. Results were adjusted for baseline differences between cohorts. Cox models evaluated survival and logistic regression models evaluated toxicity outcomes. Eighty-four patients received aRT and 184 received naRT (median nominal dose 71 Gy vs. 74 Gy). naRT patients had better performance status (Zubrod 0 58% vs. 44%, p=0.0390 and less Intensity Modulated Radiotherapy (IMRT) (49% vs. 92%, p<0.0001). aRT had lower lung V20 (30% vs. 32%, p=0.0413), mean esophagus dose (27Gy vs. 29Gy, p=0.0017), and trend to lower heart V40 (8% vs. 10%, p=0.0907). Unweighted, aRT had a trend to higher 3-year OS (39% vs. 27%, HR=0.72, 95% CI 0.52-1.01, p=0.0535) and significantly higher CILRP (36% vs. 49%, HR = 0.64, 95% CI 0.43 - 0.95, p=0.0324), with similar PFS (20% vs. 21%, HR=0.95, 95% CI 0.71-1.27, p=0.7214). Weighted analyses showed similar outcomes between cohorts. aRT had lower grade 3+ esophagitis (6% vs. 22%, OR=0.24, 95% CI 0.09-0.63, p=0.0040) and similar hematologic toxicity (36% vs. 33%, OR=1.15, 95% CI 0.66-1.99, p=0.6257). Weighted models confirmed these findings and showed lower grade 3+ pneumonitis (OR=0.114, 95% CI 0.01-0.98, p=0.0478) and cardiotoxicity (OR=0.114, 95% CI 0.01-0.98, p=0.0478) for aRT. aRT had improved CILRP and a trend to improved OS with significantly reduced toxicity and improved dosimetry vs. naRT.",
+      "doi": "10.1016/j.ijrobp.2026.11.006",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-23T09:00:16.741416+00:00",
+      "journal": "International Journal of Radiation Oncology, Biology, Physics",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-22",
+      "pmid": "43068714",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 71,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "clinical_trial",
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "specialist",
+      "title": "Adaptive vs. Non-Adaptive Radiation Dose Escalation in Locally Advanced Non-Small Cell Lung Cancer: A Comparison of NRG-RTOG 0617 and 1106 Individual Patient Data.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43068714/"
+    },
     {
       "abstract": "To characterize EPHA2 and EPHB4 expression in human brain tumors and evaluate the preclinical antitumor activity of EPHRIN-B2-based chimeric antigen receptor (CAR)-T cells. EPHA2 and EPHB4 expression was assessed by immunohistochemistry in 141 specimens from 116 patients; 113 specimens were included in analyses by histological category. EPHRIN-B2-based CAR-T cells were generated using the piggyBac transposon system. In vitro activity was evaluated against six brain tumor cell lines and a receptor-negative control line. Intracerebroventricular administration was assessed in two intracranial xenograft models, with mock T cells, control CAR-T cells, and phosphate-buffered saline as comparators. EPHA2 expression was observed across histological categories, whereas higher EPHB4 expression was predominantly found in high-grade tumors. Among glioblastoma/gliosarcoma specimens, 74% and 37% had staining scores ≥ 2 for EPHA2 and EPHB4, respectively. High expression of both receptors within the same specimen was concentrated in high-grade tumors. CAR-T cells reduced viable tumor cell numbers and increased interferon-γ and interleukin-2 secretion against all six brain tumor cell lines, whereas no significant differences were detected with the receptor-negative control. Although differences from control T cells did not reach statistical significance, EPHRIN-B2-based CAR-T cells reduced tumor signals relative to saline-treated controls at selected time points in both xenograft models. These findings characterize EPHA2 and EPHB4 expression in human brain tumors and demonstrate in vitro antitumor activity of EPHRIN-B2-based CAR-T cells, providing a basis for further studies to establish CAR-specific efficacy in intracranial tumors. REGISTRY AND THE REGISTRATION NO. N/A.",
       "doi": "10.1007/s11060-026-05884-x",
@@ -4193,127 +4338,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/43052268/"
     },
     {
-      "abstract": "Diffuse large B-cell lymphoma (DLBCL) is characterized by pronounced molecular heterogeneity and remains incurable in a substantial fraction of patients who relapse or develop refractory disease following standard chemoimmunotherapy. PIM kinases are constitutively active oncogenic serine/threonine kinases implicated in lymphoma pathogenesis, transcriptional control and cell viability. However, the detailed molecular mechanisms by which PIMs regulate transcriptional programs, RNA metabolism, and genome stability remain largely unknown. Here, we demonstrate that PIM kinases maintain interphase phosphorylation of histone H3 at serine 10 (H3S10ph). Genetic or pharmacological inhibition of PIM kinase family leads to a global reduction of H3S10ph and other active histone marks, impaired RNA polymerase II elongation, and widespread transcriptional repression. Integrated epigenomic and transcriptomic analyses reveal that PIM family inhibition preferentially affects gene networks involved in RNA metabolism, including RNA processing, splicing, and RNA methylation pathways. PIM1 proximity proteome analysis identified multiple splicing-related proteins, and PIM1 co-association with SF3B1, XAB2, and EDC3 was confirmed using co-immunoprecipitation. Functionally, PIM kinase inhibition induces extensive alternative mRNA splicing abnormalities, promotes the accumulation of RNA-DNA hybrids (R-loops), and triggers DNA damage-associated checkpoint responses. Consistent with these findings, in preliminary in vitro drug combination studies, PIM inhibition synergizes with DNA-damaging chemotherapy and targeted inhibitors of the DNA damage response. Collectively, our results implicate PIM kinases in the regulation of transcription, RNA metabolism, and genome stability in DLBCL and provide a preclinical rationale for further investigation of combinations of PIM inhibitors with DNA-damaging agents or DNA damage response inhibitors.",
-      "doi": "10.1038/s41388-026-04044-9",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-19T19:01:42.879021+00:00",
-      "journal": "Oncogene",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-18",
-      "pmid": "43052377",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 66,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "PIM kinase inhibition induces epigenetically conditioned transcriptional changes, abnormal RNA splicing and DNA damage in diffuse large B-cell lymphoma cells.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43052377/"
-    },
-    {
-      "abstract": "Myelodysplastic neoplasms (MDS) are clonal myeloid neoplasms characterized by ineffective hematopoiesis, cytopenias, and a variable risk of transformation to Acute myeloid leukemia (AML). Although genetic lesions are central to MDS pathogenesis, progression to AML cannot be explained by mutation accumulation alone. This review synthesizes evidence that MDS-to-AML transformation is a dynamic ecological process driven by reciprocal interactions between mutant hematopoietic stem and progenitor cell clones and the bone marrow immune microenvironment. In normal marrow, hematopoietic stem and progenitor cells, T cells, NK(natural killer) cells, myeloid cells, mesenchymal stromal cells, endothelial cells, and the extracellular matrix maintain hematopoietic homeostasis and immune surveillance. In MDS, chronic inflammation coexists with impaired immune effector function, including T-cell exhaustion, reduced NK-cell cytotoxicity, expansion of myeloid-derived suppressor cells and immunosuppressive regulatory T-cell subsets, monocyte-macrophage reprogramming, mesenchymal stromal cell dysfunction, extracellular matrix remodeling, and metabolic adaptation. Together, these alterations establish a proinflammatory but immunosuppressive niche that weakens clearance of abnormal clones while providing stromal and metabolic support for clonal expansion and treatment resistance. Mutant clones further remodel the niche through epigenetic silencing, altered chemokine and cytokine signaling, and inflammatory-metabolic reprogramming, generating positive-feedback circuits that link inflammation, DNA damage, immune escape, increasing clonal burden, and therapy resistance. This review discusses how integrating clonal genetics with immune, stromal, and metabolic features may refine risk stratification and inform microenvironment-directed combination therapies. Longitudinal single-cell and spatial profiling will be essential for identifying reversible immune dysfunction and developing individualized strategies to delay or prevent AML transformation.",
-      "doi": "10.1186/s40364-026-01046-3",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-19T19:01:42.879016+00:00",
-      "journal": "Biomarker Research",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-18",
-      "pmid": "43053160",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 66,
-      "publication_types": [
-        "Journal Article",
-        "Review"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "The immune microenvironment in MDS-to-AML transformation: dynamic ecological remodeling and therapeutic implications.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43053160/"
-    },
-    {
-      "abstract": "Intervertebral disc degeneration (IDD) lacks effective disease-modifying therapy. This study evaluated the protective effects of irbesartan (Ir), explored fibroblast growth factor receptor 1 (FGFR1) as a candidate molecular mediator, and assessed whether cRGD modification could enhance nanoparticle uptake and local treatment effects. Rat IDD models and IL-1β-induced degenerative nucleus pulposus cells were used to assess free Ir and Ir-loaded cRGD-modified PLGA nanoparticles (cRGD-NPs@Ir). Bioinformatics screening, cellular thermal shift assay (CETSA), and molecular docking were used to nominate FGFR1 as a candidate Ir-associated protein, and FGFR1 knockdown was used to test whether FGFR1 status modified the treatment response. Imaging, histology, immunohistochemistry, Western blotting, RT-qPCR, nanoparticle characterization, Coumarin-6 uptake assays, and tandem LC3 reporter analysis were used to evaluate treatment-associated changes. Ir attenuated structural and molecular features of IDD, reduced MAPK/NF-κB signaling, altered autophagy-associated markers, and preserved extracellular matrix homeostasis. FGFR1 expression was lower in degenerative disc tissue, and FGFR1 knockdown attenuated several protective changes associated with Ir or cRGD-NPs@Ir. cRGD-NPs@Ir produced greater carrier-associated Coumarin-6 uptake than NPs@Ir and larger treatment-associated changes than free Ir for several directly compared endpoints. These findings support an FGFR1-related component of the response but do not establish direct Ir-FGFR1 binding, receptor-specific cRGD targeting, or exclusive FGFR1 dependence. FGFR1 may contribute as a candidate molecular mediator to Ir-associated changes in autophagy and inflammatory signaling in IDD. cRGD-NPs@Ir provides an uptake-enhancing local nanodelivery strategy, although receptor specificity and direct Ir-FGFR1 binding require further validation.",
-      "doi": "10.1186/s40364-026-01041-8",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-19T19:01:42.879011+00:00",
-      "journal": "Biomarker Research",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-18",
-      "pmid": "43053258",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 66,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Irbesartan-loaded cRGD-modified PLGA nanoparticles attenuate intervertebral disc degeneration through an FGFR1-related mechanism.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43053258/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1038/s43018-026-01286-0",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-19T19:01:42.878965+00:00",
-      "journal": "Nature Cancer",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-18",
-      "pmid": "43052562",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 66,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "core",
-      "title": "Single-cell states meet clinical outcomes in lung cancer.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43052562/"
-    },
-    {
-      "abstract": "A comprehensive understanding of the Ras self-inactivation mechanism at atomic resolution-specifically, intrinsic GTP hydrolysis converting the GTP-bound active form to the GDP-bound inactive form-is essential for designing therapies against Ras-driven cancers. Conventional models describe a biphasic GTP-bound state: Ras interconverts between inactive state 1 and active, catalytically competent state 2. However, the structural pathway leading to Ras/GDP via these states remains unclear. Here, we use time-resolved serial femtosecond and synchrotron crystallography to capture GTP hydrolysis in Ras crystals loaded with photoactivatable caged GTP, across timescales from milliseconds to hours. Photolysis yielded Ras in state 1-a conformation lacking a stabilized nucleophilic water characteristic of state 2. Remarkably, this state persists for hours and converts directly to Ras/GDP without passing through state 2. These findings challenge the prevailing view that state 2 is essential and suggest that state 1 can directly support catalysis, offering an alternative conceptual basis for targeting clinically relevant Ras mutants that preferentially adopt this conformation.",
-      "doi": "10.1038/s41467-026-79248-4",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-19T19:01:42.878917+00:00",
-      "journal": "Nature Communications",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-18",
-      "pmid": "43052310",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 69,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "GTP hydrolysis by Ras proceeds without a stabilized nucleophilic water molecule.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43052310/"
-    },
-    {
       "abstract": "Ultrasound-guided radial artery cannulation is common in pediatrics but technically challenging. While the ulnar artery is a potential alternative, its sonoanatomy relative to the radial artery is not well defined. This study aimed to compare the sonoanatomic characteristics of the radial and ulnar arteries in children, evaluating how age, weight, and wrist position (0°, 30°, and 45°) influence arterial dimensions and depth to identify the most favorable profile for cannulation. Ultrasound evaluation of the radial and ulnar arteries was performed at 0°, 30°, and 45° wrist extension in 180 anesthetized children aged 0-120 months using custom-made wooden blocks. Arterial dimensions and skin-to-artery distance were evaluated overall and across age (≤ 24 vs. > 24 months) and weight (≤ 12 vs. > 12 kg) subgroups to identify optimal access conditions. Wrist extension angle did not significantly affect anteroposterior diameter (1.4 ± 0.3 mm, p = 0.078), but significantly influenced transverse arterial diameter (1.5-1.6 mm, p = 0.003) and skin-to-artery distance (2.4-2.8 mm at 30°, p < 0.001). The radial artery was widest at 0° (1.6 ± 1.0 mm), while the ulnar artery peaked at 30° (1.6 ± 0.4 mm). Skin-to-artery distance was minimized at 30° for both vessels. In children ≤ 12 kg, radial transverse diameter decreased paradoxically from 0° to 45° (1.6 ± 0.4 to 1.4 ± 0.3 mm, p = 0.013), while the ulnar artery was widest at 30° (1.5 ± 0.3 mm, p = 0.007). In infants ≤ 24 months, wrist angle did not significantly influence radial artery depth (p = 0.631, mean overall depth between 2.5-2.6 mm). A 30° wrist extension angle provides the most favorable sonoanatomic profile for both arteries. Although a larger vessel caliber may potentially facilitate cannulation, its clinical benefit remains uncertain as cannulation outcomes were not assessed. These findings support individualized ultrasound-guided assessment rather than a fixed positioning strategy.",
       "doi": "10.1002/pan.70352",
       "evidence_level": "metadata_or_abstract_only",
@@ -7235,30 +7259,6 @@
       "tier": "specialist",
       "title": "Aligning Prediction with Purpose in Clinical Machine Learning.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/43007271/"
-    },
-    {
-      "abstract": "",
-      "doi": "10.1097/ALN.0000000000006331",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-10T18:10:10.519972+00:00",
-      "journal": "Anesthesiology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-10",
-      "pmid": "43007277",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 55,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "meta_analysis"
-      ],
-      "source": "pubmed",
-      "specialty": "anesthesiology",
-      "tier": "specialist",
-      "title": "Postanesthesia Apnea in Former Preterm Infants for Inguinal Herniorrhaphy: An Update of Risk Factors from an Individual Participant Data Meta-analysis: Erratum.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43007277/"
     }
   ],
   "schema_version": "0.3",
