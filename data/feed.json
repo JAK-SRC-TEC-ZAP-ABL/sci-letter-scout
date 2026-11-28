@@ -1,12 +1,181 @@
 {
   "ai_status": "disabled",
-  "generated_at": "2026-11-27T20:17:19.513893+00:00",
+  "generated_at": "2026-11-28T02:48:48.541550+00:00",
   "harmony_push_status": "not_configured",
   "journal_counts": {
     "anesthesiology": 13,
     "oncology": 100
   },
   "papers": [
+    {
+      "abstract": "Aberrant splicing, a hallmark of cancer, emerges as a promising therapeutic target and is driven by dysregulated expression and mutations in splicing machinery components. Despite exhibiting minimal mutations in splicing factors, T cell acute lymphoblastic leukemia (T-ALL) critically relies on splicing perturbations. However, the mechanistic underpinnings remain largely unexplored. Here, we report that T cell malignancies display the most prevalent splicing alterations and heterogeneity across cancer types, leading to a substantial overproduction of splice variants. SAP30BP, frequently overexpressed in T-ALL, actively contributes to this process and aggravates T cell tumorigenesis. Mechanistically, SAP30BP coordinates with the U2 complex to incur an advantageous splicing variant of DDX39B via the suppression of intron retention. Concomitantly, SAP30BP bridges splicing dysregulation and metabolic rewiring by enhancing glycolysis while attenuating mitochondrial oxidative metabolism in T-ALL. Small molecule-mediated targeting of the splicing and metabolic process effectively suppresses aggressive T cell malignancies and confers susceptibility to chemotherapy agents.",
+      "doi": "10.1126/sciadv.aee7920",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-28T02:48:48.397853+00:00",
+      "journal": "Science Advances",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-27",
+      "pmid": "43102920",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 61,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "SAP30BP links aberrant splicing and metabolic reprogramming to drive T cell leukemogenesis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43102920/"
+    },
+    {
+      "abstract": "Agonistic antibodies targeting the costimulatory receptor GITR have shown limited clinical efficacy despite a strong preclinical rationale, revealing fundamental limitations of receptor-targeted approaches to TNF superfamily agonism. Here, we show that pharmacologically stabilizing the trimeric structure of human GITRL offers a mechanistically distinct strategy to overcome these limitations. Small-molecule stabilization of GITRL preserves its membrane residency. It enables bidirectional signaling between antigen-presenting cells and T cells, a physiological context that receptor-targeted antibodies bypass through nonphysiological clustering of GITR. In humanized GITR/GITRL double-knock-in mice bearing syngeneic tumors, GITRL stabilization expands cytotoxic CD8+ T cells, reduces intratumoral regulatory T cell frequency, activates APCs, and restructures the immune spatial architecture. In patient-derived tumor explants, GITRL stabilization reactivates suppressed CD8+ T cells in an APC-dependent manner. Our findings establish ligand stabilization as a mechanistically distinct therapeutic strategy and provide a framework for engaging TNF receptor superfamily costimulatory pathways by modulating their native ligands.",
+      "doi": "10.1126/sciadv.aei2118",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-28T02:48:48.397849+00:00",
+      "journal": "Science Advances",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-27",
+      "pmid": "43102939",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 61,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Ligand stabilization enables physiological GITR signaling and antitumor immunity.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43102939/"
+    },
+    {
+      "abstract": "Biological networks with preferential fiber alignment along a particular direction endow tissues with orientation-dependent mechanical properties. The mechanical response of structurally anisotropic fibrous networks to internally generated, spherically symmetric deformation is relevant to tumor expansion; however, it remains poorly understood. Here, we report the experimental results and theoretical studies of this deformation in a model hydrogel with controlled radial or lateral fiber orientation around an expanding spherical droplet. By integrating cavitation rheology with polarized optical microscopy, we found that the effective Young's modulus of the hydrogels exhibits a strong dependence on fiber orientation, increasing with a higher degree of lateral fiber alignment and decreasing with stronger radial alignment. These findings agree with the results of the developed affine model accounting for the mechanical asymmetry of fibrous architectures. Our work provides the basis for understanding similar mechanical responses in structurally anisotropic biological matrices.",
+      "doi": "10.1126/sciadv.aej2249",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-28T02:48:48.397845+00:00",
+      "journal": "Science Advances",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-27",
+      "pmid": "43102951",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 61,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Structural anisotropy governs mechanical response of fibrous hydrogel to multiaxial spherically symmetric deformation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43102951/"
+    },
+    {
+      "abstract": "The mechanisms driving cancer immune escape remain incompletely understood. Our study reveals that alternative RNA splicing is hyperactivated in small cell lung cancer (SCLC), particularly in the classic neuroendocrine subtypes, and is associated with poor prognosis. ASCL1, a defining transcription factor of SCLC, directly binds to and up-regulates the expression of multiple splicing factors, including PRMT5. Elevated levels of these splicing factors correlate with an increase in skipped exon (SE) events. Notably, the SEs in SCLC exhibit strong immunogenicity and are linked to immune suppression. Genetic or pharmacological inhibition of PRMT5 significantly suppresses SCLC progression both in vitro and in vivo. Transcriptome analyses demonstrate that PRMT5 deficiency reduces the prevalence of SEs and mutually exclusive exons (MXEs), thereby maintaining exons with high immunogenicity. Consistent with these findings, the clinically safe PRMT5 inhibitor GSK3326595 synergizes with anti-PD1 antibody to treat SCLC by repressing alternative RNA splicing and enhancing immune responses. We conclude that hyperactive alternative RNA splicing, which excludes immunogenic exons, serves as a key mechanism for immune escape in SCLC, highlighting a potential therapeutic vulnerability for this aggressive disease.",
+      "doi": "10.1126/sciadv.aec9816",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-28T02:48:48.397763+00:00",
+      "journal": "Science Advances",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-27",
+      "pmid": "43102925",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 69,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Hyperactive alternative RNA splicing facilitates immune escape in small cell lung cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43102925/"
+    },
+    {
+      "abstract": "The discovery of previously unidentified anti-breast cancer agents with both high efficacy and favorable safety profiles remains an urgent and critical challenge. Recently, repurposing and modifying the anti-Alzheimer drug memantine have drawn growing interest to enhance its pharmacological properties. Here, we synthesized several memantine analogs, among which a honokiol-memantine hybrid named CT7-1 exhibited broad-spectrum and potent antitumor activity, particularly against breast cancer. Notably, CT7-1 suppressed breast cancer patient-derived organoid proliferation across diverse molecular subtypes while showing a superior toxicity profile in normal breast organoids relative to paclitaxel. In vivo, CT7-1 effectively suppressed tumor growth in immunocompromised and immunocompetent mouse models, with enhanced efficacy observed in the presence of an intact immune system. Integrated multiomics analyses revealed that CT7-1 reshaped the tumor microenvironment by increasing CD8+ T cell infiltration and activation, in addition to promoting major histocompatibility complex class I (MHC-I)-mediated antigen presentation. Mechanistically, CT7-1 directly bound to and inhibited SETMAR, leading to DNA damage and subsequent cGAS-STING pathway activation. This cascade resulted in the production of pro-inflammatory interferons and chemokines, ultimately up-regulating MHC-I expression. Clinically, high SETMAR expression correlated with poor prognosis, diminished immune cell infiltration, and inferior response to immunotherapy in patients with triple-negative breast cancer. In conclusion, we identify CT7-1 as a first-in-class honokiol-memantine hybrid that exerts potent antitumor effects by targeting SETMAR to activate the DNA damage-cGAS-STING-MHC-I axis, thereby enhancing T cell-mediated tumor immunity. This study provides convincing grounds for developing CT7-1 as a promising immunotherapeutic drug for breast cancer.",
+      "doi": "10.1126/sciadv.aei3606",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-28T02:48:48.397757+00:00",
+      "journal": "Science Advances",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-27",
+      "pmid": "43102936",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 69,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Drug candidate CT7-1 promotes antitumor immunity by targeting SETMAR to activate cGAS-STING-IFN signaling in breast cancer.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43102936/"
+    },
+    {
+      "abstract": "",
+      "doi": "10.1007/s00540-026-03951-1",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-28T02:48:48.397735+00:00",
+      "journal": "Journal of anesthesia",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-27",
+      "pmid": "43102600",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 47,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "other"
+      ],
+      "source": "pubmed",
+      "specialty": "anesthesiology",
+      "tier": "specialist",
+      "title": "Acknowledgment to reviewers.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43102600/"
+    },
+    {
+      "abstract": "Immune checkpoint blockade (ICB) has revolutionized oncology; however, emerging therapeutic resistance and the pharmacokinetic limitations of monoclonal antibodies necessitate the development of potent, small-molecule alternatives. CMTM6 (CKLF-like MARVEL transmembrane domain-containing protein 6) has recently been identified as a master posttranslational regulator of PD-L1 stability. Here, we characterize GIC-001 and its derivative, GIC-005, as first-in-class small-molecule inhibitors that directly target CMTM6. GIC-001 binds directly to CMTM6, competitively disrupting its association with PD-L1 and the glutamine transporter SLC1A5 (ASCT2) while crucially preserving its interaction with the essential costimulatory ligand CD58. This targeted dissociation facilitates the polyubiquitination and subsequent lysosomal degradation of both PD-L1 and SLC1A5. Consequently, pharmacological inhibition of the CMTM6 axis blunts PD-L1 expression, restricts glutamine uptake in tumor cells, and restores T cell-mediated cytotoxicity. In syngeneic MC38 and Lewis lung carcinoma (LLC) models, GIC-001 significantly suppressed tumor progression and prolonged overall survival. Single-cell transcriptomics revealed that this efficacy is driven by a profound remodeling of the tumor microenvironment (TME), characterized by the notable expansion of effector and memory CD8+ T cells alongside the repolarization of suppressive macrophages toward an activated phenotype. Furthermore, GIC-001 exhibited durable antitumor efficacy as a monotherapy and synergized with anti-PD-L1 antibodies, and GIC-005 demonstrated potent in vivo activity. Our findings establish CMTM6-targeted small molecules as a distinct class of dual-action agents that integrate immune and metabolic checkpoint modulation, providing a transformative strategy for cancer immunotherapy.",
+      "doi": "10.1126/sciadv.aei8376",
+      "evidence_level": "metadata_or_abstract_only",
+      "first_detected": "2026-11-28T02:48:48.397693+00:00",
+      "journal": "Science Advances",
+      "letter_eligibility": "unverified",
+      "online_date": "2026-11-27",
+      "pmid": "43102954",
+      "priority_label": "阅读优先级，非研究缺陷或录用概率",
+      "priority_score": 77,
+      "publication_types": [
+        "Journal Article"
+      ],
+      "requires_oncology_context": false,
+      "research_types": [
+        "single_cell",
+        "mechanism"
+      ],
+      "source": "pubmed",
+      "specialty": "oncology",
+      "tier": "cross",
+      "title": "Small-molecule targeting of CMTM6 induces dual degradation of PD-L1 and SLC1A5 to enhance cancer immunotherapy.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43102954/"
+    },
     {
       "abstract": "",
       "doi": "10.1182/blood.2026036189",
@@ -3933,156 +4102,6 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/43075673/"
     },
     {
-      "abstract": "",
-      "doi": "10.1002/hon.70303",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-25T00:37:51.083420+00:00",
-      "journal": "Hematological Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": null,
-      "pmid": "43075767",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 40,
-      "publication_types": [
-        "Published Erratum"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "clinical_trial"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "Correction to \"The Efficacy and Toxicity of CNS Prophylaxis in Diffuse Large B-Cell Lymphoma (CLSG-CNS-01): A Randomized, Multicenter, Prospective Phase 3 Trial\".",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43075767/"
-    },
-    {
-      "abstract": "Relapse after allogeneic hematopoietic stem cell transplantation (HSCT) remains a barrier to cure in acute myeloid leukemia (AML). Although second HSCT (HSCT2) and targeted therapies have expanded salvage options, how relapse management has evolved over time remains unclear. We retrospectively analyzed 240 adults with AML who relapsed after first HSCT (HSCT1), categorized by relapse year into Group 1 (G1, 1988-2017; n = 162) and Group 2 (G2, 2018-2022; n = 78). The 2-year overall survival (OS) from relapse was 9.9% in G1 and 18.2% in G2. Multivariable analysis showed that relapse in G2 was significantly associated with better OS (hazard ratio [HR], 0.60; 95% confidence interval [CI], 0.43-0.85). Among patients achieving complete remission (CR) after relapse, 2-year OS from CR was significantly higher in G2 than in G1 (52.9% vs. 27.9%; p = 0.014). The 2-year OS from HSCT2 was 18.5% in G1 and 27.3% in G2 (p = 0.14), whereas progression-free survival was significantly higher in G2 than in G1 (24.1% vs. 14.8%; p = 0.049). Long-term survivors followed heterogeneous pathways, including HSCT2 despite chemoresistant disease (n = 5) and FLT3 inhibitor-based control without HSCT2 (n = 3). An exploratory next-generation sequencing analysis included 37 G2 patients with profiles available. The frequently detected mutations were TP53 (n = 9), FLT3-ITD (n = 9), DNMT3A (n = 8), and NRAS (n = 7). In the multivariable analysis, relapse ≥ 200 days after HSCT1 was associated with better OS (HR, 0.22; 95% CI, 0.08-0.63), whereas TP53 mutations were associated with worse OS (HR, 6.84; 95% CI, 2.34-20.00). In conclusion, survival after relapse improved in the contemporary era, particularly after CR. Long-term survival was achieved through diverse salvage pathways, whereas early relapse and TP53 mutation remained challenges requiring individualized treatment strategies.",
-      "doi": "10.1002/hon.70295",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-25T00:37:51.083416+00:00",
-      "journal": "Hematological Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": null,
-      "pmid": "43076781",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 40,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "other"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "Evolution and Current Challenges in Relapse Management of Acute Myeloid Leukemia After Allogeneic Stem Cell Transplantation: A 35-Year Longitudinal Study.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43076781/"
-    },
-    {
-      "abstract": "Bruton tyrosine kinase (BTK) inhibitors have transformed frontline mantle cell lymphoma (MCL) therapy, yet existing network meta-analyses predate the pivotal trials. We performed an updated network meta-analysis of contemporary frontline regimens. We searched MEDLINE, Embase, CENTRAL and ClinicalTrials.gov for randomized trials of frontline MCL therapy. Transplant-ineligible, transplant-eligible and maintenance settings were analyzed as separate frequentist networks; treatments were ranked by P-scores and certainty assessed with CINeMA. Eleven of 19 eligible trials (4135 patients) formed the networks. In transplant-ineligible disease, acalabrutinib plus bendamustine-rituximab (BR; hazard ratio [HR] 0.33, 95% CI 0.21-0.53) and ibrutinib plus BR (HR 0.36, 0.23-0.57) ranked highest for progression-free survival (PFS) but neither improved overall survival (OS) (HR 0.86 and 0.98). In transplant-eligible disease, ibrutinib-containing induction ranked best for failure-free survival with (HR 0.35, 0.24-0.53) or without autologous stem-cell transplantation (ASCT; HR 0.39, 0.26-0.57), and both strategies improved OS in TRIANGLE. Rituximab- or lenalidomide-based maintenance prolonged PFS, although the OS benefit of rituximab maintenance was not sustained at long-term LyMa follow-up. Certainty was moderate at best. BTK-inhibitor-bendamustine combinations rank highest for delaying progression in transplant-ineligible MCL but did not improve OS, whereas ibrutinib-containing induction improved OS in transplant-eligible patients and renders ASCT dispensable. Resting largely on indirect evidence, these rankings should inform, not dictate, treatment while mature survival data are awaited. TRIAL REGISTRATION: www.crd.york.ac.uk/prospero [CRD420261439288].",
-      "doi": "10.1002/hon.70298",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-25T00:37:51.083317+00:00",
-      "journal": "Hematological Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": null,
-      "pmid": "43076210",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 56,
-      "publication_types": [
-        "Journal Article",
-        "Systematic Review",
-        "Network Meta-Analysis"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "clinical_trial",
-        "meta_analysis"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "Frontline Treatment Regimens for Mantle Cell Lymphoma: An Updated Systematic Review and Network Meta-Analysis of Randomized Controlled Trials.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43076210/"
-    },
-    {
-      "abstract": "Diffuse large B-cell lymphoma (DLBCL) is an aggressive and common subtype of non-Hodgkin lymphoma. Although ADAM28 is expressed in various cancers, it is considered a gene with ambivalent prognosis, and its association with clinical outcomes in DLBCL requires further investigation. This study aimed to elucidate the association between ADAM28 expression and survival in DLBCL patients. We collected gene expression and clinical data from 952 DLBCL patients in the Gene Expression Omnibus (GEO) database. Multiple GSE datasets demonstrated that DLBCL patients with high ADAM28 expression had significantly better prognosis than those with low expression (OS and PFS, p < 0.05). Similarly, among patients treated with R-CHOP and those achieving complete remission or partial remission after chemotherapy, high ADAM28 expression was also associated with significantly better prognosis. Furthermore, we constructed a prognostic model for DLBCL patients based on ADAM28 expression and clinical data, which demonstrated good performance. Single-cell transcriptomic profiling revealed cellular heterogeneity within the DLBCL tumor microenvironment; ADAM28 was highly expressed in B cells (including malignant B cells) and was significantly enriched in immune-related pathways such as leukocyte cell-cell adhesion and antigen presentation. Overall, high expression of ADAM28 gene is associated with better prognosis in DLBCL patients and can serve as a biomarker for evaluating the prognosis of DLBCL patients.",
-      "doi": "10.1002/hon.70301",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-25T00:37:51.083313+00:00",
-      "journal": "Hematological Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": null,
-      "pmid": "43076690",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 56,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "specialist",
-      "title": "The Predictive and Prognostic Value of ADAM28 Expression in Diffuse Large B-Cell Lymphoma Patients.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43076690/"
-    },
-    {
-      "abstract": "Immune checkpoint inhibitors targeting cytotoxic T-lymphocyte-associated protein 4 (CTLA-4) and the programmed cell death protein 1 (PD-1)/programmed death-ligand 1 (PD-L1) axis have transformed the treatment of many malignancies and can produce durable, sometimes curative, responses. Nevertheless, the majority of patients either fail to respond at the outset (primary resistance), respond transiently, or relapse after an initial benefit (acquired resistance). Resistance to immunotherapy is multifactorial and arises from a dynamic interplay between tumor-intrinsic alterations and the immunosuppressive tumor microenvironment (TME). Tumor-intrinsic mechanisms include defects in antigen presentation such as loss of beta-2-microglobulin and human leukocyte antigen, a paucity of immunogenic neoantigens, oncogenic signaling that excludes T cells (for example WNT/beta-catenin activation and PTEN loss), and disruption of interferon-gamma signaling through JAK1/2 mutations. Within the TME, regulatory T cells, myeloid-derived suppressor cells, tumor-associated macrophages, and cancer-associated fibroblasts collaborate with metabolic constraints, hypoxia, and inhibitory cytokines such as transforming growth factor-beta to restrain effective antitumor immunity, while chronic antigen exposure drives an epigenetically fixed state of T-cell exhaustion. Co-inhibitory receptors including LAG-3, TIM-3, and TIGIT, and the composition of the gut microbiome, further modulate therapeutic outcomes. This review summarizes the principal mechanisms underlying resistance to cancer immunotherapy, with particular emphasis on the contribution of the TME, surveys predictive biomarkers, and outlines rational combination strategies designed to convert immunologically \"cold\" tumors into \"hot\", treatment-responsive lesions. A mechanistic understanding of resistance is essential for the design of next-generation, biomarker-guided immunotherapeutic approaches.",
-      "doi": "10.1016/j.tranon.2026.103132",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-26T11:03:37.717017+00:00",
-      "journal": "Translational Oncology",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-24",
-      "pmid": "43084966",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 66,
-      "publication_types": [
-        "Journal Article",
-        "Review"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "oncology",
-      "title": "Mechanistic insights into primary and acquired resistance to immune checkpoint blockade.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43084966/"
-    },
-    {
-      "abstract": "Aneuploidy, resulting from whole-chromosome or segmental gains and losses, is generally detrimental to organismal fitness and is strongly associated with tumorigenesis. While sex chromosome aneuploidies are relatively well tolerated due to dedicated allelic dosage compensation mechanisms, the existence of comparable regulatory processes for autosomes remains debated. Here, we investigate transcriptional responses to autosomal aneuploidy and identify widespread dosage compensation across affected chromosomes. Using high-sensitivity allele-resolved single-cell RNA sequencing of monoclonal cell expansions spanning diverse ploidies and degrees of aneuploidy, we uncover consistent transcriptional compensation of both chromosomal gains and losses. This response operates in a region-specific manner across both complete and segmental aneuploidies, revealing an unexpected flexibility in dosage regulation. We show that chromosome losses are compensated through increased transcriptional burst frequency from the remaining allele. Complementary proteomics analyses demonstrate additional buffering at the protein level, resulting in a substantial, though still incomplete, restoration of stoichiometric balance across autosomal aneuploid chromosomes for both copy number gains and losses. Analyses of cancer transcriptomes confirm that compensatory mechanisms are active in human tumours. Together, our findings establish dosage compensation as a genome-wide and dynamic response to gene dose imbalance. This mechanism extends beyond sex chromosomes, supports transcriptional homeostasis, and represents a fundamental and evolutionarily conserved mode of gene regulation active across species and in aneuploid cancer cells.",
-      "doi": "10.1038/s41467-026-79621-3",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-26T11:03:37.716874+00:00",
-      "journal": "Nature Communications",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-24",
-      "pmid": "43086301",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 77,
-      "publication_types": [
-        "Journal Article"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "single_cell",
-        "mechanism"
-      ],
-      "source": "pubmed",
-      "specialty": "oncology",
-      "tier": "cross",
-      "title": "Autosomal dosage compensation in aneuploidy and cancer involves transcriptional burst regulation.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43086301/"
-    },
-    {
       "abstract": "Implantable spinal cord stimulators (SCSs) for the treatment of refractory neuropathic pain are becoming increasingly common in patients presenting for surgery, and their presence has important implications for anesthetic care. This is particularly relevant in obstetric anesthesia, where neuraxial techniques are routinely employed for labour analgesia and anesthesia for Cesarean delivery. In this Continuing Professional Development module, we synthesize the available case experience from the literature and provide practical recommendations to guide anesthesiologists in the perioperative management of obstetric patients with an SCS. Numerous case reports describe the safe use of both epidural and spinal anesthetic techniques in obstetric patients with an SCS. All obstetric patients with an SCS should undergo antenatal consultation with an anesthesiologist and neuromodulation specialist (usually a pain medicine physician or neurosurgeon) responsible for managing the device. Preprocedural planning, including review of relevant imaging and a focused physical examination, is essential to minimize the risk of device damage. Ultrasound can be used to assist the provider in identifying a safe neuraxial access point and may also help to improve first-pass success. The literature suggests that prior implantation of SCS components within the epidural space may be associated with a higher risk of SCS lead movement, potential for infection, and inadequate epidural labour analgesia and surgical anesthesia. In contrast, the success of spinal anesthesia for Cesarean delivery appears largely unaffected by the presence of neurostimulation leads. In patients undergoing Cesarean delivery, management considerations include temporary device inactivation, minimizing the use of monopolar cautery, and being familiar with the course of the device's leads from the impulse generator to the stimulating electrode to avoid inadvertent surgical damage. Neuraxial anesthesia is feasible and generally safe for obstetric patients with an SCS but requires careful planning and awareness of unique risks. Antenatal anesthesiology and neuromodulation consultation, imaging review, ultrasound guidance, and patient counselling can help optimize outcomes and minimize complications.",
       "doi": "10.1007/s12630-026-03235-y",
       "evidence_level": "metadata_or_abstract_only",
@@ -7245,31 +7264,6 @@
       "tier": "specialist",
       "title": "Daily debriefings, burnout, and impostor phenomenon in anaesthesiology trainees and supervisors: a controlled feasibility study.",
       "url": "https://pubmed.ncbi.nlm.nih.gov/43066104/"
-    },
-    {
-      "abstract": "Auditory brainstem response (ABR) provides objective hearing assessment in children who cannot undergo reliable behavioural audiometry. Sedation or general anaesthesia may facilitate recording but can alter electrophysiological measurements and potentially influence diagnostic interpretation. The primary aim of this systematic review was to explore electrophysiological and diagnostic outcomes of paediatric ABR testing when at least one study condition included propofol or sevoflurane. This Preferred Reporting Items for Systematic Reviews and Meta-Analyses 2020 systematic review was prospectively registered in International Prospective Register of Systematic Reviews (CRD420261324873). PubMed/MEDLINE, Embase, and the Cochrane Library were searched from inception, with searches updated on 17 August 2026. Two reviewers independently screened the original search; one reviewer screened the later update. Because of clinical and methodological heterogeneity, findings were synthesised narratively. The database searches identified 2386 records and yielded six eligible studies. Citation checking identified one additional study, giving seven in total. Four studies reported longer wave V latency under anaesthesia than under their respective comparators, but co-administered agents and differing populations preclude drug-specific attribution. In a within-participant comparison, hearing-loss classification differed between sevoflurane and propofol; a later observational cohort found no significant adjusted association for its distinct exposure groups. Four of seven studies reported longer ABR electrophysiological wave V latency under anaesthesia, but five studies had a high risk of bias. A single study with within-participant comparison found different diagnostic classifications under sevoflurane and propofol. Heterogeneous designs and exposures do not establish which anaesthesia technique best preserves paediatric ABR findings.",
-      "doi": "10.1016/j.bjao.2026.100899",
-      "evidence_level": "metadata_or_abstract_only",
-      "first_detected": "2026-11-22T13:37:36.258826+00:00",
-      "journal": "BJA open",
-      "letter_eligibility": "unverified",
-      "online_date": "2026-11-13",
-      "pmid": "43066110",
-      "priority_label": "阅读优先级，非研究缺陷或录用概率",
-      "priority_score": 53,
-      "publication_types": [
-        "Journal Article",
-        "Review"
-      ],
-      "requires_oncology_context": false,
-      "research_types": [
-        "meta_analysis"
-      ],
-      "source": "pubmed",
-      "specialty": "anesthesiology",
-      "tier": "specialist",
-      "title": "Effects of propofol- or sevoflurane-containing anaesthesia on auditory brainstem responses in children: a systematic review.",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/43066110/"
     }
   ],
   "schema_version": "0.3",
